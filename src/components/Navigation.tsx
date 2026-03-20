@@ -11,6 +11,8 @@ import { NAVIGATION_CONFIG } from '@/config/navigation'
 import { getLanguageDisplayNames } from '@/lib/i18n-utils'
 
 export default function Navigation() {
+	const siteName = 'Star Savior'
+	const siteInitials = 'SS'
 	const t = useTranslations()
 	const locale = useLocale() as Locale
 	const router = useRouter()
@@ -60,10 +62,10 @@ export default function Navigation() {
 						className="flex items-center space-x-2 hover:opacity-80 transition"
 					>
 						<div className="w-10 h-10 bg-[hsl(var(--nav-theme))] rounded-lg flex items-center justify-center font-bold text-sm tracking-tight">
-							SS
+							{siteInitials}
 						</div>
-						<span className="font-bold text-lg hidden sm:inline">Star Savior</span>
-						<span className="font-bold text-lg sm:hidden">SS</span>
+						<span className="font-bold text-lg hidden sm:inline">{siteName}</span>
+						<span className="font-bold text-lg sm:hidden">{siteInitials}</span>
 					</Link>
 
 					{/* Desktop Navigation */}

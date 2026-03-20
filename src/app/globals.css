@@ -30,8 +30,8 @@
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
 
-    /* 导航页主题色 - Star Savior */
-    --nav-theme: 350 72% 44%;        /* primary crimson */
+    /* 导航页主题色 - 亮色主题 */
+    --nav-theme: 350 72% 44%;        /* Star Savior primary */
     --nav-theme-light: 350 82% 58%;  /* hover/active */
     
     /* Callout 组件颜色 */
@@ -75,8 +75,8 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
 
-    /* 导航页主题色 - Star Savior 暗色主题 */
-    --nav-theme: 350 78% 56%;        /* brighter crimson for dark UI */
+    /* 导航页主题色 - 暗色主题 */
+    --nav-theme: 350 78% 56%;        /* brighter primary for dark UI */
     --nav-theme-light: 350 86% 66%;  /* hover/active */
 
     /* Callout 组件颜色 - 暗色主题 */

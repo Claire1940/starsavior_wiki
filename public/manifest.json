@@ -5,7 +5,7 @@
   "description": "Star Savior Wiki for codes, tier list, reroll, characters, team builds, progression tips, and global launch updates.",
   "lang": "en-US",
   "dir": "ltr",
-  "start_url": "/",
+  "start_url": "/?source=pwa",
   "scope": "/",
   "display": "standalone",
   "display_override": [
@@ -13,13 +13,14 @@
     "standalone"
   ],
   "orientation": "portrait-primary",
-  "theme_color": "#df3f5b",
+  "theme_color": "#c1203e",
   "background_color": "#0b0f1f",
   "categories": [
     "games",
     "entertainment",
     "reference"
   ],
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -48,17 +49,49 @@
     {
       "src": "/apple-touch-icon.png",
       "sizes": "180x180",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "/favicon-32x32.png",
       "sizes": "32x32",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "/favicon-16x16.png",
       "sizes": "16x16",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/hero.webp",
+      "sizes": "1280x720",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "Star Savior hero artwork"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Home",
+      "short_name": "Home",
+      "description": "Open Star Savior Wiki homepage",
+      "url": "/"
+    },
+    {
+      "name": "About",
+      "short_name": "About",
+      "description": "Open about page",
+      "url": "/about"
+    },
+    {
+      "name": "Privacy Policy",
+      "short_name": "Privacy",
+      "description": "Open privacy policy page",
+      "url": "/privacy-policy"
     }
   ]
 }

@@ -201,8 +201,8 @@ export default function HomePage() {
         <div className="scroll-reveal container mx-auto">
           <div className="relative rounded-2xl overflow-hidden">
             <VideoFeature
-              videoId="hKBEMyrze2E"
-              title="SLAYERBOUND | RELEASE TRAILER"
+              videoId="iSAUnYJX3-Q"
+              title="Star Savior | Official Animation PV"
               posterImage="/images/hero.webp"
             />
             <div className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-black/80 to-transparent pointer-events-none">
