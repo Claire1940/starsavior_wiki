@@ -161,7 +161,18 @@
       "copy": "Copy",
       "copied": "Copied",
       "openSource": "Open external guide",
-      "pillPrefix": "Jump to"
+      "pillPrefix": "Jump to",
+      "frontLine": "Front Line",
+      "backLine": "Back Line",
+      "bestAgainst": "Best against",
+      "roleFocus": "Role focus",
+      "activeBuild": "Active build",
+      "buildSource": "Open character build",
+      "mainStat": "Main stat",
+      "upgradePriority": "Upgrade priority",
+      "whyItMatters": "Why it matters",
+      "farmOrder": "Farm order",
+      "commonMistakes": "Common early mistakes"
     },
     "codesTable": {
       "headers": {
@@ -376,166 +387,377 @@
         "id": "star-savior-arcana-tier-list",
         "title": "Star Savior",
         "titleHighlight": "Arcana Tier List",
-        "summary": "Arcana choices shape how your core roster performs, so this module keeps the most flexible picks and role-based priorities visible at a glance.",
-        "badge": "Arcana priority board",
+        "summary": "Cross-checked public Arcana rankings consistently put Elastic Acceleration, Solid Destruction, Sharp Assault, and Construct Bomb in the top band, while role priorities split cleanly between DPS, tank, and healer setups.",
+        "badge": "Arcana role matrix",
         "lastChecked": "2026-03-20",
-        "cards": [
+        "displayType": "tierRowsWithRoleTabs",
+        "tierGroups": [
           {
-            "title": "Universal Arcana Picks",
+            "title": "Top Band Core SSR Arcana",
             "items": [
-              "Lacy",
-              "Charlotte",
-              "Bunnygirl Claire",
-              "Petra"
+              "Elastic Acceleration",
+              "Solid Destruction",
+              "Sharp Assault",
+              "Construct Bomb"
             ]
           },
           {
-            "title": "How To Sort Arcana",
+            "title": "Strong Follow-Up SSR Arcana",
             "items": [
-              "General progression first",
-              "Role fit second",
-              "Journey flexibility third"
-            ]
-          },
-          {
-            "title": "Where Arcana Matters Most",
-            "items": [
-              "Early account efficiency",
-              "Stable boss damage windows",
-              "Long-term team refinement"
+              "Shadow Erosion",
+              "Resolute Determination",
+              "Life Stigma",
+              "Double Tap",
+              "Leisurely Counter",
+              "Insight Stigma"
             ]
           }
         ],
-        "tags": [
-          "Universal value",
-          "Role-fit sorting",
-          "Journey carryover planning"
+        "roleTabs": [
+          {
+            "id": "dps",
+            "label": "DPS",
+            "priority": "Power > Health > Focus",
+            "notes": [
+              "Start from Power-first SSR pieces to keep burst and clear speed high.",
+              "Sharp Assault and Elastic Acceleration fit damage-first carry plans well.",
+              "Use follow-up Arcana to reinforce damage windows after the top tier core is locked in."
+            ]
+          },
+          {
+            "id": "tank",
+            "label": "Tank",
+            "priority": "Power > Health > Endurance",
+            "notes": [
+              "Tank Arcana still want enough Power to hold threat and damage tank value.",
+              "Health and Endurance become the stability layer once the front line is set.",
+              "Solid Destruction and Construct Bomb stay valuable when the team needs durable tempo."
+            ]
+          },
+          {
+            "id": "healer",
+            "label": "Healer",
+            "priority": "Health > Endurance",
+            "notes": [
+              "Healers care most about staying alive through long fights and boss loops.",
+              "Life Stigma and other sustain-friendly follow-ups support multi-turn consistency.",
+              "Use SSR Arcana as the long-term healing backbone instead of overcommitting to SR fillers."
+            ]
+          }
         ],
-        "ctaLabel": "Open Arcana guide",
+        "spotlight": {
+          "title": "Long-Term Arcana Rule",
+          "items": [
+            "SSR Arcana should be the long-term core for your account.",
+            "SR Arcana mainly fill temporary stat slots early on.",
+            "Role-based sorting is the fastest way to stop wasting upgrade materials."
+          ]
+        },
+        "tags": [
+          "Top band SSR core",
+          "Role-based stat priorities",
+          "SSR over temporary SR fillers"
+        ],
+        "ctaLabel": "Compare Arcana rankings",
         "ctaHref": "https://www.gamezebo.com/walkthroughs/star-savior-arcana-tier-list/"
       },
       {
         "id": "star-savior-best-teams",
         "title": "Star Savior",
         "titleHighlight": "Best Teams",
-        "summary": "After rerolling or pulling your first SSRs, team structure becomes the fastest way to convert strong units into smooth progression.",
-        "badge": "Team-building core",
+        "summary": "Current public team guides center on 4-Savior formations, front-line tanks or sustain units, and back-line carries or debuffers, with mono-element and favorable-element matchups driving most PvE progress.",
+        "badge": "4-Savior formations",
         "lastChecked": "2026-03-20",
-        "cards": [
+        "displayType": "formationCardsGrid",
+        "teamCards": [
           {
-            "title": "Story Push Core",
-            "items": [
-              "Emilly front line anchor",
-              "Lacy pressure and utility",
-              "Bell Rhys ranged damage",
-              "Support slot around Asherah"
+            "title": "Solar Party",
+            "bestAgainst": "Star boss",
+            "frontLine": [
+              "Muriel",
+              "Emilly"
+            ],
+            "backLine": [
+              "Serpang",
+              "Petra"
+            ],
+            "notes": [
+              "Uses favorable element pressure into Star enemies.",
+              "Keeps a front-line damage tank plus support balance."
             ]
           },
           {
-            "title": "Aggressive Carry Setup",
-            "items": [
-              "Bunnygirl Charlotte as premium finisher",
-              "Charlotte or Kyra as follow-up pressure",
-              "Elemental coverage around the carry"
+            "title": "Moon Party",
+            "bestAgainst": "Sun boss",
+            "frontLine": [
+              "Lugh",
+              "Emilly"
+            ],
+            "backLine": [
+              "Elisa",
+              "Asherah: Waltz of Starlight"
+            ],
+            "notes": [
+              "Pairs a sturdy front with premium sustain for longer fights.",
+              "Works best when the back line can outlast Sun-targeted pressure."
             ]
           },
           {
-            "title": "Team Building Rules",
-            "items": [
-              "Lock one stable front line",
-              "Pair one main damage source with utility",
-              "Do not overload early teams with too many investments"
+            "title": "Star Party",
+            "bestAgainst": "Moon boss",
+            "frontLine": [
+              "Dana",
+              "Emilly"
+            ],
+            "backLine": [
+              "Frey",
+              "Tanya"
+            ],
+            "notes": [
+              "Leans on ranged pressure behind a stable front anchor.",
+              "Best when you want straightforward PvE progression coverage."
+            ]
+          },
+          {
+            "title": "Chaos Party",
+            "bestAgainst": "Order boss",
+            "frontLine": [
+              "Muriel",
+              "Lacy"
+            ],
+            "backLine": [
+              "Elisa",
+              "Lydia"
+            ],
+            "notes": [
+              "Blends carry pressure with utility and sustain support.",
+              "Strong template for favorable-element swapping once your roster opens up."
             ]
           }
         ],
         "tags": [
-          "Story push comps",
-          "Carry-centered builds",
-          "Elemental coverage"
+          "4-Savior team structure",
+          "Element advantage swapping",
+          "Front-line plus back-line balance"
         ],
-        "ctaLabel": "Open team builder reference",
+        "ctaLabel": "Compare team formations",
         "ctaHref": "https://tychara.com/StarSavior/team-builder"
       },
       {
         "id": "star-savior-character-builds",
         "title": "Star Savior",
         "titleHighlight": "Character Builds",
-        "summary": "Use this module to translate tier value into actual build choices around role, Arcana pairing, and upgrade order.",
-        "badge": "Build direction sheet",
+        "summary": "Live build pages already exist for major carries and supports, making it possible to show real skill breakpoints, Arcana packages, gear sets, and main-stat targets instead of generic build advice.",
+        "badge": "Live build drawer",
         "lastChecked": "2026-03-20",
-        "cards": [
+        "displayType": "buildCardsWithDrawer",
+        "buildEntries": [
           {
-            "title": "Damage Builds",
-            "items": [
-              "Prioritize your main carry first",
-              "Pair damage units with Arcana that stay useful across content",
-              "Keep team support aligned with the carry window"
+            "id": "lacy",
+            "name": "Lacy",
+            "identity": "Chaos / Ranger / SSR",
+            "summary": "A high-pressure ranger carry that wants her speed-and-ATK core online as early as possible.",
+            "sourceHref": "https://www.hideoutgacha.com/games/star-savior/characters/chaos/lacy",
+            "detailGroups": [
+              {
+                "title": "Skill Targets",
+                "items": [
+                  "Early target: 3/6/6",
+                  "Endgame target: 7/8/8"
+                ]
+              },
+              {
+                "title": "Gear Core",
+                "items": [
+                  "Motivator Set",
+                  "Speed Necklace",
+                  "ATK% Ring"
+                ]
+              },
+              {
+                "title": "Arcana Package",
+                "items": [
+                  "Elastic Acceleration",
+                  "Solid Destruction",
+                  "Shadow Erosion",
+                  "Sharp Assault",
+                  "Construct Bomb"
+                ]
+              },
+              {
+                "title": "Key Focus",
+                "items": [
+                  "Prioritize speed to start turns earlier.",
+                  "Keep ATK% scaling ahead of side upgrades.",
+                  "Finish the carry core before luxury bench projects."
+                ]
+              }
             ]
           },
           {
-            "title": "Frontline Builds",
-            "items": [
-              "Anchor early teams with one stable Defender",
-              "Use durable gear and role-suited Arcana first",
-              "Build around consistency before greed"
+            "id": "bell-rhys",
+            "name": "Bell Rhys",
+            "identity": "Star / Ranger / SSR",
+            "summary": "A ranged damage carry whose build path is strongest when speed and crit efficiency stay aligned.",
+            "sourceHref": "https://www.hideoutgacha.com/games/star-savior/characters/star/bell-rhys",
+            "detailGroups": [
+              {
+                "title": "Skill Targets",
+                "items": [
+                  "Early target: 3/6/6",
+                  "Endgame target: 7/8/8"
+                ]
+              },
+              {
+                "title": "Gear Core",
+                "items": [
+                  "Motivator Set",
+                  "Speed Necklace",
+                  "ATK% Ring"
+                ]
+              },
+              {
+                "title": "Arcana Package",
+                "items": [
+                  "Elastic Acceleration",
+                  "Solid Destruction",
+                  "Sharp Assault",
+                  "Construct Bomb"
+                ]
+              },
+              {
+                "title": "Key Focus",
+                "items": [
+                  "Preferred substats: Speed",
+                  "Preferred substats: Crit Rate, ATK%, Crit Damage",
+                  "Preferred substats: Effect Accuracy"
+                ]
+              }
             ]
           },
           {
-            "title": "Support Builds",
-            "items": [
-              "Value uptime, utility, and team synergy",
-              "Do not overbuild niche supports too early",
-              "Prioritize units that stabilize multiple teams"
+            "id": "asherah-waltz",
+            "name": "Asherah: Waltz of Starlight",
+            "identity": "Order / Supporter / SSR",
+            "summary": "A premium support build that trades raw damage for team stability, uptime, and long-fight control.",
+            "sourceHref": "https://www.hideoutgacha.com/games/star-savior/characters/order/asherah-waltz-of-starlight",
+            "detailGroups": [
+              {
+                "title": "Skill Targets",
+                "items": [
+                  "Early target: 3/6/6",
+                  "Endgame target: 7/7/7"
+                ]
+              },
+              {
+                "title": "Gear Core",
+                "items": [
+                  "Preses Set",
+                  "Speed Necklace",
+                  "HP% Ring"
+                ]
+              },
+              {
+                "title": "Arcana Package",
+                "items": [
+                  "Sharp Assault",
+                  "Life Stigma",
+                  "Starlight Grace+",
+                  "Double Tap",
+                  "Iron Will"
+                ]
+              },
+              {
+                "title": "Key Focus",
+                "items": [
+                  "Build for uptime before greed.",
+                  "Protect the team core through long boss cycles.",
+                  "Use her as the stabilizer around your main carry."
+                ]
+              }
             ]
           }
         ],
         "tags": [
-          "Role-first upgrades",
-          "Carry support alignment",
-          "Single-unit optimization"
+          "Exact skill breakpoints",
+          "Role-specific gear mains",
+          "Arcana package copy path"
         ],
-        "ctaLabel": "Open build reference",
-        "ctaHref": "https://www.hideoutgacha.com/games/star-savior/characters/chaos/lacy"
+        "ctaLabel": "Open build library",
+        "ctaHref": "https://www.hideoutgacha.com/games/star-savior/character-tier-list"
       },
       {
         "id": "star-savior-gear-guide",
         "title": "Star Savior",
         "titleHighlight": "Gear Guide",
-        "summary": "Gear decisions turn a good roster into a stable roster, so this section keeps the best farming and upgrade priorities compact.",
-        "badge": "Equipment route",
+        "summary": "Star Savior uses Equipment rather than Relics, and the real progression curve starts when you stop over-investing in T1 filler, pivot into T2 pieces, and prioritize Speed main stats on the right slots.",
+        "badge": "Equipment priority grid",
         "lastChecked": "2026-03-20",
-        "cards": [
+        "displayType": "priorityTableWithTags",
+        "priorityRows": [
           {
-            "title": "Farm Order",
-            "items": [
-              "Secure efficient early sets first",
-              "Farm for your core team before side units",
-              "Use progression bottlenecks to decide the next grind"
-            ]
+            "slot": "Shoes",
+            "mainStat": "Speed",
+            "priority": "Upgrade first",
+            "reason": "Shoes are one of the fastest ways to improve turn order for carries and supports."
           },
           {
-            "title": "Upgrade Rules",
-            "items": [
-              "Upgrade your core team before luxury pieces",
-              "Avoid heavy investment into short-lived filler gear",
-              "Match gear quality to actual team usage"
-            ]
+            "slot": "Necklace",
+            "mainStat": "Speed",
+            "priority": "Upgrade first",
+            "reason": "Speed Necklace keeps rotations stable before you chase luxury substats."
           },
           {
-            "title": "What Good Gear Solves",
-            "items": [
-              "Story wall pressure",
-              "Boss damage consistency",
-              "Hard Mode readiness"
-            ]
+            "slot": "Ring",
+            "mainStat": "ATK% for DPS / HP% for tank-support",
+            "priority": "Upgrade early",
+            "reason": "Ring main stats should match the role that actually drives your clear speed or survival."
+          },
+          {
+            "slot": "Weapon",
+            "mainStat": "Fixed slot stat",
+            "priority": "Hold unless T2",
+            "reason": "Do not over-invest in filler weapon pieces before your T2 core is ready."
+          },
+          {
+            "slot": "Armor",
+            "mainStat": "Fixed slot stat",
+            "priority": "Hold unless T2",
+            "reason": "Armor upgrades pay off better once your long-term T2 direction is online."
+          },
+          {
+            "slot": "Gloves",
+            "mainStat": "Fixed slot stat",
+            "priority": "Hold unless T2",
+            "reason": "Gloves are lower priority than Speed slots during the early progression curve."
           }
         ],
-        "tags": [
-          "Core team first",
-          "Efficient farming",
-          "Upgrade discipline"
+        "spotlight": {
+          "title": "T1 to T2 Progression Rule",
+          "items": [
+            "The game uses a 2-tier gear structure: T1 for early progression, T2 for long-term investment.",
+            "T2 becomes the real target after Mainstream Stage 14, with some guides placing the craft unlock at Stage 15.",
+            "Finish your T2 core four before spending hard on luxury upgrades."
+          ]
+        },
+        "farmTags": [
+          "Motivator first",
+          "Wendigo second",
+          "Perseus third",
+          "Speed pieces first"
         ],
-        "ctaLabel": "Open gear guide",
+        "mistakeTags": [
+          "Over-upgrading T1 Weapon",
+          "Over-upgrading T1 Armor",
+          "Over-upgrading T1 Gloves",
+          "Ignoring Speed slots first"
+        ],
+        "tags": [
+          "T2 core over T1 filler",
+          "Speed slot priority",
+          "Farm-order discipline"
+        ],
+        "ctaLabel": "Open gear optimization guide",
         "ctaHref": "https://ultimategacha.com/star-savior-relic-gear-guide-how-to-farm-enhance-optimize/"
       },
       {

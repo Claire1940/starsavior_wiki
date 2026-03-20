@@ -75,6 +75,27 @@ const officialIcons = [
   MessageCircle,
 ] as const;
 
+const detailCardIcons = [
+  ScrollText,
+  Crosshair,
+  Shield,
+  Sword,
+  Gem,
+  Trophy,
+  Orbit,
+  Crown,
+  CalendarDays,
+  Coins,
+  Boxes,
+  Archive,
+] as const;
+
+const roleTabIcons = [Crosshair, Shield, Sparkles] as const;
+const teamCardIcons = [Shield, Target, Sword, Crown] as const;
+const buildEntryIcons = [Sword, Crosshair, Sparkles] as const;
+const buildDetailIcons = [Target, Boxes, Gem, ScrollText] as const;
+const gearPanelIcons = [Boxes, Coins, Archive] as const;
+
 type AnyRecord = Record<string, any>;
 
 function resolveHomepageMessages(messages: AnyRecord) {
@@ -110,6 +131,12 @@ export default function HomePage() {
   const siteUrl = SITE_URL;
 
   const [copiedCode, setCopiedCode] = useState<string | null>(null);
+  const [activeRoleTabByModule, setActiveRoleTabByModule] = useState<
+    Record<string, string>
+  >({});
+  const [activeBuildByModule, setActiveBuildByModule] = useState<
+    Record<string, string>
+  >({});
 
   useEffect(() => {
     const targets = document.querySelectorAll(".scroll-reveal");
@@ -194,6 +221,500 @@ export default function HomePage() {
         sameAs: ORGANIZATION_SAME_AS,
       },
     ],
+  };
+
+  const renderStandardCards = (module: AnyRecord, moduleIndex: number) => {
+    if (!Array.isArray(module.cards)) {
+      return null;
+    }
+
+    return (
+      <div className="mt-8 grid gap-4 lg:grid-cols-3">
+        {module.cards.map((card: AnyRecord, cardIndex: number) => {
+          const CardIcon =
+            detailCardIcons[
+              (moduleIndex * 3 + cardIndex) % detailCardIcons.length
+            ];
+
+          return (
+            <div
+              key={`${module.id}-${card.title}`}
+              className={`scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6 ${
+                cardIndex === 1 ? "lg:-translate-y-2" : ""
+              }`}
+            >
+              <div className="flex items-center gap-3">
+                <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                  <CardIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                </div>
+                <p className="text-sm uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                  {card.title}
+                </p>
+              </div>
+
+              <ul className="mt-5 space-y-3">
+                {card.items.map((item: string) => (
+                  <li
+                    key={item}
+                    className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                  >
+                    <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          );
+        })}
+      </div>
+    );
+  };
+
+  const renderModuleContent = (module: AnyRecord, moduleIndex: number) => {
+    if (module.displayType === "tierRowsWithRoleTabs") {
+      const roleTabs = Array.isArray(module.roleTabs) ? module.roleTabs : [];
+      const tierGroups = Array.isArray(module.tierGroups) ? module.tierGroups : [];
+      const activeRoleId = activeRoleTabByModule[module.id] ?? roleTabs[0]?.id;
+      const activeRole =
+        roleTabs.find((tab: AnyRecord) => tab.id === activeRoleId) ?? roleTabs[0];
+
+      return (
+        <div className="mt-8 grid gap-4 xl:grid-cols-[1.1fr_0.9fr]">
+          <div className="space-y-4">
+            <div className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6">
+              <div className="flex flex-wrap gap-3">
+                {roleTabs.map((tab: AnyRecord, tabIndex: number) => {
+                  const Icon = roleTabIcons[tabIndex % roleTabIcons.length];
+                  const isActive = activeRole?.id === tab.id;
+
+                  return (
+                    <button
+                      key={tab.id}
+                      type="button"
+                      onClick={() =>
+                        setActiveRoleTabByModule((current) => ({
+                          ...current,
+                          [module.id]: tab.id,
+                        }))
+                      }
+                      className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
+                        isActive
+                          ? "border-[hsl(var(--nav-theme)/0.36)] bg-[hsl(var(--nav-theme)/0.14)] text-foreground"
+                          : "border-[hsl(var(--nav-theme)/0.16)] bg-white/[0.03] text-muted-foreground hover:border-[hsl(var(--nav-theme)/0.32)] hover:text-foreground"
+                      }`}
+                    >
+                      <Icon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                      {tab.label}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            <div className="grid gap-4 md:grid-cols-2">
+              {tierGroups.map((group: AnyRecord, groupIndex: number) => {
+                const GroupIcon =
+                  buildDetailIcons[groupIndex % buildDetailIcons.length];
+
+                return (
+                  <div
+                    key={`${module.id}-${group.title}`}
+                    className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6"
+                  >
+                    <div className="flex items-center gap-3">
+                      <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                        <GroupIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <p className="text-sm uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                        {group.title}
+                      </p>
+                    </div>
+
+                    <ul className="mt-5 space-y-3">
+                      {group.items.map((item: string) => (
+                        <li
+                          key={item}
+                          className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                        >
+                          <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          {activeRole ? (
+            <div className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6">
+              <p className="text-sm uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                {t.homepage.labels.roleFocus}
+              </p>
+              <h3 className="mt-4 text-2xl font-semibold">{activeRole.label}</h3>
+              <p className="mt-3 text-lg font-medium text-foreground">
+                {activeRole.priority}
+              </p>
+
+              <ul className="mt-5 space-y-3">
+                {activeRole.notes.map((item: string) => (
+                  <li
+                    key={item}
+                    className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                  >
+                    <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+
+              {module.spotlight ? (
+                <div className="mt-6 rounded-[1.25rem] border border-[hsl(var(--nav-theme)/0.14)] bg-[hsl(var(--nav-theme)/0.08)] p-5">
+                  <div className="flex items-center gap-3">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                      <Boxes className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <p className="text-sm uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                      {module.spotlight.title}
+                    </p>
+                  </div>
+
+                  <ul className="mt-4 space-y-3">
+                    {module.spotlight.items.map((item: string) => (
+                      <li
+                        key={item}
+                        className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                      >
+                        <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
+            </div>
+          ) : null}
+        </div>
+      );
+    }
+
+    if (module.displayType === "formationCardsGrid") {
+      return (
+        <div className="mt-8 grid gap-4 xl:grid-cols-2">
+          {module.teamCards.map((team: AnyRecord, teamIndex: number) => {
+            const TeamIcon = teamCardIcons[teamIndex % teamCardIcons.length];
+
+            return (
+              <article
+                key={`${module.id}-${team.title}`}
+                className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6"
+              >
+                <div className="flex items-start justify-between gap-4">
+                  <div className="flex items-center gap-3">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                      <TeamIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-semibold">{team.title}</h3>
+                      <p className="mt-1 text-sm text-muted-foreground">
+                        {t.homepage.labels.bestAgainst}: {team.bestAgainst}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mt-6 grid gap-4 sm:grid-cols-2">
+                  <div className="rounded-[1.25rem] border border-[hsl(var(--nav-theme)/0.14)] bg-[hsl(var(--nav-theme)/0.08)] p-5">
+                    <p className="text-sm uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                      {t.homepage.labels.frontLine}
+                    </p>
+                    <ul className="mt-4 space-y-3">
+                      {team.frontLine.map((unit: string) => (
+                        <li
+                          key={unit}
+                          className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                        >
+                          <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                          <span>{unit}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  <div className="rounded-[1.25rem] border border-[hsl(var(--nav-theme)/0.14)] bg-[hsl(var(--nav-theme)/0.08)] p-5">
+                    <p className="text-sm uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                      {t.homepage.labels.backLine}
+                    </p>
+                    <ul className="mt-4 space-y-3">
+                      {team.backLine.map((unit: string) => (
+                        <li
+                          key={unit}
+                          className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                        >
+                          <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                          <span>{unit}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+
+                <ul className="mt-6 space-y-3">
+                  {team.notes.map((item: string) => (
+                    <li
+                      key={item}
+                      className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                    >
+                      <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </article>
+            );
+          })}
+        </div>
+      );
+    }
+
+    if (module.displayType === "buildCardsWithDrawer") {
+      const buildEntries = Array.isArray(module.buildEntries)
+        ? module.buildEntries
+        : [];
+      const activeBuildId =
+        activeBuildByModule[module.id] ?? buildEntries[0]?.id;
+      const activeBuild =
+        buildEntries.find((entry: AnyRecord) => entry.id === activeBuildId) ??
+        buildEntries[0];
+
+      return (
+        <>
+          <div className="mt-8 grid gap-4 xl:grid-cols-3">
+            {buildEntries.map((entry: AnyRecord, entryIndex: number) => {
+              const EntryIcon = buildEntryIcons[entryIndex % buildEntryIcons.length];
+              const isActive = activeBuild?.id === entry.id;
+
+              return (
+                <button
+                  key={entry.id}
+                  type="button"
+                  onClick={() =>
+                    setActiveBuildByModule((current) => ({
+                      ...current,
+                      [module.id]: entry.id,
+                    }))
+                  }
+                  className={`scroll-reveal rounded-[1.5rem] border p-6 text-left transition-all ${
+                    isActive
+                      ? "border-[hsl(var(--nav-theme)/0.36)] bg-[hsl(var(--nav-theme)/0.1)] shadow-[0_24px_80px_hsl(var(--nav-theme)/0.08)]"
+                      : "border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] hover:border-[hsl(var(--nav-theme)/0.28)] hover:bg-white/[0.06]"
+                  }`}
+                >
+                  <div className="flex items-start justify-between gap-4">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                      <EntryIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <span className="rounded-full border border-[hsl(var(--nav-theme)/0.18)] bg-white/[0.04] px-3 py-1 text-xs font-semibold text-[hsl(var(--nav-theme-light))]">
+                      {entry.identity}
+                    </span>
+                  </div>
+
+                  <h3 className="mt-5 text-xl font-semibold">{entry.name}</h3>
+                  <p className="mt-3 text-sm leading-6 text-muted-foreground">
+                    {entry.summary}
+                  </p>
+                </button>
+              );
+            })}
+          </div>
+
+          {activeBuild ? (
+            <div className="scroll-reveal mt-6 rounded-[1.75rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6 shadow-[0_24px_80px_hsl(var(--nav-theme)/0.08)] backdrop-blur md:p-8">
+              <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+                <div className="max-w-3xl">
+                  <p className="text-sm uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                    {t.homepage.labels.activeBuild}
+                  </p>
+                  <h3 className="mt-3 text-3xl font-semibold md:text-4xl">
+                    {activeBuild.name}
+                  </h3>
+                  <p className="mt-3 inline-flex rounded-full border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)] px-4 py-2 text-sm text-muted-foreground">
+                    {activeBuild.identity}
+                  </p>
+                  <p className="mt-4 text-base leading-7 text-muted-foreground">
+                    {activeBuild.summary}
+                  </p>
+                </div>
+
+                <a
+                  href={activeBuild.sourceHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 rounded-full border border-[hsl(var(--nav-theme)/0.22)] bg-[hsl(var(--nav-theme)/0.12)] px-5 py-3 text-sm font-semibold transition-colors hover:bg-[hsl(var(--nav-theme)/0.2)]"
+                >
+                  {t.homepage.labels.buildSource}
+                  <ArrowUpRight className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                </a>
+              </div>
+
+              <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+                {activeBuild.detailGroups.map(
+                  (group: AnyRecord, groupIndex: number) => {
+                    const GroupIcon =
+                      buildDetailIcons[groupIndex % buildDetailIcons.length];
+
+                    return (
+                      <div
+                        key={`${activeBuild.id}-${group.title}`}
+                        className="rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-[hsl(var(--nav-theme)/0.08)] p-5"
+                      >
+                        <div className="flex items-center gap-3">
+                          <div className="flex h-10 w-10 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                            <GroupIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                          </div>
+                          <p className="text-sm uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                            {group.title}
+                          </p>
+                        </div>
+
+                        <ul className="mt-4 space-y-3">
+                          {group.items.map((item: string) => (
+                            <li
+                              key={item}
+                              className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                            >
+                              <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                              <span>{item}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    );
+                  },
+                )}
+              </div>
+            </div>
+          ) : null}
+        </>
+      );
+    }
+
+    if (module.displayType === "priorityTableWithTags") {
+      return (
+        <div className="mt-8 grid gap-4 xl:grid-cols-[1.15fr_0.85fr]">
+          <div className="scroll-reveal overflow-hidden rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04]">
+            <div className="overflow-x-auto">
+              <table className="w-full min-w-[760px]">
+                <thead>
+                  <tr className="border-b border-[hsl(var(--nav-theme)/0.14)] bg-[hsl(var(--nav-theme)/0.08)]">
+                    <th className="px-5 py-4 text-left text-sm font-semibold">
+                      Slot
+                    </th>
+                    <th className="px-5 py-4 text-left text-sm font-semibold">
+                      {t.homepage.labels.mainStat}
+                    </th>
+                    <th className="px-5 py-4 text-left text-sm font-semibold">
+                      {t.homepage.labels.upgradePriority}
+                    </th>
+                    <th className="px-5 py-4 text-left text-sm font-semibold">
+                      {t.homepage.labels.whyItMatters}
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {module.priorityRows.map((row: AnyRecord) => (
+                    <tr
+                      key={row.slot}
+                      className="border-b border-[hsl(var(--nav-theme)/0.08)] last:border-b-0"
+                    >
+                      <td className="px-5 py-4 font-semibold">{row.slot}</td>
+                      <td className="px-5 py-4 text-sm text-muted-foreground">
+                        {row.mainStat}
+                      </td>
+                      <td className="px-5 py-4">
+                        <span className="inline-flex rounded-full border border-[hsl(var(--nav-theme)/0.2)] bg-[hsl(var(--nav-theme)/0.12)] px-3 py-1 text-xs font-semibold text-[hsl(var(--nav-theme-light))]">
+                          {row.priority}
+                        </span>
+                      </td>
+                      <td className="px-5 py-4 text-sm text-muted-foreground">
+                        {row.reason}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            {module.spotlight ? (
+              <div className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6">
+                <div className="flex items-center gap-3">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                    <Boxes className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <p className="text-sm uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                    {module.spotlight.title}
+                  </p>
+                </div>
+
+                <ul className="mt-5 space-y-3">
+                  {module.spotlight.items.map((item: string) => (
+                    <li
+                      key={item}
+                      className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                    >
+                      <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
+
+            {[module.farmTags, module.mistakeTags].map(
+              (items: string[], panelIndex: number) => {
+                const PanelIcon = gearPanelIcons[panelIndex + 1];
+                const title =
+                  panelIndex === 0
+                    ? t.homepage.labels.farmOrder
+                    : t.homepage.labels.commonMistakes;
+
+                return (
+                  <div
+                    key={`${module.id}-${title}`}
+                    className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6"
+                  >
+                    <div className="flex items-center gap-3">
+                      <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                        <PanelIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <p className="text-sm uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                        {title}
+                      </p>
+                    </div>
+
+                    <div className="mt-5 flex flex-wrap gap-3">
+                      {items.map((item: string) => (
+                        <span
+                          key={item}
+                          className="rounded-full border border-[hsl(var(--nav-theme)/0.16)] bg-[hsl(var(--nav-theme)/0.08)] px-4 py-2 text-sm text-muted-foreground"
+                        >
+                          {item}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                );
+              },
+            )}
+          </div>
+        </div>
+      );
+    }
+
+    return renderStandardCards(module, moduleIndex);
   };
 
   return (
@@ -520,42 +1041,20 @@ export default function HomePage() {
                 </div>
               ) : null}
 
-              <div className="mt-8 grid gap-4 lg:grid-cols-3">
-                {module.cards.map((card: AnyRecord, cardIndex: number) => (
-                  <div
-                    key={`${module.id}-${card.title}`}
-                    className={`scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6 ${
-                      cardIndex === 1 ? "lg:-translate-y-2" : ""
-                    }`}
-                  >
-                    <p className="text-sm uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
-                      {card.title}
-                    </p>
-                    <ul className="mt-5 space-y-3">
-                      {card.items.map((item: string) => (
-                        <li
-                          key={item}
-                          className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
-                        >
-                          <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
-                          <span>{item}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-              </div>
+              {renderModuleContent(module, index)}
 
-              <div className="scroll-reveal mt-8 flex flex-wrap gap-3">
-                {module.tags.map((tag: string) => (
-                  <span
-                    key={tag}
-                    className="rounded-full border border-[hsl(var(--nav-theme)/0.16)] bg-white/[0.04] px-4 py-2 text-sm text-muted-foreground"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
+              {Array.isArray(module.tags) ? (
+                <div className="scroll-reveal mt-8 flex flex-wrap gap-3">
+                  {module.tags.map((tag: string) => (
+                    <span
+                      key={tag}
+                      className="rounded-full border border-[hsl(var(--nav-theme)/0.16)] bg-white/[0.04] px-4 py-2 text-sm text-muted-foreground"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              ) : null}
             </div>
           </SectionShell>
         );
