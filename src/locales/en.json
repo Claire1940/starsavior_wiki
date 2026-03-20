@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Slayerbound Wiki - Codes, Tier List, Units & Guides | Slayerbound Roblox",
-      "description": "Complete Slayerbound Wiki resource hub! Get the latest working codes, tier lists, unit guides, action RPG strategies, and wiki for Slayerbound Roblox game. Master every wave with our comprehensive guides.",
-      "keywords": "Slayerbound Wiki, Slayerbound, Slayerbound codes, Slayerbound tier list, Slayerbound units, Slayerbound guide, Roblox action RPG, anime action RPG, Roblox codes, action RPG game, anime game codes",
-      "ogTitle": "Slayerbound Wiki - Codes, Tier List, Units & Guides",
-      "ogDescription": "Complete Slayerbound Wiki resource hub! Get the latest working codes, tier lists, unit guides, action RPG strategies, and wiki for Slayerbound Roblox game.",
-      "twitterTitle": "Slayerbound Wiki - Codes, Tier List, Units & Guides",
-      "twitterDescription": "Complete Slayerbound Wiki resource hub! Get the latest working codes, tier lists, unit guides, and action RPG strategies."
+      "title": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
+      "description": "Star Savior Wiki for codes, tier list, reroll, beginner guide, characters, teams, builds, gear, news, and update tracking for the global launch.",
+      "keywords": "Star Savior, StarSavior, codes, tier list, reroll, beginner guide, characters, teams, builds, gear",
+      "ogTitle": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
+      "ogDescription": "Star Savior Wiki for codes, tier list, reroll, beginner guide, characters, teams, builds, gear, news, and update tracking for the global launch.",
+      "twitterTitle": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
+      "twitterDescription": "Track Star Savior codes, reroll priorities, beginner guides, characters, builds, and launch updates."
     }
   },
   "nav": {},
@@ -26,36 +26,36 @@
     "readMore": "Read More"
   },
   "hero": {
-    "badge": "Master Demon Slayer Combat in the Ultimate Roblox RPG Experience",
-    "title": "Slayerbound Wiki",
-    "description": "Your ultimate hub for Slayerbound! Master breathing styles, unlock powerful clans, and dominate demon battles. Get working codes, clan tier lists, training guides, and boss strategies to become the ultimate demon slayer!",
-    "getFreeCodesCTA": "Get Free Codes",
-    "playOnRobloxCTA": "Play on Roblox",
+    "badge": "Anime Training Turn-Based RPG",
+    "title": "Star Savior Wiki",
+    "description": "Guide your Star-kissed Saviors through a character-training RPG built around the Journey system, turn-based battles, team building, gear, reroll planning, and launch updates.",
+    "getFreeCodesCTA": "Visit Official Website",
+    "playOnRobloxCTA": "Play on Google Play",
     "stats": {
       "stat1": {
-        "value": "300K+",
-        "label": "Total Visits"
+        "value": "100K+",
+        "label": "Google Play Downloads"
       },
       "stat2": {
-        "value": "1.2K",
-        "label": "Discord Members"
+        "value": "3.9",
+        "label": "Google Play Rating"
       },
       "stat3": {
-        "value": "10+",
-        "label": "Active Codes"
+        "value": "5.89K",
+        "label": "Google Play Reviews"
       },
       "stat4": {
-        "value": "Daily",
-        "label": "Updates"
+        "value": "Mar 19",
+        "label": "Global Launch"
       }
     }
   },
   "gameFeature": {
-    "title": "Slayerbound Trailer",
-    "description": "Master breathing styles, unlock powerful clans, and dominate demon battles in this action-packed Demon Slayer RPG experience on Roblox!"
+    "title": "Star Savior Official Animation PV",
+    "description": "Watch the official animation PV for a quick look at the world, cast, and launch presentation behind Star Savior."
   },
   "tools": {
-    "title": "Slayerbound",
+    "title": "Star Savior",
     "titleHighlight": "Resources",
     "subtitle": "Jump to any section below",
     "codes": {
@@ -125,135 +125,96 @@
   },
   "whatIs": {
     "title": "What is",
-    "titleHighlight": "Slayerbound?",
-    "description": "Slayerbound is a Demon Slayer-themed action RPG on Roblox. Master breathing styles, unlock powerful clans, and battle demons in intense combat.",
+    "titleHighlight": "Star Savior?",
+    "description": "Star Savior is a character-training turn-based RPG centered on squad building, Journey progression, gear planning, and launch-era resource management.",
     "features": [
       {
-        "title": "Breathing Styles",
-        "description": "Master powerful breathing techniques like Flame, Wind, and Water"
+        "title": "Journey Progression",
+        "description": "Advance through the Journey system while unlocking upgrades, rewards, and account-wide progress goals."
       },
       {
-        "title": "Clan System",
-        "description": "Unlock and upgrade powerful clans with unique abilities"
+        "title": "Turn-Based Team Building",
+        "description": "Build around character roles, skill timing, elemental coverage, and long-term roster synergy."
       },
       {
-        "title": "Demon Battles",
-        "description": "Fight challenging demons and bosses to earn rewards"
+        "title": "Launch Tracking",
+        "description": "Follow official updates, reroll priorities, community links, and beginner planning from one place."
       }
     ]
   },
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Slayerbound",
+    "subtitle": "Everything you need to know about Star Savior",
     "questions": [
       {
-        "question": "How do I attack and block in Slayerbound?",
-        "answer": "LMB = Attack, RMB = Heavy Attack, F = Block."
+        "question": "Where can I download Star Savior?",
+        "answer": "The primary live platform referenced on this site is Google Play. Always use official store or publisher links when available."
       },
       {
-        "question": "How do I run in Slayerbound?",
-        "answer": "Double-tap W (W+W) to run."
+        "question": "What kind of game is Star Savior?",
+        "answer": "Star Savior is a character-training turn-based RPG with squad building, Journey progression, and gear management."
       },
       {
-        "question": "How do I open menu and breathing in Slayerbound?",
-        "answer": "M = Menu, G = Breathing."
+        "question": "What should beginners check first in Star Savior?",
+        "answer": "Start with download links, reroll priorities, beginner progression, team-building basics, and any launch rewards or announcements."
       },
       {
-        "question": "How do I use skill keys in Slayerbound?",
-        "answer": "Use 1-9 for skills."
+        "question": "Is Star Savior globally launched?",
+        "answer": "Yes. The current reference point in the project brief is the March 19 global launch milestone."
       },
       {
-        "question": "How do I redeem Slayerbound codes?",
-        "answer": "Open the Codes button/menu, input code, then redeem/enter."
+        "question": "What numbers are players tracking most for Star Savior right now?",
+        "answer": "The current headline metrics used on this site are 100K+ Google Play downloads, 3.9 rating, 5.89K reviews, and the March 19 launch date."
       },
       {
-        "question": "Why does a Slayerbound code not work?",
-        "answer": "Most common reasons: expired, typo, already used."
+        "question": "Does Star Savior have an official Discord?",
+        "answer": "Yes. Use the official Discord invite linked in the homepage CTA and footer."
       },
       {
-        "question": "Are Slayerbound codes case-sensitive?",
-        "answer": "Treat them as case-sensitive and paste exactly as listed."
+        "question": "Where should I follow official Star Savior updates?",
+        "answer": "Track the official website news page, official X account, official YouTube channel, and official Discord announcements."
       },
       {
-        "question": "What rewards do Slayerbound codes usually give?",
-        "answer": "Common rewards include Spins, Yen, and specific reset effects."
+        "question": "What does Star Savior Wiki focus on?",
+        "answer": "This site focuses on codes, tier lists, reroll guidance, beginner planning, builds, teams, gear, and launch tracking."
       },
       {
-        "question": "Where should I track new Slayerbound codes first?",
-        "answer": "Official Discord, Roblox game page/community posts, and active guide trackers."
+        "question": "Should I reroll in Star Savior?",
+        "answer": "That depends on your goals, early rewards, and time budget. Most players should compare reroll cost against early progression value before committing."
       },
       {
-        "question": "Is there an official Slayerbound Trello?",
-        "answer": "Yes, an official Slayerbound Trello link is publicly shared."
-      },
-      {
-        "question": "What training paths are available in Slayerbound?",
-        "answer": "Flame, Wind, and Water are the main training paths."
-      },
-      {
-        "question": "What does Slayerbound Flame training require?",
-        "answer": "Collect 40 Oni Horns and defeat strong Oni enemies."
-      },
-      {
-        "question": "What does Slayerbound Wind training require?",
-        "answer": "Fight Giga Horn boss in Demon Camp until the horn drops."
-      },
-      {
-        "question": "What does Slayerbound Water training require?",
-        "answer": "Complete parkour challenge and break the rock. Final step costs 2,000 Yen per attempt."
-      },
-      {
-        "question": "Which Slayerbound code can reset breathing/demon art?",
-        "answer": "Example: 1KLIKES resets breathing/demon art and may also reset race."
-      },
-      {
-        "question": "Are there stats-reset codes in Slayerbound?",
-        "answer": "Yes, milestone codes include stats reset entries."
-      },
-      {
-        "question": "Do Slayerbound code pools change often?",
-        "answer": "Yes, lists update frequently around milestones and bug-fix windows."
-      },
-      {
-        "question": "Are exact boss drop rates known in Slayerbound?",
-        "answer": "Drop rates are not publicly confirmed by developers."
-      },
-      {
-        "question": "What is the best Yen farming route in Slayerbound?",
-        "answer": "Redeem active codes first, then follow progression routes while managing costs."
-      },
-      {
-        "question": "Should I commit to one build early in Slayerbound?",
-        "answer": "Not recommended—test routes and controls first, then use resets strategically."
+        "question": "Is the Reddit link on this site official?",
+        "answer": "No. The Reddit link is a community subreddit reference, not an official publisher or developer channel."
       }
     ]
   },
   "cta": {
-    "title": "Ready to Master Slayerbound?",
-    "description": "Join the Slayerbound community on Discord to share strategies, find teammates, and get the latest codes!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Roblox"
+    "title": "Ready to Start Star Savior?",
+    "description": "Jump into the official community for announcements and support, or download Star Savior on Google Play to begin your first run.",
+    "joinCommunity": "Join Official Discord",
+    "joinGame": "Play Star Savior on Google Play"
   },
   "footer": {
-    "title": "Slayerbound",
-    "description": "Your complete resource hub for Slayerbound. Find codes, guides, training paths, and strategies to master breathing styles and dominate demon battles.",
-    "resources": "Resources",
-    "activeCodes": "Active Codes",
-    "trainingGuides": "Training Guides",
-    "breathingStyles": "Breathing Styles",
-    "clanGuides": "Clan Guides",
+    "title": "Star Savior",
+    "description": "Your launch-window hub for Star Savior codes, reroll advice, team planning, character guides, and official links.",
+    "resources": "Quick Links",
+    "activeCodes": "Codes Hub",
+    "trainingGuides": "Beginner Progression",
+    "breathingStyles": "Build Planner",
+    "clanGuides": "Reroll & Teams",
     "moreTools": "Community",
     "discord": "Official Discord",
-    "trello": "Official Trello",
-    "playNow": "Play on Roblox",
-    "copyright": "© 2026 Slayerbound Wiki. Not affiliated with Roblox Corporation or the developers of Slayerbound.",
+    "trello": "Official X",
+    "playNow": "Official YouTube",
+    "copyright": "© 2026 Star Savior Wiki. Unofficial fan site and not affiliated with the official publishers or developers of Star Savior.",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "reddit": "Reddit Community"
   },
   "homepage": {
     "codes": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Codes",
       "subtitle": "Get free spins, yen, and resets to boost your progression",
       "cta": "View All Codes & Redemption Guide",
@@ -264,23 +225,43 @@
           "status": "Status"
         },
         "items": [
-          {"code": "morespins", "reward": "20 Spins", "status": "active"},
-          {"code": "100KVISITS", "reward": "15 Spins", "status": "active"},
-          {"code": "1KLIKES", "reward": "Breathing/Demon Art Reset", "status": "active"},
-          {"code": "guizerayt", "reward": "10 Spins", "status": "active"},
-          {"code": "RELEASE", "reward": "10 Spins", "status": "active"}
+          {
+            "code": "morespins",
+            "reward": "20 Spins",
+            "status": "active"
+          },
+          {
+            "code": "100KVISITS",
+            "reward": "15 Spins",
+            "status": "active"
+          },
+          {
+            "code": "1KLIKES",
+            "reward": "Breathing/Demon Art Reset",
+            "status": "active"
+          },
+          {
+            "code": "guizerayt",
+            "reward": "10 Spins",
+            "status": "active"
+          },
+          {
+            "code": "RELEASE",
+            "reward": "10 Spins",
+            "status": "active"
+          }
         ]
       }
     },
     "redeemGuide": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Redeem Guide",
       "subtitle": "Follow these steps to redeem codes successfully",
       "steps": [
         {
           "step": 1,
           "title": "Launch Game",
-          "detail": "Open Slayerbound in Roblox"
+          "detail": "Open Star Savior in Roblox"
         },
         {
           "step": 2,
@@ -300,7 +281,7 @@
       ]
     },
     "trainingPaths": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Training Paths",
       "subtitle": "Choose your training path: Flame, Wind, or Water",
       "paths": [
@@ -328,7 +309,7 @@
       ]
     },
     "breathingTier": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Breathing Tier List",
       "subtitle": "Compare breathing styles by PvE/PvP performance and difficulty",
       "dataNote": "Community testing data - rankings updated regularly",
@@ -373,7 +354,7 @@
       }
     },
     "demonArtTier": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Demon Art Tier List",
       "subtitle": "Demon Art power rankings and difficulty matrix",
       "statusBadge": "Coming Soon",
@@ -391,7 +372,7 @@
       "ctaText": "Track updates on Trello/Discord"
     },
     "oniRoute": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Oni Route",
       "subtitle": "Transform to Oni and unlock Demon Arts",
       "statusBadge": "Guide Available",
@@ -430,21 +411,42 @@
       ]
     },
     "controls": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Controls",
       "subtitle": "Master the keyboard controls for combat",
       "keys": [
-        { "key": "LMB", "action": "Attack" },
-        { "key": "RMB", "action": "Heavy Attack" },
-        { "key": "F", "action": "Block" },
-        { "key": "W + W", "action": "Run" },
-        { "key": "M", "action": "Menu" },
-        { "key": "G", "action": "Breathing" },
-        { "key": "1-9", "action": "Skills" }
+        {
+          "key": "LMB",
+          "action": "Attack"
+        },
+        {
+          "key": "RMB",
+          "action": "Heavy Attack"
+        },
+        {
+          "key": "F",
+          "action": "Block"
+        },
+        {
+          "key": "W + W",
+          "action": "Run"
+        },
+        {
+          "key": "M",
+          "action": "Menu"
+        },
+        {
+          "key": "G",
+          "action": "Breathing"
+        },
+        {
+          "key": "1-9",
+          "action": "Skills"
+        }
       ]
     },
     "questMap": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Quest Map",
       "subtitle": "Find quest NPCs and training locations",
       "recommendedSequence": "Recommended order: Flame → Water → Wind",
@@ -454,29 +456,43 @@
           "name": "Spawn Path (Flame Start)",
           "region": "Near Spawn",
           "objective": "Start Flame training",
-          "requirements": ["40 Oni Horns", "Defeat several tough Onis"],
-          "rewards": ["Flame path progression"]
+          "requirements": [
+            "40 Oni Horns",
+            "Defeat several tough Onis"
+          ],
+          "rewards": [
+            "Flame path progression"
+          ]
         },
         {
           "id": 2,
           "name": "Demon Camp (Wind Step)",
           "region": "Sea Village",
           "objective": "Defeat Giga Horn and obtain horn drop",
-          "requirements": ["Boss clear", "Drop luck (RNG)"],
-          "rewards": ["Wind path progression"]
+          "requirements": [
+            "Boss clear",
+            "Drop luck (RNG)"
+          ],
+          "rewards": [
+            "Wind path progression"
+          ]
         },
         {
           "id": 3,
           "name": "Waterfall Trial",
           "region": "Large Wheat Fields",
           "objective": "Parkour challenge + break rock",
-          "requirements": ["2,000 yen per final-step attempt"],
-          "rewards": ["Water path progression"]
+          "requirements": [
+            "2,000 yen per final-step attempt"
+          ],
+          "rewards": [
+            "Water path progression"
+          ]
         }
       ]
     },
     "bossDrops": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Boss Drops",
       "subtitle": "Boss loot and drop requirements",
       "riskNotice": "Boss drops are based on RNG. Keep farming until you get the items you need!",
@@ -510,10 +526,10 @@
       }
     },
     "currencyFarm": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Currency Farm",
       "subtitle": "Best methods to earn Yen efficiently",
-      "disclaimer": "Use these proven methods to maximize your Yen earnings in Slayerbound.",
+      "disclaimer": "Use these proven methods to maximize your Yen earnings in Star Savior.",
       "methods": [
         {
           "rank": 1,
@@ -521,7 +537,10 @@
           "expectedReturn": "Spins + Yen (varies by code)",
           "timeToValue": "1-3 min",
           "riskLevel": "Low",
-          "howTo": ["Open game menu and redeem active codes first", "Use spins before committing to long grind loops"]
+          "howTo": [
+            "Open game menu and redeem active codes first",
+            "Use spins before committing to long grind loops"
+          ]
         },
         {
           "rank": 2,
@@ -529,7 +548,10 @@
           "expectedReturn": "Save Yen by avoiding failed attempts",
           "timeToValue": "Immediate",
           "riskLevel": "Low",
-          "howTo": ["Prepare requirements before high-cost training attempts", "Water path final attempt costs 2,000 Yen per try"]
+          "howTo": [
+            "Prepare requirements before high-cost training attempts",
+            "Water path final attempt costs 2,000 Yen per try"
+          ]
         },
         {
           "rank": 3,
@@ -537,12 +559,15 @@
           "expectedReturn": "Yen and EXP from quests",
           "timeToValue": "Medium",
           "riskLevel": "Medium",
-          "howTo": ["Follow beginner progression guides", "Check Discord for optimal farming routes"]
+          "howTo": [
+            "Follow beginner progression guides",
+            "Check Discord for optimal farming routes"
+          ]
         }
       ]
     },
     "resetPlanner": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Reset Planner",
       "subtitle": "Plan your resets strategically - never reset blindly",
       "startQuestion": "What is your current bottleneck?",
@@ -570,7 +595,7 @@
       ]
     },
     "buildPlanner": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Build Planner",
       "subtitle": "Optimize your character build with goal-based planning",
       "dataNote": "Plan your build based on your playstyle and goals",
@@ -579,13 +604,21 @@
           "key": "goalMode",
           "label": "Goal Mode",
           "type": "select",
-          "options": ["PvE Progression", "Boss Focus", "PvP Duel", "Hybrid"]
+          "options": [
+            "PvE Progression",
+            "Boss Focus",
+            "PvP Duel",
+            "Hybrid"
+          ]
         },
         {
           "key": "route",
           "label": "Route",
           "type": "select",
-          "options": ["Slayer", "Oni"]
+          "options": [
+            "Slayer",
+            "Oni"
+          ]
         },
         {
           "key": "currentBreathing",
@@ -636,7 +669,7 @@
       ]
     },
     "thunderBreathing": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Thunder Breathing",
       "subtitle": "Complete guide to unlock Thunder Breathing style",
       "steps": [
@@ -663,15 +696,19 @@
       ],
       "requirements": {
         "title": "Requirements",
-        "items": ["6 Wheat", "3 Eggs", "Complete candy quest"]
+        "items": [
+          "6 Wheat",
+          "3 Eggs",
+          "Complete candy quest"
+        ]
       },
       "difficulty": "Medium",
       "location": "Mountain near Snow Village"
     },
     "fastLeveling": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Fast Leveling",
-      "subtitle": "Efficient methods to level up quickly in Slayerbound",
+      "subtitle": "Efficient methods to level up quickly in Star Savior",
       "methods": [
         {
           "title": "Quest Types",
@@ -706,7 +743,7 @@
       ]
     },
     "finalSelection": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Final Selection",
       "subtitle": "Complete the Final Selection to become an official Slayer",
       "overview": "The Final Selection is a crucial milestone where you prove your worth as a demon slayer. Complete this parkour challenge to earn your Slayer uniform and official status.",
@@ -736,7 +773,7 @@
       }
     },
     "clanSystem": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Clan System",
       "subtitle": "Clan tiers, buffs, and how to reroll your clan",
       "overview": "Clans provide unique buffs and abilities that enhance your character. Each clan has different rarities and special benefits.",

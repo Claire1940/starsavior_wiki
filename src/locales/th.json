@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Slayerbound Wiki - โค้ด, รายการระดับ, ยูนิต และคู่มือ | Slayerbound Roblox",
-      "description": "ศูนย์รวมทรัพยากร Slayerbound Wiki ที่สมบูรณ์! รับโค้ดที่ใช้งานได้ล่าสุด, รายการระดับ, คู่มือยูนิต, กลยุทธ์ Action RPG และวิกิสำหรับเกม Slayerbound Roblox เชี่ยวชาญทุกเวฟด้วยคู่มือที่ครอบคลุมของเรา!",
-      "keywords": "Slayerbound Wiki, Slayerbound, โค้ด Slayerbound, รายการระดับ Slayerbound, ยูนิต Slayerbound, คู่มือ Slayerbound, Roblox Action RPG, อนิเมะ Action RPG, โค้ด Roblox, เกม Action RPG, โค้ดเกมอนิเมะ",
-      "ogTitle": "Slayerbound Wiki - โค้ด, รายการระดับ, ยูนิต และคู่มือ",
-      "ogDescription": "ศูนย์รวมทรัพยากร Slayerbound Wiki ที่สมบูรณ์! รับโค้ดที่ใช้งานได้ล่าสุด, รายการระดับ, คู่มือยูนิต, กลยุทธ์ Action RPG และวิกิสำหรับเกม Slayerbound Roblox",
-      "twitterTitle": "Slayerbound Wiki - โค้ด, รายการระดับ, ยูนิต และคู่มือ",
-      "twitterDescription": "ศูนย์รวมทรัพยากร Slayerbound Wiki ที่สมบูรณ์! รับโค้ดที่ใช้งานได้ล่าสุด, รายการระดับ, คู่มือยูนิต และกลยุทธ์ Action RPG"
+      "title": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
+      "description": "Star Savior Wiki for codes, tier list, reroll, beginner guide, characters, teams, builds, gear, news, and update tracking for the global launch.",
+      "keywords": "Star Savior, StarSavior, codes, tier list, reroll, beginner guide, characters, teams, builds, gear",
+      "ogTitle": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
+      "ogDescription": "Star Savior Wiki for codes, tier list, reroll, beginner guide, characters, teams, builds, gear, news, and update tracking for the global launch.",
+      "twitterTitle": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
+      "twitterDescription": "Track Star Savior codes, reroll priorities, beginner guides, characters, builds, and launch updates."
     }
   },
   "nav": {},
@@ -26,38 +26,38 @@
     "readMore": "อ่านเพิ่มเติม"
   },
   "hero": {
-    "badge": "เชี่ยวชาญการต่อสู้ของนักล่าอสูรในสุดยอดประสบการณ์เกม Roblox RPG",
-    "title": "Slayerbound Wiki",
-    "description": "ศูนย์รวมข้อมูลสุดยอดสำหรับ Slayerbound! ฝึกฝนปราณ, ปลดล็อกตระกูลที่แข็งแกร่ง, และครองความเป็นใหญ่ในการต่อสู้กับอสูร รับโค้ดใช้งานได้, รายชื่อระดับตระกูล, คู่มือการฝึกฝน, และกลยุทธ์สำหรับบอสเพื่อเป็นนักล่าอสูรที่เก่งกาจที่สุด!",
-    "getFreeCodesCTA": "รับโค้ดฟรี",
-    "playOnRobloxCTA": "เล่นบน Roblox",
+    "badge": "Anime Training Turn-Based RPG",
+    "title": "Star Savior Wiki",
+    "description": "Guide your Star-kissed Saviors through a character-training RPG built around the Journey system, turn-based battles, team building, gear, reroll planning, and launch updates.",
+    "getFreeCodesCTA": "Visit Official Website",
+    "playOnRobloxCTA": "Play on Google Play",
     "stats": {
       "stat1": {
-        "value": "300K+",
-        "label": "จำนวนผู้เข้าชมทั้งหมด"
+        "value": "100K+",
+        "label": "Google Play Downloads"
       },
       "stat2": {
-        "value": "1.2K",
-        "label": "สมาชิก Discord"
+        "value": "3.9",
+        "label": "Google Play Rating"
       },
       "stat3": {
-        "value": "10+",
-        "label": "โค้ดที่ใช้งานได้"
+        "value": "5.89K",
+        "label": "Google Play Reviews"
       },
       "stat4": {
-        "value": "รายวัน",
-        "label": "อัปเดต"
+        "value": "Mar 19",
+        "label": "Global Launch"
       }
     }
   },
   "gameFeature": {
-    "title": "ตัวอย่างเกม Slayerbound",
-    "description": "ฝึกฝนปราณ, ปลดล็อกตระกูลที่แข็งแกร่ง, และครองความเป็นใหญ่ในการต่อสู้กับอสูรในประสบการณ์เกม Demon Slayer RPG สุดมันส์บน Roblox!"
+    "title": "Star Savior Official Animation PV",
+    "description": "Watch the official animation PV for a quick look at the world, cast, and launch presentation behind Star Savior."
   },
   "tools": {
-    "title": "Slayerbound",
-    "titleHighlight": "แหล่งข้อมูล",
-    "subtitle": "ไปยังส่วนต่างๆ ด้านล่าง",
+    "title": "Star Savior",
+    "titleHighlight": "Resources",
+    "subtitle": "Jump to any section below",
     "codes": {
       "title": "โค้ด",
       "description": "รับรางวัลฟรี"
@@ -124,132 +124,93 @@
     }
   },
   "whatIs": {
-    "title": "Slayerbound คืออะไร",
-    "titleHighlight": "Slayerbound เป็นเกมแอ็กชัน RPG แนว Demon Slayer บน Roblox ฝึกฝนปราณ, ปลดล็อกตระกูลที่แข็งแกร่ง, และต่อสู้กับอสูรในการต่อสู้ที่เข้มข้น",
-    "description": "ปราณ",
+    "title": "What is",
+    "titleHighlight": "Star Savior?",
+    "description": "Star Savior is a character-training turn-based RPG centered on squad building, Journey progression, gear planning, and launch-era resource management.",
     "features": [
       {
-        "title": "ฝึกฝนเทคนิคปราณที่ทรงพลัง เช่น เพลิง, วายุ, และวารี",
-        "description": "ระบบตระกูล"
+        "title": "Journey Progression",
+        "description": "Advance through the Journey system while unlocking upgrades, rewards, and account-wide progress goals."
       },
       {
-        "title": "ปลดล็อกและอัปเกรดตระกูลที่แข็งแกร่งด้วยความสามารถเฉพาะตัว",
-        "description": "การต่อสู้กับอสูร"
+        "title": "Turn-Based Team Building",
+        "description": "Build around character roles, skill timing, elemental coverage, and long-term roster synergy."
       },
       {
-        "title": "ต่อสู้กับอสูรและบอสที่ท้าทายเพื่อรับรางวัล",
-        "description": "คำถามที่พบบ่อย"
+        "title": "Launch Tracking",
+        "description": "Follow official updates, reroll priorities, community links, and beginner planning from one place."
       }
     ]
   },
   "faq": {
-    "title": "ทุกสิ่งที่คุณต้องรู้เกี่ยวกับ Slayerbound",
-    "titleHighlight": "ฉันจะโจมตีและป้องกันใน Slayerbound ได้อย่างไร?",
-    "subtitle": "LMB = โจมตี, RMB = โจมตีหนัก, F = ป้องกัน",
+    "title": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "subtitle": "Everything you need to know about Star Savior",
     "questions": [
       {
-        "question": "ฉันจะวิ่งใน Slayerbound ได้อย่างไร?",
-        "answer": "แตะ W สองครั้ง (W+W) เพื่อวิ่ง"
+        "question": "Where can I download Star Savior?",
+        "answer": "The primary live platform referenced on this site is Google Play. Always use official store or publisher links when available."
       },
       {
-        "question": "ฉันจะเปิดเมนูและปราณใน Slayerbound ได้อย่างไร?",
-        "answer": "M = เมนู, G = ปราณ"
+        "question": "What kind of game is Star Savior?",
+        "answer": "Star Savior is a character-training turn-based RPG with squad building, Journey progression, and gear management."
       },
       {
-        "question": "ฉันจะใช้ปุ่มสกิลใน Slayerbound ได้อย่างไร?",
-        "answer": "ใช้ 1-9 สำหรับสกิล"
+        "question": "What should beginners check first in Star Savior?",
+        "answer": "Start with download links, reroll priorities, beginner progression, team-building basics, and any launch rewards or announcements."
       },
       {
-        "question": "ฉันจะแลกโค้ด Slayerbound ได้อย่างไร?",
-        "answer": "เปิดปุ่ม/เมนูโค้ด, ใส่โค้ด, แล้วกดแลก/ยืนยัน"
+        "question": "Is Star Savior globally launched?",
+        "answer": "Yes. The current reference point in the project brief is the March 19 global launch milestone."
       },
       {
-        "question": "ทำไมโค้ด Slayerbound ถึงใช้ไม่ได้?",
-        "answer": "เหตุผลที่พบบ่อยที่สุด: หมดอายุ, พิมพ์ผิด, ใช้ไปแล้ว"
+        "question": "What numbers are players tracking most for Star Savior right now?",
+        "answer": "The current headline metrics used on this site are 100K+ Google Play downloads, 3.9 rating, 5.89K reviews, and the March 19 launch date."
       },
       {
-        "question": "โค้ด Slayerbound คำนึงถึงตัวพิมพ์เล็กและตัวพิมพ์ใหญ่หรือไม่?",
-        "answer": "ให้ถือว่าคำนึงถึงตัวพิมพ์เล็กและตัวพิมพ์ใหญ่ และวาง (paste) ตามที่ระบุไว้ทุกประการ"
+        "question": "Does Star Savior have an official Discord?",
+        "answer": "Yes. Use the official Discord invite linked in the homepage CTA and footer."
       },
       {
-        "question": "โค้ด Slayerbound มักจะให้รางวัลอะไร?",
-        "answer": "รางวัลทั่วไป ได้แก่ Spins, Yen, และเอฟเฟกต์รีเซ็ตบางอย่าง"
+        "question": "Where should I follow official Star Savior updates?",
+        "answer": "Track the official website news page, official X account, official YouTube channel, and official Discord announcements."
       },
       {
-        "question": "ฉันควรติดตามโค้ด Slayerbound ใหม่ได้ที่ไหนก่อน?",
-        "answer": "Discord อย่างเป็นทางการ, หน้าเกม/โพสต์ชุมชน Roblox, และตัวติดตามคู่มือที่ใช้งานอยู่"
+        "question": "What does Star Savior Wiki focus on?",
+        "answer": "This site focuses on codes, tier lists, reroll guidance, beginner planning, builds, teams, gear, and launch tracking."
       },
       {
-        "question": "มี Trello อย่างเป็นทางการของ Slayerbound หรือไม่?",
-        "answer": "มี, ลิงก์ Trello อย่างเป็นทางการของ Slayerbound มีการแบ่งปันสู่สาธารณะ"
+        "question": "Should I reroll in Star Savior?",
+        "answer": "That depends on your goals, early rewards, and time budget. Most players should compare reroll cost against early progression value before committing."
       },
       {
-        "question": "มีเส้นทางการฝึกฝนอะไรบ้างใน Slayerbound?",
-        "answer": "เพลิง, วายุ, และวารี คือเส้นทางการฝึกฝนหลัก"
-      },
-      {
-        "question": "การฝึกฝนปราณเพลิงใน Slayerbound ต้องใช้อะไรบ้าง?",
-        "answer": "เก็บเขี้ยวโอนิ 40 อัน และกำจัดศัตรูโอนิที่แข็งแกร่ง"
-      },
-      {
-        "question": "การฝึกฝนปราณวายุใน Slayerbound ต้องใช้อะไรบ้าง?",
-        "answer": "ต่อสู้กับบอส Giga Horn ใน Demon Camp จนกว่าจะได้รับเขา"
-      },
-      {
-        "question": "การฝึกฝนปราณวารีใน Slayerbound ต้องใช้อะไรบ้าง?",
-        "answer": "ผ่านด่าน Parkour และทำลายหิน ขั้นตอนสุดท้ายมีค่าใช้จ่าย 2,000 เยนต่อครั้ง"
-      },
-      {
-        "question": "โค้ด Slayerbound ใดที่สามารถรีเซ็ตปราณ/วิชาอสูรได้?",
-        "answer": "ตัวอย่าง: 1KLIKES รีเซ็ตปราณ/วิชาอสูร และอาจรีเซ็ตเผ่าพันธุ์ด้วย"
-      },
-      {
-        "question": "มีโค้ดรีเซ็ตสเตตัสใน Slayerbound หรือไม่?",
-        "answer": "มี, โค้ด milestone จะรวมถึงรายการรีเซ็ตสเตตัส"
-      },
-      {
-        "question": "กลุ่มโค้ด Slayerbound เปลี่ยนแปลงบ่อยหรือไม่?",
-        "answer": "ใช่, รายการจะอัปเดตบ่อยครั้งในช่วง milestone และช่วงแก้ไขข้อผิดพลาด"
-      },
-      {
-        "question": "ทราบอัตราการดรอปของบอสที่แน่นอนใน Slayerbound หรือไม่?",
-        "answer": "อัตราการดรอปไม่ได้รับการยืนยันอย่างเป็นทางการจากผู้พัฒนา"
-      },
-      {
-        "question": "เส้นทางการฟาร์มเงินเยนที่ดีที่สุดใน Slayerbound คืออะไร?",
-        "answer": "แลกโค้ดที่ใช้งานอยู่ก่อน แล้วทำตามเส้นทางการพัฒนาไปพร้อมกับการจัดการค่าใช้จ่าย"
-      },
-      {
-        "question": "ฉันควรยึดติดกับ build ใด build หนึ่งตั้งแต่เนิ่นๆ ใน Slayerbound หรือไม่?",
-        "answer": "ไม่แนะนำ—ทดสอบเส้นทางและการควบคุมก่อน แล้วใช้การรีเซ็ตอย่างมีกลยุทธ์"
-      },
-      {
-        "question": "พร้อมที่จะเชี่ยวชาญ Slayerbound หรือยัง?",
-        "answer": "เข้าร่วมชุมชน Slayerbound บน Discord เพื่อแบ่งปันกลยุทธ์, หาเพื่อนร่วมทีม, และรับโค้ดล่าสุด!"
+        "question": "Is the Reddit link on this site official?",
+        "answer": "No. The Reddit link is a community subreddit reference, not an official publisher or developer channel."
       }
     ]
   },
   "cta": {
-    "title": "เข้าร่วม Discord",
-    "description": "เล่นบน Roblox",
-    "joinCommunity": "Slayerbound",
-    "joinGame": "ศูนย์รวมแหล่งข้อมูลที่สมบูรณ์แบบสำหรับ Slayerbound ค้นหาโค้ด, คู่มือ, เส้นทางการฝึกฝน, และกลยุทธ์เพื่อฝึกฝนปราณและครองความเป็นใหญ่ในการต่อสู้กับอสูร"
+    "title": "Ready to Start Star Savior?",
+    "description": "Jump into the official community for announcements and support, or download Star Savior on Google Play to begin your first run.",
+    "joinCommunity": "Join Official Discord",
+    "joinGame": "Play Star Savior on Google Play"
   },
   "footer": {
-    "title": "แหล่งข้อมูล",
-    "description": "โค้ดที่ใช้งานได้",
-    "resources": "คู่มือการฝึกฝน",
-    "activeCodes": "ปราณ",
-    "trainingGuides": "คู่มือตระกูล",
-    "breathingStyles": "ชุมชน",
-    "clanGuides": "Discord อย่างเป็นทางการ",
-    "moreTools": "Trello อย่างเป็นทางการ",
-    "discord": "เล่นบน Roblox",
-    "trello": "© 2026 Slayerbound Wiki ไม่เกี่ยวข้องกับ Roblox Corporation หรือผู้พัฒนา Slayerbound",
-    "playNow": "นโยบายความเป็นส่วนตัว",
-    "copyright": "ข้อกำหนดในการให้บริการ",
-    "privacyPolicy": "Slayerbound",
-    "termsOfService": "โค้ด"
+    "title": "Star Savior",
+    "description": "Your launch-window hub for Star Savior codes, reroll advice, team planning, character guides, and official links.",
+    "resources": "Quick Links",
+    "activeCodes": "Codes Hub",
+    "trainingGuides": "Beginner Progression",
+    "breathingStyles": "Build Planner",
+    "clanGuides": "Reroll & Teams",
+    "moreTools": "Community",
+    "discord": "Official Discord",
+    "trello": "Official X",
+    "playNow": "Official YouTube",
+    "copyright": "© 2026 Star Savior Wiki. Unofficial fan site and not affiliated with the official publishers or developers of Star Savior.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "reddit": "Reddit Community"
   },
   "homepage": {
     "codes": {
@@ -286,7 +247,7 @@
           },
           {
             "code": "ใช้งานได้",
-            "reward": "Slayerbound",
+            "reward": "Star Savior",
             "status": "คู่มือการแลกรางวัล"
           }
         ]
@@ -295,7 +256,7 @@
     "redeemGuide": {
       "title": "ทำตามขั้นตอนเหล่านี้เพื่อแลกโค้ดให้สำเร็จ",
       "titleHighlight": "เปิดเกม",
-      "subtitle": "เปิด Slayerbound ใน Roblox",
+      "subtitle": "เปิด Star Savior ใน Roblox",
       "steps": [
         {
           "step": 1,
@@ -314,7 +275,7 @@
         },
         {
           "step": 4,
-          "title": "Slayerbound",
+          "title": "Star Savior",
           "detail": "เส้นทางการฝึกฝน"
         }
       ]
@@ -342,7 +303,7 @@
           "name": "ผ่าน Parkour + ทำลายหิน",
           "location": "ปานกลาง",
           "requirements": "2,000 เยนต่อครั้ง",
-          "difficulty": "Slayerbound",
+          "difficulty": "Star Savior",
           "cost": "รายชื่อระดับปราณ"
         }
       ]
@@ -386,7 +347,7 @@
             "breathing": "A Tier",
             "pveScore": "ยาก",
             "pvpScore": "วิธีการปลดล็อกพิเศษ",
-            "difficulty": "Slayerbound",
+            "difficulty": "Star Savior",
             "cost": "รายชื่อระดับวิชาอสูร"
           }
         ]
@@ -406,7 +367,7 @@
       "dataGaps": [
         "กำลังบันทึกการทำงานร่วมกันของคอมโบ",
         "ติดตามการอัปเดตบน Trello/Discord",
-        "Slayerbound"
+        "Star Savior"
       ],
       "ctaText": "เส้นทางโอนิ"
     },
@@ -445,7 +406,7 @@
       "unknowns": [
         "ค่าใช้จ่ายในการแปลงร่าง",
         "ชุดค่าผสมวิชาอสูรที่ดีที่สุด",
-        "Slayerbound",
+        "Star Savior",
         "การควบคุม"
       ]
     },
@@ -479,7 +440,7 @@
           "action": "สกิล"
         },
         {
-          "key": "Slayerbound",
+          "key": "Star Savior",
           "action": "แผนที่เควส"
         }
       ]
@@ -522,7 +483,7 @@
           "region": "2,000 เยนต่อการพยายามในขั้นตอนสุดท้าย",
           "objective": "ความก้าวหน้าของเส้นทางวารี",
           "requirements": [
-            "Slayerbound"
+            "Star Savior"
           ],
           "rewards": [
             "ไอเทมจากบอส"
@@ -558,7 +519,7 @@
           {
             "drop": "ตรวจสอบ Trello/Discord สำหรับไอเทมจากบอสล่าสุด",
             "source": "การประดิษฐ์และการพัฒนา",
-            "howToObtain": "Slayerbound",
+            "howToObtain": "Star Savior",
             "primaryUse": "ฟาร์มเงินเยน"
           }
         ]
@@ -566,7 +527,7 @@
     },
     "currencyFarm": {
       "title": "วิธีที่ดีที่สุดในการหารายได้เยนอย่างมีประสิทธิภาพ",
-      "titleHighlight": "ใช้วิธีการที่พิสูจน์แล้วเหล่านี้เพื่อเพิ่มรายได้เยนของคุณให้สูงสุดใน Slayerbound",
+      "titleHighlight": "ใช้วิธีการที่พิสูจน์แล้วเหล่านี้เพื่อเพิ่มรายได้เยนของคุณให้สูงสุดใน Star Savior",
       "subtitle": "การแลกโค้ด",
       "disclaimer": "Spins + Yen (แตกต่างกันไปตามโค้ด)",
       "methods": [
@@ -599,7 +560,7 @@
           "timeToValue": "ทำตามคู่มือการพัฒนาสำหรับผู้เริ่มต้น",
           "riskLevel": "ตรวจสอบ Discord สำหรับเส้นทางการฟาร์มที่เหมาะสมที่สุด",
           "howTo": [
-            "Slayerbound",
+            "Star Savior",
             "วางแผนรีเซ็ต"
           ]
         }
@@ -628,7 +589,7 @@
         },
         {
           "question": "อย่ารีเซ็ตด้วยความตื่นตระหนก - รอการปล่อยโค้ด milestone/อัปเดตครั้งต่อไป ติดตามประกาศ Discord",
-          "yesAction": "Slayerbound",
+          "yesAction": "Star Savior",
           "noAction": "วางแผนสร้างตัวละคร"
         }
       ]
@@ -701,7 +662,7 @@
           "spinsAvailable": 20,
           "output": {
             "now": "ทดสอบใน loop บอส/การพัฒนา ก่อนการรีเซ็ตครั้งต่อไป",
-            "next": "Slayerbound",
+            "next": "Star Savior",
             "after": "ปราณอัสนี"
           }
         }
@@ -741,11 +702,11 @@
           "ภูเขาใกล้หมู่บ้านหิมะ"
         ]
       },
-      "difficulty": "Slayerbound",
+      "difficulty": "Star Savior",
       "location": "เลเวลอัพไว"
     },
     "fastLeveling": {
-      "title": "วิธีที่มีประสิทธิภาพในการเพิ่มเลเวลอย่างรวดเร็วใน Slayerbound",
+      "title": "วิธีที่มีประสิทธิภาพในการเพิ่มเลเวลอย่างรวดเร็วใน Star Savior",
       "titleHighlight": "ประเภทเควส",
       "subtitle": "แผนที่",
       "methods": [
@@ -775,7 +736,7 @@
           "description": "ย้ายไปยังโซนระดับสูงขึ้นเรื่อยๆ",
           "tips": [
             "ใช้โค้ดเพื่อรับโบนัส XP และ spins",
-            "Slayerbound",
+            "Star Savior",
             "การคัดเลือกรอบสุดท้าย"
           ]
         }
@@ -806,7 +767,7 @@
         "items": [
           "ร่วมทีมกับผู้เล่นคนอื่นเพื่อรับการสนับสนุน",
           "อย่ายอมแพ้ - คุณสามารถลองใหม่ได้หลังจากผ่านไปแต่ละชั่วโมง",
-          "Slayerbound",
+          "Star Savior",
           "ระบบตระกูล"
         ]
       }

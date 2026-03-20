@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Slayerbound Wiki - コード、ティアリスト、ユニット＆ガイド | Slayerbound Roblox",
-      "description": "完全なSlayerbound Wikiリソースハブ！最新の動作コード、ティアリスト、ユニットガイド、アクションRPG戦略、Slayerbound Robloxゲームのwikiを入手。包括的なガイドですべてのウェーブをマスターしましょう。",
-      "keywords": "Slayerbound Wiki, Slayerbound, Slayerboundコード, Slayerboundティアリスト, Slayerboundユニット, Slayerboundガイド, RobloxアクションRPG, アニメアクションRPG, Robloxコード, アクションRPGゲーム, アニメゲームコード",
-      "ogTitle": "Slayerbound Wiki - コード、ティアリスト、ユニット＆ガイド",
-      "ogDescription": "完全なSlayerbound Wikiリソースハブ！最新の動作コード、ティアリスト、ユニットガイド、アクションRPG戦略、Slayerbound Robloxゲームのwikiを入手。",
-      "twitterTitle": "Slayerbound Wiki - コード、ティアリスト、ユニット＆ガイド",
-      "twitterDescription": "完全なSlayerbound Wikiリソースハブ！最新の動作コード、ティアリスト、ユニットガイド、アクションRPG戦略を入手。"
+      "title": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
+      "description": "Star Savior Wiki for codes, tier list, reroll, beginner guide, characters, teams, builds, gear, news, and update tracking for the global launch.",
+      "keywords": "Star Savior, StarSavior, codes, tier list, reroll, beginner guide, characters, teams, builds, gear",
+      "ogTitle": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
+      "ogDescription": "Star Savior Wiki for codes, tier list, reroll, beginner guide, characters, teams, builds, gear, news, and update tracking for the global launch.",
+      "twitterTitle": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
+      "twitterDescription": "Track Star Savior codes, reroll priorities, beginner guides, characters, builds, and launch updates."
     }
   },
   "nav": {},
@@ -26,38 +26,38 @@
     "readMore": "続きを読む"
   },
   "hero": {
-    "badge": "究極のRoblox RPG体験で鬼滅隊士の戦闘を極めよう",
-    "title": "スレイヤーバウンド Wiki",
-    "description": "スレイヤーバウンドの究極のハブ！呼吸法をマスターし、強力な血鬼術をアンロックし、鬼との戦いを制覇しましょう。最新コード、血鬼術ティアリスト、訓練ガイド、ボス攻略で、究極の鬼殺隊士を目指せ！",
-    "getFreeCodesCTA": "無料コードを入手",
-    "playOnRobloxCTA": "Robloxでプレイ",
+    "badge": "Anime Training Turn-Based RPG",
+    "title": "Star Savior Wiki",
+    "description": "Guide your Star-kissed Saviors through a character-training RPG built around the Journey system, turn-based battles, team building, gear, reroll planning, and launch updates.",
+    "getFreeCodesCTA": "Visit Official Website",
+    "playOnRobloxCTA": "Play on Google Play",
     "stats": {
       "stat1": {
-        "value": "30万以上",
-        "label": "総訪問数"
+        "value": "100K+",
+        "label": "Google Play Downloads"
       },
       "stat2": {
-        "value": "1.2K",
-        "label": "Discordメンバー"
+        "value": "3.9",
+        "label": "Google Play Rating"
       },
       "stat3": {
-        "value": "10以上",
-        "label": "有効なコード"
+        "value": "5.89K",
+        "label": "Google Play Reviews"
       },
       "stat4": {
-        "value": "毎日",
-        "label": "アップデート"
+        "value": "Mar 19",
+        "label": "Global Launch"
       }
     }
   },
   "gameFeature": {
-    "title": "スレイヤーバウンド トレーラー",
-    "description": "Robloxで、アクション満載の鬼滅の刃RPG体験で呼吸法をマスターし、強力な血鬼術をアンロックし、鬼との戦いを制覇しましょう！"
+    "title": "Star Savior Official Animation PV",
+    "description": "Watch the official animation PV for a quick look at the world, cast, and launch presentation behind Star Savior."
   },
   "tools": {
-    "title": "スレイヤーバウンド",
-    "titleHighlight": "リソース",
-    "subtitle": "以下のセクションにジャンプ",
+    "title": "Star Savior",
+    "titleHighlight": "Resources",
+    "subtitle": "Jump to any section below",
     "codes": {
       "title": "コード",
       "description": "無料報酬を入手"
@@ -124,132 +124,93 @@
     }
   },
   "whatIs": {
-    "title": "スレイヤーバウンドとは？",
-    "titleHighlight": "スレイヤーバウンドは、Robloxの鬼滅の刃をテーマにしたアクションRPGです。呼吸法をマスターし、強力な血鬼術をアンロックし、激しい戦闘で鬼と戦いましょう。",
-    "description": "呼吸法",
+    "title": "What is",
+    "titleHighlight": "Star Savior?",
+    "description": "Star Savior is a character-training turn-based RPG centered on squad building, Journey progression, gear planning, and launch-era resource management.",
     "features": [
       {
-        "title": "炎、風、水などの強力な呼吸法をマスターする",
-        "description": "血鬼術システム"
+        "title": "Journey Progression",
+        "description": "Advance through the Journey system while unlocking upgrades, rewards, and account-wide progress goals."
       },
       {
-        "title": "ユニークな能力を持つ強力な血鬼術をアンロックしてアップグレードする",
-        "description": "鬼との戦い"
+        "title": "Turn-Based Team Building",
+        "description": "Build around character roles, skill timing, elemental coverage, and long-term roster synergy."
       },
       {
-        "title": "やりがいのある鬼やボスと戦って報酬を獲得する",
-        "description": "よくある質問"
+        "title": "Launch Tracking",
+        "description": "Follow official updates, reroll priorities, community links, and beginner planning from one place."
       }
     ]
   },
   "faq": {
-    "title": "スレイヤーバウンドについて知っておくべきこと",
-    "titleHighlight": "スレイヤーバウンドで攻撃とブロックはどうすればいいですか？",
-    "subtitle": "LMB = 攻撃、RMB = 強攻撃、F = ブロック。",
+    "title": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "subtitle": "Everything you need to know about Star Savior",
     "questions": [
       {
-        "question": "スレイヤーバウンドでどうすれば走れますか？",
-        "answer": "Wキーを2回押す(W+W)と走ります。"
+        "question": "Where can I download Star Savior?",
+        "answer": "The primary live platform referenced on this site is Google Play. Always use official store or publisher links when available."
       },
       {
-        "question": "スレイヤーバウンドでメニューと呼吸をどうすれば開けますか？",
-        "answer": "M = メニュー、G = 呼吸。"
+        "question": "What kind of game is Star Savior?",
+        "answer": "Star Savior is a character-training turn-based RPG with squad building, Journey progression, and gear management."
       },
       {
-        "question": "スレイヤーバウンドでスキルキーをどうすれば使えますか？",
-        "answer": "スキルには1〜9を使用します。"
+        "question": "What should beginners check first in Star Savior?",
+        "answer": "Start with download links, reroll priorities, beginner progression, team-building basics, and any launch rewards or announcements."
       },
       {
-        "question": "スレイヤーバウンドのコードをどうすれば引き換えられますか？",
-        "answer": "コードボタン/メニューを開き、コードを入力して、引き換え/入力します。"
+        "question": "Is Star Savior globally launched?",
+        "answer": "Yes. The current reference point in the project brief is the March 19 global launch milestone."
       },
       {
-        "question": "スレイヤーバウンドのコードが機能しないのはなぜですか？",
-        "answer": "最も一般的な理由：期限切れ、入力ミス、既に使用済み。"
+        "question": "What numbers are players tracking most for Star Savior right now?",
+        "answer": "The current headline metrics used on this site are 100K+ Google Play downloads, 3.9 rating, 5.89K reviews, and the March 19 launch date."
       },
       {
-        "question": "スレイヤーバウンドのコードは大文字と小文字を区別しますか？",
-        "answer": "大文字と小文字を区別するものとして扱い、記載されているとおりに正確に貼り付けてください。"
+        "question": "Does Star Savior have an official Discord?",
+        "answer": "Yes. Use the official Discord invite linked in the homepage CTA and footer."
       },
       {
-        "question": "スレイヤーバウンドのコードは通常どんな報酬を与えますか？",
-        "answer": "一般的な報酬には、スピン、円、特定のリセット効果が含まれます。"
+        "question": "Where should I follow official Star Savior updates?",
+        "answer": "Track the official website news page, official X account, official YouTube channel, and official Discord announcements."
       },
       {
-        "question": "新しいスレイヤーバウンドのコードを最初にどこで追跡する必要がありますか？",
-        "answer": "公式Discord、Robloxゲームページ/コミュニティ投稿、およびアクティブなガイドトラッカー。"
+        "question": "What does Star Savior Wiki focus on?",
+        "answer": "This site focuses on codes, tier lists, reroll guidance, beginner planning, builds, teams, gear, and launch tracking."
       },
       {
-        "question": "公式のスレイヤーバウンドTrelloはありますか？",
-        "answer": "はい、公式のスレイヤーバウンドTrelloリンクが公開されています。"
+        "question": "Should I reroll in Star Savior?",
+        "answer": "That depends on your goals, early rewards, and time budget. Most players should compare reroll cost against early progression value before committing."
       },
       {
-        "question": "スレイヤーバウンドで利用できるトレーニングパスは何ですか？",
-        "answer": "炎、風、水が主なトレーニングパスです。"
-      },
-      {
-        "question": "スレイヤーバウンドの炎の訓練には何が必要ですか？",
-        "answer": "鬼の角を40個集めて、強力な鬼の敵を倒します。"
-      },
-      {
-        "question": "スレイヤーバウンドの風の訓練には何が必要ですか？",
-        "answer": "鬼キャンプでギガホーンのボスと戦い、角をドロップさせます。"
-      },
-      {
-        "question": "スレイヤーバウンドの水の訓練には何が必要ですか？",
-        "answer": "パルクールチャレンジを完了し、岩を壊します。最終ステップには1回あたり2,000円かかります。"
-      },
-      {
-        "question": "どのスレイヤーバウンドコードが呼吸/血鬼術をリセットできますか？",
-        "answer": "例：1KLIKESは呼吸/血鬼術をリセットし、種族もリセットする場合があります。"
-      },
-      {
-        "question": "スレイヤーバウンドにはステータスリセットコードがありますか？",
-        "answer": "はい、マイルストーンコードにはステータスリセットエントリが含まれています。"
-      },
-      {
-        "question": "スレイヤーバウンドのコードプールは頻繁に変更されますか？",
-        "answer": "はい、リストはマイルストーンとバグ修正ウィンドウの周辺で頻繁に更新されます。"
-      },
-      {
-        "question": "スレイヤーバウンドで正確なボスドロップ率はわかっていますか？",
-        "answer": "ドロップ率は開発者によって公式に確認されていません。"
-      },
-      {
-        "question": "スレイヤーバウンドで最高の円稼ぎルートは何ですか？",
-        "answer": "最初にアクティブなコードを引き換え、次にコストを管理しながら進行ルートに従います。"
-      },
-      {
-        "question": "スレイヤーバウンドで早期に1つのビルドにコミットする必要がありますか？",
-        "answer": "推奨されません—最初にルートとコントロールをテストし、戦略的にリセットを使用してください。"
-      },
-      {
-        "question": "スレイヤーバウンドをマスターする準備はできましたか？",
-        "answer": "Discordでスレイヤーバウンドコミュニティに参加して、戦略を共有し、チームメイトを見つけ、最新のコードを入手してください！"
+        "question": "Is the Reddit link on this site official?",
+        "answer": "No. The Reddit link is a community subreddit reference, not an official publisher or developer channel."
       }
     ]
   },
   "cta": {
-    "title": "Discordに参加",
-    "description": "Robloxでプレイ",
-    "joinCommunity": "スレイヤーバウンド",
-    "joinGame": "スレイヤーバウンドの完全なリソースハブ。呼吸法をマスターし、鬼との戦いを制覇するためのコード、ガイド、訓練パス、戦略を見つけてください。"
+    "title": "Ready to Start Star Savior?",
+    "description": "Jump into the official community for announcements and support, or download Star Savior on Google Play to begin your first run.",
+    "joinCommunity": "Join Official Discord",
+    "joinGame": "Play Star Savior on Google Play"
   },
   "footer": {
-    "title": "リソース",
-    "description": "有効なコード",
-    "resources": "訓練ガイド",
-    "activeCodes": "呼吸法",
-    "trainingGuides": "血鬼術ガイド",
-    "breathingStyles": "コミュニティ",
-    "clanGuides": "公式Discord",
-    "moreTools": "公式Trello",
-    "discord": "Robloxでプレイ",
-    "trello": "© 2026 スレイヤーバウンド Wiki。Roblox Corporationまたはスレイヤーバウンドの開発者とは提携していません。",
-    "playNow": "プライバシーポリシー",
-    "copyright": "利用規約",
-    "privacyPolicy": "スレイヤーバウンド",
-    "termsOfService": "コード"
+    "title": "Star Savior",
+    "description": "Your launch-window hub for Star Savior codes, reroll advice, team planning, character guides, and official links.",
+    "resources": "Quick Links",
+    "activeCodes": "Codes Hub",
+    "trainingGuides": "Beginner Progression",
+    "breathingStyles": "Build Planner",
+    "clanGuides": "Reroll & Teams",
+    "moreTools": "Community",
+    "discord": "Official Discord",
+    "trello": "Official X",
+    "playNow": "Official YouTube",
+    "copyright": "© 2026 Star Savior Wiki. Unofficial fan site and not affiliated with the official publishers or developers of Star Savior.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "reddit": "Reddit Community"
   },
   "homepage": {
     "codes": {

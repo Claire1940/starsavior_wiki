@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Slayerbound Wiki - Códigos, Lista de Niveles, Unidades y Guías | Slayerbound Roblox",
-      "description": "¡Centro completo de recursos de Slayerbound Wiki! Obtén los códigos funcionando más recientes, listas de niveles, guías de unidades, estrategias de RPG de acción y wiki para el juego Slayerbound Roblox. ¡Domina cada ola con nuestras guías completas!",
-      "keywords": "Slayerbound Wiki, Slayerbound, códigos Slayerbound, lista de niveles Slayerbound, unidades Slayerbound, guía Slayerbound, RPG de acción Roblox, RPG de acción anime, códigos Roblox, juego RPG de acción, códigos de juegos anime",
-      "ogTitle": "Slayerbound Wiki - Códigos, Lista de Niveles, Unidades y Guías",
-      "ogDescription": "¡Centro completo de recursos de Slayerbound Wiki! Obtén los códigos funcionando más recientes, listas de niveles, guías de unidades, estrategias de RPG de acción y wiki para el juego Slayerbound Roblox.",
-      "twitterTitle": "Slayerbound Wiki - Códigos, Lista de Niveles, Unidades y Guías",
-      "twitterDescription": "¡Centro completo de recursos de Slayerbound Wiki! Obtén los códigos funcionando más recientes, listas de niveles, guías de unidades y estrategias de RPG de acción."
+      "title": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
+      "description": "Star Savior Wiki for codes, tier list, reroll, beginner guide, characters, teams, builds, gear, news, and update tracking for the global launch.",
+      "keywords": "Star Savior, StarSavior, codes, tier list, reroll, beginner guide, characters, teams, builds, gear",
+      "ogTitle": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
+      "ogDescription": "Star Savior Wiki for codes, tier list, reroll, beginner guide, characters, teams, builds, gear, news, and update tracking for the global launch.",
+      "twitterTitle": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
+      "twitterDescription": "Track Star Savior codes, reroll priorities, beginner guides, characters, builds, and launch updates."
     }
   },
   "nav": {},
@@ -26,38 +26,38 @@
     "readMore": "Leer Más"
   },
   "hero": {
-    "badge": "Domina el Combate de Cazador de Demonios en la Mejor Experiencia RPG de Roblox",
-    "title": "Slayerbound Wiki",
-    "description": "¡Tu centro definitivo para Slayerbound! Domina los estilos de respiración, desbloquea clanes poderosos y domina las batallas de demonios. ¡Obtén códigos funcionales, listas de niveles de clanes, guías de entrenamiento y estrategias de jefes para convertirte en el mejor cazador de demonios!",
-    "getFreeCodesCTA": "Obtener Códigos Gratis",
-    "playOnRobloxCTA": "Jugar en Roblox",
+    "badge": "Anime Training Turn-Based RPG",
+    "title": "Star Savior Wiki",
+    "description": "Guide your Star-kissed Saviors through a character-training RPG built around the Journey system, turn-based battles, team building, gear, reroll planning, and launch updates.",
+    "getFreeCodesCTA": "Visit Official Website",
+    "playOnRobloxCTA": "Play on Google Play",
     "stats": {
       "stat1": {
-        "value": "+300K",
-        "label": "Visitas Totales"
+        "value": "100K+",
+        "label": "Google Play Downloads"
       },
       "stat2": {
-        "value": "1.2K",
-        "label": "Miembros de Discord"
+        "value": "3.9",
+        "label": "Google Play Rating"
       },
       "stat3": {
-        "value": "10+",
-        "label": "Códigos Activos"
+        "value": "5.89K",
+        "label": "Google Play Reviews"
       },
       "stat4": {
-        "value": "Diario",
-        "label": "Actualizaciones"
+        "value": "Mar 19",
+        "label": "Global Launch"
       }
     }
   },
   "gameFeature": {
-    "title": "Tráiler de Slayerbound",
-    "description": "¡Domina los estilos de respiración, desbloquea clanes poderosos y domina las batallas de demonios en esta experiencia RPG de Demon Slayer llena de acción en Roblox!"
+    "title": "Star Savior Official Animation PV",
+    "description": "Watch the official animation PV for a quick look at the world, cast, and launch presentation behind Star Savior."
   },
   "tools": {
-    "title": "Slayerbound",
-    "titleHighlight": "Recursos",
-    "subtitle": "Ir a cualquier sección a continuación",
+    "title": "Star Savior",
+    "titleHighlight": "Resources",
+    "subtitle": "Jump to any section below",
     "codes": {
       "title": "Códigos",
       "description": "Obtén recompensas gratis"
@@ -124,136 +124,97 @@
     }
   },
   "whatIs": {
-    "title": "¿Qué es",
-    "titleHighlight": "Slayerbound?",
-    "description": "Slayerbound es un RPG de acción con temática de Demon Slayer en Roblox. Domina los estilos de respiración, desbloquea clanes poderosos y lucha contra demonios en combates intensos.",
+    "title": "What is",
+    "titleHighlight": "Star Savior?",
+    "description": "Star Savior is a character-training turn-based RPG centered on squad building, Journey progression, gear planning, and launch-era resource management.",
     "features": [
       {
-        "title": "Estilos de Respiración",
-        "description": "Domina poderosas técnicas de respiración como la Llama, el Viento y el Agua"
+        "title": "Journey Progression",
+        "description": "Advance through the Journey system while unlocking upgrades, rewards, and account-wide progress goals."
       },
       {
-        "title": "Sistema de Clanes",
-        "description": "Desbloquea y mejora clanes poderosos con habilidades únicas"
+        "title": "Turn-Based Team Building",
+        "description": "Build around character roles, skill timing, elemental coverage, and long-term roster synergy."
       },
       {
-        "title": "Batallas de Demonios",
-        "description": "Lucha contra demonios y jefes desafiantes para ganar recompensas"
+        "title": "Launch Tracking",
+        "description": "Follow official updates, reroll priorities, community links, and beginner planning from one place."
       }
     ]
   },
   "faq": {
-    "title": "Preguntas",
-    "titleHighlight": "Frecuentes",
-    "subtitle": "Todo lo que necesitas saber sobre Slayerbound",
+    "title": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "subtitle": "Everything you need to know about Star Savior",
     "questions": [
       {
-        "question": "¿Cómo ataco y bloqueo en Slayerbound?",
-        "answer": "LMB = Atacar, RMB = Ataque Pesado, F = Bloquear."
+        "question": "Where can I download Star Savior?",
+        "answer": "The primary live platform referenced on this site is Google Play. Always use official store or publisher links when available."
       },
       {
-        "question": "¿Cómo corro en Slayerbound?",
-        "answer": "Toca dos veces W (W+W) para correr."
+        "question": "What kind of game is Star Savior?",
+        "answer": "Star Savior is a character-training turn-based RPG with squad building, Journey progression, and gear management."
       },
       {
-        "question": "¿Cómo abro el menú y la respiración en Slayerbound?",
-        "answer": "M = Menú, G = Respiración."
+        "question": "What should beginners check first in Star Savior?",
+        "answer": "Start with download links, reroll priorities, beginner progression, team-building basics, and any launch rewards or announcements."
       },
       {
-        "question": "¿Cómo uso las teclas de habilidad en Slayerbound?",
-        "answer": "Usa 1-9 para las habilidades."
+        "question": "Is Star Savior globally launched?",
+        "answer": "Yes. The current reference point in the project brief is the March 19 global launch milestone."
       },
       {
-        "question": "¿Cómo canjeo códigos de Slayerbound?",
-        "answer": "Abre el botón/menú de Códigos, ingresa el código y luego canjea/ingresa."
+        "question": "What numbers are players tracking most for Star Savior right now?",
+        "answer": "The current headline metrics used on this site are 100K+ Google Play downloads, 3.9 rating, 5.89K reviews, and the March 19 launch date."
       },
       {
-        "question": "¿Por qué un código de Slayerbound no funciona?",
-        "answer": "Razones más comunes: caducado, error tipográfico, ya usado."
+        "question": "Does Star Savior have an official Discord?",
+        "answer": "Yes. Use the official Discord invite linked in the homepage CTA and footer."
       },
       {
-        "question": "¿Los códigos de Slayerbound distinguen entre mayúsculas y minúsculas?",
-        "answer": "Trátalos como si distinguieran entre mayúsculas y minúsculas y pégalos exactamente como se enumeran."
+        "question": "Where should I follow official Star Savior updates?",
+        "answer": "Track the official website news page, official X account, official YouTube channel, and official Discord announcements."
       },
       {
-        "question": "¿Qué recompensas suelen dar los códigos de Slayerbound?",
-        "answer": "Las recompensas comunes incluyen giros, Yen y efectos de reinicio específicos."
+        "question": "What does Star Savior Wiki focus on?",
+        "answer": "This site focuses on codes, tier lists, reroll guidance, beginner planning, builds, teams, gear, and launch tracking."
       },
       {
-        "question": "¿Dónde debo rastrear primero los nuevos códigos de Slayerbound?",
-        "answer": "Discord oficial, página del juego/publicaciones de la comunidad de Roblox y rastreadores de guías activos."
+        "question": "Should I reroll in Star Savior?",
+        "answer": "That depends on your goals, early rewards, and time budget. Most players should compare reroll cost against early progression value before committing."
       },
       {
-        "question": "¿Existe un Trello oficial de Slayerbound?",
-        "answer": "Sí, un enlace oficial de Slayerbound Trello se comparte públicamente."
-      },
-      {
-        "question": "¿Qué caminos de entrenamiento están disponibles en Slayerbound?",
-        "answer": "Llama, Viento y Agua son los principales caminos de entrenamiento."
-      },
-      {
-        "question": "¿Qué requiere el entrenamiento de Llama de Slayerbound?",
-        "answer": "Recoge 40 cuernos de Oni y derrota a fuertes enemigos Oni."
-      },
-      {
-        "question": "¿Qué requiere el entrenamiento de Viento de Slayerbound?",
-        "answer": "Lucha contra el jefe Giga Horn en el Campamento de Demonios hasta que caiga el cuerno."
-      },
-      {
-        "question": "¿Qué requiere el entrenamiento de Agua de Slayerbound?",
-        "answer": "Completa el desafío de parkour y rompe la roca. El paso final cuesta 2,000 Yen por intento."
-      },
-      {
-        "question": "¿Qué código de Slayerbound puede restablecer la respiración/arte demoníaco?",
-        "answer": "Ejemplo: 1KLIKES restablece la respiración/arte demoníaco y también puede restablecer la raza."
-      },
-      {
-        "question": "¿Hay códigos de restablecimiento de estadísticas en Slayerbound?",
-        "answer": "Sí, los códigos de hitos incluyen entradas de restablecimiento de estadísticas."
-      },
-      {
-        "question": "¿Los grupos de códigos de Slayerbound cambian a menudo?",
-        "answer": "Sí, las listas se actualizan con frecuencia en torno a los hitos y las ventanas de corrección de errores."
-      },
-      {
-        "question": "¿Se conocen las tasas de caída exactas de los jefes en Slayerbound?",
-        "answer": "Las tasas de caída no son confirmadas públicamente por los desarrolladores."
-      },
-      {
-        "question": "¿Cuál es la mejor ruta para cultivar Yen en Slayerbound?",
-        "answer": "Canjea primero los códigos activos, luego sigue las rutas de progresión mientras administras los costos."
-      },
-      {
-        "question": "¿Debo comprometerme con una construcción desde el principio en Slayerbound?",
-        "answer": "No se recomienda: prueba primero las rutas y los controles, luego usa los reinicios estratégicamente."
+        "question": "Is the Reddit link on this site official?",
+        "answer": "No. The Reddit link is a community subreddit reference, not an official publisher or developer channel."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para dominar Slayerbound?",
-    "description": "¡Únete a la comunidad de Slayerbound en Discord para compartir estrategias, encontrar compañeros de equipo y obtener los últimos códigos!",
-    "joinCommunity": "Unirse a Discord",
-    "joinGame": "Jugar en Roblox"
+    "title": "Ready to Start Star Savior?",
+    "description": "Jump into the official community for announcements and support, or download Star Savior on Google Play to begin your first run.",
+    "joinCommunity": "Join Official Discord",
+    "joinGame": "Play Star Savior on Google Play"
   },
   "footer": {
-    "title": "Slayerbound",
-    "description": "Tu centro de recursos completo para Slayerbound. Encuentra códigos, guías, caminos de entrenamiento y estrategias para dominar los estilos de respiración y dominar las batallas de demonios.",
-    "resources": "Recursos",
-    "activeCodes": "Códigos Activos",
-    "trainingGuides": "Guías de Entrenamiento",
-    "breathingStyles": "Estilos de Respiración",
-    "clanGuides": "Guías de Clanes",
-    "moreTools": "Comunidad",
-    "discord": "Discord Oficial",
-    "trello": "Trello Oficial",
-    "playNow": "Jugar en Roblox",
-    "copyright": "© 2026 Slayerbound Wiki. No afiliado a Roblox Corporation ni a los desarrolladores de Slayerbound.",
-    "privacyPolicy": "Política de Privacidad",
-    "termsOfService": "Términos de Servicio"
+    "title": "Star Savior",
+    "description": "Your launch-window hub for Star Savior codes, reroll advice, team planning, character guides, and official links.",
+    "resources": "Quick Links",
+    "activeCodes": "Codes Hub",
+    "trainingGuides": "Beginner Progression",
+    "breathingStyles": "Build Planner",
+    "clanGuides": "Reroll & Teams",
+    "moreTools": "Community",
+    "discord": "Official Discord",
+    "trello": "Official X",
+    "playNow": "Official YouTube",
+    "copyright": "© 2026 Star Savior Wiki. Unofficial fan site and not affiliated with the official publishers or developers of Star Savior.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "reddit": "Reddit Community"
   },
   "homepage": {
     "codes": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Códigos",
       "subtitle": "Obtén giros, yen y reinicios gratis para impulsar tu progreso",
       "cta": "Ver Todos los Códigos y la Guía de Canje",
@@ -293,14 +254,14 @@
       }
     },
     "redeemGuide": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Guía de Canje",
       "subtitle": "Sigue estos pasos para canjear códigos con éxito",
       "steps": [
         {
           "step": 1,
           "title": "Iniciar Juego",
-          "detail": "Abre Slayerbound en Roblox"
+          "detail": "Abre Star Savior en Roblox"
         },
         {
           "step": 2,
@@ -320,7 +281,7 @@
       ]
     },
     "trainingPaths": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Caminos de Entrenamiento",
       "subtitle": "Elige tu camino de entrenamiento: Llama, Viento o Agua",
       "paths": [
@@ -348,7 +309,7 @@
       ]
     },
     "breathingTier": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Lista de Niveles de Respiración",
       "subtitle": "Compara los estilos de respiración por rendimiento PvE/PvP y dificultad",
       "dataNote": "Datos de pruebas de la comunidad: clasificaciones actualizadas regularmente",
@@ -393,7 +354,7 @@
       }
     },
     "demonArtTier": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Lista de Niveles de Arte Demoníaco",
       "subtitle": "Clasificaciones de poder y matriz de dificultad de Arte Demoníaco",
       "statusBadge": "Próximamente",
@@ -411,7 +372,7 @@
       "ctaText": "Rastrea las actualizaciones en Trello/Discord"
     },
     "oniRoute": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Ruta Oni",
       "subtitle": "Transfórmate en Oni y desbloquea Artes Demoníacas",
       "statusBadge": "Guía Disponible",
@@ -450,7 +411,7 @@
       ]
     },
     "controls": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Controles",
       "subtitle": "Domina los controles del teclado para el combate",
       "keys": [
@@ -485,7 +446,7 @@
       ]
     },
     "questMap": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Mapa de Misiones",
       "subtitle": "Encuentra PNJs de misiones y ubicaciones de entrenamiento",
       "recommendedSequence": "Orden recomendado: Llama → Agua → Viento",
@@ -531,7 +492,7 @@
       ]
     },
     "bossDrops": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Botines de Jefes",
       "subtitle": "Botín de jefes y requisitos de caída",
       "riskNotice": "Las caídas de los jefes se basan en RNG. ¡Sigue cultivando hasta que obtengas los artículos que necesitas!",
@@ -565,10 +526,10 @@
       }
     },
     "currencyFarm": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Granja de Moneda",
       "subtitle": "Los mejores métodos para ganar Yen de manera eficiente",
-      "disclaimer": "Usa estos métodos comprobados para maximizar tus ganancias de Yen en Slayerbound.",
+      "disclaimer": "Usa estos métodos comprobados para maximizar tus ganancias de Yen en Star Savior.",
       "methods": [
         {
           "rank": 1,
@@ -606,7 +567,7 @@
       ]
     },
     "resetPlanner": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Planificador de Reinicio",
       "subtitle": "Planifica tus reinicios estratégicamente, nunca reinicies a ciegas",
       "startQuestion": "¿Cuál es tu cuello de botella actual?",
@@ -634,7 +595,7 @@
       ]
     },
     "buildPlanner": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Planificador de Construcción",
       "subtitle": "Optimiza la construcción de tu personaje con una planificación basada en objetivos",
       "dataNote": "Planifica tu construcción según tu estilo de juego y tus objetivos",
@@ -708,7 +669,7 @@
       ]
     },
     "thunderBreathing": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Respiración del Trueno",
       "subtitle": "Guía completa para desbloquear el estilo de Respiración del Trueno",
       "steps": [
@@ -745,9 +706,9 @@
       "location": "Montaña cerca de la Aldea Nevada"
     },
     "fastLeveling": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Subida de Nivel Rápida",
-      "subtitle": "Métodos eficientes para subir de nivel rápidamente en Slayerbound",
+      "subtitle": "Métodos eficientes para subir de nivel rápidamente en Star Savior",
       "methods": [
         {
           "title": "Tipos de Misiones",
@@ -782,7 +743,7 @@
       ]
     },
     "finalSelection": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Selección Final",
       "subtitle": "Completa la Selección Final para convertirte en un Cazador oficial",
       "overview": "La Selección Final es un hito crucial donde demuestras tu valía como cazador de demonios. Completa este desafío de parkour para ganar tu uniforme de Cazador y tu estatus oficial.",
@@ -812,7 +773,7 @@
       }
     },
     "clanSystem": {
-      "title": "Slayerbound",
+      "title": "Star Savior",
       "titleHighlight": "Sistema de Clanes",
       "subtitle": "Niveles de clanes, mejoras y cómo volver a tirar tu clan",
       "overview": "Los clanes proporcionan mejoras y habilidades únicas que mejoran tu personaje. Cada clan tiene diferentes rarezas y beneficios especiales.",

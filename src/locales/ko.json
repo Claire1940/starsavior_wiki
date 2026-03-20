@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Slayerbound Wiki - 코드, 티어 리스트, 유닛 및 가이드 | Slayerbound Roblox",
-      "description": "완전한 Slayerbound Wiki 리소스 허브! 최신 작동 코드, 티어 리스트, 유닛 가이드, 액션 RPG 전략 및 Slayerbound Roblox 게임 위키를 받으세요. 포괄적인 가이드로 모든 웨이브를 마스터하세요!",
-      "keywords": "Slayerbound Wiki, Slayerbound, Slayerbound 코드, Slayerbound 티어 리스트, Slayerbound 유닛, Slayerbound 가이드, Roblox 액션 RPG, 애니메 액션 RPG, Roblox 코드, 액션 RPG 게임, 애니메 게임 코드",
-      "ogTitle": "Slayerbound Wiki - 코드, 티어 리스트, 유닛 및 가이드",
-      "ogDescription": "완전한 Slayerbound Wiki 리소스 허브! 최신 작동 코드, 티어 리스트, 유닛 가이드, 액션 RPG 전략 및 Slayerbound Roblox 게임 위키를 받으세요.",
-      "twitterTitle": "Slayerbound Wiki - 코드, 티어 리스트, 유닛 및 가이드",
-      "twitterDescription": "완전한 Slayerbound Wiki 리소스 허브! 최신 작동 코드, 티어 리스트, 유닛 가이드 및 액션 RPG 전략을 받으세요."
+      "title": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
+      "description": "Star Savior Wiki for codes, tier list, reroll, beginner guide, characters, teams, builds, gear, news, and update tracking for the global launch.",
+      "keywords": "Star Savior, StarSavior, codes, tier list, reroll, beginner guide, characters, teams, builds, gear",
+      "ogTitle": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
+      "ogDescription": "Star Savior Wiki for codes, tier list, reroll, beginner guide, characters, teams, builds, gear, news, and update tracking for the global launch.",
+      "twitterTitle": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
+      "twitterDescription": "Track Star Savior codes, reroll priorities, beginner guides, characters, builds, and launch updates."
     }
   },
   "nav": {},
@@ -26,38 +26,38 @@
     "readMore": "더 읽어보기"
   },
   "hero": {
-    "badge": "궁극의 Roblox RPG 경험에서 마스터 악마 슬레이어 전투",
-    "title": "슬레이어바운드 위키",
-    "description": "슬레이어바운드를 위한 최고의 허브! 호흡 스타일을 마스터하고 강력한 클랜을 잠금 해제하고 악마 전투를 지배하세요. 궁극의 악마 슬레이어가 되기 위한 작업 코드, 클랜 티어 목록, 훈련 가이드 및 보스 전략을 얻으세요!",
-    "getFreeCodesCTA": "무료 코드 받기",
-    "playOnRobloxCTA": "Roblox에서 플레이하기",
+    "badge": "Anime Training Turn-Based RPG",
+    "title": "Star Savior Wiki",
+    "description": "Guide your Star-kissed Saviors through a character-training RPG built around the Journey system, turn-based battles, team building, gear, reroll planning, and launch updates.",
+    "getFreeCodesCTA": "Visit Official Website",
+    "playOnRobloxCTA": "Play on Google Play",
     "stats": {
       "stat1": {
-        "value": "30만+",
-        "label": "총 방문 횟수"
+        "value": "100K+",
+        "label": "Google Play Downloads"
       },
       "stat2": {
-        "value": "1.2천",
-        "label": "Discord 멤버"
+        "value": "3.9",
+        "label": "Google Play Rating"
       },
       "stat3": {
-        "value": "10+",
-        "label": "활성 코드"
+        "value": "5.89K",
+        "label": "Google Play Reviews"
       },
       "stat4": {
-        "value": "매일",
-        "label": "업데이트"
+        "value": "Mar 19",
+        "label": "Global Launch"
       }
     }
   },
   "gameFeature": {
-    "title": "슬레이어바운드 트레일러",
-    "description": "Roblox에서 이 액션으로 가득 찬 귀멸의 칼날 RPG 경험에서 호흡 스타일을 마스터하고 강력한 클랜을 잠금 해제하고 악마 전투를 지배하세요!"
+    "title": "Star Savior Official Animation PV",
+    "description": "Watch the official animation PV for a quick look at the world, cast, and launch presentation behind Star Savior."
   },
   "tools": {
-    "title": "슬레이어바운드",
-    "titleHighlight": "자료",
-    "subtitle": "아래의 섹션으로 이동하세요",
+    "title": "Star Savior",
+    "titleHighlight": "Resources",
+    "subtitle": "Jump to any section below",
     "codes": {
       "title": "코드",
       "description": "무료 보상 받기"
@@ -124,132 +124,93 @@
     }
   },
   "whatIs": {
-    "title": "슬레이어바운드란?",
-    "titleHighlight": "슬레이어바운드는 Roblox의 귀멸의 칼날 테마 액션 RPG입니다. 호흡 스타일을 마스터하고 강력한 클랜을 잠금 해제하고 치열한 전투에서 악마와 싸우세요.",
-    "description": "호흡 스타일",
+    "title": "What is",
+    "titleHighlight": "Star Savior?",
+    "description": "Star Savior is a character-training turn-based RPG centered on squad building, Journey progression, gear planning, and launch-era resource management.",
     "features": [
       {
-        "title": "불꽃, 바람, 물과 같은 강력한 호흡 기술을 마스터하세요.",
-        "description": "클랜 시스템"
+        "title": "Journey Progression",
+        "description": "Advance through the Journey system while unlocking upgrades, rewards, and account-wide progress goals."
       },
       {
-        "title": "고유한 능력을 가진 강력한 클랜을 잠금 해제하고 업그레이드하세요.",
-        "description": "악마 전투"
+        "title": "Turn-Based Team Building",
+        "description": "Build around character roles, skill timing, elemental coverage, and long-term roster synergy."
       },
       {
-        "title": "도전적인 악마와 보스와 싸워 보상을 받으세요.",
-        "description": "자주 묻는"
+        "title": "Launch Tracking",
+        "description": "Follow official updates, reroll priorities, community links, and beginner planning from one place."
       }
     ]
   },
   "faq": {
-    "title": "질문",
-    "titleHighlight": "슬레이어바운드에 대해 알아야 할 모든 것",
-    "subtitle": "슬레이어바운드에서 어떻게 공격하고 막나요?",
+    "title": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "subtitle": "Everything you need to know about Star Savior",
     "questions": [
       {
-        "question": "LMB = 공격, RMB = 강공격, F = 막기.",
-        "answer": "슬레이어바운드에서 어떻게 달리나요?"
+        "question": "Where can I download Star Savior?",
+        "answer": "The primary live platform referenced on this site is Google Play. Always use official store or publisher links when available."
       },
       {
-        "question": "W 키를 두 번 누릅니다(W+W).",
-        "answer": "슬레이어바운드에서 메뉴와 호흡을 어떻게 여나요?"
+        "question": "What kind of game is Star Savior?",
+        "answer": "Star Savior is a character-training turn-based RPG with squad building, Journey progression, and gear management."
       },
       {
-        "question": "M = 메뉴, G = 호흡.",
-        "answer": "슬레이어바운드에서 스킬 키를 어떻게 사용하나요?"
+        "question": "What should beginners check first in Star Savior?",
+        "answer": "Start with download links, reroll priorities, beginner progression, team-building basics, and any launch rewards or announcements."
       },
       {
-        "question": "스킬에는 1-9를 사용하세요.",
-        "answer": "슬레이어바운드 코드를 어떻게 사용하나요?"
+        "question": "Is Star Savior globally launched?",
+        "answer": "Yes. The current reference point in the project brief is the March 19 global launch milestone."
       },
       {
-        "question": "코드 버튼/메뉴를 열고 코드를 입력한 다음 사용/입력하세요.",
-        "answer": "슬레이어바운드 코드가 작동하지 않는 이유는 무엇인가요?"
+        "question": "What numbers are players tracking most for Star Savior right now?",
+        "answer": "The current headline metrics used on this site are 100K+ Google Play downloads, 3.9 rating, 5.89K reviews, and the March 19 launch date."
       },
       {
-        "question": "가장 흔한 이유: 만료, 오타, 이미 사용됨.",
-        "answer": "슬레이어바운드 코드는 대소문자를 구분하나요?"
+        "question": "Does Star Savior have an official Discord?",
+        "answer": "Yes. Use the official Discord invite linked in the homepage CTA and footer."
       },
       {
-        "question": "대소문자를 구분하므로 나열된 대로 정확하게 붙여넣으세요.",
-        "answer": "슬레이어바운드 코드는 일반적으로 어떤 보상을 주나요?"
+        "question": "Where should I follow official Star Savior updates?",
+        "answer": "Track the official website news page, official X account, official YouTube channel, and official Discord announcements."
       },
       {
-        "question": "일반적인 보상으로는 스핀, 엔 및 특정 리셋 효과가 있습니다.",
-        "answer": "새로운 슬레이어바운드 코드를 어디에서 먼저 추적해야 하나요?"
+        "question": "What does Star Savior Wiki focus on?",
+        "answer": "This site focuses on codes, tier lists, reroll guidance, beginner planning, builds, teams, gear, and launch tracking."
       },
       {
-        "question": "공식 Discord, Roblox 게임 페이지/커뮤니티 게시물 및 활성 가이드 추적기.",
-        "answer": "공식 슬레이어바운드 Trello가 있나요?"
+        "question": "Should I reroll in Star Savior?",
+        "answer": "That depends on your goals, early rewards, and time budget. Most players should compare reroll cost against early progression value before committing."
       },
       {
-        "question": "예, 공식 슬레이어바운드 Trello 링크가 공개적으로 공유됩니다.",
-        "answer": "슬레이어바운드에서 어떤 훈련 경로를 사용할 수 있나요?"
-      },
-      {
-        "question": "불꽃, 바람, 물이 주요 훈련 경로입니다.",
-        "answer": "슬레이어바운드 불꽃 훈련에는 무엇이 필요한가요?"
-      },
-      {
-        "question": "오니 뿔 40개를 모으고 강력한 오니 적을 물리치세요.",
-        "answer": "슬레이어바운드 바람 훈련에는 무엇이 필요한가요?"
-      },
-      {
-        "question": "뿔이 떨어질 때까지 데몬 캠프에서 기가 혼 보스와 싸우세요.",
-        "answer": "슬레이어바운드 물 훈련에는 무엇이 필요한가요?"
-      },
-      {
-        "question": "파쿠르 챌린지를 완료하고 바위를 깨세요. 마지막 단계는 시도할 때마다 2,000엔이 소요됩니다.",
-        "answer": "어떤 슬레이어바운드 코드가 호흡/혈귀술을 초기화할 수 있나요?"
-      },
-      {
-        "question": "예: 1KLIKES는 호흡/혈귀술을 초기화하고 종족도 초기화할 수 있습니다.",
-        "answer": "슬레이어바운드에 능력치 초기화 코드가 있나요?"
-      },
-      {
-        "question": "예, 이정표 코드에는 능력치 초기화 항목이 포함되어 있습니다.",
-        "answer": "슬레이어바운드 코드 풀이 자주 변경되나요?"
-      },
-      {
-        "question": "예, 목록은 이정표 및 버그 수정 기간 동안 자주 업데이트됩니다.",
-        "answer": "슬레이어바운드에서 정확한 보스 드랍률이 알려져 있나요?"
-      },
-      {
-        "question": "드랍률은 개발자가 공개적으로 확인하지 않았습니다.",
-        "answer": "슬레이어바운드에서 가장 좋은 엔 파밍 경로는 무엇인가요?"
-      },
-      {
-        "question": "먼저 활성 코드를 사용하고 비용을 관리하면서 진행 경로를 따르세요.",
-        "answer": "슬레이어바운드에서 초기에 하나의 빌드에 전념해야 하나요?"
-      },
-      {
-        "question": "권장하지 않습니다. 먼저 경로와 컨트롤을 테스트한 다음 전략적으로 리셋을 사용하세요.",
-        "answer": "슬레이어바운드를 마스터할 준비가 되셨나요?"
+        "question": "Is the Reddit link on this site official?",
+        "answer": "No. The Reddit link is a community subreddit reference, not an official publisher or developer channel."
       }
     ]
   },
   "cta": {
-    "title": "Discord에서 슬레이어바운드 커뮤니티에 가입하여 전략을 공유하고, 팀원을 찾고, 최신 코드를 받으세요!",
-    "description": "Discord 가입하기",
-    "joinCommunity": "Roblox에서 플레이하기",
-    "joinGame": "슬레이어바운드"
+    "title": "Ready to Start Star Savior?",
+    "description": "Jump into the official community for announcements and support, or download Star Savior on Google Play to begin your first run.",
+    "joinCommunity": "Join Official Discord",
+    "joinGame": "Play Star Savior on Google Play"
   },
   "footer": {
-    "title": "슬레이어바운드를 위한 완벽한 리소스 허브. 코드, 가이드, 훈련 경로 및 전략을 찾아 호흡 스타일을 마스터하고 악마 전투를 지배하세요.",
-    "description": "자료",
-    "resources": "활성 코드",
-    "activeCodes": "훈련 가이드",
-    "trainingGuides": "호흡 스타일",
-    "breathingStyles": "클랜 가이드",
-    "clanGuides": "커뮤니티",
-    "moreTools": "공식 Discord",
-    "discord": "공식 Trello",
-    "trello": "Roblox에서 플레이하기",
-    "playNow": "© 2026 슬레이어바운드 위키. Roblox Corporation 또는 슬레이어바운드 개발자와 제휴하지 않았습니다.",
-    "copyright": "개인 정보 보호 정책",
-    "privacyPolicy": "서비스 약관",
-    "termsOfService": "슬레이어바운드"
+    "title": "Star Savior",
+    "description": "Your launch-window hub for Star Savior codes, reroll advice, team planning, character guides, and official links.",
+    "resources": "Quick Links",
+    "activeCodes": "Codes Hub",
+    "trainingGuides": "Beginner Progression",
+    "breathingStyles": "Build Planner",
+    "clanGuides": "Reroll & Teams",
+    "moreTools": "Community",
+    "discord": "Official Discord",
+    "trello": "Official X",
+    "playNow": "Official YouTube",
+    "copyright": "© 2026 Star Savior Wiki. Unofficial fan site and not affiliated with the official publishers or developers of Star Savior.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "reddit": "Reddit Community"
   },
   "homepage": {
     "codes": {
