@@ -1,19 +1,25 @@
 {
-  "name": "starsavior.wiki",
-  "short_name": "starsavior.wiki",
+  "name": "Star Savior Wiki",
+  "short_name": "Star Savior",
+  "description": "Star Savior Wiki for codes, team builds, reroll planning, progression tips, and launch updates.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "/android-chrome-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
-  "display": "standalone"
+  "theme_color": "#6f52e8",
+  "background_color": "#080b18",
+  "display": "standalone",
+  "orientation": "portrait-primary"
 }

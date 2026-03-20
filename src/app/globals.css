@@ -10,19 +10,19 @@
     --card-foreground: 240 10% 3.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 3.9%;
-    --primary: 240 5.9% 10%;
+    --primary: 252 72% 56%;
     --primary-foreground: 0 0% 98%;
     --secondary: 240 4.8% 95.9%;
     --secondary-foreground: 240 5.9% 10%;
     --muted: 240 4.8% 95.9%;
     --muted-foreground: 240 3.8% 46.1%;
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
+    --accent: 252 72% 56%;
+    --accent-foreground: 0 0% 98%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
-    --ring: 240 5.9% 10%;
+    --ring: 252 72% 56%;
     --radius: 0.5rem;
     --chart-1: 12 76% 61%;
     --chart-2: 173 58% 39%;
@@ -31,8 +31,8 @@
     --chart-5: 27 87% 67%;
 
     /* 导航页主题色 - 亮色主题 */
-    --nav-theme: 350 72% 44%;        /* Star Savior primary */
-    --nav-theme-light: 350 82% 58%;  /* hover/active */
+    --nav-theme: 252 72% 56%;       /* cosmic violet */
+    --nav-theme-light: 252 82% 68%; /* brighter starlight violet */
     
     /* Callout 组件颜色 */
     --callout-info-bg: 217 91% 97%;  /* blue-50 */
@@ -56,19 +56,19 @@
     --card-foreground: 0 0% 98%;
     --popover: 220 25% 8%;
     --popover-foreground: 0 0% 98%;
-    --primary: 152 60% 48%;
+    --primary: 252 72% 60%;
     --primary-foreground: 0 0% 98%;
     --secondary: 220 20% 12%;
     --secondary-foreground: 0 0% 98%;
     --muted: 220 20% 15%;
     --muted-foreground: 220 10% 60%;
-    --accent: 152 60% 48%;
+    --accent: 252 72% 60%;
     --accent-foreground: 0 0% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
     --border: 220 20% 15%;
     --input: 220 20% 15%;
-    --ring: 152 60% 48%;
+    --ring: 252 72% 60%;
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
@@ -76,8 +76,8 @@
     --chart-5: 340 75% 55%;
 
     /* 导航页主题色 - 暗色主题 */
-    --nav-theme: 350 78% 56%;        /* brighter primary for dark UI */
-    --nav-theme-light: 350 86% 66%;  /* hover/active */
+    --nav-theme: 252 72% 60%;       /* cosmic violet for dark UI */
+    --nav-theme-light: 252 82% 72%; /* glowing accent */
 
     /* Callout 组件颜色 - 暗色主题 */
     --callout-info-bg: 217 91% 22%;  /* 更浅的深蓝色（模拟 blue-900/20） */

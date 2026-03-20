@@ -12,7 +12,12 @@ import { getLanguageDisplayNames } from '@/lib/i18n-utils'
 
 export default function Navigation() {
 	const siteName = 'Star Savior'
-	const siteInitials = 'SS'
+	const siteInitials = siteName
+		.split(/\s+/)
+		.map((word) => word[0])
+		.join('')
+		.slice(0, 2)
+		.toUpperCase()
 	const t = useTranslations()
 	const locale = useLocale() as Locale
 	const router = useRouter()

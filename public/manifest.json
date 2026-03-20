@@ -13,14 +13,27 @@
     "standalone"
   ],
   "orientation": "portrait-primary",
-  "theme_color": "#c1203e",
-  "background_color": "#0b0f1f",
+  "theme_color": "#6f52e8",
+  "background_color": "#080b18",
   "categories": [
     "games",
     "entertainment",
     "reference"
   ],
+  "iarc_rating_id": "",
   "prefer_related_applications": false,
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.studiobside.starMain",
+      "id": "com.studiobside.starMain"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/app/starsavior/id6738335341",
+      "id": "6738335341"
+    }
+  ],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -85,13 +98,16 @@
       "name": "About",
       "short_name": "About",
       "description": "Open about page",
-      "url": "/about"
+      "url": "/en/about"
     },
     {
       "name": "Privacy Policy",
       "short_name": "Privacy",
       "description": "Open privacy policy page",
-      "url": "/privacy-policy"
+      "url": "/en/privacy-policy"
     }
-  ]
+  ],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
 }
