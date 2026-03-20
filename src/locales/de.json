@@ -1,0 +1,876 @@
+{
+  "seo": {
+    "home": {
+      "title": "Slayerbound Wiki - Codes, Tier-Liste, Einheiten & Guides | Slayerbound Roblox",
+      "description": "Vollständiges Slayerbound Wiki Ressourcen-Hub! Holen Sie sich die neuesten funktionierenden Codes, Tier-Listen, Einheiten-Guides, Action-RPG-Strategien und Wiki für das Slayerbound Roblox-Spiel. Meistern Sie jede Welle mit unseren umfassenden Guides!",
+      "keywords": "Slayerbound Wiki, Slayerbound, Slayerbound Codes, Slayerbound Tier-Liste, Slayerbound Einheiten, Slayerbound Guide, Roblox Action-RPG, Anime Action-RPG, Roblox Codes, Action-RPG-Spiel, Anime-Spiel-Codes",
+      "ogTitle": "Slayerbound Wiki - Codes, Tier-Liste, Einheiten & Guides",
+      "ogDescription": "Vollständiges Slayerbound Wiki Ressourcen-Hub! Holen Sie sich die neuesten funktionierenden Codes, Tier-Listen, Einheiten-Guides, Action-RPG-Strategien und Wiki für das Slayerbound Roblox-Spiel.",
+      "twitterTitle": "Slayerbound Wiki - Codes, Tier-Liste, Einheiten & Guides",
+      "twitterDescription": "Vollständiges Slayerbound Wiki Ressourcen-Hub! Holen Sie sich die neuesten funktionierenden Codes, Tier-Listen, Einheiten-Guides und Action-RPG-Strategien."
+    }
+  },
+  "nav": {},
+  "common": {
+    "home": "Startseite",
+    "more": "Mehr",
+    "playNow": "Jetzt Spielen",
+    "switchLanguage": "Sprache wechseln",
+    "switchTheme": "Design wechseln",
+    "lightMode": "Heller Modus",
+    "darkMode": "Dunkler Modus",
+    "notFound": "Seite nicht gefunden",
+    "notFoundDescription": "Die Seite, die Sie suchen, existiert nicht.",
+    "backToHome": "Zurück zur Startseite",
+    "relatedArticles": "Verwandte Artikel",
+    "readMore": "Mehr Lesen"
+  },
+  "hero": {
+    "badge": "Meistere den Dämonenjäger-Kampf im ultimativen Roblox-RPG-Erlebnis",
+    "title": "Slayerbound Wiki",
+    "description": "Deine ultimative Anlaufstelle für Slayerbound! Meistere Atemtechniken, schalte mächtige Clans frei und dominiere Dämonenschlachten. Hol dir funktionierende Codes, Clan-Ranglisten, Trainingsanleitungen und Boss-Strategien, um der ultimative Dämonenjäger zu werden!",
+    "getFreeCodesCTA": "Kostenlose Codes erhalten",
+    "playOnRobloxCTA": "Auf Roblox spielen",
+    "stats": {
+      "stat1": {
+        "value": "300K+",
+        "label": "Gesamtbesuche"
+      },
+      "stat2": {
+        "value": "1.2K",
+        "label": "Discord Mitglieder"
+      },
+      "stat3": {
+        "value": "10+",
+        "label": "Aktive Codes"
+      },
+      "stat4": {
+        "value": "Täglich",
+        "label": "Updates"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Slayerbound Trailer",
+    "description": "Meistere Atemtechniken, schalte mächtige Clans frei und dominiere Dämonenschlachten in diesem actiongeladenen Demon Slayer RPG-Erlebnis auf Roblox!"
+  },
+  "tools": {
+    "title": "Slayerbound",
+    "titleHighlight": "Ressourcen",
+    "subtitle": "Springe zu einem beliebigen Abschnitt unten",
+    "codes": {
+      "title": "Codes",
+      "description": "Erhalte kostenlose Belohnungen"
+    },
+    "redeemGuide": {
+      "title": "Einlöse-Anleitung",
+      "description": "Erfahre, wie du Codes einlöst"
+    },
+    "trainingPaths": {
+      "title": "Trainingspfade",
+      "description": "Wähle deinen Weg"
+    },
+    "breathingTier": {
+      "title": "Atemtechniken-Rangliste",
+      "description": "Beste Atemtechniken"
+    },
+    "demonArtTier": {
+      "title": "Dämonenkunst-Rangliste",
+      "description": "Top-Dämonenkünste"
+    },
+    "oniRoute": {
+      "title": "Oni-Pfad",
+      "description": "Verwandle dich in einen Oni"
+    },
+    "controls": {
+      "title": "Steuerung",
+      "description": "Meistere die Tasten"
+    },
+    "questMap": {
+      "title": "Questkarte",
+      "description": "Finde NPCs und Quests"
+    },
+    "bossDrops": {
+      "title": "Boss-Beute",
+      "description": "Boss-Beute-Leitfaden"
+    },
+    "currencyFarm": {
+      "title": "Währungsfarm",
+      "description": "Verdiene schnell Yen"
+    },
+    "resetPlanner": {
+      "title": "Reset-Planer",
+      "description": "Plane deine Resets"
+    },
+    "buildPlanner": {
+      "title": "Build-Planer",
+      "description": "Optimiere deinen Build"
+    },
+    "thunderBreathing": {
+      "title": "Donneratmung",
+      "description": "Schalte den Donner-Stil frei"
+    },
+    "fastLeveling": {
+      "title": "Schnelles Leveln",
+      "description": "Steige schnell auf"
+    },
+    "finalSelection": {
+      "title": "Finale Auswahl",
+      "description": "Werde ein Slayer"
+    },
+    "clanSystem": {
+      "title": "Clan-System",
+      "description": "Clan-Ränge und -Boni"
+    }
+  },
+  "whatIs": {
+    "title": "Was ist",
+    "titleHighlight": "Slayerbound?",
+    "description": "Slayerbound ist ein Demon Slayer-Action-RPG auf Roblox. Meistere Atemtechniken, schalte mächtige Clans frei und bekämpfe Dämonen in intensiven Kämpfen.",
+    "features": [
+      {
+        "title": "Atemtechniken",
+        "description": "Meistere mächtige Atemtechniken wie Flamme, Wind und Wasser"
+      },
+      {
+        "title": "Clan-System",
+        "description": "Schalte mächtige Clans mit einzigartigen Fähigkeiten frei und verbessere sie"
+      },
+      {
+        "title": "Dämonenschlachten",
+        "description": "Bekämpfe herausfordernde Dämonen und Bosse, um Belohnungen zu verdienen"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Häufig gestellte",
+    "titleHighlight": "Fragen",
+    "subtitle": "Alles, was du über Slayerbound wissen musst",
+    "questions": [
+      {
+        "question": "Wie greife ich in Slayerbound an und blocke?",
+        "answer": "LMB = Angriff, RMB = Schwerer Angriff, F = Blocken."
+      },
+      {
+        "question": "Wie renne ich in Slayerbound?",
+        "answer": "Doppelklicke auf W (W+W) zum Rennen."
+      },
+      {
+        "question": "Wie öffne ich das Menü und die Atmung in Slayerbound?",
+        "answer": "M = Menü, G = Atmung."
+      },
+      {
+        "question": "Wie benutze ich Fertigkeitstasten in Slayerbound?",
+        "answer": "Benutze 1-9 für Fertigkeiten."
+      },
+      {
+        "question": "Wie löse ich Slayerbound-Codes ein?",
+        "answer": "Öffne den Codes-Button/das Menü, gib den Code ein und löse ihn dann ein/gib ihn ein."
+      },
+      {
+        "question": "Warum funktioniert ein Slayerbound-Code nicht?",
+        "answer": "Häufigste Gründe: abgelaufen, Tippfehler, bereits verwendet."
+      },
+      {
+        "question": "Sind Slayerbound-Codes Groß- und Kleinschreibung-sensitiv?",
+        "answer": "Behandle sie als Groß- und Kleinschreibung-sensitiv und füge sie genau so ein, wie sie aufgeführt sind."
+      },
+      {
+        "question": "Welche Belohnungen geben Slayerbound-Codes normalerweise?",
+        "answer": "Häufige Belohnungen sind Spins, Yen und bestimmte Reset-Effekte."
+      },
+      {
+        "question": "Wo sollte ich zuerst nach neuen Slayerbound-Codes suchen?",
+        "answer": "Offizieller Discord, Roblox-Spielseite/Community-Beiträge und aktive Guide-Tracker."
+      },
+      {
+        "question": "Gibt es ein offizielles Slayerbound Trello?",
+        "answer": "Ja, ein offizieller Slayerbound Trello-Link wird öffentlich geteilt."
+      },
+      {
+        "question": "Welche Trainingspfade gibt es in Slayerbound?",
+        "answer": "Flamme, Wind und Wasser sind die Haupttrainingspfade."
+      },
+      {
+        "question": "Was erfordert das Slayerbound Flammen-Training?",
+        "answer": "Sammle 40 Oni-Hörner und besiege starke Oni-Gegner."
+      },
+      {
+        "question": "Was erfordert das Slayerbound Wind-Training?",
+        "answer": "Kämpfe gegen den Giga-Horn-Boss im Dämonenlager, bis das Horn fällt."
+      },
+      {
+        "question": "Was erfordert das Slayerbound Wasser-Training?",
+        "answer": "Schließe den Parkour ab und zerbrich den Felsen. Der letzte Schritt kostet 2.000 Yen pro Versuch."
+      },
+      {
+        "question": "Welcher Slayerbound-Code kann Atmung/Dämonenkunst zurücksetzen?",
+        "answer": "Beispiel: 1KLIKES setzt Atmung/Dämonenkunst zurück und kann auch das Volk zurücksetzen."
+      },
+      {
+        "question": "Gibt es Codes zum Zurücksetzen der Werte in Slayerbound?",
+        "answer": "Ja, Meilenstein-Codes enthalten Einträge zum Zurücksetzen der Werte."
+      },
+      {
+        "question": "Ändern sich die Slayerbound-Code-Pools oft?",
+        "answer": "Ja, Listen werden häufig um Meilensteine und Bugfix-Fenster herum aktualisiert."
+      },
+      {
+        "question": "Sind genaue Boss-Drop-Raten in Slayerbound bekannt?",
+        "answer": "Drop-Raten werden von den Entwicklern nicht öffentlich bestätigt."
+      },
+      {
+        "question": "Was ist die beste Yen-Farming-Route in Slayerbound?",
+        "answer": "Löse zuerst aktive Codes ein und folge dann den Fortschrittsrouten, während du die Kosten verwaltest."
+      },
+      {
+        "question": "Sollte ich mich früh in Slayerbound auf einen Build festlegen?",
+        "answer": "Nicht empfohlen – teste zuerst Routen und Steuerung und verwende dann Resets strategisch."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, Slayerbound zu meistern?",
+    "description": "Trete der Slayerbound-Community auf Discord bei, um Strategien auszutauschen, Teamkollegen zu finden und die neuesten Codes zu erhalten!",
+    "joinCommunity": "Discord beitreten",
+    "joinGame": "Auf Roblox spielen"
+  },
+  "footer": {
+    "title": "Slayerbound",
+    "description": "Deine vollständige Ressourcenzentrale für Slayerbound. Finde Codes, Guides, Trainingspfade und Strategien, um Atemtechniken zu meistern und Dämonenschlachten zu dominieren.",
+    "resources": "Ressourcen",
+    "activeCodes": "Aktive Codes",
+    "trainingGuides": "Trainingsanleitungen",
+    "breathingStyles": "Atemtechniken",
+    "clanGuides": "Clan-Guides",
+    "moreTools": "Community",
+    "discord": "Offizieller Discord",
+    "trello": "Offizielles Trello",
+    "playNow": "Auf Roblox spielen",
+    "copyright": "© 2026 Slayerbound Wiki. Nicht verbunden mit der Roblox Corporation oder den Entwicklern von Slayerbound.",
+    "privacyPolicy": "Datenschutzbestimmungen",
+    "termsOfService": "Nutzungsbedingungen"
+  },
+  "homepage": {
+    "codes": {
+      "title": "Slayerbound",
+      "titleHighlight": "Codes",
+      "subtitle": "Erhalte kostenlose Spins, Yen und Resets, um deinen Fortschritt zu beschleunigen",
+      "cta": "Alle Codes & Einlöse-Anleitung anzeigen",
+      "table": {
+        "headers": {
+          "code": "Code",
+          "reward": "Belohnung",
+          "status": "Status"
+        },
+        "items": [
+          {
+            "code": "morespins",
+            "reward": "20 Spins",
+            "status": "aktiv"
+          },
+          {
+            "code": "100KVISITS",
+            "reward": "15 Spins",
+            "status": "aktiv"
+          },
+          {
+            "code": "1KLIKES",
+            "reward": "Atem-/Dämonenkunst-Reset",
+            "status": "aktiv"
+          },
+          {
+            "code": "guizerayt",
+            "reward": "10 Spins",
+            "status": "aktiv"
+          },
+          {
+            "code": "RELEASE",
+            "reward": "10 Spins",
+            "status": "aktiv"
+          }
+        ]
+      }
+    },
+    "redeemGuide": {
+      "title": "Slayerbound",
+      "titleHighlight": "Einlöse-Anleitung",
+      "subtitle": "Befolge diese Schritte, um Codes erfolgreich einzulösen",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Spiel starten",
+          "detail": "Öffne Slayerbound in Roblox"
+        },
+        {
+          "step": 2,
+          "title": "Codes öffnen",
+          "detail": "Klicke im Hauptmenü auf den Codes-Button"
+        },
+        {
+          "step": 3,
+          "title": "Code einfügen",
+          "detail": "Gib einen funktionierenden Code in das Code-Feld ein"
+        },
+        {
+          "step": 4,
+          "title": "Belohnungen abholen",
+          "detail": "Drücke Einlösen / Enter und sammle Belohnungen"
+        }
+      ]
+    },
+    "trainingPaths": {
+      "title": "Slayerbound",
+      "titleHighlight": "Trainingspfade",
+      "subtitle": "Wähle deinen Trainingspfad: Flamme, Wind oder Wasser",
+      "paths": [
+        {
+          "name": "Flamme",
+          "location": "Pfad in der Nähe des Spawns",
+          "requirements": "40 Oni-Hörner + Besiege starke Onis",
+          "difficulty": "Hoch",
+          "cost": "0 Yen"
+        },
+        {
+          "name": "Wind",
+          "location": "Seedorf",
+          "requirements": "Besiege den Giga-Horn-Boss + Erhalte den Horn-Drop",
+          "difficulty": "Hoch",
+          "cost": "0 Yen"
+        },
+        {
+          "name": "Wasser",
+          "location": "Weizenfelder-Wasserfall",
+          "requirements": "Schließe Parkour ab + Zerbrich Felsen",
+          "difficulty": "Mittel",
+          "cost": "2.000 Yen pro Versuch"
+        }
+      ]
+    },
+    "breathingTier": {
+      "title": "Slayerbound",
+      "titleHighlight": "Atemtechniken-Rangliste",
+      "subtitle": "Vergleiche Atemtechniken nach PvE/PvP-Leistung und Schwierigkeit",
+      "dataNote": "Community-Testdaten - Ranglisten werden regelmäßig aktualisiert",
+      "table": {
+        "headers": {
+          "breathing": "Atmung",
+          "pveScore": "PvE",
+          "pvpScore": "PvP",
+          "difficulty": "Schwierigkeit",
+          "cost": "Anschaffungskosten"
+        },
+        "items": [
+          {
+            "breathing": "Flamme",
+            "pveScore": "A-Rang",
+            "pvpScore": "A-Rang",
+            "difficulty": "Mittel",
+            "cost": "40 Oni-Hörner + starke Oni-Kämpfe"
+          },
+          {
+            "breathing": "Wind",
+            "pveScore": "S-Rang",
+            "pvpScore": "S-Rang",
+            "difficulty": "Schwer",
+            "cost": "Giga-Horn-Boss-Drop (Zufall)"
+          },
+          {
+            "breathing": "Wasser",
+            "pveScore": "A-Rang",
+            "pvpScore": "B-Rang",
+            "difficulty": "Mittel",
+            "cost": "Parkour + 2.000 Yen pro Versuch"
+          },
+          {
+            "breathing": "Donner",
+            "pveScore": "S-Rang",
+            "pvpScore": "A-Rang",
+            "difficulty": "Schwer",
+            "cost": "Spezielle Freischaltmethode"
+          }
+        ]
+      }
+    },
+    "demonArtTier": {
+      "title": "Slayerbound",
+      "titleHighlight": "Dämonenkunst-Rangliste",
+      "subtitle": "Dämonenkunst-Leistungsranglisten und Schwierigkeitsmatrix",
+      "statusBadge": "Kommt bald",
+      "emptyStateText": "Detaillierte Dämonenkunst-Ranglisten werden bald mit umfassenden Testdaten verfügbar sein.",
+      "knownFacts": [
+        "Dämonenkunst-System ist im Spiel verfügbar",
+        "Atem-/Dämonenkunst-Reset über Codes verfügbar",
+        "Community hat spezielle Oni + Dämonenkunst-Guides"
+      ],
+      "dataGaps": [
+        "Vollständige Liste der Dämonenkünste wird zusammengestellt",
+        "PvE/PvP-Leistungstests laufen",
+        "Kombinationssynergien werden dokumentiert"
+      ],
+      "ctaText": "Verfolge Updates auf Trello/Discord"
+    },
+    "oniRoute": {
+      "title": "Slayerbound",
+      "titleHighlight": "Oni-Pfad",
+      "subtitle": "Verwandle dich in einen Oni und schalte Dämonenkünste frei",
+      "statusBadge": "Anleitung verfügbar",
+      "warningText": "Befolge die Transformationsschritte, um ein Oni zu werden und auf mächtige Dämonenkünste zuzugreifen.",
+      "flowNodes": [
+        {
+          "id": 1,
+          "title": "Starte als Mensch",
+          "type": "Start",
+          "known": true
+        },
+        {
+          "id": 2,
+          "title": "Verwandle dich in Oni",
+          "type": "Zweig",
+          "known": true
+        },
+        {
+          "id": 3,
+          "title": "Erhalte / Spinne Dämonenkunst",
+          "type": "Fortschritt",
+          "known": true
+        },
+        {
+          "id": 4,
+          "title": "Build-Spezialisierung",
+          "type": "Optimierung",
+          "known": true
+        }
+      ],
+      "unknowns": [
+        "Transformations-NPC-Standort",
+        "Benötigte Gegenstände und Level",
+        "Transformationskosten",
+        "Beste Dämonenkunst-Kombinationen"
+      ]
+    },
+    "controls": {
+      "title": "Slayerbound",
+      "titleHighlight": "Steuerung",
+      "subtitle": "Meistere die Tastatursteuerung für den Kampf",
+      "keys": [
+        {
+          "key": "LMB",
+          "action": "Angriff"
+        },
+        {
+          "key": "RMB",
+          "action": "Schwerer Angriff"
+        },
+        {
+          "key": "F",
+          "action": "Blocken"
+        },
+        {
+          "key": "W + W",
+          "action": "Rennen"
+        },
+        {
+          "key": "M",
+          "action": "Menü"
+        },
+        {
+          "key": "G",
+          "action": "Atmung"
+        },
+        {
+          "key": "1-9",
+          "action": "Fertigkeiten"
+        }
+      ]
+    },
+    "questMap": {
+      "title": "Slayerbound",
+      "titleHighlight": "Questkarte",
+      "subtitle": "Finde Quest-NPCs und Trainingsorte",
+      "recommendedSequence": "Empfohlene Reihenfolge: Flamme → Wasser → Wind",
+      "pins": [
+        {
+          "id": 1,
+          "name": "Spawn-Pfad (Flammen-Start)",
+          "region": "In der Nähe des Spawns",
+          "objective": "Starte Flammen-Training",
+          "requirements": [
+            "40 Oni-Hörner",
+            "Besiege mehrere zähe Onis"
+          ],
+          "rewards": [
+            "Flammenpfad-Fortschritt"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Dämonenlager (Wind-Schritt)",
+          "region": "Seedorf",
+          "objective": "Besiege Giga-Horn und erhalte Horn-Drop",
+          "requirements": [
+            "Boss-Clear",
+            "Drop-Glück (Zufall)"
+          ],
+          "rewards": [
+            "Windpfad-Fortschritt"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Wasserfall-Prüfung",
+          "region": "Große Weizenfelder",
+          "objective": "Parkour-Herausforderung + Felsen zerbrechen",
+          "requirements": [
+            "2.000 Yen pro letztem Schritt-Versuch"
+          ],
+          "rewards": [
+            "Wasserpfad-Fortschritt"
+          ]
+        }
+      ]
+    },
+    "bossDrops": {
+      "title": "Slayerbound",
+      "titleHighlight": "Boss-Beute",
+      "subtitle": "Boss-Beute und Drop-Anforderungen",
+      "riskNotice": "Boss-Drops basieren auf Zufall. Farme weiter, bis du die Gegenstände bekommst, die du brauchst!",
+      "table": {
+        "headers": {
+          "drop": "Drop",
+          "source": "Quelle",
+          "howToObtain": "Wie man es erhält",
+          "primaryUse": "Primäre Verwendung"
+        },
+        "items": [
+          {
+            "drop": "Giga-Horn",
+            "source": "Giga-Horn-Boss (Dämonenlager)",
+            "howToObtain": "Besiege den Giga-Horn-Boss, bis das Horn fällt",
+            "primaryUse": "Erforderlich für den Wind-Trainingsfortschritt"
+          },
+          {
+            "drop": "Oni-Horn x40",
+            "source": "Oni-Gegner",
+            "howToObtain": "Farme Oni und sammle 40 Hörner",
+            "primaryUse": "Erforderlich für den Flammen-Trainingsfortschritt"
+          },
+          {
+            "drop": "Boss-Materialien",
+            "source": "Verschiedene Bosse",
+            "howToObtain": "Überprüfe Trello/Discord für die neuesten Boss-Drops",
+            "primaryUse": "Herstellung und Fortschritt"
+          }
+        ]
+      }
+    },
+    "currencyFarm": {
+      "title": "Slayerbound",
+      "titleHighlight": "Währungsfarm",
+      "subtitle": "Beste Methoden, um Yen effizient zu verdienen",
+      "disclaimer": "Verwende diese bewährten Methoden, um deine Yen-Einnahmen in Slayerbound zu maximieren.",
+      "methods": [
+        {
+          "rank": 1,
+          "method": "Code-Einlösung",
+          "expectedReturn": "Spins + Yen (variiert je nach Code)",
+          "timeToValue": "1-3 min",
+          "riskLevel": "Niedrig",
+          "howTo": [
+            "Öffne das Spielmenü und löse zuerst aktive Codes ein",
+            "Verwende Spins, bevor du dich auf lange Grind-Schleifen festlegst"
+          ]
+        },
+        {
+          "rank": 2,
+          "method": "Intelligentes Ressourcenmanagement",
+          "expectedReturn": "Spare Yen, indem du fehlgeschlagene Versuche vermeidest",
+          "timeToValue": "Sofort",
+          "riskLevel": "Niedrig",
+          "howTo": [
+            "Bereite die Anforderungen vor hochpreisigen Trainingsversuchen vor",
+            "Der letzte Versuch des Wasserpfads kostet 2.000 Yen pro Versuch"
+          ]
+        },
+        {
+          "rank": 3,
+          "method": "Kampf-Fortschrittsschleife",
+          "expectedReturn": "Yen und EXP von Quests",
+          "timeToValue": "Mittel",
+          "riskLevel": "Mittel",
+          "howTo": [
+            "Befolge Anfänger-Fortschrittsanleitungen",
+            "Überprüfe Discord auf optimale Farming-Routen"
+          ]
+        }
+      ]
+    },
+    "resetPlanner": {
+      "title": "Slayerbound",
+      "titleHighlight": "Reset-Planer",
+      "subtitle": "Plane deine Resets strategisch - setze niemals blind zurück",
+      "startQuestion": "Was ist dein aktueller Engpass?",
+      "decisions": [
+        {
+          "question": "Fühlen sich die Kernwerte falsch zugeordnet an?",
+          "yesAction": "Überprüfe, ob du einen Code zum Zurücksetzen der Werte hast",
+          "noAction": "Überprüfe, ob Atmung/Dämonenkunst für dein Ziel ungeeignet ist"
+        },
+        {
+          "question": "Hast du einen Code zum Zurücksetzen der Werte?",
+          "yesAction": "Verwende jetzt Werte-Reset - Wende den Reset an und baue dann um deinen Zielmodus herum neu auf (PvE/PvP/Hybrid)",
+          "noAction": "Verzögere den Reset und farme Ressourcen - Verwende zuerst aktive Spin/Yen-Codes und die Fortschrittsroute"
+        },
+        {
+          "question": "Atmung/Dämonenkunst ist für dein Ziel ungeeignet?",
+          "yesAction": "Kannst du jetzt einen Code zum Zurücksetzen von Atmung/Dämonenkunst verwenden?",
+          "noAction": "Behalte den Build, optimiere die Ausführung - Konzentriere dich auf die Beherrschung der Steuerung, bevor du neu würfelst"
+        },
+        {
+          "question": "Kannst du jetzt einen Code zum Zurücksetzen von Atmung/Dämonenkunst verwenden?",
+          "yesAction": "Verwende Atmung/Dämonenkunst-Reset - Bekannte Reset-Beispiele beinhalten Resets, die auch das Volk beeinflussen können",
+          "noAction": "Kein Panik-Reset - Warte auf den nächsten Meilenstein/Update-Code-Drop; verfolge Discord-Ankündigungen"
+        }
+      ]
+    },
+    "buildPlanner": {
+      "title": "Slayerbound",
+      "titleHighlight": "Build-Planer",
+      "subtitle": "Optimiere deinen Charakter-Build mit zielbasierter Planung",
+      "dataNote": "Plane deinen Build basierend auf deinem Spielstil und deinen Zielen",
+      "inputFields": [
+        {
+          "key": "ZielModus",
+          "label": "Zielmodus",
+          "type": "auswählen",
+          "options": [
+            "PvE-Fortschritt",
+            "Boss-Fokus",
+            "PvP-Duell",
+            "Hybrid"
+          ]
+        },
+        {
+          "key": "Route",
+          "label": "Route",
+          "type": "auswählen",
+          "options": [
+            "Slayer",
+            "Oni"
+          ]
+        },
+        {
+          "key": "AktuelleAtmung",
+          "label": "Aktuelle Atmung",
+          "type": "Text"
+        },
+        {
+          "key": "AktuelleDämonenkunst",
+          "label": "Aktuelle Dämonenkunst",
+          "type": "Text"
+        },
+        {
+          "key": "YenBudget",
+          "label": "Aktuelles Yen",
+          "type": "Nummer"
+        },
+        {
+          "key": "SpinsVerfügbar",
+          "label": "Verfügbare Spins",
+          "type": "Nummer"
+        }
+      ],
+      "presetExamples": [
+        {
+          "name": "Starter Slayer (Niedriges Budget)",
+          "goalMode": "PvE-Fortschritt",
+          "route": "Slayer",
+          "yenBudget": 2000,
+          "spinsAvailable": 10,
+          "output": {
+            "now": "Löse aktive Codes ein und wähle eine stabile Fortschrittsroute",
+            "next": "Bereite die Anforderungen vor dem Training vor, um keine Yen zu verschwenden",
+            "after": "Verwende den Reset strategisch, wenn du die Richtung ändern musst"
+          }
+        },
+        {
+          "name": "Routenwechsel-Kandidat",
+          "goalMode": "Hybrid",
+          "route": "Oni",
+          "yenBudget": 5000,
+          "spinsAvailable": 20,
+          "output": {
+            "now": "Bestätige dein Routenziel und deine Reset-Strategie",
+            "next": "Wende einen selektiven Reset an, anstatt einen vollständigen Neuaufbau",
+            "after": "Teste im Boss-/Fortschrittsschleife vor dem nächsten Reset"
+          }
+        }
+      ]
+    },
+    "thunderBreathing": {
+      "title": "Slayerbound",
+      "titleHighlight": "Donneratmung",
+      "subtitle": "Vollständige Anleitung zum Freischalten des Donneratmungsstils",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Finde den Donner-Trainer",
+          "detail": "Reise zum Berg in der Nähe des Schnee-Dorfes"
+        },
+        {
+          "step": 2,
+          "title": "Nimm die Quest an",
+          "detail": "Sprich mit dem Trainer und nimm die Süßigkeiten-Quest an"
+        },
+        {
+          "step": 3,
+          "title": "Sammle Materialien",
+          "detail": "Sammle 6 Weizen und 3 Eier aus den Anbaugebieten"
+        },
+        {
+          "step": 4,
+          "title": "Schließe das Training ab",
+          "detail": "Kehre zum Trainer zurück und schließe die Donneratmungsfreischaltung ab"
+        }
+      ],
+      "requirements": {
+        "title": "Anforderungen",
+        "items": [
+          "6 Weizen",
+          "3 Eier",
+          "Schließe die Süßigkeiten-Quest ab"
+        ]
+      },
+      "difficulty": "Mittel",
+      "location": "Berg in der Nähe des Schnee-Dorfes"
+    },
+    "fastLeveling": {
+      "title": "Slayerbound",
+      "titleHighlight": "Schnelles Leveln",
+      "subtitle": "Effiziente Methoden, um in Slayerbound schnell aufzusteigen",
+      "methods": [
+        {
+          "title": "Questtypen",
+          "icon": "Karte",
+          "description": "Konzentriere dich auf die richtigen Quests für maximale XP",
+          "tips": [
+            "Grüne Quests = Lieferung (schneller Abschluss)",
+            "Gelbe Quests = Kampf (hohe XP-Belohnungen)",
+            "Blaue Quests = Sammeln (mäßige XP)"
+          ]
+        },
+        {
+          "title": "Nahrungssystem",
+          "icon": "Besteck",
+          "description": "Verwende Nahrung, um HP zu erhalten und effizient zu farmen",
+          "tips": [
+            "Bewahre Nahrung im Inventar zur HP-Regeneration auf",
+            "Reduziert die Ausfallzeit zwischen Kampfsituationen",
+            "Unerlässlich für kontinuierliches Quest-Grinding"
+          ]
+        },
+        {
+          "title": "Fortschrittsroute",
+          "icon": "Route",
+          "description": "Befolge optimale Leveling-Pfade",
+          "tips": [
+            "Schließe zuerst Quests im Startergebiet ab",
+            "Wechsle schrittweise in höherlevelige Zonen",
+            "Verwende Codes für Bonus-XP und Spins"
+          ]
+        }
+      ]
+    },
+    "finalSelection": {
+      "title": "Slayerbound",
+      "titleHighlight": "Finale Auswahl",
+      "subtitle": "Schließe die Finale Auswahl ab, um ein offizieller Slayer zu werden",
+      "overview": "Die Finale Auswahl ist ein entscheidender Meilenstein, bei dem du deinen Wert als Dämonenjäger beweist. Schließe diese Parkour-Herausforderung ab, um deine Slayer-Uniform und deinen offiziellen Status zu verdienen.",
+      "details": {
+        "location": "Parkour-Herausforderung im Waldgebiet",
+        "timing": "Alle 1 Stunde (Echtzeit)",
+        "maxPlayers": "Bis zu 12 Spieler pro Sitzung",
+        "difficulty": "Mittel bis Schwer"
+      },
+      "rewards": {
+        "title": "Belohnungen",
+        "items": [
+          "Offizielle Slayer-Uniform",
+          "Slayer Corps Mitgliedschaft",
+          "Zugang zum Slayer Corps Herrenhaus",
+          "Schalte das Kürbis-Trainingssystem frei"
+        ]
+      },
+      "tips": {
+        "title": "Tipps",
+        "items": [
+          "Übe Parkour, bevor du es versuchst",
+          "Warte, bis das stündliche Event startet",
+          "Tu dich mit anderen Spielern zusammen, um Unterstützung zu erhalten",
+          "Gib nicht auf - du kannst es nach jeder Stunde erneut versuchen"
+        ]
+      }
+    },
+    "clanSystem": {
+      "title": "Slayerbound",
+      "titleHighlight": "Clan-System",
+      "subtitle": "Clan-Ränge, Boni und wie du deinen Clan neu würfelst",
+      "overview": "Clans bieten einzigartige Boni und Fähigkeiten, die deinen Charakter verbessern. Jeder Clan hat unterschiedliche Seltenheiten und besondere Vorteile.",
+      "tiers": [
+        {
+          "tier": "Gewöhnlich",
+          "color": "grau",
+          "dropRate": "Hoch",
+          "description": "Grundlegende Clans mit Standard-Boni"
+        },
+        {
+          "tier": "Selten",
+          "color": "blau",
+          "dropRate": "Mittel",
+          "description": "Verbesserte Boni und Fähigkeiten"
+        },
+        {
+          "tier": "Episch",
+          "color": "lila",
+          "dropRate": "Niedrig",
+          "description": "Mächtige Clan-Fähigkeiten"
+        },
+        {
+          "tier": "Legendär",
+          "color": "Gold",
+          "dropRate": "Sehr niedrig",
+          "description": "Top-Tier-Clans mit außergewöhnlichen Boni"
+        }
+      ],
+      "notableClans": {
+        "title": "Bemerkenswerte Clans",
+        "clans": [
+          {
+            "name": "Tsugikuni",
+            "tier": "Legendär",
+            "benefit": "Außergewöhnliche Kampf-Boni"
+          },
+          {
+            "name": "Kamado",
+            "tier": "Legendär",
+            "benefit": "Verbesserte Atemtechniken"
+          },
+          {
+            "name": "Agatsuma",
+            "tier": "Episch",
+            "benefit": "Donneratmungs-Boni"
+          }
+        ]
+      },
+      "howToSpin": {
+        "title": "Wie man Spinnt/Neu würfelt",
+        "steps": [
+          "Verwende Spins, die du aus Codes oder Gameplay erhalten hast",
+          "Greife im Spiel auf das Clan-Menü zu",
+          "Gib Spins aus, um für bessere Clans neu zu würfeln",
+          "Clans höherer Stufen haben niedrigere Drop-Raten"
+        ]
+      }
+    }
+  }
+}

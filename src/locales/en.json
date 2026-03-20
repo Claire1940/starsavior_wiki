@@ -1,0 +1,800 @@
+{
+  "seo": {
+    "home": {
+      "title": "Slayerbound Wiki - Codes, Tier List, Units & Guides | Slayerbound Roblox",
+      "description": "Complete Slayerbound Wiki resource hub! Get the latest working codes, tier lists, unit guides, action RPG strategies, and wiki for Slayerbound Roblox game. Master every wave with our comprehensive guides.",
+      "keywords": "Slayerbound Wiki, Slayerbound, Slayerbound codes, Slayerbound tier list, Slayerbound units, Slayerbound guide, Roblox action RPG, anime action RPG, Roblox codes, action RPG game, anime game codes",
+      "ogTitle": "Slayerbound Wiki - Codes, Tier List, Units & Guides",
+      "ogDescription": "Complete Slayerbound Wiki resource hub! Get the latest working codes, tier lists, unit guides, action RPG strategies, and wiki for Slayerbound Roblox game.",
+      "twitterTitle": "Slayerbound Wiki - Codes, Tier List, Units & Guides",
+      "twitterDescription": "Complete Slayerbound Wiki resource hub! Get the latest working codes, tier lists, unit guides, and action RPG strategies."
+    }
+  },
+  "nav": {},
+  "common": {
+    "home": "Home",
+    "more": "More",
+    "playNow": "Play Now",
+    "switchLanguage": "Switch Language",
+    "switchTheme": "Switch Theme",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "notFound": "Page Not Found",
+    "notFoundDescription": "The page you are looking for does not exist.",
+    "backToHome": "Back to Home",
+    "relatedArticles": "Related Articles",
+    "readMore": "Read More"
+  },
+  "hero": {
+    "badge": "Master Demon Slayer Combat in the Ultimate Roblox RPG Experience",
+    "title": "Slayerbound Wiki",
+    "description": "Your ultimate hub for Slayerbound! Master breathing styles, unlock powerful clans, and dominate demon battles. Get working codes, clan tier lists, training guides, and boss strategies to become the ultimate demon slayer!",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
+    "stats": {
+      "stat1": {
+        "value": "300K+",
+        "label": "Total Visits"
+      },
+      "stat2": {
+        "value": "1.2K",
+        "label": "Discord Members"
+      },
+      "stat3": {
+        "value": "10+",
+        "label": "Active Codes"
+      },
+      "stat4": {
+        "value": "Daily",
+        "label": "Updates"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Slayerbound Trailer",
+    "description": "Master breathing styles, unlock powerful clans, and dominate demon battles in this action-packed Demon Slayer RPG experience on Roblox!"
+  },
+  "tools": {
+    "title": "Slayerbound",
+    "titleHighlight": "Resources",
+    "subtitle": "Jump to any section below",
+    "codes": {
+      "title": "Codes",
+      "description": "Get free rewards"
+    },
+    "redeemGuide": {
+      "title": "Redeem Guide",
+      "description": "Learn how to redeem codes"
+    },
+    "trainingPaths": {
+      "title": "Training Paths",
+      "description": "Choose your path"
+    },
+    "breathingTier": {
+      "title": "Breathing Tier List",
+      "description": "Best breathing styles"
+    },
+    "demonArtTier": {
+      "title": "Demon Art Tier List",
+      "description": "Top demon arts"
+    },
+    "oniRoute": {
+      "title": "Oni Route",
+      "description": "Transform to Oni"
+    },
+    "controls": {
+      "title": "Controls",
+      "description": "Master the keys"
+    },
+    "questMap": {
+      "title": "Quest Map",
+      "description": "Find NPCs and quests"
+    },
+    "bossDrops": {
+      "title": "Boss Drops",
+      "description": "Boss loot guide"
+    },
+    "currencyFarm": {
+      "title": "Currency Farm",
+      "description": "Earn Yen fast"
+    },
+    "resetPlanner": {
+      "title": "Reset Planner",
+      "description": "Plan your resets"
+    },
+    "buildPlanner": {
+      "title": "Build Planner",
+      "description": "Optimize your build"
+    },
+    "thunderBreathing": {
+      "title": "Thunder Breathing",
+      "description": "Unlock Thunder style"
+    },
+    "fastLeveling": {
+      "title": "Fast Leveling",
+      "description": "Level up quickly"
+    },
+    "finalSelection": {
+      "title": "Final Selection",
+      "description": "Become a Slayer"
+    },
+    "clanSystem": {
+      "title": "Clan System",
+      "description": "Clan tiers & buffs"
+    }
+  },
+  "whatIs": {
+    "title": "What is",
+    "titleHighlight": "Slayerbound?",
+    "description": "Slayerbound is a Demon Slayer-themed action RPG on Roblox. Master breathing styles, unlock powerful clans, and battle demons in intense combat.",
+    "features": [
+      {
+        "title": "Breathing Styles",
+        "description": "Master powerful breathing techniques like Flame, Wind, and Water"
+      },
+      {
+        "title": "Clan System",
+        "description": "Unlock and upgrade powerful clans with unique abilities"
+      },
+      {
+        "title": "Demon Battles",
+        "description": "Fight challenging demons and bosses to earn rewards"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "subtitle": "Everything you need to know about Slayerbound",
+    "questions": [
+      {
+        "question": "How do I attack and block in Slayerbound?",
+        "answer": "LMB = Attack, RMB = Heavy Attack, F = Block."
+      },
+      {
+        "question": "How do I run in Slayerbound?",
+        "answer": "Double-tap W (W+W) to run."
+      },
+      {
+        "question": "How do I open menu and breathing in Slayerbound?",
+        "answer": "M = Menu, G = Breathing."
+      },
+      {
+        "question": "How do I use skill keys in Slayerbound?",
+        "answer": "Use 1-9 for skills."
+      },
+      {
+        "question": "How do I redeem Slayerbound codes?",
+        "answer": "Open the Codes button/menu, input code, then redeem/enter."
+      },
+      {
+        "question": "Why does a Slayerbound code not work?",
+        "answer": "Most common reasons: expired, typo, already used."
+      },
+      {
+        "question": "Are Slayerbound codes case-sensitive?",
+        "answer": "Treat them as case-sensitive and paste exactly as listed."
+      },
+      {
+        "question": "What rewards do Slayerbound codes usually give?",
+        "answer": "Common rewards include Spins, Yen, and specific reset effects."
+      },
+      {
+        "question": "Where should I track new Slayerbound codes first?",
+        "answer": "Official Discord, Roblox game page/community posts, and active guide trackers."
+      },
+      {
+        "question": "Is there an official Slayerbound Trello?",
+        "answer": "Yes, an official Slayerbound Trello link is publicly shared."
+      },
+      {
+        "question": "What training paths are available in Slayerbound?",
+        "answer": "Flame, Wind, and Water are the main training paths."
+      },
+      {
+        "question": "What does Slayerbound Flame training require?",
+        "answer": "Collect 40 Oni Horns and defeat strong Oni enemies."
+      },
+      {
+        "question": "What does Slayerbound Wind training require?",
+        "answer": "Fight Giga Horn boss in Demon Camp until the horn drops."
+      },
+      {
+        "question": "What does Slayerbound Water training require?",
+        "answer": "Complete parkour challenge and break the rock. Final step costs 2,000 Yen per attempt."
+      },
+      {
+        "question": "Which Slayerbound code can reset breathing/demon art?",
+        "answer": "Example: 1KLIKES resets breathing/demon art and may also reset race."
+      },
+      {
+        "question": "Are there stats-reset codes in Slayerbound?",
+        "answer": "Yes, milestone codes include stats reset entries."
+      },
+      {
+        "question": "Do Slayerbound code pools change often?",
+        "answer": "Yes, lists update frequently around milestones and bug-fix windows."
+      },
+      {
+        "question": "Are exact boss drop rates known in Slayerbound?",
+        "answer": "Drop rates are not publicly confirmed by developers."
+      },
+      {
+        "question": "What is the best Yen farming route in Slayerbound?",
+        "answer": "Redeem active codes first, then follow progression routes while managing costs."
+      },
+      {
+        "question": "Should I commit to one build early in Slayerbound?",
+        "answer": "Not recommended—test routes and controls first, then use resets strategically."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Master Slayerbound?",
+    "description": "Join the Slayerbound community on Discord to share strategies, find teammates, and get the latest codes!",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Play on Roblox"
+  },
+  "footer": {
+    "title": "Slayerbound",
+    "description": "Your complete resource hub for Slayerbound. Find codes, guides, training paths, and strategies to master breathing styles and dominate demon battles.",
+    "resources": "Resources",
+    "activeCodes": "Active Codes",
+    "trainingGuides": "Training Guides",
+    "breathingStyles": "Breathing Styles",
+    "clanGuides": "Clan Guides",
+    "moreTools": "Community",
+    "discord": "Official Discord",
+    "trello": "Official Trello",
+    "playNow": "Play on Roblox",
+    "copyright": "© 2026 Slayerbound Wiki. Not affiliated with Roblox Corporation or the developers of Slayerbound.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "homepage": {
+    "codes": {
+      "title": "Slayerbound",
+      "titleHighlight": "Codes",
+      "subtitle": "Get free spins, yen, and resets to boost your progression",
+      "cta": "View All Codes & Redemption Guide",
+      "table": {
+        "headers": {
+          "code": "Code",
+          "reward": "Reward",
+          "status": "Status"
+        },
+        "items": [
+          {"code": "morespins", "reward": "20 Spins", "status": "active"},
+          {"code": "100KVISITS", "reward": "15 Spins", "status": "active"},
+          {"code": "1KLIKES", "reward": "Breathing/Demon Art Reset", "status": "active"},
+          {"code": "guizerayt", "reward": "10 Spins", "status": "active"},
+          {"code": "RELEASE", "reward": "10 Spins", "status": "active"}
+        ]
+      }
+    },
+    "redeemGuide": {
+      "title": "Slayerbound",
+      "titleHighlight": "Redeem Guide",
+      "subtitle": "Follow these steps to redeem codes successfully",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Launch Game",
+          "detail": "Open Slayerbound in Roblox"
+        },
+        {
+          "step": 2,
+          "title": "Open Codes",
+          "detail": "From Main Menu, click the Codes button"
+        },
+        {
+          "step": 3,
+          "title": "Paste Code",
+          "detail": "Enter a working code in the code field"
+        },
+        {
+          "step": 4,
+          "title": "Claim Rewards",
+          "detail": "Press Redeem / Enter and collect rewards"
+        }
+      ]
+    },
+    "trainingPaths": {
+      "title": "Slayerbound",
+      "titleHighlight": "Training Paths",
+      "subtitle": "Choose your training path: Flame, Wind, or Water",
+      "paths": [
+        {
+          "name": "Flame",
+          "location": "Path near Spawn",
+          "requirements": "40 Oni Horns + Defeat strong Onis",
+          "difficulty": "High",
+          "cost": "0 Yen"
+        },
+        {
+          "name": "Wind",
+          "location": "Sea Village",
+          "requirements": "Defeat Giga Horn boss + Get horn drop",
+          "difficulty": "High",
+          "cost": "0 Yen"
+        },
+        {
+          "name": "Water",
+          "location": "Wheat Fields waterfall",
+          "requirements": "Complete parkour + Break rock",
+          "difficulty": "Medium",
+          "cost": "2,000 Yen per attempt"
+        }
+      ]
+    },
+    "breathingTier": {
+      "title": "Slayerbound",
+      "titleHighlight": "Breathing Tier List",
+      "subtitle": "Compare breathing styles by PvE/PvP performance and difficulty",
+      "dataNote": "Community testing data - rankings updated regularly",
+      "table": {
+        "headers": {
+          "breathing": "Breathing",
+          "pveScore": "PvE",
+          "pvpScore": "PvP",
+          "difficulty": "Difficulty",
+          "cost": "Acquisition Cost"
+        },
+        "items": [
+          {
+            "breathing": "Flame",
+            "pveScore": "A Tier",
+            "pvpScore": "A Tier",
+            "difficulty": "Medium",
+            "cost": "40 Oni Horns + strong Oni fights"
+          },
+          {
+            "breathing": "Wind",
+            "pveScore": "S Tier",
+            "pvpScore": "S Tier",
+            "difficulty": "Hard",
+            "cost": "Giga Horn boss drop (RNG)"
+          },
+          {
+            "breathing": "Water",
+            "pveScore": "A Tier",
+            "pvpScore": "B Tier",
+            "difficulty": "Medium",
+            "cost": "Parkour + 2,000 yen per attempt"
+          },
+          {
+            "breathing": "Thunder",
+            "pveScore": "S Tier",
+            "pvpScore": "A Tier",
+            "difficulty": "Hard",
+            "cost": "Special unlock method"
+          }
+        ]
+      }
+    },
+    "demonArtTier": {
+      "title": "Slayerbound",
+      "titleHighlight": "Demon Art Tier List",
+      "subtitle": "Demon Art power rankings and difficulty matrix",
+      "statusBadge": "Coming Soon",
+      "emptyStateText": "Detailed Demon Art rankings will be available soon with comprehensive testing data.",
+      "knownFacts": [
+        "Demon Art system is available in game",
+        "Breathing/Demon Art reset available via codes",
+        "Community has dedicated Oni + Demon Art guides"
+      ],
+      "dataGaps": [
+        "Full list of Demon Arts being compiled",
+        "PvE/PvP performance testing in progress",
+        "Combo synergies being documented"
+      ],
+      "ctaText": "Track updates on Trello/Discord"
+    },
+    "oniRoute": {
+      "title": "Slayerbound",
+      "titleHighlight": "Oni Route",
+      "subtitle": "Transform to Oni and unlock Demon Arts",
+      "statusBadge": "Guide Available",
+      "warningText": "Follow the transformation steps to become an Oni and access powerful Demon Arts.",
+      "flowNodes": [
+        {
+          "id": 1,
+          "title": "Start as Human",
+          "type": "start",
+          "known": true
+        },
+        {
+          "id": 2,
+          "title": "Transform to Oni",
+          "type": "branch",
+          "known": true
+        },
+        {
+          "id": 3,
+          "title": "Get / Spin Demon Art",
+          "type": "progression",
+          "known": true
+        },
+        {
+          "id": 4,
+          "title": "Build Specialization",
+          "type": "optimization",
+          "known": true
+        }
+      ],
+      "unknowns": [
+        "Transformation NPC location",
+        "Required items and level",
+        "Transformation cost",
+        "Best Demon Art combinations"
+      ]
+    },
+    "controls": {
+      "title": "Slayerbound",
+      "titleHighlight": "Controls",
+      "subtitle": "Master the keyboard controls for combat",
+      "keys": [
+        { "key": "LMB", "action": "Attack" },
+        { "key": "RMB", "action": "Heavy Attack" },
+        { "key": "F", "action": "Block" },
+        { "key": "W + W", "action": "Run" },
+        { "key": "M", "action": "Menu" },
+        { "key": "G", "action": "Breathing" },
+        { "key": "1-9", "action": "Skills" }
+      ]
+    },
+    "questMap": {
+      "title": "Slayerbound",
+      "titleHighlight": "Quest Map",
+      "subtitle": "Find quest NPCs and training locations",
+      "recommendedSequence": "Recommended order: Flame → Water → Wind",
+      "pins": [
+        {
+          "id": 1,
+          "name": "Spawn Path (Flame Start)",
+          "region": "Near Spawn",
+          "objective": "Start Flame training",
+          "requirements": ["40 Oni Horns", "Defeat several tough Onis"],
+          "rewards": ["Flame path progression"]
+        },
+        {
+          "id": 2,
+          "name": "Demon Camp (Wind Step)",
+          "region": "Sea Village",
+          "objective": "Defeat Giga Horn and obtain horn drop",
+          "requirements": ["Boss clear", "Drop luck (RNG)"],
+          "rewards": ["Wind path progression"]
+        },
+        {
+          "id": 3,
+          "name": "Waterfall Trial",
+          "region": "Large Wheat Fields",
+          "objective": "Parkour challenge + break rock",
+          "requirements": ["2,000 yen per final-step attempt"],
+          "rewards": ["Water path progression"]
+        }
+      ]
+    },
+    "bossDrops": {
+      "title": "Slayerbound",
+      "titleHighlight": "Boss Drops",
+      "subtitle": "Boss loot and drop requirements",
+      "riskNotice": "Boss drops are based on RNG. Keep farming until you get the items you need!",
+      "table": {
+        "headers": {
+          "drop": "Drop",
+          "source": "Source",
+          "howToObtain": "How to Obtain",
+          "primaryUse": "Primary Use"
+        },
+        "items": [
+          {
+            "drop": "Giga Horn",
+            "source": "Giga Horn boss (Demon Camp)",
+            "howToObtain": "Defeat Giga Horn boss until the horn drops",
+            "primaryUse": "Required for Wind training progression"
+          },
+          {
+            "drop": "Oni Horn x40",
+            "source": "Oni enemies",
+            "howToObtain": "Farm Oni and collect 40 horns",
+            "primaryUse": "Required for Flame training progression"
+          },
+          {
+            "drop": "Boss Materials",
+            "source": "Various bosses",
+            "howToObtain": "Check Trello/Discord for latest boss drops",
+            "primaryUse": "Crafting and progression"
+          }
+        ]
+      }
+    },
+    "currencyFarm": {
+      "title": "Slayerbound",
+      "titleHighlight": "Currency Farm",
+      "subtitle": "Best methods to earn Yen efficiently",
+      "disclaimer": "Use these proven methods to maximize your Yen earnings in Slayerbound.",
+      "methods": [
+        {
+          "rank": 1,
+          "method": "Code Redemption",
+          "expectedReturn": "Spins + Yen (varies by code)",
+          "timeToValue": "1-3 min",
+          "riskLevel": "Low",
+          "howTo": ["Open game menu and redeem active codes first", "Use spins before committing to long grind loops"]
+        },
+        {
+          "rank": 2,
+          "method": "Smart Resource Management",
+          "expectedReturn": "Save Yen by avoiding failed attempts",
+          "timeToValue": "Immediate",
+          "riskLevel": "Low",
+          "howTo": ["Prepare requirements before high-cost training attempts", "Water path final attempt costs 2,000 Yen per try"]
+        },
+        {
+          "rank": 3,
+          "method": "Combat Progression Loop",
+          "expectedReturn": "Yen and EXP from quests",
+          "timeToValue": "Medium",
+          "riskLevel": "Medium",
+          "howTo": ["Follow beginner progression guides", "Check Discord for optimal farming routes"]
+        }
+      ]
+    },
+    "resetPlanner": {
+      "title": "Slayerbound",
+      "titleHighlight": "Reset Planner",
+      "subtitle": "Plan your resets strategically - never reset blindly",
+      "startQuestion": "What is your current bottleneck?",
+      "decisions": [
+        {
+          "question": "Core stats feel misallocated?",
+          "yesAction": "Check if you have a stats-reset code available",
+          "noAction": "Check if Breathing/Demon Art is off-meta for your goal"
+        },
+        {
+          "question": "Do you have a stats-reset code available?",
+          "yesAction": "Use Stats Reset Now - Apply reset, then rebuild around your target mode (PvE/PvP/Hybrid)",
+          "noAction": "Delay Reset and Farm Resources - Use active spin/yen codes and progression route first"
+        },
+        {
+          "question": "Breathing/Demon Art is off-meta for your goal?",
+          "yesAction": "Can you use a breathing/demon-art reset code now?",
+          "noAction": "Keep Build, Optimize Execution - Focus on controls mastery before rerolling"
+        },
+        {
+          "question": "Can you use a breathing/demon-art reset code now?",
+          "yesAction": "Use Breathing/Demon Art Reset - Known reset examples include resets that can also affect race",
+          "noAction": "Do Not Panic Reset - Wait for next milestone/update code drop; track Discord announcements"
+        }
+      ]
+    },
+    "buildPlanner": {
+      "title": "Slayerbound",
+      "titleHighlight": "Build Planner",
+      "subtitle": "Optimize your character build with goal-based planning",
+      "dataNote": "Plan your build based on your playstyle and goals",
+      "inputFields": [
+        {
+          "key": "goalMode",
+          "label": "Goal Mode",
+          "type": "select",
+          "options": ["PvE Progression", "Boss Focus", "PvP Duel", "Hybrid"]
+        },
+        {
+          "key": "route",
+          "label": "Route",
+          "type": "select",
+          "options": ["Slayer", "Oni"]
+        },
+        {
+          "key": "currentBreathing",
+          "label": "Current Breathing",
+          "type": "text"
+        },
+        {
+          "key": "currentDemonArt",
+          "label": "Current Demon Art",
+          "type": "text"
+        },
+        {
+          "key": "yenBudget",
+          "label": "Current Yen",
+          "type": "number"
+        },
+        {
+          "key": "spinsAvailable",
+          "label": "Spins Available",
+          "type": "number"
+        }
+      ],
+      "presetExamples": [
+        {
+          "name": "Starter Slayer (Low Budget)",
+          "goalMode": "PvE Progression",
+          "route": "Slayer",
+          "yenBudget": 2000,
+          "spinsAvailable": 10,
+          "output": {
+            "now": "Redeem active codes and choose a stable progression route",
+            "next": "Prepare requirements before training to avoid wasting Yen",
+            "after": "Use reset strategically if you need to change direction"
+          }
+        },
+        {
+          "name": "Route Switch Candidate",
+          "goalMode": "Hybrid",
+          "route": "Oni",
+          "yenBudget": 5000,
+          "spinsAvailable": 20,
+          "output": {
+            "now": "Confirm your route target and reset strategy",
+            "next": "Apply selective reset rather than full rebuild",
+            "after": "Test in boss/progression loop before next reset"
+          }
+        }
+      ]
+    },
+    "thunderBreathing": {
+      "title": "Slayerbound",
+      "titleHighlight": "Thunder Breathing",
+      "subtitle": "Complete guide to unlock Thunder Breathing style",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Find the Thunder Trainer",
+          "detail": "Travel to the mountain near Snow Village"
+        },
+        {
+          "step": 2,
+          "title": "Accept the Quest",
+          "detail": "Talk to the trainer and accept the candy quest"
+        },
+        {
+          "step": 3,
+          "title": "Gather Materials",
+          "detail": "Collect 6 wheat and 3 eggs from the farming areas"
+        },
+        {
+          "step": 4,
+          "title": "Complete Training",
+          "detail": "Return to the trainer and complete the Thunder Breathing unlock"
+        }
+      ],
+      "requirements": {
+        "title": "Requirements",
+        "items": ["6 Wheat", "3 Eggs", "Complete candy quest"]
+      },
+      "difficulty": "Medium",
+      "location": "Mountain near Snow Village"
+    },
+    "fastLeveling": {
+      "title": "Slayerbound",
+      "titleHighlight": "Fast Leveling",
+      "subtitle": "Efficient methods to level up quickly in Slayerbound",
+      "methods": [
+        {
+          "title": "Quest Types",
+          "icon": "map",
+          "description": "Focus on the right quests for maximum XP",
+          "tips": [
+            "Green quests = Delivery (fast completion)",
+            "Yellow quests = Combat (high XP rewards)",
+            "Blue quests = Gathering (moderate XP)"
+          ]
+        },
+        {
+          "title": "Food System",
+          "icon": "utensils",
+          "description": "Use food to maintain HP and farm efficiently",
+          "tips": [
+            "Keep food in inventory for HP regeneration",
+            "Reduces downtime between combat encounters",
+            "Essential for continuous quest grinding"
+          ]
+        },
+        {
+          "title": "Progression Route",
+          "icon": "route",
+          "description": "Follow optimal leveling paths",
+          "tips": [
+            "Complete starter area quests first",
+            "Move to higher level zones progressively",
+            "Use codes for bonus XP and spins"
+          ]
+        }
+      ]
+    },
+    "finalSelection": {
+      "title": "Slayerbound",
+      "titleHighlight": "Final Selection",
+      "subtitle": "Complete the Final Selection to become an official Slayer",
+      "overview": "The Final Selection is a crucial milestone where you prove your worth as a demon slayer. Complete this parkour challenge to earn your Slayer uniform and official status.",
+      "details": {
+        "location": "Forest area parkour challenge",
+        "timing": "Every 1 hour (real-time)",
+        "maxPlayers": "Up to 12 players per session",
+        "difficulty": "Medium to Hard"
+      },
+      "rewards": {
+        "title": "Rewards",
+        "items": [
+          "Official Slayer uniform",
+          "Slayer Corps membership",
+          "Access to Slayer Corps mansion",
+          "Unlock gourd training system"
+        ]
+      },
+      "tips": {
+        "title": "Tips",
+        "items": [
+          "Practice parkour before attempting",
+          "Wait for the hourly event to start",
+          "Team up with other players for support",
+          "Don't give up - you can retry after each hour"
+        ]
+      }
+    },
+    "clanSystem": {
+      "title": "Slayerbound",
+      "titleHighlight": "Clan System",
+      "subtitle": "Clan tiers, buffs, and how to reroll your clan",
+      "overview": "Clans provide unique buffs and abilities that enhance your character. Each clan has different rarities and special benefits.",
+      "tiers": [
+        {
+          "tier": "Common",
+          "color": "gray",
+          "dropRate": "High",
+          "description": "Basic clans with standard buffs"
+        },
+        {
+          "tier": "Rare",
+          "color": "blue",
+          "dropRate": "Medium",
+          "description": "Enhanced buffs and abilities"
+        },
+        {
+          "tier": "Epic",
+          "color": "purple",
+          "dropRate": "Low",
+          "description": "Powerful clan abilities"
+        },
+        {
+          "tier": "Legendary",
+          "color": "gold",
+          "dropRate": "Very Low",
+          "description": "Top-tier clans with exceptional buffs"
+        }
+      ],
+      "notableClans": {
+        "title": "Notable Clans",
+        "clans": [
+          {
+            "name": "Tsugikuni",
+            "tier": "Legendary",
+            "benefit": "Exceptional combat buffs"
+          },
+          {
+            "name": "Kamado",
+            "tier": "Legendary",
+            "benefit": "Enhanced breathing techniques"
+          },
+          {
+            "name": "Agatsuma",
+            "tier": "Epic",
+            "benefit": "Thunder breathing bonuses"
+          }
+        ]
+      },
+      "howToSpin": {
+        "title": "How to Spin/Reroll",
+        "steps": [
+          "Use spins obtained from codes or gameplay",
+          "Access the clan menu in-game",
+          "Spend spins to reroll for better clans",
+          "Higher tier clans have lower drop rates"
+        ]
+      }
+    }
+  }
+}

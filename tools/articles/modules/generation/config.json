@@ -1,0 +1,14 @@
+{
+  "api_key": "sk-yLqZg8MPVFdZtepizamKefkyECaTS0ZJ6FAR5OwVXcO44WaA",
+  "api_base_url": "https://api.apimart.ai/v1/chat/completions",
+  "model": "gemini-2.5-flash",
+  "temperature": 0.7,
+  "max_tokens": 24576,
+  "timeout": 900,
+  "concurrent_limit": 1000,
+  "retry_attempts": 2,
+  "retry_delay": 5,
+  "keywords_file": "../../../keywords.json",
+  "merged_dir": "../../../content_pipeline/out/merged",
+  "output_dir": "../../../../content/"
+}

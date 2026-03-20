@@ -1,0 +1,876 @@
+{
+  "seo": {
+    "home": {
+      "title": "Slayerbound Wiki - コード、ティアリスト、ユニット＆ガイド | Slayerbound Roblox",
+      "description": "完全なSlayerbound Wikiリソースハブ！最新の動作コード、ティアリスト、ユニットガイド、アクションRPG戦略、Slayerbound Robloxゲームのwikiを入手。包括的なガイドですべてのウェーブをマスターしましょう。",
+      "keywords": "Slayerbound Wiki, Slayerbound, Slayerboundコード, Slayerboundティアリスト, Slayerboundユニット, Slayerboundガイド, RobloxアクションRPG, アニメアクションRPG, Robloxコード, アクションRPGゲーム, アニメゲームコード",
+      "ogTitle": "Slayerbound Wiki - コード、ティアリスト、ユニット＆ガイド",
+      "ogDescription": "完全なSlayerbound Wikiリソースハブ！最新の動作コード、ティアリスト、ユニットガイド、アクションRPG戦略、Slayerbound Robloxゲームのwikiを入手。",
+      "twitterTitle": "Slayerbound Wiki - コード、ティアリスト、ユニット＆ガイド",
+      "twitterDescription": "完全なSlayerbound Wikiリソースハブ！最新の動作コード、ティアリスト、ユニットガイド、アクションRPG戦略を入手。"
+    }
+  },
+  "nav": {},
+  "common": {
+    "home": "ホーム",
+    "more": "もっと見る",
+    "playNow": "今すぐプレイ",
+    "switchLanguage": "言語切り替え",
+    "switchTheme": "テーマ切り替え",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは見つかりませんでした。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む"
+  },
+  "hero": {
+    "badge": "究極のRoblox RPG体験で鬼滅隊士の戦闘を極めよう",
+    "title": "スレイヤーバウンド Wiki",
+    "description": "スレイヤーバウンドの究極のハブ！呼吸法をマスターし、強力な血鬼術をアンロックし、鬼との戦いを制覇しましょう。最新コード、血鬼術ティアリスト、訓練ガイド、ボス攻略で、究極の鬼殺隊士を目指せ！",
+    "getFreeCodesCTA": "無料コードを入手",
+    "playOnRobloxCTA": "Robloxでプレイ",
+    "stats": {
+      "stat1": {
+        "value": "30万以上",
+        "label": "総訪問数"
+      },
+      "stat2": {
+        "value": "1.2K",
+        "label": "Discordメンバー"
+      },
+      "stat3": {
+        "value": "10以上",
+        "label": "有効なコード"
+      },
+      "stat4": {
+        "value": "毎日",
+        "label": "アップデート"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "スレイヤーバウンド トレーラー",
+    "description": "Robloxで、アクション満載の鬼滅の刃RPG体験で呼吸法をマスターし、強力な血鬼術をアンロックし、鬼との戦いを制覇しましょう！"
+  },
+  "tools": {
+    "title": "スレイヤーバウンド",
+    "titleHighlight": "リソース",
+    "subtitle": "以下のセクションにジャンプ",
+    "codes": {
+      "title": "コード",
+      "description": "無料報酬を入手"
+    },
+    "redeemGuide": {
+      "title": "コードの使い方",
+      "description": "コードの使い方を学ぶ"
+    },
+    "trainingPaths": {
+      "title": "訓練の道",
+      "description": "自分の道を選ぶ"
+    },
+    "breathingTier": {
+      "title": "呼吸ティアリスト",
+      "description": "最高の呼吸法"
+    },
+    "demonArtTier": {
+      "title": "血鬼術ティアリスト",
+      "description": "トップ血鬼術"
+    },
+    "oniRoute": {
+      "title": "鬼ルート",
+      "description": "鬼に変身"
+    },
+    "controls": {
+      "title": "操作方法",
+      "description": "キー操作をマスター"
+    },
+    "questMap": {
+      "title": "クエストマップ",
+      "description": "NPCとクエストを見つける"
+    },
+    "bossDrops": {
+      "title": "ボスドロップ",
+      "description": "ボスドロップガイド"
+    },
+    "currencyFarm": {
+      "title": "通貨稼ぎ",
+      "description": "高速で円を稼ぐ"
+    },
+    "resetPlanner": {
+      "title": "リセットプランナー",
+      "description": "リセットを計画する"
+    },
+    "buildPlanner": {
+      "title": "ビルドプランナー",
+      "description": "ビルドを最適化する"
+    },
+    "thunderBreathing": {
+      "title": "雷の呼吸",
+      "description": "雷の型をアンロック"
+    },
+    "fastLeveling": {
+      "title": "高速レベル上げ",
+      "description": "素早くレベルアップ"
+    },
+    "finalSelection": {
+      "title": "最終選別",
+      "description": "鬼殺隊士になる"
+    },
+    "clanSystem": {
+      "title": "血鬼術システム",
+      "description": "血鬼術のティアとバフ"
+    }
+  },
+  "whatIs": {
+    "title": "スレイヤーバウンドとは？",
+    "titleHighlight": "スレイヤーバウンドは、Robloxの鬼滅の刃をテーマにしたアクションRPGです。呼吸法をマスターし、強力な血鬼術をアンロックし、激しい戦闘で鬼と戦いましょう。",
+    "description": "呼吸法",
+    "features": [
+      {
+        "title": "炎、風、水などの強力な呼吸法をマスターする",
+        "description": "血鬼術システム"
+      },
+      {
+        "title": "ユニークな能力を持つ強力な血鬼術をアンロックしてアップグレードする",
+        "description": "鬼との戦い"
+      },
+      {
+        "title": "やりがいのある鬼やボスと戦って報酬を獲得する",
+        "description": "よくある質問"
+      }
+    ]
+  },
+  "faq": {
+    "title": "スレイヤーバウンドについて知っておくべきこと",
+    "titleHighlight": "スレイヤーバウンドで攻撃とブロックはどうすればいいですか？",
+    "subtitle": "LMB = 攻撃、RMB = 強攻撃、F = ブロック。",
+    "questions": [
+      {
+        "question": "スレイヤーバウンドでどうすれば走れますか？",
+        "answer": "Wキーを2回押す(W+W)と走ります。"
+      },
+      {
+        "question": "スレイヤーバウンドでメニューと呼吸をどうすれば開けますか？",
+        "answer": "M = メニュー、G = 呼吸。"
+      },
+      {
+        "question": "スレイヤーバウンドでスキルキーをどうすれば使えますか？",
+        "answer": "スキルには1〜9を使用します。"
+      },
+      {
+        "question": "スレイヤーバウンドのコードをどうすれば引き換えられますか？",
+        "answer": "コードボタン/メニューを開き、コードを入力して、引き換え/入力します。"
+      },
+      {
+        "question": "スレイヤーバウンドのコードが機能しないのはなぜですか？",
+        "answer": "最も一般的な理由：期限切れ、入力ミス、既に使用済み。"
+      },
+      {
+        "question": "スレイヤーバウンドのコードは大文字と小文字を区別しますか？",
+        "answer": "大文字と小文字を区別するものとして扱い、記載されているとおりに正確に貼り付けてください。"
+      },
+      {
+        "question": "スレイヤーバウンドのコードは通常どんな報酬を与えますか？",
+        "answer": "一般的な報酬には、スピン、円、特定のリセット効果が含まれます。"
+      },
+      {
+        "question": "新しいスレイヤーバウンドのコードを最初にどこで追跡する必要がありますか？",
+        "answer": "公式Discord、Robloxゲームページ/コミュニティ投稿、およびアクティブなガイドトラッカー。"
+      },
+      {
+        "question": "公式のスレイヤーバウンドTrelloはありますか？",
+        "answer": "はい、公式のスレイヤーバウンドTrelloリンクが公開されています。"
+      },
+      {
+        "question": "スレイヤーバウンドで利用できるトレーニングパスは何ですか？",
+        "answer": "炎、風、水が主なトレーニングパスです。"
+      },
+      {
+        "question": "スレイヤーバウンドの炎の訓練には何が必要ですか？",
+        "answer": "鬼の角を40個集めて、強力な鬼の敵を倒します。"
+      },
+      {
+        "question": "スレイヤーバウンドの風の訓練には何が必要ですか？",
+        "answer": "鬼キャンプでギガホーンのボスと戦い、角をドロップさせます。"
+      },
+      {
+        "question": "スレイヤーバウンドの水の訓練には何が必要ですか？",
+        "answer": "パルクールチャレンジを完了し、岩を壊します。最終ステップには1回あたり2,000円かかります。"
+      },
+      {
+        "question": "どのスレイヤーバウンドコードが呼吸/血鬼術をリセットできますか？",
+        "answer": "例：1KLIKESは呼吸/血鬼術をリセットし、種族もリセットする場合があります。"
+      },
+      {
+        "question": "スレイヤーバウンドにはステータスリセットコードがありますか？",
+        "answer": "はい、マイルストーンコードにはステータスリセットエントリが含まれています。"
+      },
+      {
+        "question": "スレイヤーバウンドのコードプールは頻繁に変更されますか？",
+        "answer": "はい、リストはマイルストーンとバグ修正ウィンドウの周辺で頻繁に更新されます。"
+      },
+      {
+        "question": "スレイヤーバウンドで正確なボスドロップ率はわかっていますか？",
+        "answer": "ドロップ率は開発者によって公式に確認されていません。"
+      },
+      {
+        "question": "スレイヤーバウンドで最高の円稼ぎルートは何ですか？",
+        "answer": "最初にアクティブなコードを引き換え、次にコストを管理しながら進行ルートに従います。"
+      },
+      {
+        "question": "スレイヤーバウンドで早期に1つのビルドにコミットする必要がありますか？",
+        "answer": "推奨されません—最初にルートとコントロールをテストし、戦略的にリセットを使用してください。"
+      },
+      {
+        "question": "スレイヤーバウンドをマスターする準備はできましたか？",
+        "answer": "Discordでスレイヤーバウンドコミュニティに参加して、戦略を共有し、チームメイトを見つけ、最新のコードを入手してください！"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Discordに参加",
+    "description": "Robloxでプレイ",
+    "joinCommunity": "スレイヤーバウンド",
+    "joinGame": "スレイヤーバウンドの完全なリソースハブ。呼吸法をマスターし、鬼との戦いを制覇するためのコード、ガイド、訓練パス、戦略を見つけてください。"
+  },
+  "footer": {
+    "title": "リソース",
+    "description": "有効なコード",
+    "resources": "訓練ガイド",
+    "activeCodes": "呼吸法",
+    "trainingGuides": "血鬼術ガイド",
+    "breathingStyles": "コミュニティ",
+    "clanGuides": "公式Discord",
+    "moreTools": "公式Trello",
+    "discord": "Robloxでプレイ",
+    "trello": "© 2026 スレイヤーバウンド Wiki。Roblox Corporationまたはスレイヤーバウンドの開発者とは提携していません。",
+    "playNow": "プライバシーポリシー",
+    "copyright": "利用規約",
+    "privacyPolicy": "スレイヤーバウンド",
+    "termsOfService": "コード"
+  },
+  "homepage": {
+    "codes": {
+      "title": "無料のスピン、円、リセットを入手して進行を促進する",
+      "titleHighlight": "すべてのコードと引き換えガイドを表示",
+      "subtitle": "コード",
+      "cta": "報酬",
+      "table": {
+        "headers": {
+          "code": "ステータス",
+          "reward": "morespins",
+          "status": "20 スピン"
+        },
+        "items": [
+          {
+            "code": "有効",
+            "reward": "100KVISITS",
+            "status": "15 スピン"
+          },
+          {
+            "code": "有効",
+            "reward": "1KLIKES",
+            "status": "呼吸/血鬼術リセット"
+          },
+          {
+            "code": "有効",
+            "reward": "guizerayt",
+            "status": "10 スピン"
+          },
+          {
+            "code": "有効",
+            "reward": "RELEASE",
+            "status": "10 スピン"
+          },
+          {
+            "code": "有効",
+            "reward": "スレイヤーバウンド",
+            "status": "コードの使い方"
+          }
+        ]
+      }
+    },
+    "redeemGuide": {
+      "title": "コードを正常に引き換えるには、次の手順に従ってください",
+      "titleHighlight": "ゲームを起動",
+      "subtitle": "Robloxでスレイヤーバウンドを開く",
+      "steps": [
+        {
+          "step": 1,
+          "title": "コードを開く",
+          "detail": "メインメニューから、コードボタンをクリックします"
+        },
+        {
+          "step": 2,
+          "title": "コードを貼り付け",
+          "detail": "コードフィールドに有効なコードを入力します"
+        },
+        {
+          "step": 3,
+          "title": "報酬を受け取る",
+          "detail": "引き換え/入力を押して報酬を受け取ります"
+        },
+        {
+          "step": 4,
+          "title": "スレイヤーバウンド",
+          "detail": "訓練の道"
+        }
+      ]
+    },
+    "trainingPaths": {
+      "title": "訓練の道を選んでください：炎、風、または水",
+      "titleHighlight": "炎",
+      "subtitle": "スポーン近くの道",
+      "paths": [
+        {
+          "name": "鬼の角40個 + 強力な鬼を倒す",
+          "location": "高い",
+          "requirements": "0 円",
+          "difficulty": "風",
+          "cost": "海の村"
+        },
+        {
+          "name": "ギガホーンのボスを倒す + 角をドロップする",
+          "location": "高い",
+          "requirements": "0 円",
+          "difficulty": "水",
+          "cost": "小麦畑の滝"
+        },
+        {
+          "name": "パルクールを完了 + 岩を壊す",
+          "location": "中",
+          "requirements": "1回あたり2,000円",
+          "difficulty": "スレイヤーバウンド",
+          "cost": "呼吸ティアリスト"
+        }
+      ]
+    },
+    "breathingTier": {
+      "title": "PvE/PvPのパフォーマンスと難易度で呼吸法を比較する",
+      "titleHighlight": "コミュニティテストデータ - ランキングは定期的に更新されます",
+      "subtitle": "呼吸",
+      "dataNote": "PvE",
+      "table": {
+        "headers": {
+          "breathing": "PvP",
+          "pveScore": "難易度",
+          "pvpScore": "取得コスト",
+          "difficulty": "炎",
+          "cost": "Aティア"
+        },
+        "items": [
+          {
+            "breathing": "Aティア",
+            "pveScore": "中",
+            "pvpScore": "鬼の角40個 + 強力な鬼との戦い",
+            "difficulty": "風",
+            "cost": "Sティア"
+          },
+          {
+            "breathing": "Sティア",
+            "pveScore": "難しい",
+            "pvpScore": "ギガホーンのボスドロップ（RNG）",
+            "difficulty": "水",
+            "cost": "Aティア"
+          },
+          {
+            "breathing": "Bティア",
+            "pveScore": "中",
+            "pvpScore": "パルクール + 1回あたり2,000円",
+            "difficulty": "雷",
+            "cost": "Sティア"
+          },
+          {
+            "breathing": "Aティア",
+            "pveScore": "難しい",
+            "pvpScore": "特別なアンロック方法",
+            "difficulty": "スレイヤーバウンド",
+            "cost": "血鬼術ティアリスト"
+          }
+        ]
+      }
+    },
+    "demonArtTier": {
+      "title": "血鬼術のパワーランキングと難易度マトリックス",
+      "titleHighlight": "近日公開",
+      "subtitle": "詳細な血鬼術ランキングは、包括的なテストデータとともに近日公開されます。",
+      "statusBadge": "血鬼術システムはゲーム内で利用可能です",
+      "emptyStateText": "コードを介して呼吸/血鬼術のリセットが利用可能",
+      "knownFacts": [
+        "コミュニティは専用の鬼+血鬼術ガイドを持っています",
+        "血鬼術の完全なリストがコンパイルされています",
+        "PvE/PvPのパフォーマンスのテストが進行中"
+      ],
+      "dataGaps": [
+        "コンボの相乗効果が文書化されています",
+        "Trello/Discordで更新を追跡する",
+        "スレイヤーバウンド"
+      ],
+      "ctaText": "鬼ルート"
+    },
+    "oniRoute": {
+      "title": "鬼に変身して血鬼術をアンロックする",
+      "titleHighlight": "ガイドが利用可能",
+      "subtitle": "変身手順に従って鬼になり、強力な血鬼術にアクセスします。",
+      "statusBadge": "人間として開始",
+      "warningText": "スタート",
+      "flowNodes": [
+        {
+          "id": 1,
+          "title": "鬼に変身",
+          "type": "分岐",
+          "known": true
+        },
+        {
+          "id": 2,
+          "title": "血鬼術を入手/スピン",
+          "type": "進行",
+          "known": true
+        },
+        {
+          "id": 3,
+          "title": "ビルドの専門化",
+          "type": "最適化",
+          "known": true
+        },
+        {
+          "id": 4,
+          "title": "変身NPCの場所",
+          "type": "必要なアイテムとレベル",
+          "known": true
+        }
+      ],
+      "unknowns": [
+        "変身コスト",
+        "最高の血鬼術の組み合わせ",
+        "スレイヤーバウンド",
+        "操作方法"
+      ]
+    },
+    "controls": {
+      "title": "戦闘のためのキーボード操作をマスターする",
+      "titleHighlight": "LMB",
+      "subtitle": "攻撃",
+      "keys": [
+        {
+          "key": "RMB",
+          "action": "強攻撃"
+        },
+        {
+          "key": "F",
+          "action": "ブロック"
+        },
+        {
+          "key": "W + W",
+          "action": "走る"
+        },
+        {
+          "key": "M",
+          "action": "メニュー"
+        },
+        {
+          "key": "G",
+          "action": "呼吸"
+        },
+        {
+          "key": "1-9",
+          "action": "スキル"
+        },
+        {
+          "key": "スレイヤーバウンド",
+          "action": "クエストマップ"
+        }
+      ]
+    },
+    "questMap": {
+      "title": "クエストNPCと訓練場所を見つける",
+      "titleHighlight": "推奨される順序：炎 → 水 → 風",
+      "subtitle": "スポーンパス（炎スタート）",
+      "recommendedSequence": "スポーンの近く",
+      "pins": [
+        {
+          "id": 1,
+          "name": "炎の訓練を開始",
+          "region": "鬼の角40個",
+          "objective": "いくつかのタフな鬼を倒す",
+          "requirements": [
+            "炎の道の進行",
+            "鬼キャンプ（風のステップ）"
+          ],
+          "rewards": [
+            "海の村"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "ギガホーンを倒し、角をドロップさせる",
+          "region": "ボスをクリア",
+          "objective": "ドロップ運（RNG）",
+          "requirements": [
+            "風の道の進行",
+            "滝の試練"
+          ],
+          "rewards": [
+            "大きな小麦畑"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "パルクールチャレンジ+岩を壊す",
+          "region": "最終ステップの試行ごとに2,000円",
+          "objective": "水の道の進行",
+          "requirements": [
+            "スレイヤーバウンド"
+          ],
+          "rewards": [
+            "ボスドロップ"
+          ]
+        }
+      ]
+    },
+    "bossDrops": {
+      "title": "ボスドロップとドロップ要件",
+      "titleHighlight": "ボスドロップはRNGに基づいています。必要なアイテムを入手するまで農業を続けてください！",
+      "subtitle": "ドロップ",
+      "riskNotice": "ソース",
+      "table": {
+        "headers": {
+          "drop": "入手方法",
+          "source": "主な用途",
+          "howToObtain": "ギガホーン",
+          "primaryUse": "ギガホーンボス（鬼キャンプ）"
+        },
+        "items": [
+          {
+            "drop": "ギガホーンボスを倒して角をドロップするまで倒す",
+            "source": "風の訓練の進行に必要",
+            "howToObtain": "鬼の角x40",
+            "primaryUse": "鬼の敵"
+          },
+          {
+            "drop": "鬼をファームして40個の角を集める",
+            "source": "炎の訓練の進行に必要",
+            "howToObtain": "ボスの材料",
+            "primaryUse": "さまざまなボス"
+          },
+          {
+            "drop": "最新のボスのドロップについては、Trello/Discordを確認してください",
+            "source": "クラフトと進行",
+            "howToObtain": "スレイヤーバウンド",
+            "primaryUse": "通貨稼ぎ"
+          }
+        ]
+      }
+    },
+    "currencyFarm": {
+      "title": "円を効率的に稼ぐための最良の方法",
+      "titleHighlight": "スレイヤーバウンドで円の収入を最大化するために、これらの実績のある方法を使用してください。",
+      "subtitle": "コード引き換え",
+      "disclaimer": "スピン+円（コードによって異なります）",
+      "methods": [
+        {
+          "rank": 1,
+          "method": "1〜3分",
+          "expectedReturn": "低い",
+          "timeToValue": "ゲームメニューを開き、最初にアクティブなコードを引き換えます",
+          "riskLevel": "長いグラインドループにコミットする前にスピンを使用する",
+          "howTo": [
+            "スマートリソース管理",
+            "失敗した試みを避けて円を節約する"
+          ]
+        },
+        {
+          "rank": 2,
+          "method": "即時",
+          "expectedReturn": "低い",
+          "timeToValue": "高コストのトレーニングを試みる前に要件を準備する",
+          "riskLevel": "水の道の最終試行には1回あたり2,000円かかります",
+          "howTo": [
+            "戦闘進行ループ",
+            "クエストからの円とEXP"
+          ]
+        },
+        {
+          "rank": 3,
+          "method": "中",
+          "expectedReturn": "中",
+          "timeToValue": "初心者向け進行ガイドに従う",
+          "riskLevel": "最適な農業ルートについては、Discordを確認してください",
+          "howTo": [
+            "スレイヤーバウンド",
+            "リセットプランナー"
+          ]
+        }
+      ]
+    },
+    "resetPlanner": {
+      "title": "リセットを戦略的に計画する - 決して盲目的にリセットしない",
+      "titleHighlight": "現在のボトルネックは何ですか？",
+      "subtitle": "コア統計の割り当てが間違っていると感じますか？",
+      "startQuestion": "統計リセットコードが利用可能かどうかを確認してください",
+      "decisions": [
+        {
+          "question": "呼吸/血鬼術が目標に対してオフメタかどうかを確認してください",
+          "yesAction": "統計リセットコードが利用可能ですか？",
+          "noAction": "今すぐ統計リセットを使用する - リセットを適用してから、ターゲットモード（PvE/PvP/ハイブリッド）を中心に再構築します"
+        },
+        {
+          "question": "リセットを遅らせてリソースをファームする - 最初はアクティブなスピン/円コードと進行ルートを使用します",
+          "yesAction": "呼吸/血鬼術が目標に対してオフメタですか？",
+          "noAction": "呼吸/血鬼術リセットコードを今すぐ使用できますか？"
+        },
+        {
+          "question": "ビルドを維持し、実行を最適化する - 再ロールする前にコントロールのマスタリーに焦点を当てます",
+          "yesAction": "呼吸/血鬼術リセットコードを今すぐ使用できますか？",
+          "noAction": "呼吸/血鬼術リセットを使用する - 既知のリセットの例には、種族にも影響を与える可能性のあるリセットが含まれます"
+        },
+        {
+          "question": "パニックリセットをしない - 次のマイルストーン/アップデートコードのドロップを待ちます。Discordの発表を追跡します",
+          "yesAction": "スレイヤーバウンド",
+          "noAction": "ビルドプランナー"
+        }
+      ]
+    },
+    "buildPlanner": {
+      "title": "目標ベースの計画でキャラクタービルドを最適化する",
+      "titleHighlight": "プレイスタイルと目標に基づいてビルドを計画する",
+      "subtitle": "goalMode",
+      "dataNote": "目標モード",
+      "inputFields": [
+        {
+          "key": "選択",
+          "label": "PvE進行",
+          "type": "ボスフォーカス",
+          "options": [
+            "PvPデュエル",
+            "ハイブリッド",
+            "route",
+            "ルート"
+          ]
+        },
+        {
+          "key": "選択",
+          "label": "鬼殺隊士",
+          "type": "鬼",
+          "options": [
+            "currentBreathing",
+            "現在の呼吸"
+          ]
+        },
+        {
+          "key": "テキスト",
+          "label": "currentDemonArt",
+          "type": "現在の血鬼術"
+        },
+        {
+          "key": "テキスト",
+          "label": "yenBudget",
+          "type": "現在の円"
+        },
+        {
+          "key": "数",
+          "label": "spinsAvailable",
+          "type": "利用可能なスピン"
+        },
+        {
+          "key": "数",
+          "label": "スターター鬼殺隊士（低予算）",
+          "type": "PvE進行"
+        }
+      ],
+      "presetExamples": [
+        {
+          "name": "鬼殺隊士",
+          "goalMode": "アクティブなコードを引き換えて、安定した進行ルートを選択します",
+          "route": "円の無駄を避けるために、トレーニングの前に要件を準備します",
+          "yenBudget": 2000,
+          "spinsAvailable": 10,
+          "output": {
+            "now": "方向を変更する必要がある場合は、戦略的にリセットを使用します",
+            "next": "ルートスイッチ候補",
+            "after": "ハイブリッド"
+          }
+        },
+        {
+          "name": "鬼",
+          "goalMode": "ルートのターゲットとリセット戦略を確認します",
+          "route": "フルリビルドではなく、選択的なリセットを適用します",
+          "yenBudget": 5000,
+          "spinsAvailable": 20,
+          "output": {
+            "now": "次のリセットの前にボス/進行ループでテストします",
+            "next": "スレイヤーバウンド",
+            "after": "雷の呼吸"
+          }
+        }
+      ]
+    },
+    "thunderBreathing": {
+      "title": "雷の呼吸の型をアンロックするための完全なガイド",
+      "titleHighlight": "雷のトレーナーを見つける",
+      "subtitle": "雪の村の近くの山に移動します",
+      "steps": [
+        {
+          "step": 1,
+          "title": "クエストを受け入れる",
+          "detail": "トレーナーに話しかけて、キャンディクエストを受け入れます"
+        },
+        {
+          "step": 2,
+          "title": "材料を集める",
+          "detail": "農業地域から6つの小麦と3つの卵を集めます"
+        },
+        {
+          "step": 3,
+          "title": "トレーニングを完了する",
+          "detail": "トレーナーに戻り、雷の呼吸のロック解除を完了します"
+        },
+        {
+          "step": 4,
+          "title": "要件",
+          "detail": "小麦6個"
+        }
+      ],
+      "requirements": {
+        "title": "卵3個",
+        "items": [
+          "キャンディクエストを完了する",
+          "中",
+          "雪の村の近くの山"
+        ]
+      },
+      "difficulty": "スレイヤーバウンド",
+      "location": "高速レベル上げ"
+    },
+    "fastLeveling": {
+      "title": "スレイヤーバウンドで素早くレベルアップするための効率的な方法",
+      "titleHighlight": "クエストの種類",
+      "subtitle": "マップ",
+      "methods": [
+        {
+          "title": "最大のXPを得るために正しいクエストに焦点を当てます",
+          "icon": "緑のクエスト=配達（素早い完了）",
+          "description": "黄色のクエスト=戦闘（高いXP報酬）",
+          "tips": [
+            "青色のクエスト=収集（中程度のXP）",
+            "フードシステム",
+            "食器"
+          ]
+        },
+        {
+          "title": "HPを維持し、効率的に農業を行うために食品を使用する",
+          "icon": "HP再生のために食品をインベントリに保管する",
+          "description": "戦闘エンカウンター間のダウンタイムを短縮する",
+          "tips": [
+            "継続的なクエストグラインドに不可欠",
+            "進行ルート",
+            "ルート"
+          ]
+        },
+        {
+          "title": "最適なレベル上げパスに従う",
+          "icon": "最初にスターターエリアのクエストを完了する",
+          "description": "より高いレベルのゾーンに段階的に移動する",
+          "tips": [
+            "ボーナスXPとスピンのためにコードを使用する",
+            "スレイヤーバウンド",
+            "最終選別"
+          ]
+        }
+      ]
+    },
+    "finalSelection": {
+      "title": "最終選別を完了して、公式の鬼殺隊士になる",
+      "titleHighlight": "最終選別は、鬼殺隊士としての価値を証明する重要なマイルストーンです。このパルクールチャレンジを完了して、鬼殺隊士の制服と公式ステータスを獲得してください。",
+      "subtitle": "森林地域のパルクールチャレンジ",
+      "overview": "1時間ごと（リアルタイム）",
+      "details": {
+        "location": "セッションあたり最大12人のプレイヤー",
+        "timing": "中から難しい",
+        "maxPlayers": "報酬",
+        "difficulty": "公式の鬼殺隊士の制服"
+      },
+      "rewards": {
+        "title": "鬼殺隊士メンバーシップ",
+        "items": [
+          "鬼殺隊士の屋敷へのアクセス",
+          "瓢箪訓練システムをアンロックする",
+          "ヒント",
+          "試みる前にパルクールを練習する"
+        ]
+      },
+      "tips": {
+        "title": "時間ごとのイベントが開始されるのを待つ",
+        "items": [
+          "サポートのために他のプレイヤーとチームを組む",
+          "あきらめないでください - 1時間ごとに再試行できます",
+          "スレイヤーバウンド",
+          "血鬼術システム"
+        ]
+      }
+    },
+    "clanSystem": {
+      "title": "血鬼術のティア、バフ、血鬼術を再ロールする方法",
+      "titleHighlight": "血鬼術は、キャラクターを強化するユニークなバフと能力を提供します。各血鬼術には、異なるレアリティと特別な利点があります。",
+      "subtitle": "一般的",
+      "overview": "灰色",
+      "tiers": [
+        {
+          "tier": "高い",
+          "color": "標準的なバフを持つ基本的な血鬼術",
+          "dropRate": "珍しい",
+          "description": "青"
+        },
+        {
+          "tier": "中",
+          "color": "強化されたバフと能力",
+          "dropRate": "エピック",
+          "description": "紫"
+        },
+        {
+          "tier": "低い",
+          "color": "強力な血鬼術能力",
+          "dropRate": "伝説的",
+          "description": "金"
+        },
+        {
+          "tier": "非常に低い",
+          "color": "並外れたバフを持つトップティアの血鬼術",
+          "dropRate": "注目すべき血鬼術",
+          "description": "継国"
+        }
+      ],
+      "notableClans": {
+        "title": "伝説的",
+        "clans": [
+          {
+            "name": "並外れた戦闘バフ",
+            "tier": "竈門",
+            "benefit": "伝説的"
+          },
+          {
+            "name": "強化された呼吸法",
+            "tier": "我妻",
+            "benefit": "エピック"
+          },
+          {
+            "name": "雷の呼吸ボーナス",
+            "tier": "スピン/再ロールする方法",
+            "benefit": "コードまたはゲームプレイから得られたスピンを使用する"
+          }
+        ]
+      },
+      "howToSpin": {
+        "title": "ゲーム内の血鬼術メニューにアクセスする",
+        "steps": [
+          "スピンを使ってより良い血鬼術のために再ロールする",
+          "上位ティアの血鬼術はドロップ率が低い",
+          "Spend spins to reroll for better clans",
+          "Higher tier clans have lower drop rates"
+        ]
+      }
+    }
+  }
+}

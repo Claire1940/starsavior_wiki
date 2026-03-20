@@ -1,0 +1,36 @@
+{
+  "api_key": "sk-eVJt9v8Kqg75CI1ND2gJHmv27xHS3Gt6oSpFtYAXWeIdZCzZ",
+  "api_base_url": "https://www.zhongzhuan.win/v1/chat/completions",
+  "model": "aws.amazon/claude-opus-4-5:once",
+  "group": "default",
+  "temperature": 0.7,
+  "max_tokens": 65536,
+  "timeout": 1800,
+  "retry_attempts": 3,
+  "retry_delay": 5,
+
+  "languages": ["pt", "es", "ja", "ko", "fr", "de", "th"],
+  "default_language": "en",
+  "output_dir": "content/",
+
+  "game_names": {
+    "en": "Slayerbound",
+    "pt": "Slayerbound",
+    "es": "Slayerbound",
+    "ja": "スレイヤーバウンド",
+    "ko": "슬레이어바운드",
+    "fr": "Slayerbound",
+    "de": "Slayerbound",
+    "th": "Slayerbound"
+  },
+
+  "lang_names": {
+    "pt": "Portuguese (Brazil)",
+    "es": "Spanish (LATAM)",
+    "ja": "Japanese",
+    "ko": "Korean",
+    "fr": "French",
+    "de": "German",
+    "th": "Thai"
+  }
+}

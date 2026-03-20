@@ -1,0 +1,876 @@
+{
+  "seo": {
+    "home": {
+      "title": "Slayerbound Wiki - Codes, Liste de Niveaux, Unités et Guides | Slayerbound Roblox",
+      "description": "Centre de ressources complet Slayerbound Wiki ! Obtenez les derniers codes fonctionnels, listes de niveaux, guides d'unités, stratégies RPG d'action et wiki pour le jeu Slayerbound Roblox. Maîtrisez chaque vague avec nos guides complets !",
+      "keywords": "Slayerbound Wiki, Slayerbound, codes Slayerbound, liste de niveaux Slayerbound, unités Slayerbound, guide Slayerbound, RPG d'action Roblox, RPG d'action anime, codes Roblox, jeu RPG d'action, codes de jeux anime",
+      "ogTitle": "Slayerbound Wiki - Codes, Liste de Niveaux, Unités et Guides",
+      "ogDescription": "Centre de ressources complet Slayerbound Wiki ! Obtenez les derniers codes fonctionnels, listes de niveaux, guides d'unités, stratégies RPG d'action et wiki pour le jeu Slayerbound Roblox.",
+      "twitterTitle": "Slayerbound Wiki - Codes, Liste de Niveaux, Unités et Guides",
+      "twitterDescription": "Centre de ressources complet Slayerbound Wiki ! Obtenez les derniers codes fonctionnels, listes de niveaux, guides d'unités et stratégies RPG d'action."
+    }
+  },
+  "nav": {},
+  "common": {
+    "home": "Accueil",
+    "more": "Plus",
+    "playNow": "Jouer Maintenant",
+    "switchLanguage": "Changer de Langue",
+    "switchTheme": "Changer de Thème",
+    "lightMode": "Mode Clair",
+    "darkMode": "Mode Sombre",
+    "notFound": "Page Introuvable",
+    "notFoundDescription": "La page que vous recherchez n'existe pas.",
+    "backToHome": "Retour à l'Accueil",
+    "relatedArticles": "Articles Similaires",
+    "readMore": "Lire Plus"
+  },
+  "hero": {
+    "badge": "Maîtrisez le Combat de Pourfendeur de Démons dans l'Expérience RPG Roblox Ultime",
+    "title": "Slayerbound Wiki",
+    "description": "Votre centre ultime pour Slayerbound ! Maîtrisez les styles de respiration, débloquez des clans puissants et dominez les combats de démons. Obtenez des codes fonctionnels, des listes de niveaux de clans, des guides d'entraînement et des stratégies de boss pour devenir le pourfendeur de démons ultime !",
+    "getFreeCodesCTA": "Obtenir des Codes Gratuits",
+    "playOnRobloxCTA": "Jouer sur Roblox",
+    "stats": {
+      "stat1": {
+        "value": "300K+",
+        "label": "Visites Totales"
+      },
+      "stat2": {
+        "value": "1.2K",
+        "label": "Membres Discord"
+      },
+      "stat3": {
+        "value": "10+",
+        "label": "Codes Actifs"
+      },
+      "stat4": {
+        "value": "Quotidien",
+        "label": "Mises à jour"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Bande-annonce de Slayerbound",
+    "description": "Maîtrisez les styles de respiration, débloquez des clans puissants et dominez les combats de démons dans cette expérience RPG Demon Slayer bourrée d'action sur Roblox !"
+  },
+  "tools": {
+    "title": "Slayerbound",
+    "titleHighlight": "Ressources",
+    "subtitle": "Accéder à n'importe quelle section ci-dessous",
+    "codes": {
+      "title": "Codes",
+      "description": "Obtenez des récompenses gratuites"
+    },
+    "redeemGuide": {
+      "title": "Guide d'Utilisation",
+      "description": "Apprenez à utiliser les codes"
+    },
+    "trainingPaths": {
+      "title": "Chemins d'Entraînement",
+      "description": "Choisissez votre chemin"
+    },
+    "breathingTier": {
+      "title": "Liste des Niveaux de Respiration",
+      "description": "Meilleurs styles de respiration"
+    },
+    "demonArtTier": {
+      "title": "Liste des Niveaux d'Art Démoniaque",
+      "description": "Meilleurs arts démoniaques"
+    },
+    "oniRoute": {
+      "title": "Voie Oni",
+      "description": "Se Transformer en Oni"
+    },
+    "controls": {
+      "title": "Contrôles",
+      "description": "Maîtriser les touches"
+    },
+    "questMap": {
+      "title": "Carte des Quêtes",
+      "description": "Trouver des PNJ et des quêtes"
+    },
+    "bossDrops": {
+      "title": "Butin des Boss",
+      "description": "Guide du butin des boss"
+    },
+    "currencyFarm": {
+      "title": "Ferme de Devises",
+      "description": "Gagner des Yen rapidement"
+    },
+    "resetPlanner": {
+      "title": "Planificateur de Réinitialisation",
+      "description": "Planifiez vos réinitialisations"
+    },
+    "buildPlanner": {
+      "title": "Planificateur de Construction",
+      "description": "Optimisez votre construction"
+    },
+    "thunderBreathing": {
+      "title": "Respiration de la Foudre",
+      "description": "Débloquez le style de la Foudre"
+    },
+    "fastLeveling": {
+      "title": "Nivellement Rapide",
+      "description": "Montez de niveau rapidement"
+    },
+    "finalSelection": {
+      "title": "Sélection Finale",
+      "description": "Devenir un Pourfendeur"
+    },
+    "clanSystem": {
+      "title": "Système de Clan",
+      "description": "Niveaux et buffs des clans"
+    }
+  },
+  "whatIs": {
+    "title": "Qu'est-ce que",
+    "titleHighlight": "Slayerbound ?",
+    "description": "Slayerbound est un RPG d'action sur Roblox sur le thème de Demon Slayer. Maîtrisez les styles de respiration, débloquez des clans puissants et combattez des démons dans des combats intenses.",
+    "features": [
+      {
+        "title": "Styles de Respiration",
+        "description": "Maîtrisez de puissantes techniques de respiration comme la Flamme, le Vent et l'Eau"
+      },
+      {
+        "title": "Système de Clan",
+        "description": "Débloquez et améliorez des clans puissants avec des capacités uniques"
+      },
+      {
+        "title": "Combats de Démons",
+        "description": "Combattez des démons et des boss difficiles pour gagner des récompenses"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Foire Aux",
+    "titleHighlight": "Questions",
+    "subtitle": "Tout ce que vous devez savoir sur Slayerbound",
+    "questions": [
+      {
+        "question": "Comment attaquer et bloquer dans Slayerbound ?",
+        "answer": "Clic gauche = Attaque, Clic droit = Attaque lourde, F = Bloquer."
+      },
+      {
+        "question": "Comment courir dans Slayerbound ?",
+        "answer": "Appuyez deux fois sur W (W+W) pour courir."
+      },
+      {
+        "question": "Comment ouvrir le menu et la respiration dans Slayerbound ?",
+        "answer": "M = Menu, G = Respiration."
+      },
+      {
+        "question": "Comment utiliser les touches de compétence dans Slayerbound ?",
+        "answer": "Utilisez 1 à 9 pour les compétences."
+      },
+      {
+        "question": "Comment utiliser les codes Slayerbound ?",
+        "answer": "Ouvrez le bouton/menu Codes, entrez le code, puis utilisez/entrez."
+      },
+      {
+        "question": "Pourquoi un code Slayerbound ne fonctionne-t-il pas ?",
+        "answer": "Raisons les plus courantes : expiré, faute de frappe, déjà utilisé."
+      },
+      {
+        "question": "Les codes Slayerbound sont-ils sensibles à la casse ?",
+        "answer": "Considérez-les comme sensibles à la casse et collez-les exactement comme indiqué."
+      },
+      {
+        "question": "Quelles récompenses les codes Slayerbound donnent-ils généralement ?",
+        "answer": "Les récompenses courantes incluent des Tours, des Yen et des effets de réinitialisation spécifiques."
+      },
+      {
+        "question": "Où dois-je suivre en premier les nouveaux codes Slayerbound ?",
+        "answer": "Discord officiel, page de jeu Roblox/publications de la communauté et traqueurs de guides actifs."
+      },
+      {
+        "question": "Existe-t-il un Trello officiel de Slayerbound ?",
+        "answer": "Oui, un lien Trello officiel de Slayerbound est partagé publiquement."
+      },
+      {
+        "question": "Quels chemins d'entraînement sont disponibles dans Slayerbound ?",
+        "answer": "La Flamme, le Vent et l'Eau sont les principaux chemins d'entraînement."
+      },
+      {
+        "question": "Que nécessite l'entraînement à la Flamme de Slayerbound ?",
+        "answer": "Collectez 40 Cornes d'Oni et battez de puissants ennemis Oni."
+      },
+      {
+        "question": "Que nécessite l'entraînement au Vent de Slayerbound ?",
+        "answer": "Combattez le boss Giga Corne dans le Camp de Démons jusqu'à ce que la corne tombe."
+      },
+      {
+        "question": "Que nécessite l'entraînement à l'Eau de Slayerbound ?",
+        "answer": "Terminez le défi de parkour et brisez le rocher. L'étape finale coûte 2 000 Yen par tentative."
+      },
+      {
+        "question": "Quel code Slayerbound peut réinitialiser la respiration/l'art démoniaque ?",
+        "answer": "Exemple : 1KLIKES réinitialise la respiration/l'art démoniaque et peut également réinitialiser la race."
+      },
+      {
+        "question": "Existe-t-il des codes de réinitialisation des statistiques dans Slayerbound ?",
+        "answer": "Oui, les codes jalons incluent des entrées de réinitialisation des statistiques."
+      },
+      {
+        "question": "Les pools de codes Slayerbound changent-ils souvent ?",
+        "answer": "Oui, les listes sont mises à jour fréquemment autour des jalons et des fenêtres de correction de bugs."
+      },
+      {
+        "question": "Les taux de chute exacts des boss sont-ils connus dans Slayerbound ?",
+        "answer": "Les taux de chute ne sont pas confirmés publiquement par les développeurs."
+      },
+      {
+        "question": "Quel est le meilleur itinéraire de farm de Yen dans Slayerbound ?",
+        "answer": "Utilisez d'abord les codes actifs, puis suivez les itinéraires de progression tout en gérant les coûts."
+      },
+      {
+        "question": "Dois-je m'engager dans une seule construction au début de Slayerbound ?",
+        "answer": "Déconseillé - testez d'abord les itinéraires et les commandes, puis utilisez les réinitialisations de manière stratégique."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à maîtriser Slayerbound ?",
+    "description": "Rejoignez la communauté Slayerbound sur Discord pour partager des stratégies, trouver des coéquipiers et obtenir les derniers codes !",
+    "joinCommunity": "Rejoindre Discord",
+    "joinGame": "Jouer sur Roblox"
+  },
+  "footer": {
+    "title": "Slayerbound",
+    "description": "Votre centre de ressources complet pour Slayerbound. Trouvez des codes, des guides, des chemins d'entraînement et des stratégies pour maîtriser les styles de respiration et dominer les combats de démons.",
+    "resources": "Ressources",
+    "activeCodes": "Codes Actifs",
+    "trainingGuides": "Guides d'Entraînement",
+    "breathingStyles": "Styles de Respiration",
+    "clanGuides": "Guides de Clan",
+    "moreTools": "Communauté",
+    "discord": "Discord Officiel",
+    "trello": "Trello Officiel",
+    "playNow": "Jouer sur Roblox",
+    "copyright": "© 2026 Slayerbound Wiki. Non affilié à Roblox Corporation ou aux développeurs de Slayerbound.",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions d'Utilisation"
+  },
+  "homepage": {
+    "codes": {
+      "title": "Slayerbound",
+      "titleHighlight": "Codes",
+      "subtitle": "Obtenez des tours, des yen et des réinitialisations gratuits pour booster votre progression",
+      "cta": "Voir Tous les Codes et le Guide d'Utilisation",
+      "table": {
+        "headers": {
+          "code": "Code",
+          "reward": "Récompense",
+          "status": "Statut"
+        },
+        "items": [
+          {
+            "code": "morespins",
+            "reward": "20 Tours",
+            "status": "actif"
+          },
+          {
+            "code": "100KVISITS",
+            "reward": "15 Tours",
+            "status": "actif"
+          },
+          {
+            "code": "1KLIKES",
+            "reward": "Réinitialisation de la Respiration/de l'Art Démoniaque",
+            "status": "actif"
+          },
+          {
+            "code": "guizerayt",
+            "reward": "10 Tours",
+            "status": "actif"
+          },
+          {
+            "code": "RELEASE",
+            "reward": "10 Tours",
+            "status": "actif"
+          }
+        ]
+      }
+    },
+    "redeemGuide": {
+      "title": "Slayerbound",
+      "titleHighlight": "Guide d'Utilisation",
+      "subtitle": "Suivez ces étapes pour utiliser les codes avec succès",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Lancer le Jeu",
+          "detail": "Ouvrez Slayerbound dans Roblox"
+        },
+        {
+          "step": 2,
+          "title": "Ouvrir les Codes",
+          "detail": "Depuis le Menu Principal, cliquez sur le bouton Codes"
+        },
+        {
+          "step": 3,
+          "title": "Coller le Code",
+          "detail": "Entrez un code fonctionnel dans le champ de code"
+        },
+        {
+          "step": 4,
+          "title": "Réclamer les Récompenses",
+          "detail": "Appuyez sur Utiliser / Entrer et récupérez les récompenses"
+        }
+      ]
+    },
+    "trainingPaths": {
+      "title": "Slayerbound",
+      "titleHighlight": "Chemins d'Entraînement",
+      "subtitle": "Choisissez votre chemin d'entraînement : Flamme, Vent ou Eau",
+      "paths": [
+        {
+          "name": "Flamme",
+          "location": "Chemin près du Spawn",
+          "requirements": "40 Cornes d'Oni + Vaincre de puissants Onis",
+          "difficulty": "Élevé",
+          "cost": "0 Yen"
+        },
+        {
+          "name": "Vent",
+          "location": "Village de la Mer",
+          "requirements": "Vaincre le boss Giga Corne + Obtenir la corne",
+          "difficulty": "Élevé",
+          "cost": "0 Yen"
+        },
+        {
+          "name": "Eau",
+          "location": "Cascade des Champs de Blé",
+          "requirements": "Terminer le parkour + Briser le rocher",
+          "difficulty": "Moyen",
+          "cost": "2 000 Yen par tentative"
+        }
+      ]
+    },
+    "breathingTier": {
+      "title": "Slayerbound",
+      "titleHighlight": "Liste des Niveaux de Respiration",
+      "subtitle": "Comparez les styles de respiration par performances PvE/PvP et difficulté",
+      "dataNote": "Données de test de la communauté - classements mis à jour régulièrement",
+      "table": {
+        "headers": {
+          "breathing": "Respiration",
+          "pveScore": "PvE",
+          "pvpScore": "PvP",
+          "difficulty": "Difficulté",
+          "cost": "Coût d'Acquisition"
+        },
+        "items": [
+          {
+            "breathing": "Flamme",
+            "pveScore": "Niveau A",
+            "pvpScore": "Niveau A",
+            "difficulty": "Moyenne",
+            "cost": "40 Cornes d'Oni + combats contre des Onis puissants"
+          },
+          {
+            "breathing": "Vent",
+            "pveScore": "Niveau S",
+            "pvpScore": "Niveau S",
+            "difficulty": "Difficile",
+            "cost": "Butin du boss Giga Corne (RNG)"
+          },
+          {
+            "breathing": "Eau",
+            "pveScore": "Niveau A",
+            "pvpScore": "Niveau B",
+            "difficulty": "Moyenne",
+            "cost": "Parkour + 2 000 yens par tentative"
+          },
+          {
+            "breathing": "Foudre",
+            "pveScore": "Niveau S",
+            "pvpScore": "Niveau A",
+            "difficulty": "Difficile",
+            "cost": "Méthode de déverrouillage spéciale"
+          }
+        ]
+      }
+    },
+    "demonArtTier": {
+      "title": "Slayerbound",
+      "titleHighlight": "Liste des Niveaux d'Art Démoniaque",
+      "subtitle": "Classement de puissance et matrice de difficulté de l'Art Démoniaque",
+      "statusBadge": "Bientôt Disponible",
+      "emptyStateText": "Des classements détaillés de l'Art Démoniaque seront bientôt disponibles avec des données de test complètes.",
+      "knownFacts": [
+        "Le système d'Art Démoniaque est disponible dans le jeu",
+        "Réinitialisation de la Respiration/de l'Art Démoniaque disponible via des codes",
+        "La communauté a des guides dédiés aux Oni + à l'Art Démoniaque"
+      ],
+      "dataGaps": [
+        "Liste complète des Arts Démoniaques en cours de compilation",
+        "Tests de performance PvE/PvP en cours",
+        "Synergies de combo en cours de documentation"
+      ],
+      "ctaText": "Suivez les mises à jour sur Trello/Discord"
+    },
+    "oniRoute": {
+      "title": "Slayerbound",
+      "titleHighlight": "Voie Oni",
+      "subtitle": "Transformez-vous en Oni et débloquez des Arts Démoniaques",
+      "statusBadge": "Guide Disponible",
+      "warningText": "Suivez les étapes de transformation pour devenir un Oni et accéder à de puissants Arts Démoniaques.",
+      "flowNodes": [
+        {
+          "id": 1,
+          "title": "Commencer en tant qu'Humain",
+          "type": "début",
+          "known": true
+        },
+        {
+          "id": 2,
+          "title": "Se Transformer en Oni",
+          "type": "branche",
+          "known": true
+        },
+        {
+          "id": 3,
+          "title": "Obtenir / Tourner l'Art Démoniaque",
+          "type": "progression",
+          "known": true
+        },
+        {
+          "id": 4,
+          "title": "Spécialisation de la Construction",
+          "type": "optimisation",
+          "known": true
+        }
+      ],
+      "unknowns": [
+        "Emplacement du PNJ de Transformation",
+        "Objets et niveau requis",
+        "Coût de la transformation",
+        "Meilleures combinaisons d'Art Démoniaque"
+      ]
+    },
+    "controls": {
+      "title": "Slayerbound",
+      "titleHighlight": "Contrôles",
+      "subtitle": "Maîtrisez les commandes du clavier pour le combat",
+      "keys": [
+        {
+          "key": "Clic gauche",
+          "action": "Attaque"
+        },
+        {
+          "key": "Clic droit",
+          "action": "Attaque lourde"
+        },
+        {
+          "key": "F",
+          "action": "Bloquer"
+        },
+        {
+          "key": "W + W",
+          "action": "Courir"
+        },
+        {
+          "key": "M",
+          "action": "Menu"
+        },
+        {
+          "key": "G",
+          "action": "Respiration"
+        },
+        {
+          "key": "1-9",
+          "action": "Compétences"
+        }
+      ]
+    },
+    "questMap": {
+      "title": "Slayerbound",
+      "titleHighlight": "Carte des Quêtes",
+      "subtitle": "Trouvez des PNJ de quête et des lieux d'entraînement",
+      "recommendedSequence": "Ordre recommandé : Flamme → Eau → Vent",
+      "pins": [
+        {
+          "id": 1,
+          "name": "Chemin de Spawn (Début de la Flamme)",
+          "region": "Près du Spawn",
+          "objective": "Commencer l'entraînement à la Flamme",
+          "requirements": [
+            "40 Cornes d'Oni",
+            "Vaincre plusieurs Onis difficiles"
+          ],
+          "rewards": [
+            "Progression du chemin de la Flamme"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Camp de Démons (Étape du Vent)",
+          "region": "Village de la Mer",
+          "objective": "Vaincre Giga Corne et obtenir la corne",
+          "requirements": [
+            "Effacer le boss",
+            "Chance de chute (RNG)"
+          ],
+          "rewards": [
+            "Progression du chemin du Vent"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Épreuve de la Cascade",
+          "region": "Grands Champs de Blé",
+          "objective": "Défi de parkour + briser le rocher",
+          "requirements": [
+            "2 000 yens par tentative d'étape finale"
+          ],
+          "rewards": [
+            "Progression du chemin de l'Eau"
+          ]
+        }
+      ]
+    },
+    "bossDrops": {
+      "title": "Slayerbound",
+      "titleHighlight": "Butin des Boss",
+      "subtitle": "Butin des boss et exigences de chute",
+      "riskNotice": "Les butins des boss sont basés sur le RNG. Continuez à farmer jusqu'à ce que vous obteniez les objets dont vous avez besoin !",
+      "table": {
+        "headers": {
+          "drop": "Chute",
+          "source": "Source",
+          "howToObtain": "Comment Obtenir",
+          "primaryUse": "Utilisation Principale"
+        },
+        "items": [
+          {
+            "drop": "Giga Corne",
+            "source": "Boss Giga Corne (Camp de Démons)",
+            "howToObtain": "Vaincre le boss Giga Corne jusqu'à ce que la corne tombe",
+            "primaryUse": "Requis pour la progression de l'entraînement au Vent"
+          },
+          {
+            "drop": "Corne d'Oni x40",
+            "source": "Ennemis Oni",
+            "howToObtain": "Farmer les Oni et collecter 40 cornes",
+            "primaryUse": "Requis pour la progression de l'entraînement à la Flamme"
+          },
+          {
+            "drop": "Matériaux de Boss",
+            "source": "Divers boss",
+            "howToObtain": "Consultez Trello/Discord pour les derniers butins de boss",
+            "primaryUse": "Artisanat et progression"
+          }
+        ]
+      }
+    },
+    "currencyFarm": {
+      "title": "Slayerbound",
+      "titleHighlight": "Ferme de Devises",
+      "subtitle": "Meilleures méthodes pour gagner des Yen efficacement",
+      "disclaimer": "Utilisez ces méthodes éprouvées pour maximiser vos gains de Yen dans Slayerbound.",
+      "methods": [
+        {
+          "rank": 1,
+          "method": "Utilisation de Codes",
+          "expectedReturn": "Tours + Yen (varie selon le code)",
+          "timeToValue": "1-3 min",
+          "riskLevel": "Faible",
+          "howTo": [
+            "Ouvrez le menu du jeu et utilisez d'abord les codes actifs",
+            "Utilisez les tours avant de vous engager dans de longues boucles de farm"
+          ]
+        },
+        {
+          "rank": 2,
+          "method": "Gestion Intelligente des Ressources",
+          "expectedReturn": "Économisez des Yen en évitant les tentatives ratées",
+          "timeToValue": "Immédiat",
+          "riskLevel": "Faible",
+          "howTo": [
+            "Préparez les exigences avant les tentatives d'entraînement coûteuses",
+            "La tentative finale du chemin de l'Eau coûte 2 000 Yen par essai"
+          ]
+        },
+        {
+          "rank": 3,
+          "method": "Boucle de Progression de Combat",
+          "expectedReturn": "Yen et EXP des quêtes",
+          "timeToValue": "Moyenne",
+          "riskLevel": "Moyenne",
+          "howTo": [
+            "Suivez les guides de progression pour débutants",
+            "Consultez Discord pour les itinéraires de farm optimaux"
+          ]
+        }
+      ]
+    },
+    "resetPlanner": {
+      "title": "Slayerbound",
+      "titleHighlight": "Planificateur de Réinitialisation",
+      "subtitle": "Planifiez vos réinitialisations de manière stratégique - ne réinitialisez jamais à l'aveugle",
+      "startQuestion": "Quel est votre goulot d'étranglement actuel ?",
+      "decisions": [
+        {
+          "question": "Les statistiques de base semblent mal attribuées ?",
+          "yesAction": "Vérifiez si vous avez un code de réinitialisation des statistiques disponible",
+          "noAction": "Vérifiez si la Respiration/l'Art Démoniaque est hors méta pour votre objectif"
+        },
+        {
+          "question": "Avez-vous un code de réinitialisation des statistiques disponible ?",
+          "yesAction": "Utilisez la Réinitialisation des Statistiques Maintenant - Appliquez la réinitialisation, puis reconstruisez autour de votre mode cible (PvE/PvP/Hybride)",
+          "noAction": "Retardez la Réinitialisation et Farmez les Ressources - Utilisez d'abord les codes de tours/yen actifs et l'itinéraire de progression"
+        },
+        {
+          "question": "La Respiration/l'Art Démoniaque est hors méta pour votre objectif ?",
+          "yesAction": "Pouvez-vous utiliser un code de réinitialisation de la respiration/de l'art démoniaque maintenant ?",
+          "noAction": "Conservez la Construction, Optimisez l'Exécution - Concentrez-vous sur la maîtrise des commandes avant de relancer"
+        },
+        {
+          "question": "Pouvez-vous utiliser un code de réinitialisation de la respiration/de l'art démoniaque maintenant ?",
+          "yesAction": "Utilisez la Réinitialisation de la Respiration/de l'Art Démoniaque - Les exemples de réinitialisation connus incluent les réinitialisations qui peuvent également affecter la race",
+          "noAction": "Ne Paniquez Pas la Réinitialisation - Attendez la prochaine chute de code jalon/mise à jour ; suivez les annonces Discord"
+        }
+      ]
+    },
+    "buildPlanner": {
+      "title": "Slayerbound",
+      "titleHighlight": "Planificateur de Construction",
+      "subtitle": "Optimisez la construction de votre personnage avec une planification basée sur les objectifs",
+      "dataNote": "Planifiez votre construction en fonction de votre style de jeu et de vos objectifs",
+      "inputFields": [
+        {
+          "key": "goalMode",
+          "label": "Mode Objectif",
+          "type": "sélectionner",
+          "options": [
+            "Progression PvE",
+            "Focus sur le Boss",
+            "Duel PvP",
+            "Hybride"
+          ]
+        },
+        {
+          "key": "route",
+          "label": "Route",
+          "type": "sélectionner",
+          "options": [
+            "Pourfendeur",
+            "Oni"
+          ]
+        },
+        {
+          "key": "currentBreathing",
+          "label": "Respiration Actuelle",
+          "type": "texte"
+        },
+        {
+          "key": "currentDemonArt",
+          "label": "Art Démoniaque Actuel",
+          "type": "texte"
+        },
+        {
+          "key": "yenBudget",
+          "label": "Yen Actuel",
+          "type": "nombre"
+        },
+        {
+          "key": "spinsAvailable",
+          "label": "Tours Disponibles",
+          "type": "nombre"
+        }
+      ],
+      "presetExamples": [
+        {
+          "name": "Pourfendeur de Départ (Petit Budget)",
+          "goalMode": "Progression PvE",
+          "route": "Pourfendeur",
+          "yenBudget": 2000,
+          "spinsAvailable": 10,
+          "output": {
+            "now": "Utilisez les codes actifs et choisissez un itinéraire de progression stable",
+            "next": "Préparez les exigences avant l'entraînement pour éviter de gaspiller des Yen",
+            "after": "Utilisez la réinitialisation de manière stratégique si vous devez changer de direction"
+          }
+        },
+        {
+          "name": "Candidat au Changement de Route",
+          "goalMode": "Hybride",
+          "route": "Oni",
+          "yenBudget": 5000,
+          "spinsAvailable": 20,
+          "output": {
+            "now": "Confirmez votre objectif de route et votre stratégie de réinitialisation",
+            "next": "Appliquez une réinitialisation sélective plutôt qu'une reconstruction complète",
+            "after": "Testez dans la boucle de boss/progression avant la prochaine réinitialisation"
+          }
+        }
+      ]
+    },
+    "thunderBreathing": {
+      "title": "Slayerbound",
+      "titleHighlight": "Respiration de la Foudre",
+      "subtitle": "Guide complet pour débloquer le style de Respiration de la Foudre",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Trouvez l'Entraîneur de la Foudre",
+          "detail": "Voyagez vers la montagne près du Village de Neige"
+        },
+        {
+          "step": 2,
+          "title": "Acceptez la Quête",
+          "detail": "Parlez à l'entraîneur et acceptez la quête des bonbons"
+        },
+        {
+          "step": 3,
+          "title": "Rassemblez les Matériaux",
+          "detail": "Collectez 6 blés et 3 œufs dans les zones agricoles"
+        },
+        {
+          "step": 4,
+          "title": "Terminez l'Entraînement",
+          "detail": "Retournez à l'entraîneur et terminez le déverrouillage de la Respiration de la Foudre"
+        }
+      ],
+      "requirements": {
+        "title": "Exigences",
+        "items": [
+          "6 Blés",
+          "3 Œufs",
+          "Terminer la quête des bonbons"
+        ]
+      },
+      "difficulty": "Moyenne",
+      "location": "Montagne près du Village de Neige"
+    },
+    "fastLeveling": {
+      "title": "Slayerbound",
+      "titleHighlight": "Nivellement Rapide",
+      "subtitle": "Méthodes efficaces pour monter de niveau rapidement dans Slayerbound",
+      "methods": [
+        {
+          "title": "Types de Quêtes",
+          "icon": "carte",
+          "description": "Concentrez-vous sur les bonnes quêtes pour un maximum d'XP",
+          "tips": [
+            "Quêtes vertes = Livraison (achèvement rapide)",
+            "Quêtes jaunes = Combat (récompenses d'XP élevées)",
+            "Quêtes bleues = Collecte (XP modérée)"
+          ]
+        },
+        {
+          "title": "Système Alimentaire",
+          "icon": "ustensiles",
+          "description": "Utilisez la nourriture pour maintenir vos HP et farmer efficacement",
+          "tips": [
+            "Gardez de la nourriture dans l'inventaire pour la régénération des HP",
+            "Réduit les temps d'arrêt entre les rencontres de combat",
+            "Essentiel pour le farming continu de quêtes"
+          ]
+        },
+        {
+          "title": "Itinéraire de Progression",
+          "icon": "route",
+          "description": "Suivez les chemins de nivellement optimaux",
+          "tips": [
+            "Terminez d'abord les quêtes de la zone de départ",
+            "Passez progressivement aux zones de niveau supérieur",
+            "Utilisez des codes pour des XP et des tours bonus"
+          ]
+        }
+      ]
+    },
+    "finalSelection": {
+      "title": "Slayerbound",
+      "titleHighlight": "Sélection Finale",
+      "subtitle": "Terminez la Sélection Finale pour devenir un Pourfendeur officiel",
+      "overview": "La Sélection Finale est une étape cruciale où vous prouvez votre valeur en tant que pourfendeur de démons. Terminez ce défi de parkour pour gagner votre uniforme de Pourfendeur et votre statut officiel.",
+      "details": {
+        "location": "Défi de parkour de la zone forestière",
+        "timing": "Toutes les 1 heure (temps réel)",
+        "maxPlayers": "Jusqu'à 12 joueurs par session",
+        "difficulty": "Moyen à Difficile"
+      },
+      "rewards": {
+        "title": "Récompenses",
+        "items": [
+          "Uniforme officiel de Pourfendeur",
+          "Adhésion au Corps des Pourfendeurs",
+          "Accès au manoir du Corps des Pourfendeurs",
+          "Débloquer le système d'entraînement de la gourde"
+        ]
+      },
+      "tips": {
+        "title": "Conseils",
+        "items": [
+          "Entraînez-vous au parkour avant de tenter",
+          "Attendez que l'événement horaire commence",
+          "Faites équipe avec d'autres joueurs pour obtenir de l'aide",
+          "N'abandonnez pas - vous pouvez réessayer après chaque heure"
+        ]
+      }
+    },
+    "clanSystem": {
+      "title": "Slayerbound",
+      "titleHighlight": "Système de Clan",
+      "subtitle": "Niveaux de clan, buffs et comment relancer votre clan",
+      "overview": "Les clans offrent des buffs et des capacités uniques qui améliorent votre personnage. Chaque clan a des raretés et des avantages spéciaux différents.",
+      "tiers": [
+        {
+          "tier": "Commun",
+          "color": "gris",
+          "dropRate": "Élevée",
+          "description": "Clans de base avec des buffs standards"
+        },
+        {
+          "tier": "Rare",
+          "color": "bleu",
+          "dropRate": "Moyenne",
+          "description": "Buffs et capacités améliorés"
+        },
+        {
+          "tier": "Épique",
+          "color": "violet",
+          "dropRate": "Faible",
+          "description": "Puissantes capacités de clan"
+        },
+        {
+          "tier": "Légendaire",
+          "color": "or",
+          "dropRate": "Très Faible",
+          "description": "Clans de premier plan avec des buffs exceptionnels"
+        }
+      ],
+      "notableClans": {
+        "title": "Clans Notables",
+        "clans": [
+          {
+            "name": "Tsugikuni",
+            "tier": "Légendaire",
+            "benefit": "Buffs de combat exceptionnels"
+          },
+          {
+            "name": "Kamado",
+            "tier": "Légendaire",
+            "benefit": "Techniques de respiration améliorées"
+          },
+          {
+            "name": "Agatsuma",
+            "tier": "Épique",
+            "benefit": "Bonus de respiration de la Foudre"
+          }
+        ]
+      },
+      "howToSpin": {
+        "title": "Comment Tourner/Relancer",
+        "steps": [
+          "Utilisez les tours obtenus à partir de codes ou du gameplay",
+          "Accédez au menu du clan dans le jeu",
+          "Dépensez des tours pour relancer pour de meilleurs clans",
+          "Les clans de niveau supérieur ont des taux de chute plus faibles"
+        ]
+      }
+    }
+  }
+}
