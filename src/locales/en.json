@@ -2,12 +2,12 @@
   "seo": {
     "home": {
       "title": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
-      "description": "Star Savior Wiki for codes, tier list, reroll, beginner guide, characters, teams, builds, gear, news, and update tracking for the global launch.",
-      "keywords": "Star Savior, StarSavior, codes, tier list, reroll, beginner guide, characters, teams, builds, gear",
+      "description": "Star Savior Wiki for codes, tier list, reroll, beginner guide, arcana, teams, builds, gear, Journey training, and launch updates.",
+      "keywords": "Star Savior, StarSavior, codes, tier list, reroll, beginner guide, arcana tier list, best teams, Journey guide, gear guide",
       "ogTitle": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
-      "ogDescription": "Star Savior Wiki for codes, tier list, reroll, beginner guide, characters, teams, builds, gear, news, and update tracking for the global launch.",
+      "ogDescription": "Track Star Savior codes, tier picks, reroll goals, teams, arcana, Journey training, and launch updates from one homepage.",
       "twitterTitle": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
-      "twitterDescription": "Track Star Savior codes, reroll priorities, beginner guides, characters, builds, and launch updates."
+      "twitterDescription": "Track Star Savior codes, tier picks, reroll goals, teams, arcana, Journey training, and launch updates."
     }
   },
   "nav": {},
@@ -28,7 +28,7 @@
   "hero": {
     "badge": "Anime Training Turn-Based RPG",
     "title": "Star Savior Wiki",
-    "description": "Guide your Star-kissed Saviors through a character-training RPG built around the Journey system, turn-based battles, team building, gear, reroll planning, and launch updates.",
+    "description": "Guide your Star-kissed Saviors through Journey training, turn-based battles, team planning, gear upgrades, reroll targets, and live launch-era resources.",
     "getFreeCodesCTA": "Visit Official Website",
     "playOnRobloxCTA": "Play on Google Play",
     "stats": {
@@ -52,786 +52,822 @@
   },
   "gameFeature": {
     "title": "Star Savior Official Animation PV",
-    "description": "Watch the official animation PV for a quick look at the world, cast, and launch presentation behind Star Savior."
-  },
-  "tools": {
-    "title": "Star Savior",
-    "titleHighlight": "Resources",
-    "subtitle": "Jump to any section below",
-    "codes": {
-      "title": "Codes",
-      "description": "Get free rewards"
-    },
-    "redeemGuide": {
-      "title": "Redeem Guide",
-      "description": "Learn how to redeem codes"
-    },
-    "trainingPaths": {
-      "title": "Training Paths",
-      "description": "Choose your path"
-    },
-    "breathingTier": {
-      "title": "Breathing Tier List",
-      "description": "Best breathing styles"
-    },
-    "demonArtTier": {
-      "title": "Demon Art Tier List",
-      "description": "Top demon arts"
-    },
-    "oniRoute": {
-      "title": "Oni Route",
-      "description": "Transform to Oni"
-    },
-    "controls": {
-      "title": "Controls",
-      "description": "Master the keys"
-    },
-    "questMap": {
-      "title": "Quest Map",
-      "description": "Find NPCs and quests"
-    },
-    "bossDrops": {
-      "title": "Boss Drops",
-      "description": "Boss loot guide"
-    },
-    "currencyFarm": {
-      "title": "Currency Farm",
-      "description": "Earn Yen fast"
-    },
-    "resetPlanner": {
-      "title": "Reset Planner",
-      "description": "Plan your resets"
-    },
-    "buildPlanner": {
-      "title": "Build Planner",
-      "description": "Optimize your build"
-    },
-    "thunderBreathing": {
-      "title": "Thunder Breathing",
-      "description": "Unlock Thunder style"
-    },
-    "fastLeveling": {
-      "title": "Fast Leveling",
-      "description": "Level up quickly"
-    },
-    "finalSelection": {
-      "title": "Final Selection",
-      "description": "Become a Slayer"
-    },
-    "clanSystem": {
-      "title": "Clan System",
-      "description": "Clan tiers & buffs"
-    }
-  },
-  "whatIs": {
-    "title": "What is",
-    "titleHighlight": "Star Savior?",
-    "description": "Star Savior is a character-training turn-based RPG centered on squad building, Journey progression, gear planning, and launch-era resource management.",
-    "features": [
-      {
-        "title": "Journey Progression",
-        "description": "Advance through the Journey system while unlocking upgrades, rewards, and account-wide progress goals."
-      },
-      {
-        "title": "Turn-Based Team Building",
-        "description": "Build around character roles, skill timing, elemental coverage, and long-term roster synergy."
-      },
-      {
-        "title": "Launch Tracking",
-        "description": "Follow official updates, reroll priorities, community links, and beginner planning from one place."
-      }
-    ]
+    "description": "Watch the official animation PV for a quick read on the world, cast, combat mood, and launch presentation behind Star Savior."
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Star Savior",
+    "title": "Star Savior",
+    "titleHighlight": "FAQ",
+    "subtitle": "The fastest answers new and returning players ask about Star Savior",
     "questions": [
       {
+        "question": "What is Star Savior?",
+        "answer": "Star Savior is a character-training turn-based RPG built around squad progression, the Journey system, elemental matchups, gear growth, and long-term roster planning."
+      },
+      {
         "question": "Where can I download Star Savior?",
-        "answer": "The primary live platform referenced on this site is Google Play. Always use official store or publisher links when available."
+        "answer": "Star Savior is currently highlighted on this site through the official website and the Google Play listing, with official channels also linking players to news, videos, and community updates."
       },
       {
-        "question": "What kind of game is Star Savior?",
-        "answer": "Star Savior is a character-training turn-based RPG with squad building, Journey progression, and gear management."
-      },
-      {
-        "question": "What should beginners check first in Star Savior?",
-        "answer": "Start with download links, reroll priorities, beginner progression, team-building basics, and any launch rewards or announcements."
-      },
-      {
-        "question": "Is Star Savior globally launched?",
-        "answer": "Yes. The current reference point in the project brief is the March 19 global launch milestone."
-      },
-      {
-        "question": "What numbers are players tracking most for Star Savior right now?",
-        "answer": "The current headline metrics used on this site are 100K+ Google Play downloads, 3.9 rating, 5.89K reviews, and the March 19 launch date."
-      },
-      {
-        "question": "Does Star Savior have an official Discord?",
-        "answer": "Yes. Use the official Discord invite linked in the homepage CTA and footer."
-      },
-      {
-        "question": "Where should I follow official Star Savior updates?",
-        "answer": "Track the official website news page, official X account, official YouTube channel, and official Discord announcements."
-      },
-      {
-        "question": "What does Star Savior Wiki focus on?",
-        "answer": "This site focuses on codes, tier lists, reroll guidance, beginner planning, builds, teams, gear, and launch tracking."
+        "question": "How do I redeem codes in Star Savior?",
+        "answer": "In Star Savior, open Account Management, tap Enter Coupon, submit a working code, tap Check, and then collect the rewards from your Mailbox."
       },
       {
         "question": "Should I reroll in Star Savior?",
-        "answer": "That depends on your goals, early rewards, and time budget. Most players should compare reroll cost against early progression value before committing."
+        "answer": "Star Savior rerolling is optional, but it is worthwhile if you want a stronger launch roster. Most reroll plans focus on premium launch units or universal Arcana that stay useful across Journey and general progression."
       },
       {
-        "question": "Is the Reddit link on this site official?",
-        "answer": "No. The Reddit link is a community subreddit reference, not an official publisher or developer channel."
+        "question": "What should beginners do first in Star Savior?",
+        "answer": "Most Star Savior beginner routes start with pushing Mainstream Operation, claiming mission rewards constantly, building a compact core roster, and using Starlink to avoid over-investing in too many units."
+      },
+      {
+        "question": "What makes the Star Savior Journey system important?",
+        "answer": "Star Savior uses Journey training as one of its defining progression systems, so understanding training loops, resonance, factors, and account-wide carryover is critical for efficient long-term growth."
+      },
+      {
+        "question": "What homepage topics does Star Savior Wiki focus on?",
+        "answer": "Star Savior Wiki focuses on codes, tier lists, reroll planning, beginner routes, Arcana, best teams, builds, gear, Journey training, boss preparation, PvP, and resource management."
+      },
+      {
+        "question": "Where should I follow official Star Savior updates?",
+        "answer": "Use the Star Savior official website, official news page, official X account, official YouTube channel, official Discord, and the Google Play listing for the main live-service update trail."
       }
     ]
   },
   "cta": {
     "title": "Ready to Start Star Savior?",
-    "description": "Jump into the official community for announcements and support, or download Star Savior on Google Play to begin your first run.",
+    "description": "Jump into the official Star Savior community for announcements and support, or open Google Play to start building your first roster.",
     "joinCommunity": "Join Official Discord",
     "joinGame": "Play Star Savior on Google Play"
   },
   "footer": {
     "title": "Star Savior",
-    "description": "Your launch-window hub for Star Savior codes, reroll advice, team planning, character guides, and official links.",
-    "resources": "Quick Links",
-    "activeCodes": "Codes Hub",
-    "trainingGuides": "Beginner Progression",
-    "breathingStyles": "Build Planner",
-    "clanGuides": "Reroll & Teams",
-    "moreTools": "Community",
+    "description": "A launch-window homepage for Star Savior codes, tier picks, reroll routes, Arcana, teams, Journey planning, and official channels.",
+    "officialLinksTitle": "Official Links",
+    "communityLinksTitle": "Community Links",
+    "website": "Official Website",
+    "news": "Official News",
+    "googlePlay": "Google Play",
     "discord": "Official Discord",
-    "trello": "Official X",
-    "playNow": "Official YouTube",
-    "copyright": "© 2026 Star Savior Wiki. Unofficial fan site and not affiliated with the official publishers or developers of Star Savior.",
-    "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service",
-    "reddit": "Reddit Community"
+    "youtube": "Official YouTube",
+    "x": "Official X",
+    "reddit": "Reddit Community",
+    "copyright": "© 2026 Star Savior Wiki. Unofficial fan site and not affiliated with the official publishers or developers of Star Savior."
   },
   "homepage": {
-    "codes": {
+    "navigation": {
       "title": "Star Savior",
-      "titleHighlight": "Codes",
-      "subtitle": "Get free spins, yen, and resets to boost your progression",
-      "cta": "View All Codes & Redemption Guide",
-      "table": {
-        "headers": {
-          "code": "Code",
-          "reward": "Reward",
-          "status": "Status"
-        },
-        "items": [
-          {
-            "code": "morespins",
-            "reward": "20 Spins",
-            "status": "active"
-          },
-          {
-            "code": "100KVISITS",
-            "reward": "15 Spins",
-            "status": "active"
-          },
-          {
-            "code": "1KLIKES",
-            "reward": "Breathing/Demon Art Reset",
-            "status": "active"
-          },
-          {
-            "code": "guizerayt",
-            "reward": "10 Spins",
-            "status": "active"
-          },
-          {
-            "code": "RELEASE",
-            "reward": "10 Spins",
-            "status": "active"
-          }
-        ]
-      }
+      "titleHighlight": "Module Navigator",
+      "description": "Jump straight to the part of Star Savior you want to track next, from launch rewards to late-game resource planning."
     },
-    "redeemGuide": {
-      "title": "Star Savior",
-      "titleHighlight": "Redeem Guide",
-      "subtitle": "Follow these steps to redeem codes successfully",
-      "steps": [
+    "officialLinks": {
+      "title": "Star Savior Official",
+      "titleHighlight": "Channels",
+      "description": "Keep downloads, patch notes, video releases, and community touchpoints in one clean strip.",
+      "items": [
         {
-          "step": 1,
-          "title": "Launch Game",
-          "detail": "Open Star Savior in Roblox"
+          "title": "Official Website",
+          "description": "Start from the main Star Savior landing page for brand, platform, and event visibility.",
+          "href": "https://www.starsavior.com/"
         },
         {
-          "step": 2,
-          "title": "Open Codes",
-          "detail": "From Main Menu, click the Codes button"
+          "title": "Official News",
+          "description": "Track global launch notices, notices, and release updates from the official news feed.",
+          "href": "https://www.starsavior.com/en/news"
         },
         {
-          "step": 3,
-          "title": "Paste Code",
-          "detail": "Enter a working code in the code field"
+          "title": "Google Play",
+          "description": "Open the live mobile listing with installs, rating, and current marketplace information.",
+          "href": "https://play.google.com/store/apps/details?id=com.studiobside.starMain"
         },
         {
-          "step": 4,
-          "title": "Claim Rewards",
-          "detail": "Press Redeem / Enter and collect rewards"
+          "title": "Official Discord",
+          "description": "Join the main Star Savior community hub for live announcements and support channels.",
+          "href": "https://discord.com/invite/UHNYfe9C77"
+        },
+        {
+          "title": "Official YouTube",
+          "description": "Watch PVs, preview broadcasts, and official Star Savior videos in one place.",
+          "href": "https://www.youtube.com/@StarSavior_EN"
+        },
+        {
+          "title": "Reddit Community",
+          "description": "Browse community discussion, player impressions, and fan conversation around Star Savior.",
+          "href": "https://www.reddit.com/r/StarSavior/"
         }
       ]
     },
-    "trainingPaths": {
-      "title": "Star Savior",
-      "titleHighlight": "Training Paths",
-      "subtitle": "Choose your training path: Flame, Wind, or Water",
-      "paths": [
-        {
-          "name": "Flame",
-          "location": "Path near Spawn",
-          "requirements": "40 Oni Horns + Defeat strong Onis",
-          "difficulty": "High",
-          "cost": "0 Yen"
-        },
-        {
-          "name": "Wind",
-          "location": "Sea Village",
-          "requirements": "Defeat Giga Horn boss + Get horn drop",
-          "difficulty": "High",
-          "cost": "0 Yen"
-        },
-        {
-          "name": "Water",
-          "location": "Wheat Fields waterfall",
-          "requirements": "Complete parkour + Break rock",
-          "difficulty": "Medium",
-          "cost": "2,000 Yen per attempt"
-        }
-      ]
+    "labels": {
+      "lastChecked": "Last checked",
+      "copy": "Copy",
+      "copied": "Copied",
+      "openSource": "Open external guide",
+      "pillPrefix": "Jump to"
     },
-    "breathingTier": {
-      "title": "Star Savior",
-      "titleHighlight": "Breathing Tier List",
-      "subtitle": "Compare breathing styles by PvE/PvP performance and difficulty",
-      "dataNote": "Community testing data - rankings updated regularly",
-      "table": {
-        "headers": {
-          "breathing": "Breathing",
-          "pveScore": "PvE",
-          "pvpScore": "PvP",
-          "difficulty": "Difficulty",
-          "cost": "Acquisition Cost"
-        },
-        "items": [
-          {
-            "breathing": "Flame",
-            "pveScore": "A Tier",
-            "pvpScore": "A Tier",
-            "difficulty": "Medium",
-            "cost": "40 Oni Horns + strong Oni fights"
-          },
-          {
-            "breathing": "Wind",
-            "pveScore": "S Tier",
-            "pvpScore": "S Tier",
-            "difficulty": "Hard",
-            "cost": "Giga Horn boss drop (RNG)"
-          },
-          {
-            "breathing": "Water",
-            "pveScore": "A Tier",
-            "pvpScore": "B Tier",
-            "difficulty": "Medium",
-            "cost": "Parkour + 2,000 yen per attempt"
-          },
-          {
-            "breathing": "Thunder",
-            "pveScore": "S Tier",
-            "pvpScore": "A Tier",
-            "difficulty": "Hard",
-            "cost": "Special unlock method"
-          }
-        ]
-      }
-    },
-    "demonArtTier": {
-      "title": "Star Savior",
-      "titleHighlight": "Demon Art Tier List",
-      "subtitle": "Demon Art power rankings and difficulty matrix",
-      "statusBadge": "Coming Soon",
-      "emptyStateText": "Detailed Demon Art rankings will be available soon with comprehensive testing data.",
-      "knownFacts": [
-        "Demon Art system is available in game",
-        "Breathing/Demon Art reset available via codes",
-        "Community has dedicated Oni + Demon Art guides"
-      ],
-      "dataGaps": [
-        "Full list of Demon Arts being compiled",
-        "PvE/PvP performance testing in progress",
-        "Combo synergies being documented"
-      ],
-      "ctaText": "Track updates on Trello/Discord"
-    },
-    "oniRoute": {
-      "title": "Star Savior",
-      "titleHighlight": "Oni Route",
-      "subtitle": "Transform to Oni and unlock Demon Arts",
-      "statusBadge": "Guide Available",
-      "warningText": "Follow the transformation steps to become an Oni and access powerful Demon Arts.",
-      "flowNodes": [
-        {
-          "id": 1,
-          "title": "Start as Human",
-          "type": "start",
-          "known": true
-        },
-        {
-          "id": 2,
-          "title": "Transform to Oni",
-          "type": "branch",
-          "known": true
-        },
-        {
-          "id": 3,
-          "title": "Get / Spin Demon Art",
-          "type": "progression",
-          "known": true
-        },
-        {
-          "id": 4,
-          "title": "Build Specialization",
-          "type": "optimization",
-          "known": true
-        }
-      ],
-      "unknowns": [
-        "Transformation NPC location",
-        "Required items and level",
-        "Transformation cost",
-        "Best Demon Art combinations"
-      ]
-    },
-    "controls": {
-      "title": "Star Savior",
-      "titleHighlight": "Controls",
-      "subtitle": "Master the keyboard controls for combat",
-      "keys": [
-        {
-          "key": "LMB",
-          "action": "Attack"
-        },
-        {
-          "key": "RMB",
-          "action": "Heavy Attack"
-        },
-        {
-          "key": "F",
-          "action": "Block"
-        },
-        {
-          "key": "W + W",
-          "action": "Run"
-        },
-        {
-          "key": "M",
-          "action": "Menu"
-        },
-        {
-          "key": "G",
-          "action": "Breathing"
-        },
-        {
-          "key": "1-9",
-          "action": "Skills"
-        }
-      ]
-    },
-    "questMap": {
-      "title": "Star Savior",
-      "titleHighlight": "Quest Map",
-      "subtitle": "Find quest NPCs and training locations",
-      "recommendedSequence": "Recommended order: Flame → Water → Wind",
-      "pins": [
-        {
-          "id": 1,
-          "name": "Spawn Path (Flame Start)",
-          "region": "Near Spawn",
-          "objective": "Start Flame training",
-          "requirements": [
-            "40 Oni Horns",
-            "Defeat several tough Onis"
-          ],
-          "rewards": [
-            "Flame path progression"
-          ]
-        },
-        {
-          "id": 2,
-          "name": "Demon Camp (Wind Step)",
-          "region": "Sea Village",
-          "objective": "Defeat Giga Horn and obtain horn drop",
-          "requirements": [
-            "Boss clear",
-            "Drop luck (RNG)"
-          ],
-          "rewards": [
-            "Wind path progression"
-          ]
-        },
-        {
-          "id": 3,
-          "name": "Waterfall Trial",
-          "region": "Large Wheat Fields",
-          "objective": "Parkour challenge + break rock",
-          "requirements": [
-            "2,000 yen per final-step attempt"
-          ],
-          "rewards": [
-            "Water path progression"
-          ]
-        }
-      ]
-    },
-    "bossDrops": {
-      "title": "Star Savior",
-      "titleHighlight": "Boss Drops",
-      "subtitle": "Boss loot and drop requirements",
-      "riskNotice": "Boss drops are based on RNG. Keep farming until you get the items you need!",
-      "table": {
-        "headers": {
-          "drop": "Drop",
-          "source": "Source",
-          "howToObtain": "How to Obtain",
-          "primaryUse": "Primary Use"
-        },
-        "items": [
-          {
-            "drop": "Giga Horn",
-            "source": "Giga Horn boss (Demon Camp)",
-            "howToObtain": "Defeat Giga Horn boss until the horn drops",
-            "primaryUse": "Required for Wind training progression"
-          },
-          {
-            "drop": "Oni Horn x40",
-            "source": "Oni enemies",
-            "howToObtain": "Farm Oni and collect 40 horns",
-            "primaryUse": "Required for Flame training progression"
-          },
-          {
-            "drop": "Boss Materials",
-            "source": "Various bosses",
-            "howToObtain": "Check Trello/Discord for latest boss drops",
-            "primaryUse": "Crafting and progression"
-          }
-        ]
-      }
-    },
-    "currencyFarm": {
-      "title": "Star Savior",
-      "titleHighlight": "Currency Farm",
-      "subtitle": "Best methods to earn Yen efficiently",
-      "disclaimer": "Use these proven methods to maximize your Yen earnings in Star Savior.",
-      "methods": [
-        {
-          "rank": 1,
-          "method": "Code Redemption",
-          "expectedReturn": "Spins + Yen (varies by code)",
-          "timeToValue": "1-3 min",
-          "riskLevel": "Low",
-          "howTo": [
-            "Open game menu and redeem active codes first",
-            "Use spins before committing to long grind loops"
-          ]
-        },
-        {
-          "rank": 2,
-          "method": "Smart Resource Management",
-          "expectedReturn": "Save Yen by avoiding failed attempts",
-          "timeToValue": "Immediate",
-          "riskLevel": "Low",
-          "howTo": [
-            "Prepare requirements before high-cost training attempts",
-            "Water path final attempt costs 2,000 Yen per try"
-          ]
-        },
-        {
-          "rank": 3,
-          "method": "Combat Progression Loop",
-          "expectedReturn": "Yen and EXP from quests",
-          "timeToValue": "Medium",
-          "riskLevel": "Medium",
-          "howTo": [
-            "Follow beginner progression guides",
-            "Check Discord for optimal farming routes"
-          ]
-        }
-      ]
-    },
-    "resetPlanner": {
-      "title": "Star Savior",
-      "titleHighlight": "Reset Planner",
-      "subtitle": "Plan your resets strategically - never reset blindly",
-      "startQuestion": "What is your current bottleneck?",
-      "decisions": [
-        {
-          "question": "Core stats feel misallocated?",
-          "yesAction": "Check if you have a stats-reset code available",
-          "noAction": "Check if Breathing/Demon Art is off-meta for your goal"
-        },
-        {
-          "question": "Do you have a stats-reset code available?",
-          "yesAction": "Use Stats Reset Now - Apply reset, then rebuild around your target mode (PvE/PvP/Hybrid)",
-          "noAction": "Delay Reset and Farm Resources - Use active spin/yen codes and progression route first"
-        },
-        {
-          "question": "Breathing/Demon Art is off-meta for your goal?",
-          "yesAction": "Can you use a breathing/demon-art reset code now?",
-          "noAction": "Keep Build, Optimize Execution - Focus on controls mastery before rerolling"
-        },
-        {
-          "question": "Can you use a breathing/demon-art reset code now?",
-          "yesAction": "Use Breathing/Demon Art Reset - Known reset examples include resets that can also affect race",
-          "noAction": "Do Not Panic Reset - Wait for next milestone/update code drop; track Discord announcements"
-        }
-      ]
-    },
-    "buildPlanner": {
-      "title": "Star Savior",
-      "titleHighlight": "Build Planner",
-      "subtitle": "Optimize your character build with goal-based planning",
-      "dataNote": "Plan your build based on your playstyle and goals",
-      "inputFields": [
-        {
-          "key": "goalMode",
-          "label": "Goal Mode",
-          "type": "select",
-          "options": [
-            "PvE Progression",
-            "Boss Focus",
-            "PvP Duel",
-            "Hybrid"
-          ]
-        },
-        {
-          "key": "route",
-          "label": "Route",
-          "type": "select",
-          "options": [
-            "Slayer",
-            "Oni"
-          ]
-        },
-        {
-          "key": "currentBreathing",
-          "label": "Current Breathing",
-          "type": "text"
-        },
-        {
-          "key": "currentDemonArt",
-          "label": "Current Demon Art",
-          "type": "text"
-        },
-        {
-          "key": "yenBudget",
-          "label": "Current Yen",
-          "type": "number"
-        },
-        {
-          "key": "spinsAvailable",
-          "label": "Spins Available",
-          "type": "number"
-        }
-      ],
-      "presetExamples": [
-        {
-          "name": "Starter Slayer (Low Budget)",
-          "goalMode": "PvE Progression",
-          "route": "Slayer",
-          "yenBudget": 2000,
-          "spinsAvailable": 10,
-          "output": {
-            "now": "Redeem active codes and choose a stable progression route",
-            "next": "Prepare requirements before training to avoid wasting Yen",
-            "after": "Use reset strategically if you need to change direction"
-          }
-        },
-        {
-          "name": "Route Switch Candidate",
-          "goalMode": "Hybrid",
-          "route": "Oni",
-          "yenBudget": 5000,
-          "spinsAvailable": 20,
-          "output": {
-            "now": "Confirm your route target and reset strategy",
-            "next": "Apply selective reset rather than full rebuild",
-            "after": "Test in boss/progression loop before next reset"
-          }
-        }
-      ]
-    },
-    "thunderBreathing": {
-      "title": "Star Savior",
-      "titleHighlight": "Thunder Breathing",
-      "subtitle": "Complete guide to unlock Thunder Breathing style",
-      "steps": [
-        {
-          "step": 1,
-          "title": "Find the Thunder Trainer",
-          "detail": "Travel to the mountain near Snow Village"
-        },
-        {
-          "step": 2,
-          "title": "Accept the Quest",
-          "detail": "Talk to the trainer and accept the candy quest"
-        },
-        {
-          "step": 3,
-          "title": "Gather Materials",
-          "detail": "Collect 6 wheat and 3 eggs from the farming areas"
-        },
-        {
-          "step": 4,
-          "title": "Complete Training",
-          "detail": "Return to the trainer and complete the Thunder Breathing unlock"
-        }
-      ],
-      "requirements": {
-        "title": "Requirements",
-        "items": [
-          "6 Wheat",
-          "3 Eggs",
-          "Complete candy quest"
-        ]
+    "codesTable": {
+      "headers": {
+        "code": "Code",
+        "reward": "Reward",
+        "status": "Status",
+        "action": "Action"
       },
-      "difficulty": "Medium",
-      "location": "Mountain near Snow Village"
-    },
-    "fastLeveling": {
-      "title": "Star Savior",
-      "titleHighlight": "Fast Leveling",
-      "subtitle": "Efficient methods to level up quickly in Star Savior",
-      "methods": [
+      "items": [
         {
-          "title": "Quest Types",
-          "icon": "map",
-          "description": "Focus on the right quests for maximum XP",
-          "tips": [
-            "Green quests = Delivery (fast completion)",
-            "Yellow quests = Combat (high XP rewards)",
-            "Blue quests = Gathering (moderate XP)"
-          ]
+          "code": "STARSAVIOR251120",
+          "reward": "Exclusive Rewards",
+          "status": "Active"
         },
         {
-          "title": "Food System",
-          "icon": "utensils",
-          "description": "Use food to maintain HP and farm efficiently",
-          "tips": [
-            "Keep food in inventory for HP regeneration",
-            "Reduces downtime between combat encounters",
-            "Essential for continuous quest grinding"
-          ]
+          "code": "HELLOSTARSAVIOR",
+          "reward": "Exclusive Rewards",
+          "status": "Active"
         },
         {
-          "title": "Progression Route",
-          "icon": "route",
-          "description": "Follow optimal leveling paths",
-          "tips": [
-            "Complete starter area quests first",
-            "Move to higher level zones progressively",
-            "Use codes for bonus XP and spins"
-          ]
+          "code": "251127STARSAVIOR",
+          "reward": "Exclusive Rewards",
+          "status": "Active"
+        },
+        {
+          "code": "STARSAVIORHAPPY100DAYS",
+          "reward": "Exclusive Rewards",
+          "status": "Active"
+        },
+        {
+          "code": "MONASTIRVALENTINEDAY",
+          "reward": "Exclusive Rewards",
+          "status": "Active"
         }
       ]
     },
-    "finalSelection": {
-      "title": "Star Savior",
-      "titleHighlight": "Final Selection",
-      "subtitle": "Complete the Final Selection to become an official Slayer",
-      "overview": "The Final Selection is a crucial milestone where you prove your worth as a demon slayer. Complete this parkour challenge to earn your Slayer uniform and official status.",
-      "details": {
-        "location": "Forest area parkour challenge",
-        "timing": "Every 1 hour (real-time)",
-        "maxPlayers": "Up to 12 players per session",
-        "difficulty": "Medium to Hard"
-      },
-      "rewards": {
-        "title": "Rewards",
-        "items": [
-          "Official Slayer uniform",
-          "Slayer Corps membership",
-          "Access to Slayer Corps mansion",
-          "Unlock gourd training system"
-        ]
-      },
-      "tips": {
-        "title": "Tips",
-        "items": [
-          "Practice parkour before attempting",
-          "Wait for the hourly event to start",
-          "Team up with other players for support",
-          "Don't give up - you can retry after each hour"
-        ]
-      }
-    },
-    "clanSystem": {
-      "title": "Star Savior",
-      "titleHighlight": "Clan System",
-      "subtitle": "Clan tiers, buffs, and how to reroll your clan",
-      "overview": "Clans provide unique buffs and abilities that enhance your character. Each clan has different rarities and special benefits.",
-      "tiers": [
-        {
-          "tier": "Common",
-          "color": "gray",
-          "dropRate": "High",
-          "description": "Basic clans with standard buffs"
-        },
-        {
-          "tier": "Rare",
-          "color": "blue",
-          "dropRate": "Medium",
-          "description": "Enhanced buffs and abilities"
-        },
-        {
-          "tier": "Epic",
-          "color": "purple",
-          "dropRate": "Low",
-          "description": "Powerful clan abilities"
-        },
-        {
-          "tier": "Legendary",
-          "color": "gold",
-          "dropRate": "Very Low",
-          "description": "Top-tier clans with exceptional buffs"
-        }
-      ],
-      "notableClans": {
-        "title": "Notable Clans",
-        "clans": [
+    "modules": [
+      {
+        "id": "star-savior-codes",
+        "title": "Star Savior",
+        "titleHighlight": "Codes",
+        "summary": "Redeem the latest working coupon codes for free rewards and claim them from your mailbox.",
+        "badge": "Live reward snapshot",
+        "lastChecked": "2026-03-20",
+        "cards": [
           {
-            "name": "Tsugikuni",
-            "tier": "Legendary",
-            "benefit": "Exceptional combat buffs"
+            "title": "Redeem Path",
+            "items": [
+              "Open Account Management on the left side of the screen",
+              "Tap Enter Coupon",
+              "Paste a working code and tap Check",
+              "Collect rewards from the in-game Mailbox"
+            ]
           },
           {
-            "name": "Kamado",
-            "tier": "Legendary",
-            "benefit": "Enhanced breathing techniques"
+            "title": "What This Module Tracks",
+            "items": [
+              "Newest active codes first",
+              "Reward label and status in one table",
+              "Mailbox claim flow after verification"
+            ]
           },
           {
-            "name": "Agatsuma",
-            "tier": "Epic",
-            "benefit": "Thunder breathing bonuses"
+            "title": "Quick Rules",
+            "items": [
+              "Redeem codes as soon as possible",
+              "Paste codes exactly as listed",
+              "Check the Mailbox after every successful coupon entry"
+            ]
           }
-        ]
+        ],
+        "tags": [
+          "5 active codes tracked",
+          "Mailbox claim flow",
+          "Reward-first copy table"
+        ],
+        "ctaLabel": "Open codes reference",
+        "ctaHref": "https://www.gamerbraves.com/guide-star-savior-codes-how-to-redeem-them/"
       },
-      "howToSpin": {
-        "title": "How to Spin/Reroll",
-        "steps": [
-          "Use spins obtained from codes or gameplay",
-          "Access the clan menu in-game",
-          "Spend spins to reroll for better clans",
-          "Higher tier clans have lower drop rates"
-        ]
+      {
+        "id": "star-savior-tier-list",
+        "title": "Star Savior",
+        "titleHighlight": "Tier List",
+        "summary": "Use the current meta picks as your fastest shortcut for story progression, farming, and early team building.",
+        "badge": "Meta priority board",
+        "lastChecked": "2026-03-20",
+        "cards": [
+          {
+            "title": "Top-End Picks",
+            "items": [
+              "Bunnygirl Charlotte",
+              "Emilly",
+              "Lacy",
+              "Bell Rhys"
+            ]
+          },
+          {
+            "title": "Strong Follow-Up Options",
+            "items": [
+              "Asherah: Waltz of Starlight",
+              "Charlotte",
+              "Bunnygirl Claire",
+              "Kyra"
+            ]
+          },
+          {
+            "title": "Best Filters To Use",
+            "items": [
+              "PvE",
+              "PvP",
+              "Element",
+              "Role"
+            ]
+          }
+        ],
+        "tags": [
+          "Story push value",
+          "Boss farming relevance",
+          "Role and element filtering"
+        ],
+        "ctaLabel": "Open tier reference",
+        "ctaHref": "https://www.gamezebo.com/walkthroughs/star-savior-tier-list/"
+      },
+      {
+        "id": "star-savior-beginner-guide",
+        "title": "Star Savior",
+        "titleHighlight": "Beginner Guide",
+        "summary": "Start by pushing the main story, lock in a small core team, and use formation plus Starlink correctly to avoid wasting early resources.",
+        "badge": "Fast-start route",
+        "lastChecked": "2026-03-20",
+        "cards": [
+          {
+            "title": "First Day Plan",
+            "items": [
+              "Push Mainstream Operation first",
+              "Claim mission rewards constantly",
+              "Use Auto early and play around elemental advantage",
+              "Focus on 4 to 5 core units"
+            ]
+          },
+          {
+            "title": "Formation Basics",
+            "items": [
+              "Front rows for tanks and damage tanks",
+              "Back rows for main DPS and debuffers",
+              "Defenders naturally draw more pressure"
+            ]
+          },
+          {
+            "title": "Daily Checklist",
+            "items": [
+              "Claim Mailbox rewards",
+              "Collect AFK resources before they cap",
+              "Finish daily missions",
+              "Spend stamina on progression value"
+            ]
+          }
+        ],
+        "tags": [
+          "Mainstream Operation first",
+          "Compact roster building",
+          "Starlink efficiency"
+        ],
+        "ctaLabel": "Open beginner route",
+        "ctaHref": "https://tychara.com/StarSavior/guides/beginner-guide"
+      },
+      {
+        "id": "star-savior-reroll-guide",
+        "title": "Star Savior",
+        "titleHighlight": "Reroll Guide",
+        "summary": "Reroll is optional, but a stronger opening starts with premium launch units or universal Arcana that keep paying off in Journey and general progression.",
+        "badge": "Launch reroll map",
+        "lastChecked": "2026-03-20",
+        "cards": [
+          {
+            "title": "Reroll Math",
+            "items": [
+              "About 10 minutes per reroll cycle",
+              "4% SSR rate",
+              "2% rate-up rate",
+              "10,000 Gems plus a few multis at the start"
+            ]
+          },
+          {
+            "title": "Character Targets",
+            "items": [
+              "Asherah: Waltz of Starlight",
+              "Lacy",
+              "Emilly",
+              "Bunnygirl Charlotte"
+            ]
+          },
+          {
+            "title": "Arcana Targets",
+            "items": [
+              "Lacy",
+              "Charlotte",
+              "Bunnygirl Claire",
+              "Petra"
+            ]
+          }
+        ],
+        "tags": [
+          "Optional but high-impact",
+          "Premium launch targets",
+          "Universal Arcana value"
+        ],
+        "ctaLabel": "Open reroll guide",
+        "ctaHref": "https://tychara.com/StarSavior/guides/reroll-guide"
+      },
+      {
+        "id": "star-savior-arcana-tier-list",
+        "title": "Star Savior",
+        "titleHighlight": "Arcana Tier List",
+        "summary": "Arcana choices shape how your core roster performs, so this module keeps the most flexible picks and role-based priorities visible at a glance.",
+        "badge": "Arcana priority board",
+        "lastChecked": "2026-03-20",
+        "cards": [
+          {
+            "title": "Universal Arcana Picks",
+            "items": [
+              "Lacy",
+              "Charlotte",
+              "Bunnygirl Claire",
+              "Petra"
+            ]
+          },
+          {
+            "title": "How To Sort Arcana",
+            "items": [
+              "General progression first",
+              "Role fit second",
+              "Journey flexibility third"
+            ]
+          },
+          {
+            "title": "Where Arcana Matters Most",
+            "items": [
+              "Early account efficiency",
+              "Stable boss damage windows",
+              "Long-term team refinement"
+            ]
+          }
+        ],
+        "tags": [
+          "Universal value",
+          "Role-fit sorting",
+          "Journey carryover planning"
+        ],
+        "ctaLabel": "Open Arcana guide",
+        "ctaHref": "https://www.gamezebo.com/walkthroughs/star-savior-arcana-tier-list/"
+      },
+      {
+        "id": "star-savior-best-teams",
+        "title": "Star Savior",
+        "titleHighlight": "Best Teams",
+        "summary": "After rerolling or pulling your first SSRs, team structure becomes the fastest way to convert strong units into smooth progression.",
+        "badge": "Team-building core",
+        "lastChecked": "2026-03-20",
+        "cards": [
+          {
+            "title": "Story Push Core",
+            "items": [
+              "Emilly front line anchor",
+              "Lacy pressure and utility",
+              "Bell Rhys ranged damage",
+              "Support slot around Asherah"
+            ]
+          },
+          {
+            "title": "Aggressive Carry Setup",
+            "items": [
+              "Bunnygirl Charlotte as premium finisher",
+              "Charlotte or Kyra as follow-up pressure",
+              "Elemental coverage around the carry"
+            ]
+          },
+          {
+            "title": "Team Building Rules",
+            "items": [
+              "Lock one stable front line",
+              "Pair one main damage source with utility",
+              "Do not overload early teams with too many investments"
+            ]
+          }
+        ],
+        "tags": [
+          "Story push comps",
+          "Carry-centered builds",
+          "Elemental coverage"
+        ],
+        "ctaLabel": "Open team builder reference",
+        "ctaHref": "https://tychara.com/StarSavior/team-builder"
+      },
+      {
+        "id": "star-savior-character-builds",
+        "title": "Star Savior",
+        "titleHighlight": "Character Builds",
+        "summary": "Use this module to translate tier value into actual build choices around role, Arcana pairing, and upgrade order.",
+        "badge": "Build direction sheet",
+        "lastChecked": "2026-03-20",
+        "cards": [
+          {
+            "title": "Damage Builds",
+            "items": [
+              "Prioritize your main carry first",
+              "Pair damage units with Arcana that stay useful across content",
+              "Keep team support aligned with the carry window"
+            ]
+          },
+          {
+            "title": "Frontline Builds",
+            "items": [
+              "Anchor early teams with one stable Defender",
+              "Use durable gear and role-suited Arcana first",
+              "Build around consistency before greed"
+            ]
+          },
+          {
+            "title": "Support Builds",
+            "items": [
+              "Value uptime, utility, and team synergy",
+              "Do not overbuild niche supports too early",
+              "Prioritize units that stabilize multiple teams"
+            ]
+          }
+        ],
+        "tags": [
+          "Role-first upgrades",
+          "Carry support alignment",
+          "Single-unit optimization"
+        ],
+        "ctaLabel": "Open build reference",
+        "ctaHref": "https://www.hideoutgacha.com/games/star-savior/characters/chaos/lacy"
+      },
+      {
+        "id": "star-savior-gear-guide",
+        "title": "Star Savior",
+        "titleHighlight": "Gear Guide",
+        "summary": "Gear decisions turn a good roster into a stable roster, so this section keeps the best farming and upgrade priorities compact.",
+        "badge": "Equipment route",
+        "lastChecked": "2026-03-20",
+        "cards": [
+          {
+            "title": "Farm Order",
+            "items": [
+              "Secure efficient early sets first",
+              "Farm for your core team before side units",
+              "Use progression bottlenecks to decide the next grind"
+            ]
+          },
+          {
+            "title": "Upgrade Rules",
+            "items": [
+              "Upgrade your core team before luxury pieces",
+              "Avoid heavy investment into short-lived filler gear",
+              "Match gear quality to actual team usage"
+            ]
+          },
+          {
+            "title": "What Good Gear Solves",
+            "items": [
+              "Story wall pressure",
+              "Boss damage consistency",
+              "Hard Mode readiness"
+            ]
+          }
+        ],
+        "tags": [
+          "Core team first",
+          "Efficient farming",
+          "Upgrade discipline"
+        ],
+        "ctaLabel": "Open gear guide",
+        "ctaHref": "https://ultimategacha.com/star-savior-relic-gear-guide-how-to-farm-enhance-optimize/"
+      },
+      {
+        "id": "star-savior-7-day-progression",
+        "title": "Star Savior",
+        "titleHighlight": "7-Day Progression",
+        "summary": "The first week sets your account pace, so this module compresses the strongest early priorities into a seven-day route.",
+        "badge": "Week-one schedule",
+        "lastChecked": "2026-03-20",
+        "cards": [
+          {
+            "title": "Day 1 to Day 2",
+            "items": [
+              "Push the main story",
+              "Claim beginner rewards and freebies",
+              "Limit upgrades to your first core team"
+            ]
+          },
+          {
+            "title": "Day 3 to Day 5",
+            "items": [
+              "Refine your team roles",
+              "Raise the highest-value carry and tank pieces",
+              "Stabilize AFK and daily mission routines"
+            ]
+          },
+          {
+            "title": "Day 6 to Day 7",
+            "items": [
+              "Prepare for harder content loops",
+              "Tune gear and Arcana around your real roster",
+              "Stop wasting materials on weak side projects"
+            ]
+          }
+        ],
+        "tags": [
+          "Seven-day pacing",
+          "Rookie resource control",
+          "Hard-content prep"
+        ],
+        "ctaLabel": "Open progression guide",
+        "ctaHref": "https://ultimategacha.com/star-savior-beginner-guide-progression-plan/"
+      },
+      {
+        "id": "star-savior-gacha-guide",
+        "title": "Star Savior",
+        "titleHighlight": "Gacha Guide",
+        "summary": "Use this module to keep banner types, rates, pity logic, and spending priorities understandable before you commit premium currency.",
+        "badge": "Banner planning",
+        "lastChecked": "2026-03-20",
+        "cards": [
+          {
+            "title": "Core Banner Questions",
+            "items": [
+              "Character pool or Arcana pool",
+              "Rate-up value for your account stage",
+              "How much pity progress matters to you"
+            ]
+          },
+          {
+            "title": "Starter Strategy",
+            "items": [
+              "Summon around your strongest early carry plan",
+              "Do not chase every banner",
+              "Compare roster holes before spending"
+            ]
+          },
+          {
+            "title": "What This Module Clarifies",
+            "items": [
+              "Rates and mileage logic",
+              "Banner type differences",
+              "New-player spending discipline"
+            ]
+          }
+        ],
+        "tags": [
+          "Pity awareness",
+          "Banner comparison",
+          "Summon discipline"
+        ],
+        "ctaLabel": "Open gacha guide",
+        "ctaHref": "https://tychara.com/StarSavior/guides/gacha-system"
+      },
+      {
+        "id": "star-savior-character-list",
+        "title": "Star Savior",
+        "titleHighlight": "Character List",
+        "summary": "The character list is the cleanest overview point for rarity, role, element, and future build planning across the whole roster.",
+        "badge": "Roster directory",
+        "lastChecked": "2026-03-20",
+        "cards": [
+          {
+            "title": "Filter By Role",
+            "items": [
+              "Defender",
+              "Assassin",
+              "Ranger",
+              "Support"
+            ]
+          },
+          {
+            "title": "Filter By Element",
+            "items": [
+              "Sun",
+              "Moon",
+              "Chaos",
+              "Order"
+            ]
+          },
+          {
+            "title": "Use Cases",
+            "items": [
+              "Build planning",
+              "Reroll comparison",
+              "Team replacement checks"
+            ]
+          }
+        ],
+        "tags": [
+          "Role sorting",
+          "Element sorting",
+          "Roster overview"
+        ],
+        "ctaLabel": "Open character list",
+        "ctaHref": "https://tychara.com/StarSavior/characterlist"
+      },
+      {
+        "id": "star-savior-journey-training-guide",
+        "title": "Star Savior",
+        "titleHighlight": "Journey Training Guide",
+        "summary": "Journey training is one of the defining Star Savior systems, so this module keeps the loop, setup, and long-term value easy to scan.",
+        "badge": "Core system guide",
+        "lastChecked": "2026-03-20",
+        "cards": [
+          {
+            "title": "Journey Loop",
+            "items": [
+              "Enter Journey with a clear training goal",
+              "Build around factors and progression synergy",
+              "Carry the right improvements back to your roster"
+            ]
+          },
+          {
+            "title": "Training Focus",
+            "items": [
+              "Understand resonance value early",
+              "Pick upgrades that reinforce your actual carry plan",
+              "Avoid random training detours"
+            ]
+          },
+          {
+            "title": "Why It Matters",
+            "items": [
+              "Account-wide efficiency",
+              "Hard-content preparation",
+              "Smarter long-term character growth"
+            ]
+          }
+        ],
+        "tags": [
+          "Journey loop clarity",
+          "Resonance planning",
+          "Long-term growth"
+        ],
+        "ctaLabel": "Open Journey guide",
+        "ctaHref": "https://www.hideoutgacha.com/games/star-savior/training-guide"
+      },
+      {
+        "id": "star-savior-boss-guide",
+        "title": "Star Savior",
+        "titleHighlight": "Boss Guide",
+        "summary": "Boss encounters are where team structure and real upgrade value get exposed, so this section keeps raid and world-boss prep concise.",
+        "badge": "Boss prep board",
+        "lastChecked": "2026-03-20",
+        "cards": [
+          {
+            "title": "Before The Fight",
+            "items": [
+              "Bring one stable front line",
+              "Use your most reliable damage dealer",
+              "Check elemental and role coverage"
+            ]
+          },
+          {
+            "title": "Mid-Fight Priorities",
+            "items": [
+              "Keep your carry protected",
+              "Avoid spreading upgrades over weak side units",
+              "Use utility for control and damage windows"
+            ]
+          },
+          {
+            "title": "Common Fail Points",
+            "items": [
+              "Thin front lines",
+              "Poor utility timing",
+              "Entering with underbuilt gear"
+            ]
+          }
+        ],
+        "tags": [
+          "Raid stability",
+          "Damage windows",
+          "Preparation discipline"
+        ],
+        "ctaLabel": "Open boss guide",
+        "ctaHref": "https://ultimategacha.com/star-savior-boss-guide-how-to-beat-early-game-raid-world-bosses/"
+      },
+      {
+        "id": "star-savior-hard-mode-guide",
+        "title": "Star Savior",
+        "titleHighlight": "Hard Mode Guide",
+        "summary": "Hard Mode asks for cleaner teams, better gear, and tighter preparation, so this module keeps the usual blockers visible before you queue in.",
+        "badge": "Hard mode checklist",
+        "lastChecked": "2026-03-20",
+        "cards": [
+          {
+            "title": "Before Entering",
+            "items": [
+              "Finish your core team upgrades",
+              "Tune Arcana around the real carry plan",
+              "Stop bringing half-built bench units"
+            ]
+          },
+          {
+            "title": "Team Readiness",
+            "items": [
+              "Stable front line",
+              "Reliable damage profile",
+              "Enough utility to survive mechanics"
+            ]
+          },
+          {
+            "title": "What Usually Goes Wrong",
+            "items": [
+              "Weak preparation",
+              "Greedy damage-only setups",
+              "Loose resource allocation before the run"
+            ]
+          }
+        ],
+        "tags": [
+          "Entry checklist",
+          "Team readiness",
+          "Failure prevention"
+        ],
+        "ctaLabel": "Open Hard Mode guide",
+        "ctaHref": "https://ultimategacha.com/star-savior-hard-mode-guide-how-to-prepare-teams-to-use/"
+      },
+      {
+        "id": "star-savior-pvp-guide",
+        "title": "Star Savior",
+        "titleHighlight": "PvP Guide",
+        "summary": "PvP starts to matter once your core roster is stable, and this module keeps offense, defense, and reward-focused planning easy to compare.",
+        "badge": "Arena planning",
+        "lastChecked": "2026-03-20",
+        "cards": [
+          {
+            "title": "Offense Priorities",
+            "items": [
+              "Build around tempo and pressure",
+              "Use your cleanest damage window",
+              "Punish weak defensive lines"
+            ]
+          },
+          {
+            "title": "Defense Priorities",
+            "items": [
+              "Anchor the front line",
+              "Make your carry hard to collapse",
+              "Use utility that slows enemy momentum"
+            ]
+          },
+          {
+            "title": "Why Players Revisit PvP",
+            "items": [
+              "Reward cycles",
+              "Roster testing",
+              "Team refinement under pressure"
+            ]
+          }
+        ],
+        "tags": [
+          "Offense versus defense",
+          "Tempo control",
+          "Reward value"
+        ],
+        "ctaLabel": "Open PvP guide",
+        "ctaHref": "https://ultimategacha.com/star-savior-pvp-guide-team-building-strategy-rewards/"
+      },
+      {
+        "id": "star-savior-resource-management",
+        "title": "Star Savior",
+        "titleHighlight": "Resource Management",
+        "summary": "Materials, stamina, and AFK income decide how smooth your midgame feels, so this module keeps spending priorities simple and actionable.",
+        "badge": "Economy priorities",
+        "lastChecked": "2026-03-20",
+        "cards": [
+          {
+            "title": "Spend First",
+            "items": [
+              "Core team upgrades",
+              "Reliable progression pushes",
+              "Gear that solves real bottlenecks"
+            ]
+          },
+          {
+            "title": "Save For Later",
+            "items": [
+              "Luxury side builds",
+              "Niche experimental units",
+              "Heavy investment into low-value gear"
+            ]
+          },
+          {
+            "title": "Daily Economy Rules",
+            "items": [
+              "Do not let AFK rewards cap",
+              "Use stamina with a clear target",
+              "Keep materials aligned with your top team"
+            ]
+          }
+        ],
+        "tags": [
+          "AFK reward control",
+          "Stamina discipline",
+          "Material efficiency"
+        ],
+        "ctaLabel": "Open resource guide",
+        "ctaHref": "https://ultimategacha.com/star-savior-resource-management-guide-materials/"
       }
-    }
+    ]
   }
 }
