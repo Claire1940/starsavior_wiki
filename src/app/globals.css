@@ -30,9 +30,9 @@
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
 
-    /* 导航页主题色 */
-    --nav-theme: 350 72% 44%;        /* crimson-red（Slayerbound 主题色） */
-    --nav-theme-light: 350 82% 58%;  /* 更浅的红（hover/active） */
+    /* 导航页主题色 - Star Savior */
+    --nav-theme: 350 72% 44%;        /* primary crimson */
+    --nav-theme-light: 350 82% 58%;  /* hover/active */
     
     /* Callout 组件颜色 */
     --callout-info-bg: 217 91% 97%;  /* blue-50 */
@@ -75,9 +75,9 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
 
-    /* 导航页主题色 - 暗色主题 */
-    --nav-theme: 350 78% 56%;        /* 更亮红，暗底更醒目（Slayerbound 暗色主题） */
-    --nav-theme-light: 350 86% 66%;  /* 更浅的红（hover/active） */
+    /* 导航页主题色 - Star Savior 暗色主题 */
+    --nav-theme: 350 78% 56%;        /* brighter crimson for dark UI */
+    --nav-theme-light: 350 86% 66%;  /* hover/active */
 
     /* Callout 组件颜色 - 暗色主题 */
     --callout-info-bg: 217 91% 22%;  /* 更浅的深蓝色（模拟 blue-900/20） */

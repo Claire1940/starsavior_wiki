@@ -59,11 +59,11 @@ export default function Navigation() {
 						href="/"
 						className="flex items-center space-x-2 hover:opacity-80 transition"
 					>
-						<div className="w-10 h-10 bg-[hsl(var(--nav-theme))] rounded-lg flex items-center justify-center font-bold text-xl">
-							S
+						<div className="w-10 h-10 bg-[hsl(var(--nav-theme))] rounded-lg flex items-center justify-center font-bold text-sm tracking-tight">
+							SS
 						</div>
-						<span className="font-bold text-lg hidden sm:inline">Slayerbound</span>
-						<span className="font-bold text-lg sm:hidden">SB</span>
+						<span className="font-bold text-lg hidden sm:inline">Star Savior</span>
+						<span className="font-bold text-lg sm:hidden">SS</span>
 					</Link>
 
 					{/* Desktop Navigation */}
@@ -173,4 +173,3 @@ export default function Navigation() {
 		</nav>
 	)
 }
-
