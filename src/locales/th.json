@@ -1,837 +1,1429 @@
 {
   "seo": {
     "home": {
-      "title": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
-      "description": "Star Savior Wiki for codes, tier list, reroll, beginner guide, characters, teams, builds, gear, news, and update tracking for the global launch.",
-      "keywords": "Star Savior, StarSavior, codes, tier list, reroll, beginner guide, characters, teams, builds, gear",
-      "ogTitle": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
-      "ogDescription": "Star Savior Wiki for codes, tier list, reroll, beginner guide, characters, teams, builds, gear, news, and update tracking for the global launch.",
-      "twitterTitle": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
-      "twitterDescription": "Track Star Savior codes, reroll priorities, beginner guides, characters, builds, and launch updates."
+      "title": "Star Savior Wiki - โค้ด, เทียร์ลิสต์ & คู่มือสำหรับผู้เริ่มต้น",
+      "description": "วิกิ Star Savior สำหรับโค้ด, เทียร์ลิสต์, รีโรล, คู่มือสำหรับผู้เริ่มต้น, Arcana, ทีม, บิลด์, อุปกรณ์, การฝึก Journey และอัปเดตการเปิดตัว",
+      "keywords": "Star Savior, StarSavior, โค้ด, เทียร์ลิสต์, รีโรล, คู่มือสำหรับผู้เริ่มต้น, Arcana เทียร์ลิสต์, ทีมที่ดีที่สุด, คู่มือ Journey, คู่มืออุปกรณ์",
+      "ogTitle": "Star Savior Wiki - โค้ด, เทียร์ลิสต์ & คู่มือสำหรับผู้เริ่มต้น",
+      "ogDescription": "ติดตามโค้ด Star Savior, ตัวละครแนะนำ, เป้าหมายการรีโรล, ทีม, Arcana, การฝึก Journey และอัปเดตการเปิดตัวได้ในหน้าแรกเดียว",
+      "twitterTitle": "Star Savior Wiki - โค้ด, เทียร์ลิสต์ & คู่มือสำหรับผู้เริ่มต้น",
+      "twitterDescription": "ติดตามโค้ด Star Savior, ตัวละครแนะนำ, เป้าหมายการรีโรล, ทีม, Arcana, การฝึก Journey และอัปเดตการเปิดตัว"
     }
   },
   "nav": {},
   "common": {
-    "home": "หน้าหลัก",
+    "home": "หน้าแรก",
     "more": "เพิ่มเติม",
     "playNow": "เล่นเลย",
     "switchLanguage": "เปลี่ยนภาษา",
     "switchTheme": "เปลี่ยนธีม",
     "lightMode": "โหมดสว่าง",
     "darkMode": "โหมดมืด",
-    "notFound": "ไม่พบหน้าเว็บ",
-    "notFoundDescription": "ไม่พบหน้าที่คุณกำลังค้นหา",
-    "backToHome": "กลับสู่หน้าหลัก",
+    "notFound": "ไม่พบหน้านี้",
+    "notFoundDescription": "หน้าที่คุณกำลังมองหาไม่มีอยู่จริง",
+    "backToHome": "กลับสู่หน้าแรก",
     "relatedArticles": "บทความที่เกี่ยวข้อง",
     "readMore": "อ่านเพิ่มเติม"
   },
   "hero": {
-    "badge": "Anime Training Turn-Based RPG",
-    "title": "Star Savior Wiki",
-    "description": "Guide your Star-kissed Saviors through a character-training RPG built around the Journey system, turn-based battles, team building, gear, reroll planning, and launch updates.",
-    "getFreeCodesCTA": "Visit Official Website",
-    "playOnRobloxCTA": "Play on Google Play",
+    "badge": "เกม RPG แนวเทิร์นเบสฝึกฝนตัวละครอนิเมะ",
+    "title": "วิกิ Star Savior",
+    "description": "นำทางเหล่า Savior ผู้ได้รับพรจากดวงดาวของคุณผ่านการฝึก Journey, การต่อสู้แนวเทิร์นเบส, การวางแผนทีม, การอัปเกรดอุปกรณ์, เป้าหมายการรีโรล และแหล่งข้อมูลช่วงเปิดตัว",
+    "getFreeCodesCTA": "เยี่ยมชมเว็บไซต์ทางการ",
+    "playOnGooglePlayCTA": "เล่นบน Google Play",
     "stats": {
       "stat1": {
         "value": "100K+",
-        "label": "Google Play Downloads"
+        "label": "ยอดดาวน์โหลดบน Google Play"
       },
       "stat2": {
         "value": "3.9",
-        "label": "Google Play Rating"
+        "label": "คะแนนบน Google Play"
       },
       "stat3": {
         "value": "5.89K",
-        "label": "Google Play Reviews"
+        "label": "รีวิวบน Google Play"
       },
       "stat4": {
-        "value": "Mar 19",
-        "label": "Global Launch"
+        "value": "19 มี.ค.",
+        "label": "การเปิดตัวทั่วโลก"
       }
     }
   },
   "gameFeature": {
-    "title": "Star Savior Official Animation PV",
-    "description": "Watch the official animation PV for a quick look at the world, cast, and launch presentation behind Star Savior."
-  },
-  "tools": {
-    "title": "Star Savior",
-    "titleHighlight": "Resources",
-    "subtitle": "Jump to any section below",
-    "codes": {
-      "title": "โค้ด",
-      "description": "รับรางวัลฟรี"
-    },
-    "redeemGuide": {
-      "title": "คู่มือการแลก",
-      "description": "เรียนรู้วิธีการแลกโค้ด"
-    },
-    "trainingPaths": {
-      "title": "เส้นทางการฝึกฝน",
-      "description": "เลือกเส้นทางของคุณ"
-    },
-    "breathingTier": {
-      "title": "รายชื่อระดับปราณ",
-      "description": "ปราณที่ดีที่สุด"
-    },
-    "demonArtTier": {
-      "title": "รายชื่อระดับวิชาอสูร",
-      "description": "วิชาอสูรยอดนิยม"
-    },
-    "oniRoute": {
-      "title": "เส้นทางโอนิ",
-      "description": "แปลงร่างเป็นโอนิ"
-    },
-    "controls": {
-      "title": "การควบคุม",
-      "description": "เชี่ยวชาญปุ่มควบคุม"
-    },
-    "questMap": {
-      "title": "แผนที่เควส",
-      "description": "ค้นหา NPC และเควส"
-    },
-    "bossDrops": {
-      "title": "ไอเทมจากบอส",
-      "description": "คู่มือไอเทมจากบอส"
-    },
-    "currencyFarm": {
-      "title": "ฟาร์มเงินเยน",
-      "description": "หาเงินเยนให้เร็ว"
-    },
-    "resetPlanner": {
-      "title": "วางแผนรีเซ็ต",
-      "description": "วางแผนการรีเซ็ตของคุณ"
-    },
-    "buildPlanner": {
-      "title": "วางแผนสร้างตัวละคร",
-      "description": "ปรับแต่งตัวละครของคุณให้ดีที่สุด"
-    },
-    "thunderBreathing": {
-      "title": "ปราณอัสนี",
-      "description": "ปลดล็อกปราณอัสนี"
-    },
-    "fastLeveling": {
-      "title": "เลเวลอัพไว",
-      "description": "เพิ่มเลเวลอย่างรวดเร็ว"
-    },
-    "finalSelection": {
-      "title": "การคัดเลือกรอบสุดท้าย",
-      "description": "เป็นนักล่าอสูร"
-    },
-    "clanSystem": {
-      "title": "ระบบตระกูล",
-      "description": "ระดับและบัฟของตระกูล"
-    }
-  },
-  "whatIs": {
-    "title": "What is",
-    "titleHighlight": "Star Savior?",
-    "description": "Star Savior is a character-training turn-based RPG centered on squad building, Journey progression, gear planning, and launch-era resource management.",
-    "features": [
-      {
-        "title": "Journey Progression",
-        "description": "Advance through the Journey system while unlocking upgrades, rewards, and account-wide progress goals."
-      },
-      {
-        "title": "Turn-Based Team Building",
-        "description": "Build around character roles, skill timing, elemental coverage, and long-term roster synergy."
-      },
-      {
-        "title": "Launch Tracking",
-        "description": "Follow official updates, reroll priorities, community links, and beginner planning from one place."
-      }
-    ]
+    "title": "วิดีโอ PV อนิเมชั่นทางการของ Star Savior",
+    "description": "รับชมวิดีโอ PV อนิเมชั่นทางการเพื่อทำความเข้าใจโลก, ตัวละคร, บรรยากาศการต่อสู้ และการนำเสนอช่วงเปิดตัวของ Star Savior"
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Star Savior",
+    "title": "Star Savior",
+    "titleHighlight": "FAQ",
+    "subtitle": "คำตอบที่รวดเร็วที่สุดสำหรับคำถามที่ผู้เล่นใหม่และผู้เล่นเก่าสงสัยเกี่ยวกับ Star Savior",
     "questions": [
       {
-        "question": "Where can I download Star Savior?",
-        "answer": "The primary live platform referenced on this site is Google Play. Always use official store or publisher links when available."
+        "question": "Star Savior คืออะไร?",
+        "answer": "Star Savior คือเกม RPG แนวเทิร์นเบสฝึกฝนตัวละครที่เน้นการพัฒนาทีม, ระบบ Journey, การแพ้ทางธาตุ, การเติบโตของอุปกรณ์ และการวางแผนจัดทีมในระยะยาว"
       },
       {
-        "question": "What kind of game is Star Savior?",
-        "answer": "Star Savior is a character-training turn-based RPG with squad building, Journey progression, and gear management."
+        "question": "ฉันสามารถดาวน์โหลด Star Savior ได้ที่ไหน?",
+        "answer": "ปัจจุบันคุณสามารถเข้าถึง Star Savior ได้ผ่านเว็บไซต์ทางการและ Google Play โดยมีช่องทางทางการที่เชื่อมโยงผู้เล่นไปยังข่าวสาร, วิดีโอ และการอัปเดตจากชุมชน"
       },
       {
-        "question": "What should beginners check first in Star Savior?",
-        "answer": "Start with download links, reroll priorities, beginner progression, team-building basics, and any launch rewards or announcements."
+        "question": "ฉันจะเติมโค้ดใน Star Savior ได้อย่างไร?",
+        "answer": "ใน Star Savior ให้ไปที่การจัดการบัญชี (Account Management), แตะที่กรอกคูปอง (Enter Coupon), ใส่โค้ดที่ใช้งานได้, แตะตรวจสอบ (Check) แล้วรับรางวัลจากกล่องจดหมาย (Mailbox)"
       },
       {
-        "question": "Is Star Savior globally launched?",
-        "answer": "Yes. The current reference point in the project brief is the March 19 global launch milestone."
+        "question": "ฉันควรรีโรลใน Star Savior หรือไม่?",
+        "answer": "การรีโรลใน Star Savior เป็นทางเลือก แต่ก็คุ้มค่าหากคุณต้องการทีมเริ่มต้นที่แข็งแกร่ง แผนการรีโรลส่วนใหญ่จะเน้นไปที่ตัวละครพรีเมียมช่วงเปิดตัวหรือ Arcana สารพัดประโยชน์ที่ใช้ได้ดีใน Journey และการดำเนินเนื้อเรื่องทั่วไป"
       },
       {
-        "question": "What numbers are players tracking most for Star Savior right now?",
-        "answer": "The current headline metrics used on this site are 100K+ Google Play downloads, 3.9 rating, 5.89K reviews, and the March 19 launch date."
+        "question": "ผู้เริ่มต้นควรทำอะไรเป็นอย่างแรกใน Star Savior?",
+        "answer": "เส้นทางสำหรับผู้เริ่มต้นส่วนใหญ่คือการลุย Mainstream Operation, รับรางวัลภารกิจอย่างสม่ำเสมอ, สร้างทีมหลักที่แข็งแกร่ง และใช้ Starlink เพื่อหลีกเลี่ยงการลงทุนทรัพยากรกับตัวละครมากเกินไป"
       },
       {
-        "question": "Does Star Savior have an official Discord?",
-        "answer": "Yes. Use the official Discord invite linked in the homepage CTA and footer."
+        "question": "ทำไมระบบ Journey ใน Star Savior ถึงสำคัญ?",
+        "answer": "Star Savior ใช้การฝึก Journey เป็นหนึ่งในระบบการพัฒนาหลัก ดังนั้นการเข้าใจลูปการฝึก, Resonance, ปัจจัยต่างๆ และการส่งต่อค่าพลังไปยังบัญชีจึงสำคัญมากต่อการเติบโตในระยะยาวอย่างมีประสิทธิภาพ"
       },
       {
-        "question": "Where should I follow official Star Savior updates?",
-        "answer": "Track the official website news page, official X account, official YouTube channel, and official Discord announcements."
+        "question": "หัวข้อหลักในหน้าแรกของวิกิ Star Savior เน้นเรื่องอะไรบ้าง?",
+        "answer": "วิกิ Star Savior เน้นไปที่โค้ด, เทียร์ลิสต์, การวางแผนรีโรล, เส้นทางสำหรับผู้เริ่มต้น, Arcana, ทีมที่ดีที่สุด, บิลด์, อุปกรณ์, การฝึก Journey, การเตรียมตัวสู้บอส, PvP และการจัดการทรัพยากร"
       },
       {
-        "question": "What does Star Savior Wiki focus on?",
-        "answer": "This site focuses on codes, tier lists, reroll guidance, beginner planning, builds, teams, gear, and launch tracking."
-      },
-      {
-        "question": "Should I reroll in Star Savior?",
-        "answer": "That depends on your goals, early rewards, and time budget. Most players should compare reroll cost against early progression value before committing."
-      },
-      {
-        "question": "Is the Reddit link on this site official?",
-        "answer": "No. The Reddit link is a community subreddit reference, not an official publisher or developer channel."
+        "question": "ฉันควรติดตามอัปเดตทางการของ Star Savior ได้ที่ไหน?",
+        "answer": "ติดตามได้ที่เว็บไซต์ทางการของ Star Savior, หน้าข่าวสารทางการ, บัญชี X ทางการ, ช่อง YouTube ทางการ, Discord ทางการ และหน้า Google Play สำหรับข้อมูลการอัปเดตล่าสุด"
       }
     ]
   },
   "cta": {
-    "title": "Ready to Start Star Savior?",
-    "description": "Jump into the official community for announcements and support, or download Star Savior on Google Play to begin your first run.",
-    "joinCommunity": "Join Official Discord",
-    "joinGame": "Play Star Savior on Google Play"
+    "title": "พร้อมที่จะเริ่ม Star Savior หรือยัง?",
+    "description": "เข้าร่วมชุมชนทางการของ Star Savior เพื่อรับประกาศและความช่วยเหลือ หรือเปิด Google Play เพื่อเริ่มสร้างทีมแรกของคุณ",
+    "joinCommunity": "เข้าร่วม Discord ทางการ",
+    "joinGame": "เล่น Star Savior บน Google Play"
   },
   "footer": {
     "title": "Star Savior",
-    "description": "Your launch-window hub for Star Savior codes, reroll advice, team planning, character guides, and official links.",
-    "resources": "Quick Links",
-    "activeCodes": "Codes Hub",
-    "trainingGuides": "Beginner Progression",
-    "breathingStyles": "Build Planner",
-    "clanGuides": "Reroll & Teams",
-    "moreTools": "Community",
-    "discord": "Official Discord",
-    "trello": "Official X",
-    "playNow": "Official YouTube",
-    "copyright": "© 2026 Star Savior Wiki. Unofficial fan site and not affiliated with the official publishers or developers of Star Savior.",
-    "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service",
-    "reddit": "Reddit Community"
+    "description": "หน้าแรกสำหรับช่วงเปิดตัวเพื่อดูโค้ด Star Savior, ตัวละครแนะนำ, เส้นทางการรีโรล, Arcana, ทีม, การวางแผน Journey และช่องทางทางการ",
+    "officialLinksTitle": "ลิงก์ทางการ",
+    "communityLinksTitle": "ลิงก์ชุมชน",
+    "website": "เว็บไซต์ทางการ",
+    "news": "ข่าวสารทางการ",
+    "googlePlay": "Google Play",
+    "discord": "Discord ทางการ",
+    "youtube": "YouTube ทางการ",
+    "x": "X ทางการ",
+    "reddit": "ชุมชน Reddit",
+    "copyright": "© 2026 Star Savior Wiki เว็บไซต์แฟนคลับอย่างไม่เป็นทางการ และไม่มีความเกี่ยวข้องกับผู้จัดจำหน่ายหรือผู้พัฒนาเกม Star Savior อย่างเป็นทางการ"
   },
   "homepage": {
-    "codes": {
-      "title": "รับ spins, yen และ resets ฟรีเพื่อเพิ่มความก้าวหน้าของคุณ",
-      "titleHighlight": "ดูโค้ดทั้งหมดและคู่มือการแลกรางวัล",
-      "subtitle": "โค้ด",
-      "cta": "รางวัล",
-      "table": {
-        "headers": {
-          "code": "สถานะ",
-          "reward": "morespins",
-          "status": "20 Spins"
-        },
-        "items": [
-          {
-            "code": "ใช้งานได้",
-            "reward": "100KVISITS",
-            "status": "15 Spins"
-          },
-          {
-            "code": "ใช้งานได้",
-            "reward": "1KLIKES",
-            "status": "รีเซ็ตปราณ/วิชาอสูร"
-          },
-          {
-            "code": "ใช้งานได้",
-            "reward": "guizerayt",
-            "status": "10 Spins"
-          },
-          {
-            "code": "ใช้งานได้",
-            "reward": "RELEASE",
-            "status": "10 Spins"
-          },
-          {
-            "code": "ใช้งานได้",
-            "reward": "Star Savior",
-            "status": "คู่มือการแลกรางวัล"
-          }
-        ]
-      }
+    "navigation": {
+      "title": "Star Savior",
+      "titleHighlight": "ตัวนำทางมอดูล",
+      "description": "ข้ามไปยังส่วนของ Star Savior ที่คุณต้องการติดตาม ตั้งแต่รางวัลเปิดตัวไปจนถึงการวางแผนทรัพยากรช่วงท้ายเกม"
     },
-    "redeemGuide": {
-      "title": "ทำตามขั้นตอนเหล่านี้เพื่อแลกโค้ดให้สำเร็จ",
-      "titleHighlight": "เปิดเกม",
-      "subtitle": "เปิด Star Savior ใน Roblox",
-      "steps": [
+    "officialLinks": {
+      "title": "ช่องทางทางการของ Star Savior",
+      "titleHighlight": "ช่องทางต่างๆ",
+      "description": "รวมลิงก์ดาวน์โหลด, บันทึกการแพตช์, วิดีโอ และจุดติดต่อชุมชนไว้ในที่เดียว",
+      "items": [
         {
-          "step": 1,
-          "title": "เปิดโค้ด",
-          "detail": "จากเมนูหลัก ให้คลิกปุ่มโค้ด"
+          "title": "เว็บไซต์ทางการ",
+          "description": "เริ่มต้นจากหน้าหลักของ Star Savior เพื่อดูแบรนด์, แพลตฟอร์ม และกิจกรรมต่างๆ",
+          "href": "https://www.starsavior.com/"
         },
         {
-          "step": 2,
-          "title": "วางโค้ด",
-          "detail": "ป้อนโค้ดที่ใช้งานได้ในช่องโค้ด"
+          "title": "ข่าวสารทางการ",
+          "description": "ติดตามประกาศการเปิดตัวทั่วโลก และการอัปเดตล่าสุดจากฟีดข่าวทางการ",
+          "href": "https://www.starsavior.com/en/news"
         },
         {
-          "step": 3,
-          "title": "รับรางวัล",
-          "detail": "กดแลก/ยืนยัน และรับรางวัล"
+          "title": "Google Play",
+          "description": "เปิดหน้าสโตร์มือถือเพื่อดูยอดติดตั้ง, คะแนน และข้อมูลตลาดปัจจุบัน",
+          "href": "https://play.google.com/store/apps/details?id=com.studiobside.starMain"
         },
         {
-          "step": 4,
-          "title": "Star Savior",
-          "detail": "เส้นทางการฝึกฝน"
+          "title": "Discord ทางการ",
+          "description": "เข้าร่วมศูนย์กลางชุมชน Star Savior สำหรับประกาศสดและช่องทางช่วยเหลือ",
+          "href": "https://discord.com/invite/UHNYfe9C77"
+        },
+        {
+          "title": "YouTube ทางการ",
+          "description": "รับชม PV, รายการพรีวิว และวิดีโอทางการของ Star Savior ได้ในที่เดียว",
+          "href": "https://www.youtube.com/@StarSavior_EN"
+        },
+        {
+          "title": "ชุมชน Reddit",
+          "description": "เรียกดูการพูดคุยในชุมชน, ความประทับใจของผู้เล่น และการสนทนาของแฟนๆ เกี่ยวกับ Star Savior",
+          "href": "https://www.reddit.com/r/StarSavior/"
         }
       ]
     },
-    "trainingPaths": {
-      "title": "เลือกเส้นทางการฝึกฝนของคุณ: เพลิง, วายุ หรือ วารี",
-      "titleHighlight": "เพลิง",
-      "subtitle": "เส้นทางใกล้จุดเกิด",
-      "paths": [
-        {
-          "name": "เขี้ยวโอนิ 40 อัน + กำจัดโอนิที่แข็งแกร่ง",
-          "location": "สูง",
-          "requirements": "0 เยน",
-          "difficulty": "วายุ",
-          "cost": "หมู่บ้านทะเล"
-        },
-        {
-          "name": "กำจัดบอส Giga Horn + รับเขา",
-          "location": "สูง",
-          "requirements": "0 เยน",
-          "difficulty": "วารี",
-          "cost": "น้ำตกทุ่งข้าวสาลี"
-        },
-        {
-          "name": "ผ่าน Parkour + ทำลายหิน",
-          "location": "ปานกลาง",
-          "requirements": "2,000 เยนต่อครั้ง",
-          "difficulty": "Star Savior",
-          "cost": "รายชื่อระดับปราณ"
-        }
-      ]
+    "labels": {
+      "lastChecked": "ตรวจสอบล่าสุด",
+      "copy": "คัดลอก",
+      "copied": "คัดลอกแล้ว",
+      "openSource": "เปิดคู่มือภายนอก",
+      "pillPrefix": "ข้ามไปยัง",
+      "frontLine": "แถวหน้า",
+      "backLine": "แถวหลัง",
+      "bestAgainst": "ดีที่สุดเมื่อสู้กับ",
+      "roleFocus": "เน้นบทบาท",
+      "activeBuild": "บิลด์ที่ใช้งานอยู่",
+      "buildSource": "เปิดบิลด์ตัวละคร",
+      "mainStat": "ค่าสถานะหลัก",
+      "upgradePriority": "ลำดับการอัปเกรด",
+      "whyItMatters": "ทำไมถึงสำคัญ",
+      "farmOrder": "ลำดับการฟาร์ม",
+      "commonMistakes": "ข้อผิดพลาดที่พบบ่อยในช่วงแรก"
     },
-    "breathingTier": {
-      "title": "เปรียบเทียบปราณตามประสิทธิภาพ PvE/PvP และความยาก",
-      "titleHighlight": "ข้อมูลการทดสอบของชุมชน - อันดับอัปเดตเป็นประจำ",
-      "subtitle": "ปราณ",
-      "dataNote": "PvE",
-      "table": {
-        "headers": {
-          "breathing": "PvP",
-          "pveScore": "ความยาก",
-          "pvpScore": "ราคาที่ต้องจ่าย",
-          "difficulty": "เพลิง",
-          "cost": "A Tier"
-        },
-        "items": [
-          {
-            "breathing": "A Tier",
-            "pveScore": "ปานกลาง",
-            "pvpScore": "เขี้ยวโอนิ 40 อัน + ต่อสู้กับโอนิที่แข็งแกร่ง",
-            "difficulty": "วายุ",
-            "cost": "S Tier"
-          },
-          {
-            "breathing": "S Tier",
-            "pveScore": "ยาก",
-            "pvpScore": "ดรอปจากบอส Giga Horn (RNG)",
-            "difficulty": "วารี",
-            "cost": "A Tier"
-          },
-          {
-            "breathing": "B Tier",
-            "pveScore": "ปานกลาง",
-            "pvpScore": "Parkour + 2,000 เยนต่อครั้ง",
-            "difficulty": "อัสนี",
-            "cost": "S Tier"
-          },
-          {
-            "breathing": "A Tier",
-            "pveScore": "ยาก",
-            "pvpScore": "วิธีการปลดล็อกพิเศษ",
-            "difficulty": "Star Savior",
-            "cost": "รายชื่อระดับวิชาอสูร"
-          }
-        ]
-      }
-    },
-    "demonArtTier": {
-      "title": "การจัดอันดับพลังวิชาอสูรและเมทริกซ์ความยาก",
-      "titleHighlight": "เร็วๆ นี้",
-      "subtitle": "การจัดอันดับวิชาอสูรโดยละเอียดจะพร้อมใช้งานเร็วๆ นี้ พร้อมข้อมูลการทดสอบที่ครอบคลุม",
-      "statusBadge": "ระบบวิชาอสูรพร้อมใช้งานในเกมแล้ว",
-      "emptyStateText": "การรีเซ็ตปราณ/วิชาอสูรมีให้ใช้งานผ่านโค้ด",
-      "knownFacts": [
-        "ชุมชนมีคู่มือโอนิ + วิชาอสูรโดยเฉพาะ",
-        "กำลังรวบรวมรายชื่อวิชาอสูรทั้งหมด",
-        "กำลังดำเนินการทดสอบประสิทธิภาพ PvE/PvP"
-      ],
-      "dataGaps": [
-        "กำลังบันทึกการทำงานร่วมกันของคอมโบ",
-        "ติดตามการอัปเดตบน Trello/Discord",
-        "Star Savior"
-      ],
-      "ctaText": "เส้นทางโอนิ"
-    },
-    "oniRoute": {
-      "title": "แปลงร่างเป็นโอนิและปลดล็อกวิชาอสูร",
-      "titleHighlight": "มีคู่มือให้แล้ว",
-      "subtitle": "ทำตามขั้นตอนการแปลงร่างเพื่อเป็นโอนิและเข้าถึงวิชาอสูรที่ทรงพลัง",
-      "statusBadge": "เริ่มต้นในฐานะมนุษย์",
-      "warningText": "เริ่มต้น",
-      "flowNodes": [
-        {
-          "id": 1,
-          "title": "แปลงร่างเป็นโอนิ",
-          "type": "แยกสาขา",
-          "known": true
-        },
-        {
-          "id": 2,
-          "title": "รับ/สุ่มวิชาอสูร",
-          "type": "ความก้าวหน้า",
-          "known": true
-        },
-        {
-          "id": 3,
-          "title": "ความเชี่ยวชาญเฉพาะทาง",
-          "type": "การปรับแต่งให้เหมาะสม",
-          "known": true
-        },
-        {
-          "id": 4,
-          "title": "ตำแหน่ง NPC แปลงร่าง",
-          "type": "ไอเทมและเลเวลที่จำเป็น",
-          "known": true
-        }
-      ],
-      "unknowns": [
-        "ค่าใช้จ่ายในการแปลงร่าง",
-        "ชุดค่าผสมวิชาอสูรที่ดีที่สุด",
-        "Star Savior",
-        "การควบคุม"
-      ]
-    },
-    "controls": {
-      "title": "เชี่ยวชาญการควบคุมด้วยคีย์บอร์ดสำหรับการต่อสู้",
-      "titleHighlight": "LMB",
-      "subtitle": "โจมตี",
-      "keys": [
-        {
-          "key": "RMB",
-          "action": "โจมตีหนัก"
-        },
-        {
-          "key": "F",
-          "action": "ป้องกัน"
-        },
-        {
-          "key": "W + W",
-          "action": "วิ่ง"
-        },
-        {
-          "key": "M",
-          "action": "เมนู"
-        },
-        {
-          "key": "G",
-          "action": "ปราณ"
-        },
-        {
-          "key": "1-9",
-          "action": "สกิล"
-        },
-        {
-          "key": "Star Savior",
-          "action": "แผนที่เควส"
-        }
-      ]
-    },
-    "questMap": {
-      "title": "ค้นหา NPC เควสและสถานที่ฝึกฝน",
-      "titleHighlight": "ลำดับที่แนะนำ: เพลิง → วารี → วายุ",
-      "subtitle": "เส้นทางจุดเกิด (เริ่มต้นด้วยเพลิง)",
-      "recommendedSequence": "ใกล้จุดเกิด",
-      "pins": [
-        {
-          "id": 1,
-          "name": "เริ่มฝึกปราณเพลิง",
-          "region": "เขี้ยวโอนิ 40 อัน",
-          "objective": "กำจัดโอนิที่แข็งแกร่งหลายตัว",
-          "requirements": [
-            "ความก้าวหน้าของเส้นทางเพลิง",
-            "Demon Camp (ขั้นตอนวายุ)"
-          ],
-          "rewards": [
-            "หมู่บ้านทะเล"
-          ]
-        },
-        {
-          "id": 2,
-          "name": "กำจัด Giga Horn และรับเขา",
-          "region": "เคลียร์บอส",
-          "objective": "ดวงดี (RNG)",
-          "requirements": [
-            "ความก้าวหน้าของเส้นทางวายุ",
-            "Waterfall Trial"
-          ],
-          "rewards": [
-            "ทุ่งข้าวสาลีขนาดใหญ่"
-          ]
-        },
-        {
-          "id": 3,
-          "name": "Parkour + ทำลายหิน",
-          "region": "2,000 เยนต่อการพยายามในขั้นตอนสุดท้าย",
-          "objective": "ความก้าวหน้าของเส้นทางวารี",
-          "requirements": [
-            "Star Savior"
-          ],
-          "rewards": [
-            "ไอเทมจากบอส"
-          ]
-        }
-      ]
-    },
-    "bossDrops": {
-      "title": "ไอเทมจากบอสและข้อกำหนดในการดรอป",
-      "titleHighlight": "ไอเทมจากบอสขึ้นอยู่กับ RNG ฟาร์มต่อไปจนกว่าคุณจะได้ไอเทมที่คุณต้องการ!",
-      "subtitle": "ไอเทม",
-      "riskNotice": "แหล่งที่มา",
-      "table": {
-        "headers": {
-          "drop": "วิธีการรับ",
-          "source": "การใช้งานหลัก",
-          "howToObtain": "เขา Giga",
-          "primaryUse": "บอส Giga Horn (Demon Camp)"
-        },
-        "items": [
-          {
-            "drop": "กำจัดบอส Giga Horn จนกว่าเขาจะดรอป",
-            "source": "จำเป็นสำหรับการพัฒนาการฝึกฝนปราณวายุ",
-            "howToObtain": "เขี้ยวโอนิ x40",
-            "primaryUse": "ศัตรูโอนิ"
-          },
-          {
-            "drop": "ฟาร์มโอนิและสะสม 40 เขี้ยว",
-            "source": "จำเป็นสำหรับการพัฒนาการฝึกฝนปราณเพลิง",
-            "howToObtain": "วัสดุจากบอส",
-            "primaryUse": "บอสต่างๆ"
-          },
-          {
-            "drop": "ตรวจสอบ Trello/Discord สำหรับไอเทมจากบอสล่าสุด",
-            "source": "การประดิษฐ์และการพัฒนา",
-            "howToObtain": "Star Savior",
-            "primaryUse": "ฟาร์มเงินเยน"
-          }
-        ]
-      }
-    },
-    "currencyFarm": {
-      "title": "วิธีที่ดีที่สุดในการหารายได้เยนอย่างมีประสิทธิภาพ",
-      "titleHighlight": "ใช้วิธีการที่พิสูจน์แล้วเหล่านี้เพื่อเพิ่มรายได้เยนของคุณให้สูงสุดใน Star Savior",
-      "subtitle": "การแลกโค้ด",
-      "disclaimer": "Spins + Yen (แตกต่างกันไปตามโค้ด)",
-      "methods": [
-        {
-          "rank": 1,
-          "method": "1-3 นาที",
-          "expectedReturn": "ต่ำ",
-          "timeToValue": "เปิดเมนูเกมและแลกโค้ดที่ใช้งานอยู่ก่อน",
-          "riskLevel": "ใช้ spins ก่อนที่จะมุ่งมั่นที่จะวนลูปการ grind นานๆ",
-          "howTo": [
-            "การจัดการทรัพยากรอย่างชาญฉลาด",
-            "ประหยัดเยนโดยหลีกเลี่ยงความพยายามที่ล้มเหลว"
-          ]
-        },
-        {
-          "rank": 2,
-          "method": "ทันที",
-          "expectedReturn": "ต่ำ",
-          "timeToValue": "เตรียมข้อกำหนดก่อนพยายามฝึกฝนที่มีค่าใช้จ่ายสูง",
-          "riskLevel": "ความพยายามสุดท้ายของเส้นทางวารีมีค่าใช้จ่าย 2,000 เยนต่อครั้ง",
-          "howTo": [
-            "Combat Progression Loop",
-            "Yen และ EXP จากเควส"
-          ]
-        },
-        {
-          "rank": 3,
-          "method": "ปานกลาง",
-          "expectedReturn": "ปานกลาง",
-          "timeToValue": "ทำตามคู่มือการพัฒนาสำหรับผู้เริ่มต้น",
-          "riskLevel": "ตรวจสอบ Discord สำหรับเส้นทางการฟาร์มที่เหมาะสมที่สุด",
-          "howTo": [
-            "Star Savior",
-            "วางแผนรีเซ็ต"
-          ]
-        }
-      ]
-    },
-    "resetPlanner": {
-      "title": "วางแผนการรีเซ็ตของคุณอย่างมีกลยุทธ์ - ห้ามรีเซ็ตอย่างสุ่มสี่สุ่มห้า",
-      "titleHighlight": "อะไรคือปัญหาคอขวดในปัจจุบันของคุณ?",
-      "subtitle": "รู้สึกว่าสเตตัสหลักถูกจัดสรรผิด?",
-      "startQuestion": "ตรวจสอบว่าคุณมีโค้ดรีเซ็ตสเตตัสหรือไม่",
-      "decisions": [
-        {
-          "question": "ตรวจสอบว่าปราณ/วิชาอสูรไม่ใช่ meta สำหรับเป้าหมายของคุณหรือไม่",
-          "yesAction": "คุณมีโค้ดรีเซ็ตสเตตัสหรือไม่?",
-          "noAction": "ใช้รีเซ็ตสเตตัสทันที - ใช้การรีเซ็ต แล้วสร้างใหม่ตามโหมดเป้าหมายของคุณ (PvE/PvP/Hybrid)"
-        },
-        {
-          "question": "ชะลอการรีเซ็ตและฟาร์มทรัพยากร - ใช้โค้ด spin/yen และเส้นทางการพัฒนาที่ใช้งานอยู่ก่อน",
-          "yesAction": "ปราณ/วิชาอสูรไม่ใช่ meta สำหรับเป้าหมายของคุณ?",
-          "noAction": "คุณสามารถใช้โค้ดรีเซ็ตปราณ/วิชาอสูรได้หรือไม่?"
-        },
-        {
-          "question": "รักษาสร้างตัวละคร, ปรับปรุงการดำเนินการ - มุ่งเน้นไปที่การควบคุมให้เชี่ยวชาญก่อนที่จะ reroll",
-          "yesAction": "คุณสามารถใช้โค้ดรีเซ็ตปราณ/วิชาอสูรได้หรือไม่?",
-          "noAction": "ใช้การรีเซ็ตปราณ/วิชาอสูร - ตัวอย่างการรีเซ็ตที่ทราบกันดี ได้แก่ การรีเซ็ตที่สามารถส่งผลต่อเผ่าพันธุ์ได้เช่นกัน"
-        },
-        {
-          "question": "อย่ารีเซ็ตด้วยความตื่นตระหนก - รอการปล่อยโค้ด milestone/อัปเดตครั้งต่อไป ติดตามประกาศ Discord",
-          "yesAction": "Star Savior",
-          "noAction": "วางแผนสร้างตัวละคร"
-        }
-      ]
-    },
-    "buildPlanner": {
-      "title": "ปรับแต่ง build ตัวละครของคุณให้เหมาะสมด้วยการวางแผนตามเป้าหมาย",
-      "titleHighlight": "วางแผน build ของคุณตามสไตล์การเล่นและเป้าหมายของคุณ",
-      "subtitle": "goalMode",
-      "dataNote": "โหมดเป้าหมาย",
-      "inputFields": [
-        {
-          "key": "เลือก",
-          "label": "การพัฒนา PvE",
-          "type": "เน้นบอส",
-          "options": [
-            "PvP ดวล",
-            "ลูกผสม",
-            "เส้นทาง",
-            "เส้นทาง"
-          ]
-        },
-        {
-          "key": "เลือก",
-          "label": "นักล่าอสูร",
-          "type": "โอนิ",
-          "options": [
-            "currentBreathing",
-            "ปราณปัจจุบัน"
-          ]
-        },
-        {
-          "key": "ข้อความ",
-          "label": "currentDemonArt",
-          "type": "วิชาอสูรปัจจุบัน"
-        },
-        {
-          "key": "ข้อความ",
-          "label": "yenBudget",
-          "type": "เยนปัจจุบัน"
-        },
-        {
-          "key": "ตัวเลข",
-          "label": "spinsAvailable",
-          "type": "Spins ที่มีอยู่"
-        },
-        {
-          "key": "ตัวเลข",
-          "label": "นักล่าอสูรเริ่มต้น (งบประมาณต่ำ)",
-          "type": "การพัฒนา PvE"
-        }
-      ],
-      "presetExamples": [
-        {
-          "name": "นักล่าอสูร",
-          "goalMode": "แลกโค้ดที่ใช้งานอยู่และเลือกเส้นทางการพัฒนาที่มั่นคง",
-          "route": "เตรียมข้อกำหนดก่อนการฝึกฝนเพื่อหลีกเลี่ยงการเสียเยน",
-          "yenBudget": 2000,
-          "spinsAvailable": 10,
-          "output": {
-            "now": "ใช้การรีเซ็ตอย่างมีกลยุทธ์หากคุณต้องการเปลี่ยนทิศทาง",
-            "next": "ผู้สมัครสลับเส้นทาง",
-            "after": "ลูกผสม"
-          }
-        },
-        {
-          "name": "โอนิ",
-          "goalMode": "ยืนยันเป้าหมายเส้นทางและกลยุทธ์การรีเซ็ตของคุณ",
-          "route": "ใช้การรีเซ็ตแบบเลือกมากกว่าการสร้างใหม่ทั้งหมด",
-          "yenBudget": 5000,
-          "spinsAvailable": 20,
-          "output": {
-            "now": "ทดสอบใน loop บอส/การพัฒนา ก่อนการรีเซ็ตครั้งต่อไป",
-            "next": "Star Savior",
-            "after": "ปราณอัสนี"
-          }
-        }
-      ]
-    },
-    "thunderBreathing": {
-      "title": "คู่มือฉบับสมบูรณ์เพื่อปลดล็อกปราณอัสนี",
-      "titleHighlight": "ค้นหาผู้ฝึกสอนปราณอัสนี",
-      "subtitle": "เดินทางไปยังภูเขาใกล้หมู่บ้านหิมะ",
-      "steps": [
-        {
-          "step": 1,
-          "title": "ยอมรับเควส",
-          "detail": "คุยกับผู้ฝึกสอนและยอมรับเควสขนม"
-        },
-        {
-          "step": 2,
-          "title": "รวบรวมวัสดุ",
-          "detail": "เก็บข้าวสาลี 6 อันและไข่ 3 ฟองจากพื้นที่ฟาร์ม"
-        },
-        {
-          "step": 3,
-          "title": "เสร็จสิ้นการฝึกฝน",
-          "detail": "กลับไปหาผู้ฝึกสอนและเสร็จสิ้นการปลดล็อกปราณอัสนี"
-        },
-        {
-          "step": 4,
-          "title": "ข้อกำหนด",
-          "detail": "ข้าวสาลี 6 อัน"
-        }
-      ],
-      "requirements": {
-        "title": "ไข่ 3 ฟอง",
-        "items": [
-          "เสร็จสิ้นเควสขนม",
-          "ปานกลาง",
-          "ภูเขาใกล้หมู่บ้านหิมะ"
-        ]
+    "codesTable": {
+      "headers": {
+        "code": "โค้ด",
+        "reward": "รางวัล",
+        "status": "สถานะ",
+        "action": "คำสั่ง"
       },
-      "difficulty": "Star Savior",
-      "location": "เลเวลอัพไว"
-    },
-    "fastLeveling": {
-      "title": "วิธีที่มีประสิทธิภาพในการเพิ่มเลเวลอย่างรวดเร็วใน Star Savior",
-      "titleHighlight": "ประเภทเควส",
-      "subtitle": "แผนที่",
-      "methods": [
+      "items": [
         {
-          "title": "มุ่งเน้นไปที่เควสที่เหมาะสมเพื่อรับ XP สูงสุด",
-          "icon": "เควสสีเขียว = จัดส่ง (เสร็จเร็ว)",
-          "description": "เควสสีเหลือง = ต่อสู้ (รางวัล XP สูง)",
-          "tips": [
-            "เควสสีน้ำเงิน = รวบรวม (XP ปานกลาง)",
-            "ระบบอาหาร",
-            "เครื่องครัว"
-          ]
+          "code": "STARSAVIOR251120",
+          "reward": "รางวัลสุดพิเศษ",
+          "status": "ใช้งานได้"
         },
         {
-          "title": "ใช้อาหารเพื่อรักษาระดับ HP และฟาร์มอย่างมีประสิทธิภาพ",
-          "icon": "เก็บอาหารไว้ในคลังเพื่อฟื้นฟู HP",
-          "description": "ลดเวลาหยุดทำงานระหว่างการเผชิญหน้าในการต่อสู้",
-          "tips": [
-            "จำเป็นสำหรับการ grind เควสอย่างต่อเนื่อง",
-            "เส้นทางการพัฒนา",
-            "เส้นทาง"
-          ]
+          "code": "HELLOSTARSAVIOR",
+          "reward": "รางวัลสุดพิเศษ",
+          "status": "ใช้งานได้"
         },
         {
-          "title": "ทำตามเส้นทางการเพิ่มเลเวลที่เหมาะสมที่สุด",
-          "icon": "ทำเควสในพื้นที่เริ่มต้นให้เสร็จก่อน",
-          "description": "ย้ายไปยังโซนระดับสูงขึ้นเรื่อยๆ",
-          "tips": [
-            "ใช้โค้ดเพื่อรับโบนัส XP และ spins",
-            "Star Savior",
-            "การคัดเลือกรอบสุดท้าย"
-          ]
+          "code": "251127STARSAVIOR",
+          "reward": "รางวัลสุดพิเศษ",
+          "status": "ใช้งานได้"
+        },
+        {
+          "code": "STARSAVIORHAPPY100DAYS",
+          "reward": "รางวัลสุดพิเศษ",
+          "status": "ใช้งานได้"
+        },
+        {
+          "code": "MONASTIRVALENTINEDAY",
+          "reward": "รางวัลสุดพิเศษ",
+          "status": "ใช้งานได้"
         }
       ]
     },
-    "finalSelection": {
-      "title": "ผ่านการคัดเลือกรอบสุดท้ายเพื่อเป็นนักล่าอสูรอย่างเป็นทางการ",
-      "titleHighlight": "การคัดเลือกรอบสุดท้ายเป็น milestone ที่สำคัญ ซึ่งคุณพิสูจน์คุณค่าของคุณในฐานะนักล่าอสูร ทำ Parkour นี้ให้สำเร็จเพื่อรับเครื่องแบบนักล่าอสูรและสถานะอย่างเป็นทางการ",
-      "subtitle": "Parkour ในพื้นที่ป่า",
-      "overview": "ทุก 1 ชั่วโมง (ตามเวลาจริง)",
-      "details": {
-        "location": "สูงสุด 12 ผู้เล่นต่อเซสชัน",
-        "timing": "ปานกลางถึงยาก",
-        "maxPlayers": "รางวัล",
-        "difficulty": "เครื่องแบบนักล่าอสูรอย่างเป็นทางการ"
-      },
-      "rewards": {
-        "title": "สมาชิกหน่วยพิฆาตอสูร",
-        "items": [
-          "เข้าถึงคฤหาสน์หน่วยพิฆาตอสูร",
-          "ปลดล็อกระบบการฝึกฝนหม้อ",
-          "เคล็ดลับ",
-          "ฝึก Parkour ก่อนพยายาม"
-        ]
-      },
-      "tips": {
-        "title": "รอให้กิจกรรมรายชั่วโมงเริ่มต้น",
-        "items": [
-          "ร่วมทีมกับผู้เล่นคนอื่นเพื่อรับการสนับสนุน",
-          "อย่ายอมแพ้ - คุณสามารถลองใหม่ได้หลังจากผ่านไปแต่ละชั่วโมง",
-          "Star Savior",
-          "ระบบตระกูล"
-        ]
-      }
-    },
-    "clanSystem": {
-      "title": "ระดับตระกูล, บัฟ และวิธีการ reroll ตระกูลของคุณ",
-      "titleHighlight": "ตระกูลมอบบัฟและความสามารถพิเศษที่เสริมสร้างตัวละครของคุณ แต่ละตระกูลมีความหายากและสิทธิประโยชน์พิเศษที่แตกต่างกัน",
-      "subtitle": "ทั่วไป",
-      "overview": "สีเทา",
-      "tiers": [
-        {
-          "tier": "สูง",
-          "color": "ตระกูลพื้นฐานที่มีบัฟมาตรฐาน",
-          "dropRate": "หายาก",
-          "description": "สีน้ำเงิน"
-        },
-        {
-          "tier": "ปานกลาง",
-          "color": "บัฟและความสามารถที่ได้รับการปรับปรุง",
-          "dropRate": "มหากาพย์",
-          "description": "สีม่วง"
-        },
-        {
-          "tier": "ต่ำ",
-          "color": "ความสามารถของตระกูลที่ทรงพลัง",
-          "dropRate": "ตำนาน",
-          "description": "สีทอง"
-        },
-        {
-          "tier": "ต่ำมาก",
-          "color": "ตระกูลระดับบนสุดพร้อมบัฟที่ยอดเยี่ยม",
-          "dropRate": "ตระกูลที่น่าสังเกต",
-          "description": "Tsugikuni"
-        }
-      ],
-      "notableClans": {
-        "title": "ตำนาน",
-        "clans": [
+    "modules": [
+      {
+        "id": "star-savior-codes",
+        "title": "Star Savior",
+        "titleHighlight": "โค้ด",
+        "summary": "เติมโค้ดคูปองล่าสุดที่ใช้งานได้เพื่อรับรางวัลฟรีและรับได้จากกล่องจดหมายของคุณ",
+        "badge": "ภาพรวมรางวัลปัจจุบัน",
+        "lastChecked": "2026-03-20",
+        "cards": [
           {
-            "name": "บัฟการต่อสู้ที่ยอดเยี่ยม",
-            "tier": "Kamado",
-            "benefit": "ตำนาน"
+            "title": "วิธีการเติม",
+            "items": [
+              "เปิดการจัดการบัญชี (Account Management) ที่ด้านซ้ายของหน้าจอ",
+              "แตะที่กรอกคูปอง (Enter Coupon)",
+              "วางโค้ดที่ใช้งานได้แล้วแตะตรวจสอบ (Check)",
+              "รับรางวัลจากกล่องจดหมาย (Mailbox) ภายในเกม"
+            ]
           },
           {
-            "name": "เทคนิคปราณที่ได้รับการปรับปรุง",
-            "tier": "Agatsuma",
-            "benefit": "มหากาพย์"
+            "title": "สิ่งที่มอดูลนี้ติดตาม",
+            "items": [
+              "แสดงโค้ดใหม่ล่าสุดก่อน",
+              "ป้ายกำกับรางวัลและสถานะในตารางเดียว",
+              "ขั้นตอนการรับรางวัลในกล่องจดหมายหลังตรวจสอบ"
+            ]
           },
           {
-            "name": "โบนัสปราณอัสนี",
-            "tier": "วิธีการสุ่ม/Reroll",
-            "benefit": "ใช้ spins ที่ได้รับจากโค้ดหรือการเล่นเกม"
+            "title": "กฎสั้นๆ",
+            "items": [
+              "เติมโค้ดให้เร็วที่สุดเท่าที่จะทำได้",
+              "วางโค้ดให้ตรงตามที่ระบุไว้",
+              "ตรวจสอบกล่องจดหมายหลังจากการกรอกคูปองสำเร็จทุกครั้ง"
+            ]
           }
-        ]
+        ],
+        "tags": [
+          "ติดตามโค้ดที่ใช้งานได้ 5 โค้ด",
+          "ขั้นตอนการรับรางวัลในกล่องจดหมาย",
+          "ตารางรางวัลที่คัดลอกง่าย"
+        ],
+        "ctaLabel": "เปิดแหล่งอ้างอิงโค้ด",
+        "ctaHref": "https://www.gamerbraves.com/guide-star-savior-codes-how-to-redeem-them/"
       },
-      "howToSpin": {
-        "title": "เข้าถึงเมนูตระกูลในเกม",
+      {
+        "id": "star-savior-tier-list",
+        "title": "Star Savior",
+        "titleHighlight": "เทียร์ลิสต์",
+        "summary": "ใช้ตัวละครเมต้าปัจจุบันเป็นทางลัดที่เร็วที่สุดสำหรับการผ่านด่านเนื้อเรื่อง, การฟาร์ม และการสร้างทีมในช่วงแรก",
+        "badge": "บอร์ดลำดับความสำคัญของเมต้า",
+        "lastChecked": "2026-03-20",
+        "cards": [
+          {
+            "title": "ตัวเลือกอันดับสูงสุด",
+            "items": [
+              "Bunnygirl Charlotte",
+              "Emilly",
+              "Lacy",
+              "Bell Rhys"
+            ]
+          },
+          {
+            "title": "ตัวเลือกเสริมที่แข็งแกร่ง",
+            "items": [
+              "Asherah: Waltz of Starlight",
+              "Charlotte",
+              "Bunnygirl Claire",
+              "Kyra"
+            ]
+          },
+          {
+            "title": "ตัวกรองที่ดีที่สุด",
+            "items": [
+              "PvE",
+              "PvP",
+              "ธาตุ",
+              "บทบาท"
+            ]
+          }
+        ],
+        "tags": [
+          "มูลค่าในการลุยเนื้อเรื่อง",
+          "ความเหมาะสมในการฟาร์มบอส",
+          "การกรองตามบทบาทและธาตุ"
+        ],
+        "ctaLabel": "เปิดแหล่งอ้างอิงเทียร์ลิสต์",
+        "ctaHref": "https://www.gamezebo.com/walkthroughs/star-savior-tier-list/"
+      },
+      {
+        "id": "star-savior-beginner-guide",
+        "title": "Star Savior",
+        "titleHighlight": "คู่มือสำหรับผู้เริ่มต้น",
+        "summary": "เริ่มต้นด้วยการลุยเนื้อเรื่องหลัก, ล็อกทีมหลักขนาดเล็ก และใช้การจัดทัพรวมถึง Starlink ให้ถูกต้องเพื่อหลีกเลี่ยงการเสียทรัพยากรในช่วงแรก",
+        "badge": "เส้นทางการเริ่มต้นอย่างรวดเร็ว",
+        "lastChecked": "2026-03-20",
+        "cards": [
+          {
+            "title": "แผนการสำหรับวันแรก",
+            "items": [
+              "ลุย Mainstream Operation เป็นอันดับแรก",
+              "รับรางวัลภารกิจอย่างสม่ำเสมอ",
+              "ใช้ระบบ Auto ในช่วงแรกและเล่นตามความได้เปรียบทางธาตุ",
+              "เน้นไปที่ตัวละครหลัก 4 ถึง 5 ตัว"
+            ]
+          },
+          {
+            "title": "พื้นฐานการจัดทัพ",
+            "items": [
+              "แถวหน้าสำหรับตัวแทงค์และตัวชน",
+              "แถวหลังสำหรับตัวทำดาเมจหลักและตัวดีบัฟ",
+              "ตัวป้องกันจะรับแรงปะทะโดยธรรมชาติ"
+            ]
+          },
+          {
+            "title": "รายการที่ต้องทำทุกวัน",
+            "items": [
+              "รับรางวัลจากกล่องจดหมาย",
+              "เก็บทรัพยากร AFK ก่อนที่จะเต็ม",
+              "ทำภารกิจรายวันให้เสร็จ",
+              "ใช้ Stamina เพื่อเพิ่มค่าความก้าวหน้า"
+            ]
+          }
+        ],
+        "tags": [
+          "เน้น Mainstream Operation ก่อน",
+          "การสร้างทีมขนาดกะทัดรัด",
+          "ประสิทธิภาพของ Starlink"
+        ],
+        "ctaLabel": "เปิดเส้นทางสำหรับผู้เริ่มต้น",
+        "ctaHref": "https://tychara.com/StarSavior/guides/beginner-guide"
+      },
+      {
+        "id": "star-savior-reroll-guide",
+        "title": "Star Savior",
+        "titleHighlight": "คู่มือการรีโรล",
+        "summary": "การรีโรลเป็นทางเลือก แต่การเริ่มต้นที่แข็งแกร่งกว่าจะเริ่มด้วยตัวละครพรีเมียมช่วงเปิดตัวหรือ Arcana สารพัดประโยชน์ที่คุ้มค่าใน Journey และการดำเนินเนื้อเรื่องทั่วไป",
+        "badge": "แผนผังการรีโรลช่วงเปิดตัว",
+        "lastChecked": "2026-03-20",
+        "cards": [
+          {
+            "title": "สถิติการรีโรล",
+            "items": [
+              "ประมาณ 10 นาทีต่อรอบการรีโรล",
+              "อัตรา SSR 4%",
+              "อัตราตัวหน้าตู้ 2%",
+              "10,000 Gems บวกกับการสุ่มหลายครั้งในช่วงเริ่มต้น"
+            ]
+          },
+          {
+            "title": "ตัวละครเป้าหมาย",
+            "items": [
+              "Asherah: Waltz of Starlight",
+              "Lacy",
+              "Emilly",
+              "Bunnygirl Charlotte"
+            ]
+          },
+          {
+            "title": "Arcana เป้าหมาย",
+            "items": [
+              "Lacy",
+              "Charlotte",
+              "Bunnygirl Claire",
+              "Petra"
+            ]
+          }
+        ],
+        "tags": [
+          "เป็นทางเลือกแต่ส่งผลสูง",
+          "เป้าหมายพรีเมียมช่วงเปิดตัว",
+          "มูลค่าของ Arcana สารพัดประโยชน์"
+        ],
+        "ctaLabel": "เปิดคู่มือการรีโรล",
+        "ctaHref": "https://tychara.com/StarSavior/guides/reroll-guide"
+      },
+      {
+        "id": "star-savior-arcana-tier-list",
+        "title": "Star Savior",
+        "titleHighlight": "Arcana เทียร์ลิสต์",
+        "summary": "การจัดอันดับ Arcana สาธารณะที่ผ่านการตรวจสอบแล้วระบุว่า Elastic Acceleration, Solid Destruction, Sharp Assault และ Construct Bomb อยู่ในระดับสูงสุด ขณะที่ลำดับความสำคัญตามบทบาทจะแบ่งชัดเจนระหว่างสายดาเมจ, แทงค์ และฮีลเลอร์",
+        "badge": "ตารางบทบาท Arcana",
+        "lastChecked": "2026-03-20",
+        "displayType": "tierRowsWithRoleTabs",
+        "tierGroups": [
+          {
+            "title": "Arcana SSR ระดับสูงสุด",
+            "items": [
+              "Elastic Acceleration",
+              "Solid Destruction",
+              "Sharp Assault",
+              "Construct Bomb"
+            ]
+          },
+          {
+            "title": "Arcana SSR ทางเลือกที่แข็งแกร่ง",
+            "items": [
+              "Shadow Erosion",
+              "Resolute Determination",
+              "Life Stigma",
+              "Double Tap",
+              "Leisurely Counter",
+              "Insight Stigma"
+            ]
+          }
+        ],
+        "roleTabs": [
+          {
+            "id": "dps",
+            "label": "DPS",
+            "priority": "พลัง > พลังชีวิต > โฟกัส",
+            "notes": [
+              "เริ่มต้นจากชิ้นส่วน SSR ที่เน้นพลังก่อนเพื่อรักษาความเร็วในการระเบิดพลังและการเคลียร์ด่าน",
+              "Sharp Assault และ Elastic Acceleration เหมาะกับแผนการเล่นที่เน้นตัวทำดาเมจหลัก",
+              "ใช้ Arcana อื่นๆ เพื่อเสริมช่วงเวลาทำดาเมจหลังจากล็อกแกนหลักระดับสูงสุดแล้ว"
+            ]
+          },
+          {
+            "id": "tank",
+            "label": "แทงค์",
+            "priority": "พลัง > พลังชีวิต > ความทนทาน",
+            "notes": [
+              "Arcana สำหรับสายแทงค์ยังคงต้องการพลังที่เพียงพอเพื่อดึงดูดศัตรูและทำดาเมจ",
+              "พลังชีวิตและความทนทานจะกลายเป็นชั้นความเสถียรเมื่อแนวหน้าพร้อมแล้ว",
+              "Solid Destruction และ Construct Bomb ยังคงมีค่าเมื่อทีมต้องการจังหวะการเล่นที่ทนทาน"
+            ]
+          },
+          {
+            "id": "healer",
+            "label": "ฮีลเลอร์",
+            "priority": "พลังชีวิต > ความทนทาน",
+            "notes": [
+              "ฮีลเลอร์ให้ความสำคัญกับการมีชีวิตรอดในการต่อสู้ที่ยาวนานและลูปของบอส",
+              "Life Stigma และตัวเสริมความอยู่รอดอื่นๆ ช่วยรองรับความต่อเนื่องในหลายเทิร์น",
+              "ใช้ Arcana ระดับ SSR เป็นแกนหลักในการฮีลระยะยาวแทนการทุ่มเทให้กับตัวเติมระดับ SR มากเกินไป"
+            ]
+          }
+        ],
+        "spotlight": {
+          "title": "กฎของ Arcana ในระยะยาว",
+          "items": [
+            "Arcana ระดับ SSR ควรเป็นแกนหลักในระยะยาวสำหรับบัญชีของคุณ",
+            "Arcana ระดับ SR ส่วนใหญ่ใช้เพื่อเติมช่องสถานะชั่วคราวในช่วงแรก",
+            "การแยกตามบทบาทเป็นวิธีที่เร็วที่สุดในการหยุดการเสียวัตถุดิบอัปเกรด"
+          ]
+        },
+        "tags": [
+          "แกนหลัก SSR ระดับสูงสุด",
+          "ลำดับความสำคัญของสถานะตามบทบาท",
+          "SSR สำคัญกว่าตัวเติม SR ชั่วคราว"
+        ],
+        "ctaLabel": "เปรียบเทียบการจัดอันดับ Arcana",
+        "ctaHref": "https://www.gamezebo.com/walkthroughs/star-savior-arcana-tier-list/"
+      },
+      {
+        "id": "star-savior-best-teams",
+        "title": "Star Savior",
+        "titleHighlight": "ทีมที่ดีที่สุด",
+        "summary": "คู่มือการจัดทีมสาธารณะในปัจจุบันเน้นไปที่การจัดทัพแบบ 4 Savior, ตัวแทงค์หรือตัวประคองทีมในแถวหน้า และตัวทำดาเมจหรือตัวดีบัฟในแถวหลัง โดยการจัดทีมธาตุเดียวและการแพ้ทางธาตุเป็นปัจจัยหลักในการผ่านด่าน PvE",
+        "badge": "การจัดทัพแบบ 4 Savior",
+        "lastChecked": "2026-03-20",
+        "displayType": "formationCardsGrid",
+        "teamCards": [
+          {
+            "title": "ทีมธาตุสุริยะ",
+            "bestAgainst": "บอสดวงดาว",
+            "frontLine": [
+              "Muriel",
+              "Emilly"
+            ],
+            "backLine": [
+              "Serpang",
+              "Petra"
+            ],
+            "notes": [
+              "ใช้แรงกดดันจากการชนะทางธาตุกับศัตรูธาตุดวงดาว",
+              "รักษาความสมดุลระหว่างตัวชนแถวหน้าและตัวซัพพอร์ต"
+            ]
+          },
+          {
+            "title": "ทีมธาตุจันทรา",
+            "bestAgainst": "บอสดวงอาทิตย์",
+            "frontLine": [
+              "Lugh",
+              "Emilly"
+            ],
+            "backLine": [
+              "Elisa",
+              "Asherah: Waltz of Starlight"
+            ],
+            "notes": [
+              "จับคู่แนวหน้าที่แข็งแกร่งกับตัวประคองทีมระดับพรีเมียมสำหรับการต่อสู้ที่ยาวนาน",
+              "ทำงานได้ดีที่สุดเมื่อแถวหลังสามารถทนต่อแรงกดดันจากธาตุดวงอาทิตย์ได้"
+            ]
+          },
+          {
+            "title": "ทีมธาตุดวงดาว",
+            "bestAgainst": "บอสจันทรา",
+            "frontLine": [
+              "Dana",
+              "Emilly"
+            ],
+            "backLine": [
+              "Frey",
+              "Tanya"
+            ],
+            "notes": [
+              "เน้นแรงกดดันจากระยะไกลหลังตัวชนที่มั่นคง",
+              "เหมาะที่สุดเมื่อคุณต้องการความครอบคลุมในการผ่านด่าน PvE ทั่วไป"
+            ]
+          },
+          {
+            "title": "ทีมธาตุโกลาหล",
+            "bestAgainst": "บอสระเบียบ",
+            "frontLine": [
+              "Muriel",
+              "Lacy"
+            ],
+            "backLine": [
+              "Elisa",
+              "Lydia"
+            ],
+            "notes": [
+              "ผสมผสานแรงกดดันจากตัวทำดาเมจหลักเข้ากับยูทิลิตี้และซัพพอร์ต",
+              "รูปแบบทีมที่แข็งแกร่งสำหรับการสลับตามธาตุที่ได้เปรียบเมื่อตัวละครของคุณมีมากขึ้น"
+            ]
+          }
+        ],
+        "tags": [
+          "โครงสร้างทีมแบบ 4 Savior",
+          "การสลับตามความได้เปรียบทางธาตุ",
+          "ความสมดุลระหว่างแถวหน้าและแถวหลัง"
+        ],
+        "ctaLabel": "เปรียบเทียบการจัดทีม",
+        "ctaHref": "https://tychara.com/StarSavior/team-builder"
+      },
+      {
+        "id": "star-savior-character-builds",
+        "title": "Star Savior",
+        "titleHighlight": "บิลด์ตัวละคร",
+        "summary": "หน้าบิลด์ปัจจุบันมีไว้สำหรับตัวทำดาเมจหลักและซัพพอร์ตตัวสำคัญ ทำให้สามารถแสดงจุดเปลี่ยนของสกิล, ชุด Arcana, เซ็ตอุปกรณ์ และค่าสถานะหลักเป้าหมายแทนคำแนะนำทั่วไปได้",
+        "badge": "รายการบิลด์ล่าสุด",
+        "lastChecked": "2026-03-20",
+        "displayType": "buildCardsWithDrawer",
+        "buildEntries": [
+          {
+            "id": "lacy",
+            "name": "Lacy",
+            "identity": "Chaos / Ranger / SSR",
+            "summary": "ตัวทำดาเมจระยะไกลที่สร้างแรงกดดันสูง ซึ่งต้องการความเร็วและพลังโจมตีพื้นฐานให้พร้อมโดยเร็วที่สุด",
+            "sourceHref": "https://www.hideoutgacha.com/games/star-savior/characters/chaos/lacy",
+            "detailGroups": [
+              {
+                "title": "เป้าหมายสกิล",
+                "items": [
+                  "เป้าหมายช่วงแรก: 3/6/6",
+                  "เป้าหมายช่วงท้ายเกม: 7/8/8"
+                ]
+              },
+              {
+                "title": "อุปกรณ์หลัก",
+                "items": [
+                  "เซ็ต Motivator",
+                  "สร้อยคอความเร็ว",
+                  "แหวน ATK%"
+                ]
+              },
+              {
+                "title": "ชุด Arcana",
+                "items": [
+                  "Elastic Acceleration",
+                  "Solid Destruction",
+                  "Shadow Erosion",
+                  "Sharp Assault",
+                  "Construct Bomb"
+                ]
+              },
+              {
+                "title": "จุดเน้นสำคัญ",
+                "items": [
+                  "ให้ความสำคัญกับความเร็วเพื่อเริ่มเทิร์นให้เร็วขึ้น",
+                  "รักษาการเพิ่มขึ้นของ ATK% ให้เหนือกว่าการอัปเกรดรองอื่นๆ",
+                  "ทำส่วนหลักของตัวทำดาเมจให้เสร็จก่อนเริ่มโครงการตัวสำรองที่หรูหรา"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "bell-rhys",
+            "name": "Bell Rhys",
+            "identity": "Star / Ranger / SSR",
+            "summary": "ตัวทำดาเมจระยะไกลที่มีเส้นทางการบิลด์แข็งแกร่งที่สุดเมื่อความเร็วและประสิทธิภาพคริติคอลสอดคล้องกัน",
+            "sourceHref": "https://www.hideoutgacha.com/games/star-savior/characters/star/bell-rhys",
+            "detailGroups": [
+              {
+                "title": "เป้าหมายสกิล",
+                "items": [
+                  "เป้าหมายช่วงแรก: 3/6/6",
+                  "เป้าหมายช่วงท้ายเกม: 7/8/8"
+                ]
+              },
+              {
+                "title": "อุปกรณ์หลัก",
+                "items": [
+                  "เซ็ต Motivator",
+                  "สร้อยคอความเร็ว",
+                  "แหวน ATK%"
+                ]
+              },
+              {
+                "title": "ชุด Arcana",
+                "items": [
+                  "Elastic Acceleration",
+                  "Solid Destruction",
+                  "Sharp Assault",
+                  "Construct Bomb"
+                ]
+              },
+              {
+                "title": "จุดเน้นสำคัญ",
+                "items": [
+                  "ค่าสถานะรองที่ต้องการ: ความเร็ว",
+                  "ค่าสถานะรองที่ต้องการ: อัตราคริติคอล, ATK%, ดาเมจคริติคอล",
+                  "ค่าสถานะรองที่ต้องการ: ความแม่นยำของเอฟเฟกต์"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "asherah-waltz",
+            "name": "Asherah: Waltz of Starlight",
+            "identity": "Order / Supporter / SSR",
+            "summary": "บิลด์ซัพพอร์ตระดับพรีเมียมที่แลกดาเมจดิบเพื่อความเสถียรของทีม, ระยะเวลาการทำงานของสกิล และการควบคุมการต่อสู้ที่ยาวนาน",
+            "sourceHref": "https://www.hideoutgacha.com/games/star-savior/characters/order/asherah-waltz-of-starlight",
+            "detailGroups": [
+              {
+                "title": "เป้าหมายสกิล",
+                "items": [
+                  "เป้าหมายช่วงแรก: 3/6/6",
+                  "เป้าหมายช่วงท้ายเกม: 7/7/7"
+                ]
+              },
+              {
+                "title": "อุปกรณ์หลัก",
+                "items": [
+                  "เซ็ต Preses",
+                  "สร้อยคอความเร็ว",
+                  "แหวน HP%"
+                ]
+              },
+              {
+                "title": "ชุด Arcana",
+                "items": [
+                  "Sharp Assault",
+                  "Life Stigma",
+                  "Starlight Grace+",
+                  "Double Tap",
+                  "Iron Will"
+                ]
+              },
+              {
+                "title": "จุดเน้นสำคัญ",
+                "items": [
+                  "บิลด์เพื่อระยะเวลาการทำงานของสกิลก่อนความโลภ",
+                  "ปกป้องแกนหลักของทีมผ่านลูปของบอสที่ยาวนาน",
+                  "ใช้เธอเป็นตัวสร้างความเสถียรรอบตัวทำดาเมจหลักของคุณ"
+                ]
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "จุดเปลี่ยนสกิลที่แน่นอน",
+          "ค่าสถานะหลักของอุปกรณ์ตามบทบาท",
+          "เส้นทางการเลือกชุด Arcana"
+        ],
+        "ctaLabel": "เปิดคลังบิลด์",
+        "ctaHref": "https://www.hideoutgacha.com/games/star-savior/character-tier-list"
+      },
+      {
+        "id": "star-savior-gear-guide",
+        "title": "Star Savior",
+        "titleHighlight": "คู่มืออุปกรณ์",
+        "summary": "Star Savior ใช้ \"อุปกรณ์\" แทน \"เรลิก\" และความก้าวหน้าที่แท้จริงจะเริ่มขึ้นเมื่อคุณหยุดลงทุนกับของเติมช่อง T1 มากเกินไป แล้วเปลี่ยนไปใช้ชิ้นส่วน T2 และให้ความสำคัญกับค่าสถานะหลักความเร็วในช่องที่ถูกต้อง",
+        "badge": "ตารางลำดับความสำคัญของอุปกรณ์",
+        "lastChecked": "2026-03-20",
+        "displayType": "priorityTableWithTags",
+        "priorityRows": [
+          {
+            "slot": "รองเท้า",
+            "mainStat": "ความเร็ว",
+            "priority": "อัปเกรดก่อน",
+            "reason": "รองเท้าเป็นหนึ่งในวิธีที่เร็วที่สุดในการปรับปรุงลำดับเทิร์นสำหรับตัวทำดาเมจและซัพพอร์ต"
+          },
+          {
+            "slot": "สร้อยคอ",
+            "mainStat": "ความเร็ว",
+            "priority": "อัปเกรดก่อน",
+            "reason": "สร้อยคอความเร็วช่วยให้การวนสกิลเสถียรก่อนที่คุณจะไล่ตามค่าสถานะรองที่หรูหรา"
+          },
+          {
+            "slot": "แหวน",
+            "mainStat": "ATK% สำหรับ DPS / HP% สำหรับแทงค์-ซัพพอร์ต",
+            "priority": "อัปเกรดช่วงแรก",
+            "reason": "ค่าสถานะหลักของแหวนควรตรงกับบทบาทที่ขับเคลื่อนความเร็วในการเคลียร์ด่านหรือการอยู่รอดของคุณจริงๆ"
+          },
+          {
+            "slot": "อาวุธ",
+            "mainStat": "ค่าสถานะช่องคงที่",
+            "priority": "ถือไว้ก่อนเว้นแต่จะเป็น T2",
+            "reason": "อย่าลงทุนมากเกินไปกับชิ้นส่วนอาวุธเติมช่องก่อนที่แกนหลัก T2 จะพร้อม"
+          },
+          {
+            "slot": "ชุดเกราะ",
+            "mainStat": "ค่าสถานะช่องคงที่",
+            "priority": "ถือไว้ก่อนเว้นแต่จะเป็น T2",
+            "reason": "การอัปเกรดชุดเกราะจะคุ้มค่ากว่าเมื่อทิศทาง T2 ระยะยาวของคุณพร้อมแล้ว"
+          },
+          {
+            "slot": "ถุงมือ",
+            "mainStat": "ค่าสถานะช่องคงที่",
+            "priority": "ถือไว้ก่อนเว้นแต่จะเป็น T2",
+            "reason": "ถุงมือมีความสำคัญต่ำกว่าช่องความเร็วในช่วงแรกของการพัฒนา"
+          }
+        ],
+        "spotlight": {
+          "title": "กฎการพัฒนาจาก T1 ไปยัง T2",
+          "items": [
+            "เกมนี้ใช้โครงสร้างอุปกรณ์ 2 ระดับ: T1 สำหรับช่วงแรก, T2 สำหรับการลงทุนระยะยาว",
+            "T2 จะกลายเป็นเป้าหมายที่แท้จริงหลังจาก Mainstream ด่าน 14 โดยบางคู่มือระบุว่าการคราฟต์จะปลดล็อกที่ด่าน 15",
+            "ทำแกนหลัก T2 สี่ชิ้นให้เสร็จก่อนที่จะทุ่มเงินอัปเกรดของหรูหรา"
+          ]
+        },
+        "farmTags": [
+          "Motivator ก่อน",
+          "Wendigo อันดับสอง",
+          "Perseus อันดับสาม",
+          "ชิ้นส่วนความเร็วก่อน"
+        ],
+        "mistakeTags": [
+          "อัปเกรดอาวุธ T1 มากเกินไป",
+          "อัปเกรดชุดเกราะ T1 มากเกินไป",
+          "อัปเกรดถุงมือ T1 มากเกินไป",
+          "ละเลยช่องความเร็วเป็นอันดับแรก"
+        ],
+        "tags": [
+          "แกนหลัก T2 สำคัญกว่าของเติมช่อง T1",
+          "ลำดับความสำคัญของช่องความเร็ว",
+          "ระเบียบในการลำดับการฟาร์ม"
+        ],
+        "ctaLabel": "เปิดคู่มือการเพิ่มประสิทธิภาพอุปกรณ์",
+        "ctaHref": "https://ultimategacha.com/star-savior-relic-gear-guide-how-to-farm-enhance-optimize/"
+      },
+      {
+        "id": "star-savior-7-day-progression",
+        "title": "Star Savior",
+        "titleHighlight": "ความก้าวหน้าใน 7 วัน",
+        "summary": "ใช้สัปดาห์แรกเพื่อปลดล็อกระบบ, เพิ่มรายได้ Idle และสร้างแกนหลักของทีมที่แท้จริงหนึ่งทีมแทนที่จะกระจายการอัปเกรดไปทั่วทั้งบัญชี",
+        "badge": "กำหนดการสัปดาห์แรก",
+        "lastChecked": "2026-03-20",
+        "displayType": "timeline_cards",
+        "timeline": [
+          {
+            "range": "วันที่ 1",
+            "focus": "วางรากฐานของบัญชี",
+            "items": [
+              "เล่นโหมดฝึกสอนให้จบและรับรางวัลเปิดตัวหลักก่อน",
+              "รีโรลเฉพาะเมื่อคุณวางแผนที่จะเริ่มเล่นทันทีเท่านั้น",
+              "เลือกทีมเริ่มต้นของคุณแต่เนิ่นๆ เพื่อให้การอัปเกรดครั้งแรกมุ่งเน้นไปที่จุดเดียว"
+            ]
+          },
+          {
+            "range": "วันที่ 2-3",
+            "focus": "ลุยเนื้อเรื่องและเพิ่มผลผลิต Idle",
+            "items": [
+              "ลุยเนื้อเรื่องให้ไกลที่สุดเท่าที่พลังของบัญชีจะอำนวย",
+              "ใช้การเคลียร์เหล่านั้นเพื่อปลดล็อกระบบเพิ่มเติมและรางวัล Idle ที่แข็งแกร่งขึ้น",
+              "เริ่มขัดเกลาอุปกรณ์และสกิลสำคัญกับตัวละครที่ดีที่สุดของคุณเท่านั้น"
+            ]
+          },
+          {
+            "range": "วันที่ 4-5",
+            "focus": "แก้ไขจุดอ่อนและรักษาทีมให้กะทัดรัด",
+            "items": [
+              "ตรวจสอบว่าทีมของคุณมีตัวแทงค์, ฮีลเลอร์หรือซัพพอร์ต และตัวทำดาเมจสองตัวแล้วหรือยัง",
+              "แก้ไขบทบาทที่อ่อนแอที่สุดในทีมหลักของคุณก่อนที่จะเริ่มโครงการตัวสำรอง",
+              "รักษากิจวัตรภารกิจรายวันและรายสัปดาห์ในขณะที่ฟาร์มเพื่อแก้ปัญหาคอขวดที่แท้จริง"
+            ]
+          },
+          {
+            "range": "วันที่ 6-7",
+            "focus": "เตรียมตัวสำหรับลูปเนื้อหาถัดไป",
+            "items": [
+              "สลับการฟาร์มกับการลุยเนื้อเรื่องใหม่ๆ แทนที่จะฝืนเล่นโหมดเดียวทั้งสัปดาห์",
+              "ปรับแต่งอุปกรณ์และ Arcana รอบๆ ทีมที่ช่วยให้คุณผ่านด่านได้จริง",
+              "วางแผนการใช้เงินตราสุ่มตู้ในอนาคตก่อนที่ตู้เพิ่มเรตถัดไปจะมาถึง"
+            ]
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "กฎของทีมหลัก",
+            "items": [
+              "บัญชีในสัปดาห์แรกส่วนใหญ่ควรสร้างตัวละครประมาณ 4 ถึง 5 ตัว ไม่ใช่ทั้งบัญชี",
+              "โครงสร้างเริ่มต้นที่สะอาดที่สุดคือ 1 แทงค์, 1 ฮีลเลอร์หรือซัพพอร์ต และ 2 ตัวทำดาเมจ",
+              "เมื่อโครงสร้างนั้นเสถียรแล้ว การอัปเกรดเพิ่มเติมจะทำได้ง่ายขึ้นมาก"
+            ]
+          },
+          {
+            "title": "ระเบียบด้านทรัพยากรในสัปดาห์แรก",
+            "items": [
+              "ให้ความสำคัญกับการปลดล็อกเนื้อเรื่องเพราะจะช่วยเพิ่มทั้งการเข้าถึงและรายได้ Idle",
+              "อย่าแยกวัสดุอุปกรณ์และสกิลไปให้กับตัวละครทดลองมากเกินไป",
+              "เงินตราสุ่มตู้จะมีค่ามากขึ้นเมื่อเก็บไว้ใช้กับแผนการสุ่มเป้าหมายในใจ"
+            ]
+          }
+        ],
+        "tags": [
+          "จังหวะการเล่นเจ็ดวัน",
+          "การควบคุมทรัพยากรสำหรับมือใหม่",
+          "การเตรียมตัวสำหรับเนื้อหาที่ยาก"
+        ],
+        "ctaLabel": "เปิดคู่มือการพัฒนา",
+        "ctaHref": "https://ultimategacha.com/star-savior-beginner-guide-progression-plan/"
+      },
+      {
+        "id": "star-savior-gacha-guide",
+        "title": "Star Savior",
+        "titleHighlight": "คู่มือกาชา",
+        "summary": "Star Savior แบ่งตัวละครและ Arcana ออกเป็นตู้แยกกัน ใช้อัตรา SSR พื้นฐานที่สูง และพึ่งพาระบบแลกแต้ม (Mileage) แทนระบบการันตีตัวละครหน้าตู้",
+        "badge": "การวางแผนสุ่มตู้",
+        "lastChecked": "2026-03-20",
+        "displayType": "accordion_compare_table",
+        "compareCards": [
+          {
+            "title": "ตู้ตัวละคร",
+            "badge": "การสุ่มหาตัวละครหลัก",
+            "headline": "ใช้ตู้ตัวละครเมื่อบัญชีของคุณยังต้องการตัวทำดาเมจ, แทงค์ หรือซัพพอร์ตระดับพรีเมียมเพื่อปลดล็อกการผ่านด่านที่ง่ายขึ้น",
+            "items": [
+              "อัตรา SSR พื้นฐานคือ 4%",
+              "อัตราตัวละครหน้าตู้คือ 2%",
+              "ตัวละครหน้าตู้ธาตุแสงและมืดระบุไว้ที่ 1%"
+            ]
+          },
+          {
+            "title": "ตู้ Arcana",
+            "badge": "ความก้าวหน้าของการ์ดซัพพอร์ต",
+            "headline": "ตู้ Arcana จะมีความสำคัญมากขึ้นเมื่อทีมหลักของคุณพร้อมเล่นแล้ว และคุณต้องการเพิ่มสถานะ, ช่วงเวลาเบิร์สดาเมจ หรือการสเกลพลังในระยะยาว",
+            "items": [
+              "อัตรา Arcana SSR พื้นฐานคือ 4% เช่นกัน",
+              "อัตรา Arcana หน้าตู้คือ 2%",
+              "แต้ม Mileage สามารถเก็บไว้สำหรับเป้าหมาย Arcana ในอนาคตได้แทนที่จะรีบใช้"
+            ]
+          }
+        ],
+        "tableTitle": "อัตราสุ่มและแต้ม Mileage",
+        "tableColumns": [
+          "กฎของระบบ",
+          "ค่าปัจจุบัน",
+          "ทำไมถึงสำคัญ"
+        ],
+        "factRows": [
+          {
+            "label": "อัตรา SSR พื้นฐาน",
+            "value": "ตัวละคร 4% / Arcana 4%",
+            "note": "ตู้หลักทั้งสองประเภทเริ่มจากอัตรา SSR พื้นฐานที่เท่ากัน"
+          },
+          {
+            "label": "อัตราหน้าตู้",
+            "value": "มาตรฐาน 2% / แสง-มืด 1%",
+            "note": "ตู้พรีเมียมยังคงต้องมีการวางแผนเพราะตัวละครหน้าตู้ที่หายากไม่มีการการันตีผ่านกฎแบ่ง 50/50"
+          },
+          {
+            "label": "การันตีหน้าตู้",
+            "value": "ไม่มี 50/50 และไม่มีการการันตี Pity โดยตรง",
+            "note": "การสะสม Pity จะไม่มอบตัวละครหน้าตู้ให้คุณโดยอัตโนมัติ"
+          },
+          {
+            "label": "การได้รับแต้ม Mileage",
+            "value": "1 Mileage ต่อการสุ่ม 1 ครั้ง",
+            "note": "ทุกการสุ่มจะช่วยเพิ่มความก้าวหน้าในเส้นทางการแลกเปลี่ยนระยะยาวเหมือนกัน"
+          },
+          {
+            "label": "การแลกแต้ม Mileage",
+            "value": "200 Mileage สำหรับตัวละครหรือ Arcana หน้าตู้",
+            "note": "แต้ม Mileage ไม่มีวันหมดอายุ ดังนั้นการเก็บไว้สำหรับตู้ในอนาคตจึงเป็นเรื่องที่ทำได้"
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "การวางแผนสุ่มช่วงเริ่มต้น",
+            "items": [
+              "สุ่มตามบทบาทที่สำคัญที่สุดที่ยังขาดหายไป ไม่ใช่สุ่มทุกตู้ที่มาใหม่",
+              "ตัวทำดาเมจหลักหรือซัพพอร์ตตัวแรกที่แข็งแกร่งมักจะสำคัญกว่าการสุ่มกระจาย",
+              "หากทีมของคุณพร้อมเล่นแล้ว การเก็บออมอาจดีกว่าการฝืนสุ่มตู้ที่มีมูลค่าปานกลาง"
+            ]
+          },
+          {
+            "title": "ระเบียบของแต้ม Mileage",
+            "items": [
+              "ปฏิบัติต่อแต้ม Mileage เป็นเหมือนวาล์วนิรภัยระยะยาวที่แท้จริงในระบบนี้",
+              "อย่าเผาแต้ม Mileage ที่สะสมไว้เพียงเพราะมันมีอยู่",
+              "เป้าหมายการแลกเปลี่ยนที่ดีที่สุดคือชิ้นส่วนหน้าตู้ที่ช่วยเติมเต็มช่องว่างในทีมของคุณได้จริงๆ"
+            ]
+          }
+        ],
+        "tags": [
+          "การตระหนักถึงระบบ Pity",
+          "การเปรียบเทียบตู้สุ่ม",
+          "ระเบียบในการสุ่ม"
+        ],
+        "ctaLabel": "เปิดคู่มือการเล่นกาชา",
+        "ctaHref": "https://tychara.com/StarSavior/guides/gacha-system"
+      },
+      {
+        "id": "star-savior-character-list",
+        "title": "Star Savior",
+        "titleHighlight": "รายชื่อตัวละคร",
+        "summary": "ใช้ฐานข้อมูลรายชื่อตัวละครสาธารณะเพื่อแยกตัวละครตามความหายาก, บทบาท และธาตุ ก่อนที่คุณจะเปรียบเทียบมูลค่าการรีโรล, ช่องว่างในทีม หรือเส้นทางการบิลด์ในอนาคต",
+        "badge": "ไดเรกทอรีรายชื่อตัวละคร",
+        "lastChecked": "2026-03-20",
+        "displayType": "database_grid_filters",
+        "filterGroups": [
+          {
+            "title": "ตัวกรองความหายาก",
+            "items": [
+              "SR",
+              "SSR"
+            ]
+          },
+          {
+            "title": "ตัวกรองบทบาท",
+            "items": [
+              "Defender",
+              "Striker",
+              "Ranger",
+              "Caster",
+              "Supporter",
+              "Assassin"
+            ]
+          },
+          {
+            "title": "ตัวกรองธาตุ",
+            "items": [
+              "Sun",
+              "Moon",
+              "Star",
+              "Order",
+              "Chaos"
+            ]
+          }
+        ],
+        "rosterTitle": "ตัวอย่างรายชื่อตัวละครปัจจุบัน",
+        "rosterDescription": "ฐานข้อมูลสาธารณะจัดระเบียบตามรายชื่อตัวละคร KR และ JP ที่เปิดตัวแล้ว ทำให้เป็นจุดเริ่มต้นที่ใช้งานได้จริงสำหรับการค้นหาข้อมูล",
+        "sampleRoster": [
+          {
+            "name": "Annah",
+            "identity": "ตัวอย่างรายชื่อ",
+            "focus": "ตัวเลือกที่ค้นหาได้รวดเร็วสำหรับการกรองตามบทบาทและความหายาก"
+          },
+          {
+            "name": "Asherah",
+            "identity": "ตัวอย่างรายชื่อ",
+            "focus": "มีประโยชน์เมื่อตรวจสอบเส้นทางทีมที่เน้นซัพพอร์ต"
+          },
+          {
+            "name": "Bell Rhys",
+            "identity": "ตัวอย่างรายชื่อ",
+            "focus": "จุดอ้างอิงทั่วไปสำหรับการเปรียบเทียบตัวทำดาเมจระยะไกล"
+          },
+          {
+            "name": "Elisa",
+            "identity": "ตัวอย่างรายชื่อ",
+            "focus": "มีประโยชน์สำหรับการตรวจสอบทางเลือกแถวหลังอื่นๆ"
+          },
+          {
+            "name": "Frey",
+            "identity": "ตัวอย่างรายชื่อ",
+            "focus": "ข้อมูลที่มองเห็นได้สำหรับการวางแผนรายชื่อและบิลด์ในวงกว้าง"
+          },
+          {
+            "name": "Lacy",
+            "identity": "ตัวอย่างรายชื่อ",
+            "focus": "เป้าหมายที่พบบ่อยเมื่อเปรียบเทียบเส้นทางตัวทำดาเมจหลักระดับพรีเมียม"
+          },
+          {
+            "name": "Luna",
+            "identity": "ตัวอย่างรายชื่อ",
+            "focus": "มีประโยชน์สำหรับการตรวจสอบความหลากหลายของทีมและการวางแผนการแทนที่ตัวละคร"
+          },
+          {
+            "name": "Muriel",
+            "identity": "ตัวอย่างรายชื่อ",
+            "focus": "จุดอ้างอิงแนวหน้าปกติเมื่อมีการเปรียบเทียบโครงสร้างทีม"
+          },
+          {
+            "name": "Serpang",
+            "identity": "ตัวอย่างรายชื่อ",
+            "focus": "จุดค้นหาที่มีประโยชน์อีกจุดหนึ่งสำหรับทีมที่เน้นธาตุ"
+          },
+          {
+            "name": "Tanya",
+            "identity": "ตัวอย่างรายชื่อ",
+            "focus": "มีประโยชน์สำหรับการตรวจสอบตัวเลือกช่องระยะไกลหรือยูทิลิตี้"
+          },
+          {
+            "name": "Trish",
+            "identity": "ตัวอย่างรายชื่อ",
+            "focus": "มีประโยชน์สำหรับการค้นพบรายชื่อตัวละครที่กว้างขึ้นนอกเหนือจากลำดับความสำคัญเริ่มต้น"
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "ตัวกรองที่ครอบคลุม",
+            "items": [
+              "ตัวกรองหลักคือความหายาก, บทบาท และธาตุ",
+              "นั่นเพียงพอที่จะรองรับการตรวจสอบการรีโรล, การค้นหาการแทนที่ทีม และการเตรียมบิลด์โดยไม่ต้องเดา",
+              "รายชื่อตัวละครที่มองเห็นได้นั้นอ้างอิงจากข้อมูล KR และ JP ที่เปิดตัวในปัจจุบัน"
+            ]
+          },
+          {
+            "title": "ทำไมฐานข้อมูลนี้ถึงสำคัญ",
+            "items": [
+              "เป็นวิธีที่เร็วที่สุดในการเปรียบเทียบตัวเลือกก่อนที่คุณจะลงทุนทรัพยากร",
+              "ช่วยเชื่อมโยงหน้าตัวละครกับการจัดทีมและการตัดสินใจตามคู่มือ",
+              "ลดความยุ่งยากในหน้าแรกเมื่อผู้ใช้ต้องการเพียงการค้นหารายชื่อตัวละครอย่างรวดเร็ว"
+            ]
+          }
+        ],
+        "tags": [
+          "การแยกตามบทบาท",
+          "การแยกตามธาตุ",
+          "ภาพรวมรายชื่อตัวละคร"
+        ],
+        "ctaLabel": "เปิดรายชื่อตัวละคร",
+        "ctaHref": "https://tychara.com/StarSavior/characterlist"
+      },
+      {
+        "id": "star-savior-journey-training-guide",
+        "title": "Star Savior",
+        "titleHighlight": "คู่มือการฝึก Journey",
+        "summary": "Journey คือโหมดการปั้นตัวละครโดยเฉพาะใน Star Savior และการเล่นแต่ละรอบจะส่งต่อพลังในระยะยาวผ่านการเลือกฝึกซ้อม, การควบคุมสถานะ และผลผลิตจาก Stella Archive",
+        "badge": "คู่มือระบบหลัก",
+        "lastChecked": "2026-03-20",
+        "displayType": "step_diagram_checklist",
         "steps": [
-          "ใช้ spins เพื่อ reroll เพื่อให้ได้ตระกูลที่ดีขึ้น",
-          "ตระกูลระดับสูงกว่ามีอัตราการดรอปต่ำกว่า",
-          "Spend spins to reroll for better clans",
-          "Higher tier clans have lower drop rates"
-        ]
+          {
+            "title": "กำหนดเป้าหมายการเล่น",
+            "description": "เข้าสู่ Journey ด้วยเป้าหมายสถานะที่ชัดเจนแทนที่จะมองว่าเป็นเนื้อหาเสริมแบบสุ่ม",
+            "items": [
+              "เลือกว่าการเล่นรอบนั้นมีไว้สำหรับตัวทำดาเมจ, แทงค์ หรือซัพพอร์ต",
+              "วางแผนตามสถานะที่สำคัญสำหรับ Savior คนนั้นก่อนที่คุณจะใช้เทิร์น",
+              "การสะสม Arcana ที่ตรงกันเป็นวิธีที่สะอาดที่สุดในการรักษาทิศทางการเล่นให้ไปในทางเดียว"
+            ]
+          },
+          {
+            "title": "วนรอบการฝึกและคำร้อง",
+            "description": "รอบการเล่น Journey ที่แข็งแกร่งถูกสร้างขึ้นเทิร์นต่อเทิร์นผ่านการเลือกฝึกซ้อม, กิจกรรมคำร้อง และจังหวะที่เหมาะสมระหว่างกัน",
+            "items": [
+              "ใช้การฝึกซ้อมเพื่อเพิ่มสถานะหลักสำหรับบทบาทที่คุณกำลังสร้าง",
+              "รับคำร้องที่ช่วยเสริมสถานะหรือกราฟสถานะที่คุณตั้งใจไว้",
+              "หลีกเลี่ยงการออกนอกเส้นทางที่เพิ่มสถานะที่อ่อนแอโดยไม่ช่วยให้ Archive สุดท้ายดีขึ้น"
+            ]
+          },
+          {
+            "title": "ควบคุมสภาพร่างกายและจังหวะ",
+            "description": "การตัดสินใจพักผ่อนเป็นส่วนหนึ่งของเส้นทาง เพราะการเล่นจะเสียมูลค่าไปอย่างรวดเร็วเมื่อสภาพร่างกายแย่ลง",
+            "items": [
+              "รักษาสภาพร่างกายให้อยู่ในระดับ \"ดีที่สุด\" เสมอเท่าที่จะเป็นไปได้ในการเล่นแบบจริงจัง",
+              "ใช้การพักผ่อนเป็นการรีเซ็ตที่วางแผนไว้ ไม่ใช่ปุ่มฉุกเฉินหลังจากเสียเทิร์นไปอย่างไร้ค่า",
+              "สำหรับการเล่นระดับยาก STR, HP และ Endurance มักจะมีค่ามากกว่าสถานะรองที่กระจายตัว"
+            ]
+          },
+          {
+            "title": "ล็อก Stella Archive",
+            "description": "ทุกรอบที่เล่นจบจะกลายเป็น Stella Archive ซึ่งทำหน้าที่เหมือนบันทึกบิลด์ระยะยาวสำหรับ Savior คนนั้น",
+            "items": [
+              "Archive จะรักษาคุณค่าของการเล่นไว้สำหรับบิลด์ในอนาคต",
+              "ระเบียบใน Journey ที่ดีขึ้นหมายถึงคุณภาพของ Archive ที่ดีขึ้นเมื่อเวลาผ่านไป",
+              "นั่นคือเหตุผลที่ Journey เป็นระบบการพัฒนาหลัก ไม่ใช่มินิเกมเสริม"
+            ]
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "จุดเริ่มต้นระดับยาก",
+            "items": [
+              "Resonance ระดับ 8 คือเป้าหมายขั้นต่ำปกติสำหรับการเข้าเล่น Journey ระดับยาก",
+              "Resonance ระดับ 9 เป็นจุดที่สะดวกสบายกว่าหากคุณต้องการการเล่นที่มั่นคง",
+              "การเข้าไปเร็วเกินไปมักจะทำให้โหมดนี้กลายเป็นที่ละลายทรัพยากรแทนที่จะเป็นเครื่องมือในการเติบโต"
+            ]
+          },
+          {
+            "title": "รายการตรวจสอบการเล่น",
+            "items": [
+              "Arcana ที่ตรงกันสามชิ้นขึ้นไปสามารถรองรับการสะสมสถานะที่เน้นจุดเดียวได้",
+              "ตัวทำดาเมจสามารถตั้งเป้าไปที่ STR 1250 ในขณะที่แทงค์และซัพพอร์ตสามารถตั้งเป้าไปที่ HP 1250",
+              "สำหรับโหมดระดับยาก ให้การเล่นเน้นไปที่ STR, HP, Endurance และการจัดการสภาพร่างกายที่เสถียร"
+            ]
+          }
+        ],
+        "tags": [
+          "ความชัดเจนของลูป Journey",
+          "การวางแผน Resonance",
+          "การเติบโตในระยะยาว"
+        ],
+        "ctaLabel": "เปิดคู่มือ Journey",
+        "ctaHref": "https://www.hideoutgacha.com/games/star-savior/training-guide"
+      },
+      {
+        "id": "star-savior-boss-guide",
+        "title": "Star Savior",
+        "titleHighlight": "คู่มือบอส",
+        "summary": "การเคลียร์เรดและเวิลด์บอสในช่วงแรกจะตามลูปที่ทำซ้ำได้: เอาชีวิตรอดจากการโจมตีหนัก, ลดเกราะ, ทำลายเกจ Break, จากนั้นระเบิด Nova Burst ในช่วงเวลา Break",
+        "badge": "ผังวางแผนช่วงเวลา Break",
+        "lastChecked": "2026-03-20",
+        "displayType": "bossCardsWithMechanicTags",
+        "mechanicCards": [
+          {
+            "title": "โครงสร้างทีมที่แนะนำ",
+            "cue": "พื้นฐาน 4 ช่อง",
+            "items": [
+              "ใช้ 1 แทงค์, 1 ฮีลเลอร์หรือซัพพอร์ต, 1 ตัวทำดาเมจหมู่ และ 1 ตัวทำดาเมจเป้าหมายเดี่ยวเพื่อความเสถียรในการสู้บอสช่วงแรก",
+              "โครงสร้างนี้ช่วยให้การเล่นเสถียรในขณะที่ยังสร้างแรงกดดันได้มากพอสำหรับช่วงเวลา Break",
+              "ตัวเลือกที่แนะนำในช่วงแรก ได้แก่ Ede สำหรับการแทงค์ และ Serpent, Frey หรือ Elisa สำหรับการประคองทีม"
+            ]
+          },
+          {
+            "title": "การดำเนินการในช่วงเวลา Break",
+            "cue": "ประมาณสองเทิร์น",
+            "items": [
+              "บอสจะเข้าสู่สถานะถูกทำลายเกราะประมาณสองเทิร์นหลังจากเกจ Break เหลือศูนย์",
+              "เก็บสกิลไม้ตายและ Nova Burst ไว้ใช้ในสถานะนั้นแทนที่จะใช้ในช่วงที่มีโล่ป้องกัน",
+              "ลำดับเทิร์นยังคงสำคัญเพราะดีบัฟและสกิลเตรียมตัวต้องลงก่อนที่ลูปการเบิร์สดาเมจจะเริ่มขึ้น"
+            ]
+          },
+          {
+            "title": "จุดล้มเหลวที่พบบ่อย",
+            "cue": "แก้ไขสิ่งเหล่านี้ก่อน",
+            "items": [
+              "การแพ้ส่วนใหญ่มาจากการใช้ไม้ตายก่อน Break และการใช้ Nova Burst เร็วเกินไป",
+              "การข้ามฮีลเลอร์มักทำให้ทีมล่มสลายโดยไม่จำเป็นในการลองเรดช่วงแรก",
+              "การพลาดจังหวะแถบการกระทำของบอสจะเปลี่ยนการเตรียมตัวที่สะอาดให้กลายเป็นเทิร์นทำดาเมจที่มีมูลค่าต่ำ"
+            ]
+          }
+        ],
+        "tagPanels": [
+          {
+            "title": "ตัวเลือกที่แนะนำในช่วงแรก",
+            "tags": [
+              "แทงค์: Ede",
+              "ตัวประคองทีม: Serpent หรือ Frey หรือ Elisa",
+              "ตัวทำดาเมจหมู่: Luna หรือ Carmen หรือ Asela หรือ Dana",
+              "ตัวเบิร์สดาเมจ: Smile หรือ Kira หรือ Charles หรือ Lacy หรือ Tanya หรือ Epindel"
+            ]
+          },
+          {
+            "title": "การปรับเปลี่ยนตามประเภทการต่อสู้",
+            "tags": [
+              "ศัตรูที่มาเป็นระลอกจำนวนมาก: เสริมช่อง AoE ก่อน",
+              "การต่อสู้ที่เน้นดาเมจต่อเนื่อง: ให้ความสำคัญกับ Elisa หรือ Frey",
+              "ช่วงที่มีโล่หรือสะท้อนดาเมจ: นำ Smile หรือตัวลดเกราะตัวอื่นมาด้วย",
+              "ติดตามแถบการกระทำของบอสก่อนจะเบิร์สดาเมจ"
+            ]
+          }
+        ],
+        "tags": [
+          "การวางแผนช่วงเวลา Break",
+          "ความเสถียรของโครงสร้างบทบาท",
+          "ระเบียบจังหวะการเบิร์สดาเมจ"
+        ],
+        "ctaLabel": "เปิดกลไกบอส, การเลือกบทบาท และเคล็ดลับการเบิร์สดาเมจช่วง Break",
+        "ctaHref": "https://ultimategacha.com/star-savior-boss-guide-how-to-beat-early-game-raid-world-bosses/"
+      },
+      {
+        "id": "star-savior-hard-mode-guide",
+        "title": "Star Savior",
+        "titleHighlight": "คู่มือโหมดระดับยาก",
+        "summary": "โหมดระดับยากเป็นจุดตรวจสอบความก้าวหน้าสำหรับเนื้อหา Journey และ Mainstream โดยมีการตรวจสอบสถานะที่เข้มงวดขึ้น, เครื่องรางเฉพาะบทบาท และเพดานสถานะที่ใช้งานได้จริงสูงขึ้น",
+        "badge": "การเตรียมตัวผ่านด่าน",
+        "lastChecked": "2026-03-20",
+        "displayType": "checklistWithTeamCards",
+        "checklistTitle": "รายการตรวจสอบก่อนเข้าโหมดระดับยาก",
+        "prepChecklist": [
+          "ไปถึง Resonance ระดับ 8 ก่อนเข้าโหมดระดับยาก โดยระดับ 9 จะเป็นจุดที่สบายกว่า",
+          "เคลียร์ Mainstream ด่าน 14 ก่อนเพื่อปลดล็อกเส้นทางสู่การพัฒนาอุปกรณ์ T2",
+          "สร้างชุดตัวทำดาเมจของคุณรอบๆ การเลือก Arcana ที่เน้นจุดเดียวก่อนที่จะขยายไปยังโครงการเสริม",
+          "รักษาทีมโหมดระดับยากทีมแรกให้กะทัดรัดและอัปเกรดเต็มที่แทนที่จะหมุนเวียนตัวละครที่ยังไม่เสร็จ"
+        ],
+        "teamCards": [
+          {
+            "title": "รูปแบบการฆ่าบอส",
+            "composition": "Ede + Frey + Smile + Kira หรือ Charles",
+            "items": [
+              "สร้างขึ้นเพื่อการควบคุมแนวหน้าที่เสถียรและเทิร์นเบิร์สดาเมจที่เน้นจุดเดียว",
+              "ใช้โครงสร้างนี้เมื่อความอยู่รอดคืออุปสรรคหลัก",
+              "ทำงานได้ดีที่สุดเมื่อช่องตัวทำดาเมจของคุณถูกปรับแต่งมาเพื่อดาเมจช่วง Break แล้ว"
+            ]
+          },
+          {
+            "title": "รูปแบบการเคลียร์ไว",
+            "composition": "Sayla + Serpent + Smile + Luna หรือ Asela",
+            "items": [
+              "ให้ความสำคัญกับจังหวะและแรงกดดันจากแถบการกระทำเพื่อการวนด่านที่รวดเร็ว",
+              "ใช้ได้ดีที่สุดเมื่อทีมของคุณสามารถทนดาเมจพื้นฐานที่เข้ามาได้แล้ว",
+              "เข้ากันได้ดีกับอุปกรณ์ที่เน้นความเร็วและการจัดลำดับเทิร์นที่สะอาด"
+            ]
+          }
+        ],
+        "charmCards": [
+          {
+            "title": "ทิศทางเครื่องราง DPS",
+            "role": "ตัวทำดาเมจ",
+            "items": [
+              "เครื่องรางสเกล ATK เป็นตัวเลือกที่ส่งผลสูงตามปกติ",
+              "เลือกเครื่องรางที่เสริมโปรไฟล์ดาเมจหลักของคุณ",
+              "หลีกเลี่ยงการแยกการอัปเกรดเครื่องรางไปยังตัวทำดาเมจรองมากเกินไป"
+            ]
+          },
+          {
+            "title": "ทิศทางเครื่องรางแทงค์",
+            "role": "แนวหน้า",
+            "items": [
+              "เครื่องรางสเกล HP มักจะเป็นที่ต้องการสำหรับแทงค์",
+              "เครื่องรางความเสถียรมีค่ามากกว่าสายดาเมจที่โลภในโหมดนี้",
+              "ปั้นตัวแทงค์ให้เสร็จก่อนเพื่อให้ตัวเบิร์สดาเมจรักษาลูปของตัวเองได้"
+            ]
+          },
+          {
+            "title": "ทิศทางเครื่องรางซัพพอร์ต",
+            "role": "ฮีลเลอร์ / ยูทิลิตี้",
+            "items": [
+              "เครื่องรางสเกล HP เป็นที่ต้องการสำหรับซัพพอร์ตเช่นกัน",
+              "ความสม่ำเสมอชนะความผันผวนในการเผชิญหน้าโหมดระดับยากที่ยาวนาน",
+              "ให้ความสำคัญกับระยะเวลาการทำงานของสกิลและการอยู่รอดก่อนตัวเลือกดาเมจที่หรูหรา"
+            ]
+          }
+        ],
+        "tags": [
+          "ความพร้อมของ Resonance",
+          "จุดผ่านความก้าวหน้า T2",
+          "การวางแผนเครื่องรางเฉพาะบทบาท"
+        ],
+        "ctaLabel": "ดูรายการตรวจสอบก่อนโหมดระดับยาก, เป้าหมายสถานะ และรูปแบบทีม",
+        "ctaHref": "https://ultimategacha.com/star-savior-hard-mode-guide-how-to-prepare-teams-to-use/"
+      },
+      {
+        "id": "star-savior-pvp-guide",
+        "title": "Star Savior",
+        "titleHighlight": "คู่มือ PvP",
+        "summary": "Star Savior PvP ขับเคลื่อนด้วยจังหวะ: ความเร็ว, การควบคุมแถบการกระทำ, จังหวะ Break และช่วงเวลา Nova Burst เป็นตัวตัดสินผลการแข่งขันส่วนใหญ่",
+        "badge": "แผนผังจังหวะและการควบคุม",
+        "lastChecked": "2026-03-20",
+        "displayType": "dualColumnLineups",
+        "lineupColumns": [
+          {
+            "id": "offense",
+            "title": "ทีมบุก",
+            "description": "เปิดฉากด้วยแรงกดดันจากความเร็วและการควบคุมเกจเพื่อชิงเทิร์นเบิร์สดาเมจที่สำคัญครั้งแรก",
+            "entries": [
+              {
+                "name": "Sun Blitz",
+                "core": "Sayla + Smile + Luna + Haydee",
+                "notes": [
+                  "ตัวเปิดที่รวดเร็วถูกสร้างขึ้นเพื่อกดดันทีมป้องกันที่เปราะบาง",
+                  "ดีที่สุดเมื่อคุณสามารถบังคับช่วงเวลา Break แรกได้อย่างสะอาด"
+                ]
+              },
+              {
+                "name": "Order Core",
+                "core": "Vesta + Serpent + Smile + Lou",
+                "notes": [
+                  "โครงสร้างการควบคุมที่สมดุลซึ่งสามารถสลับระหว่างการกดดันและการรักษาความเสถียร",
+                  "มีประโยชน์เมื่อสู้กับทีมป้องกันแบบผสมที่มีค่าความเร็วไม่เท่ากัน"
+                ]
+              },
+              {
+                "name": "Waltz Carry",
+                "core": "Asherah: Waltz of Starlight + Smile + Kira + Ede",
+                "notes": [
+                  "เน้นการแข่งขันรอบลูปดาเมจของตัวทำดาเมจหลักที่ได้รับการปกป้อง",
+                  "ทำงานได้ดีที่สุดเมื่อชุดยูทิลิตี้ของคุณสามารถชิงจังหวะการเบิร์สดาเมจได้"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "defense",
+            "title": "ทีมป้องกัน",
+            "description": "ใช้โครงสร้างแนวหน้าที่ยืดหยุ่นและจังหวะการลงโทษเพื่อปฏิเสธเทิร์นบุกที่ต่อเนื่อง",
+            "entries": [
+              {
+                "name": "Luna Haydee Wall",
+                "core": "Luna + Haydee + Ede + Serpent",
+                "notes": [
+                  "Durability-first shell for slowing down high-tempo attackers.",
+                  "ชนะโดยการเอาชีวิตรอดจากการเบิร์สดาเมจครั้งแรกและบังคับให้เกิดการต่อสู้ที่ยาวนานขึ้น"
+                ]
+              },
+              {
+                "name": "Haydee BC Roberta",
+                "core": "Haydee + Bunnygirl Claire + Roberta + Smile",
+                "notes": [
+                  "การจัดทัพที่ก่อกวนซึ่งลงโทษทีมบุกที่โฟกัสเป้าหมายไม่ดี",
+                  "มีประสิทธิภาพมากที่สุดเมื่อลำดับเทิร์นการป้องกันของคุณได้รับการปรับแต่งมาแล้ว"
+                ]
+              },
+              {
+                "name": "Bell Seira Luna",
+                "core": "Bell Rhys + Seira + Luna + Vesta",
+                "notes": [
+                  "ทีมป้องกันแบบไฮบริดที่ผสมผสานการคุกคามจากการเบิร์สดาเมจเข้ากับยูทิลิตี้หลายชั้น",
+                  "มักใช้เพื่อท้าทายการวนทีมบุกแบบแผนเดียว"
+                ]
+              }
+            ]
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "กฎหลักของ PvP",
+            "items": [
+              "ความครอบคลุมของโหมดปัจจุบันเน้นไปที่ RTA แบบเรียลไทม์และการแข่งขันป้องกันอันดับแบบคลาสสิก",
+              "โครงสร้างที่เสถียรยังคงเป็น 2 DPS, 1 แทงค์หรือแนวหน้า และ 1 ซัพพอร์ตหรือช่องยืดหยุ่น",
+              "Sayla, Smile, Lou, Ede, Vesta และ Serpent มักถูกเน้นว่าเป็นแกนหลักของจังหวะการเล่น"
+            ]
+          },
+          {
+            "title": "รางวัลซีซัน",
+            "items": [
+              "เงินตราพรีเมียมตามซีซัน",
+              "วัสดุอัปเกรดที่สนับสนุนลูปการพัฒนา",
+              "รางวัลตกแต่ง เช่น ฉายาหรือกรอบโปรไฟล์"
+            ]
+          }
+        ],
+        "tags": [
+          "รูปแบบทีมบุกและทีมป้องกัน",
+          "จังหวะการควบคุมเกจ",
+          "การรับรู้รางวัลซีซัน"
+        ],
+        "ctaLabel": "เปรียบเทียบรูปแบบทีมบุกและทีมป้องกันสำหรับเมต้า PvP ปัจจุบัน",
+        "ctaHref": "https://ultimategacha.com/star-savior-pvp-guide-team-building-strategy-rewards/"
+      },
+      {
+        "id": "star-savior-resource-management",
+        "title": "Star Savior",
+        "titleHighlight": "การจัดการทรัพยากร",
+        "summary": "ความก้าวหน้าชนะได้ด้วยการรวมทรัพยากรไว้ที่ทีมหลักทีมเดียว, ลุยด่านที่เคลียร์ได้สูงสุด และใช้เงินตราพรีเมียมในจุดที่มูลค่าบัญชีระยะยาวสูงที่สุด",
+        "badge": "บอร์ดลำดับการใช้จ่าย",
+        "lastChecked": "2026-03-20",
+        "displayType": "priorityTableWithDoDontCards",
+        "tableTitle": "ลำดับความสำคัญการใช้ทรัพยากร",
+        "tableColumns": [
+          "ประเภททรัพยากร",
+          "ลำดับความสำคัญ",
+          "กฎการดำเนินการ"
+        ],
+        "priorityRows": [
+          {
+            "lane": "Stamina",
+            "priority": "ใช้ก่อน",
+            "rule": "ลุยเนื้อเรื่องหลักก่อนเพื่อเพิ่มผลผลิต AFK จากนั้นฟาร์มด่านกิจกรรมที่มีเงินตรามูลค่าสูง"
+          },
+          {
+            "lane": "AFK และ Journey",
+            "priority": "ติดตามทุกวัน",
+            "rule": "รางวัล AFK สเกลจากด่านสูงสุดที่เคลียร์ได้ ขณะที่ Journey และการฝึกซ้อมใช้เส้นทางแยกกันที่ควรวางแผนร่วมกัน"
+          },
+          {
+            "lane": "วัสดุหลัก",
+            "priority": "รักษาอย่างเข้มงวด",
+            "rule": "วัสดุ Resonance, วัสดุข้ามขีดจำกัด, แต้มศักยภาพ, EXP, ทอง, Star Essence และ Operation EXP ควรจัดสรรให้ตรงกับจุดที่เป็นคอขวดที่แท้จริง"
+          },
+          {
+            "lane": "ทีมหลัก",
+            "priority": "อัปเกรดก่อน",
+            "rule": "ใช้ทรัพยากรที่ดีที่สุดของคุณกับ Savior หลัก 4 ถึง 6 คน แทนที่จะกระจายการอัปเกรดไปทั่วโครงการเสริม"
+          },
+          {
+            "lane": "เงินตราพรีเมียม",
+            "priority": "การใช้ตามเป้าหมาย",
+            "rule": "ใช้ Starlight Ore และตั๋วสุ่มกับตู้ที่ส่งผลสูง แทนที่จะใช้เติม Stamina หรือรีเฟรชแบบสุ่ม"
+          },
+          {
+            "lane": "ร้านค้ากิจกรรม",
+            "priority": "แยกตามมูลค่า",
+            "rule": "ให้ความสำคัญกับตั๋วสุ่ม, หินอัปเกรดหายาก และอุปกรณ์ระดับสูงก่อนวัสดุทั่วไป"
+          }
+        ],
+        "doList": [
+          "รักษาเส้นทางการอัปเกรดของคุณให้เน้นที่ทีมหลักเพียงทีมเดียว",
+          "ใช้ Stamina รอบๆ การเติบโตของด่านที่เคลียร์และความคอขวดที่เกิดขึ้นจริง",
+          "วางแผนการสุ่มระดับพรีเมียมรอบๆ ตู้ที่ช่วยเติมเต็มช่องว่างในทีมได้อย่างเป็นรูปธรรม",
+          "ใช้ร้านค้ากิจกรรมสำหรับไอเทมพัฒนาบัญชีที่มีมูลค่าสูงก่อน"
+        ],
+        "dontList": [
+          "อย่ากระจายการอัปเกรดพรีเมียมไปยังตัวละครเสริมที่ยังไม่เสร็จ",
+          "อย่าใช้เงินตราพรีเมียมกับการรีเฟรชที่ส่งผลต่ำโดยไม่มีแผน",
+          "อย่าปล่อยให้รางวัล AFK เต็มเมื่อสามารถเก็บรายวันได้",
+          "อย่าซื้อวัสดุทั่วไปมากเกินไปในขณะที่ไอเทมพัฒนาที่หายากยังคงอยู่"
+        ],
+        "shopPriorities": [
+          "ตั๋วสุ่ม",
+          "หินอัปเกรดหายาก",
+          "ชิ้นส่วนอุปกรณ์ระดับสูง",
+          "จากนั้นค่อยเป็นวัสดุเติมช่องทั่วไป"
+        ],
+        "shopTitle": "ลำดับการซื้อในร้านค้ากิจกรรม",
+        "tags": [
+          "การเน้นทีมหลัก",
+          "การวางแผน Stamina และ AFK",
+          "ระเบียบเงินตราพรีเมียม"
+        ],
+        "ctaLabel": "ตรวจสอบลำดับการจ่าย, รายการสิ่งที่ควรเก็บ และลำดับความสำคัญการฟาร์มรายวัน",
+        "ctaHref": "https://ultimategacha.com/star-savior-resource-management-guide-materials/"
       }
-    }
+    ]
   }
 }

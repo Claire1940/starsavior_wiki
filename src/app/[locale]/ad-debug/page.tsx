@@ -72,7 +72,11 @@ export default function AdDebugPage() {
   }, [])
 
   if (!mounted) {
-    return <div className="p-8">Loading...</div>
+    return (
+      <div className="p-8">
+        <div className="h-6 w-48 animate-pulse rounded bg-muted/60" />
+      </div>
+    )
   }
 
   // 生成诊断建议

@@ -1,837 +1,1429 @@
 {
   "seo": {
     "home": {
-      "title": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
-      "description": "Star Savior Wiki for codes, tier list, reroll, beginner guide, characters, teams, builds, gear, news, and update tracking for the global launch.",
-      "keywords": "Star Savior, StarSavior, codes, tier list, reroll, beginner guide, characters, teams, builds, gear",
-      "ogTitle": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
-      "ogDescription": "Star Savior Wiki for codes, tier list, reroll, beginner guide, characters, teams, builds, gear, news, and update tracking for the global launch.",
-      "twitterTitle": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
-      "twitterDescription": "Track Star Savior codes, reroll priorities, beginner guides, characters, builds, and launch updates."
+      "title": "스타세이비어 위키 - 코드, 티어표 및 초보자 가이드",
+      "description": "코드, 티어표, 리세마라, 초보자 가이드, 아르카나, 팀 편성, 빌드, 장비, Journey 훈련 및 출시 업데이트를 위한 스타세이비어 위키.",
+      "keywords": "스타세이비어, StarSavior, 코드, 티어표, 리세마라, 초보자 가이드, 아르카나 티어표, 추천 팀, Journey 가이드, 장비 가이드",
+      "ogTitle": "스타세이비어 위키 - 코드, 티어표 및 초보자 가이드",
+      "ogDescription": "스타세이비어 코드, 티어 선택, 리세마라 목표, 팀, 아르카나, Journey 훈련 및 출시 업데이트를 한 곳에서 확인하세요.",
+      "twitterTitle": "스타세이비어 위키 - 코드, 티어표 및 초보자 가이드",
+      "twitterDescription": "스타세이비어 코드, 티어 선택, 리세마라 목표, 팀, 아르카나, Journey 훈련 및 출시 업데이트를 확인하세요."
     }
   },
   "nav": {},
   "common": {
     "home": "홈",
     "more": "더 보기",
-    "playNow": "플레이",
+    "playNow": "지금 플레이",
     "switchLanguage": "언어 변경",
     "switchTheme": "테마 변경",
-    "lightMode": "밝은 모드",
-    "darkMode": "어두운 모드",
-    "notFound": "페이지를 찾을 수 없음",
+    "lightMode": "라이트 모드",
+    "darkMode": "다크 모드",
+    "notFound": "페이지를 찾을 수 없습니다",
     "notFoundDescription": "찾으시는 페이지가 존재하지 않습니다.",
     "backToHome": "홈으로 돌아가기",
     "relatedArticles": "관련 기사",
     "readMore": "더 읽어보기"
   },
   "hero": {
-    "badge": "Anime Training Turn-Based RPG",
-    "title": "Star Savior Wiki",
-    "description": "Guide your Star-kissed Saviors through a character-training RPG built around the Journey system, turn-based battles, team building, gear, reroll planning, and launch updates.",
-    "getFreeCodesCTA": "Visit Official Website",
-    "playOnRobloxCTA": "Play on Google Play",
+    "badge": "애니메이션풍 육성 턴제 RPG",
+    "title": "스타세이비어 위키",
+    "description": "Journey 훈련, 턴제 전투, 팀 계획, 장비 업그레이드, 리세마라 목표 및 출시 초기 리소스를 통해 별의 축복을 받은 구원자들을 인도하세요.",
+    "getFreeCodesCTA": "공식 웹사이트 방문",
+    "playOnGooglePlayCTA": "Google Play에서 플레이",
     "stats": {
       "stat1": {
-        "value": "100K+",
-        "label": "Google Play Downloads"
+        "value": "10만+",
+        "label": "Google Play 다운로드"
       },
       "stat2": {
         "value": "3.9",
-        "label": "Google Play Rating"
+        "label": "Google Play 평점"
       },
       "stat3": {
-        "value": "5.89K",
-        "label": "Google Play Reviews"
+        "value": "5.89천",
+        "label": "Google Play 리뷰"
       },
       "stat4": {
-        "value": "Mar 19",
-        "label": "Global Launch"
+        "value": "3월 19일",
+        "label": "글로벌 출시"
       }
     }
   },
   "gameFeature": {
-    "title": "Star Savior Official Animation PV",
-    "description": "Watch the official animation PV for a quick look at the world, cast, and launch presentation behind Star Savior."
-  },
-  "tools": {
-    "title": "Star Savior",
-    "titleHighlight": "Resources",
-    "subtitle": "Jump to any section below",
-    "codes": {
-      "title": "코드",
-      "description": "무료 보상 받기"
-    },
-    "redeemGuide": {
-      "title": "코드 사용 가이드",
-      "description": "코드 사용 방법 알아보기"
-    },
-    "trainingPaths": {
-      "title": "훈련 경로",
-      "description": "당신의 길을 선택하세요"
-    },
-    "breathingTier": {
-      "title": "호흡 티어 목록",
-      "description": "최고의 호흡 스타일"
-    },
-    "demonArtTier": {
-      "title": "혈귀술 티어 목록",
-      "description": "최고의 혈귀술"
-    },
-    "oniRoute": {
-      "title": "오니 루트",
-      "description": "오니로 변신하기"
-    },
-    "controls": {
-      "title": "조작법",
-      "description": "키 마스터하기"
-    },
-    "questMap": {
-      "title": "퀘스트 맵",
-      "description": "NPC 및 퀘스트 찾기"
-    },
-    "bossDrops": {
-      "title": "보스 드랍",
-      "description": "보스 전리품 가이드"
-    },
-    "currencyFarm": {
-      "title": "화폐 파밍",
-      "description": "엔을 빠르게 얻기"
-    },
-    "resetPlanner": {
-      "title": "리셋 플래너",
-      "description": "리셋 계획하기"
-    },
-    "buildPlanner": {
-      "title": "빌드 플래너",
-      "description": "빌드 최적화하기"
-    },
-    "thunderBreathing": {
-      "title": "번개의 호흡",
-      "description": "번개 스타일 잠금 해제"
-    },
-    "fastLeveling": {
-      "title": "빠른 레벨업",
-      "description": "빠르게 레벨 업하기"
-    },
-    "finalSelection": {
-      "title": "최종 선별",
-      "description": "슬레이어가 되세요"
-    },
-    "clanSystem": {
-      "title": "클랜 시스템",
-      "description": "클랜 티어 및 버프"
-    }
-  },
-  "whatIs": {
-    "title": "What is",
-    "titleHighlight": "Star Savior?",
-    "description": "Star Savior is a character-training turn-based RPG centered on squad building, Journey progression, gear planning, and launch-era resource management.",
-    "features": [
-      {
-        "title": "Journey Progression",
-        "description": "Advance through the Journey system while unlocking upgrades, rewards, and account-wide progress goals."
-      },
-      {
-        "title": "Turn-Based Team Building",
-        "description": "Build around character roles, skill timing, elemental coverage, and long-term roster synergy."
-      },
-      {
-        "title": "Launch Tracking",
-        "description": "Follow official updates, reroll priorities, community links, and beginner planning from one place."
-      }
-    ]
+    "title": "스타세이비어 공식 애니메이션 PV",
+    "description": "공식 애니메이션 PV를 통해 스타세이비어의 세계관, 캐릭터, 전투 분위기 및 출시 연출을 빠르게 확인하세요."
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Star Savior",
+    "title": "스타세이비어",
+    "titleHighlight": "자주 묻는 질문(FAQ)",
+    "subtitle": "신규 및 복귀 유저들이 가장 자주 묻는 질문에 대한 빠른 답변",
     "questions": [
       {
-        "question": "Where can I download Star Savior?",
-        "answer": "The primary live platform referenced on this site is Google Play. Always use official store or publisher links when available."
+        "question": "스타세이비어란 무엇인가요?",
+        "answer": "스타세이비어는 스쿼드 성장, Journey 시스템, 속성 상성, 장비 성장 및 장기적인 로스터 계획을 중심으로 한 캐릭터 육성 턴제 RPG입니다."
       },
       {
-        "question": "What kind of game is Star Savior?",
-        "answer": "Star Savior is a character-training turn-based RPG with squad building, Journey progression, and gear management."
+        "question": "스타세이비어는 어디서 다운로드할 수 있나요?",
+        "answer": "스타세이비어는 현재 이 사이트의 공식 웹사이트와 Google Play 목록을 통해 확인할 수 있으며, 공식 채널을 통해서도 뉴스, 영상 및 커뮤니티 업데이트를 확인할 수 있습니다."
       },
       {
-        "question": "What should beginners check first in Star Savior?",
-        "answer": "Start with download links, reroll priorities, beginner progression, team-building basics, and any launch rewards or announcements."
+        "question": "스타세이비어에서 코드는 어떻게 사용하나요?",
+        "answer": "스타세이비어에서 계정 관리를 열고, 쿠폰 입력을 탭한 뒤, 사용 가능한 코드를 입력하고 확인을 누른 다음 우편함에서 보상을 수령하세요."
       },
       {
-        "question": "Is Star Savior globally launched?",
-        "answer": "Yes. The current reference point in the project brief is the March 19 global launch milestone."
+        "question": "스타세이비어에서 리세마라를 해야 하나요?",
+        "answer": "스타세이비어 리세마라는 선택 사항이지만, 더 강력한 출시 로스터를 원한다면 권장됩니다. 대부분의 리세마라 계획은 출시 기념 프리미엄 유닛이나 Journey 및 일반 진행 전반에 걸쳐 유용한 범용 아르카나에 집중됩니다."
       },
       {
-        "question": "What numbers are players tracking most for Star Savior right now?",
-        "answer": "The current headline metrics used on this site are 100K+ Google Play downloads, 3.9 rating, 5.89K reviews, and the March 19 launch date."
+        "question": "스타세이비어 초보자는 처음에 무엇을 해야 하나요?",
+        "answer": "대부분의 스타세이비어 초보자 루트는 Mainstream Operation을 밀고, 미션 보상을 지속적으로 수령하며, 소수 정예 핵심 로스터를 구축하고, Starlink를 사용하여 너무 많은 유닛에 과도하게 투자하는 것을 피하는 것부터 시작합니다."
       },
       {
-        "question": "Does Star Savior have an official Discord?",
-        "answer": "Yes. Use the official Discord invite linked in the homepage CTA and footer."
+        "question": "스타세이비어 Journey 시스템이 왜 중요한가요?",
+        "answer": "스타세이비어는 Journey 훈련을 핵심 성장 시스템 중 하나로 사용하므로, 효율적인 장기 성장을 위해서는 훈련 루프, 공명, 인자 및 계정 공유 요소를 이해하는 것이 매우 중요합니다."
       },
       {
-        "question": "Where should I follow official Star Savior updates?",
-        "answer": "Track the official website news page, official X account, official YouTube channel, and official Discord announcements."
+        "question": "스타세이비어 위키는 어떤 주제를 다루나요?",
+        "answer": "스타세이비어 위키는 코드, 티어표, 리세마라 계획, 초보자 루트, 아르카나, 추천 팀, 빌드, 장비, Journey 훈련, 보스 공략, PvP 및 리소스 관리에 집중합니다."
       },
       {
-        "question": "What does Star Savior Wiki focus on?",
-        "answer": "This site focuses on codes, tier lists, reroll guidance, beginner planning, builds, teams, gear, and launch tracking."
-      },
-      {
-        "question": "Should I reroll in Star Savior?",
-        "answer": "That depends on your goals, early rewards, and time budget. Most players should compare reroll cost against early progression value before committing."
-      },
-      {
-        "question": "Is the Reddit link on this site official?",
-        "answer": "No. The Reddit link is a community subreddit reference, not an official publisher or developer channel."
+        "question": "스타세이비어 공식 업데이트는 어디서 확인할 수 있나요?",
+        "answer": "스타세이비어 공식 웹사이트, 공식 뉴스 페이지, 공식 X 계정, 공식 YouTube 채널, 공식 Discord 및 Google Play 스토어에서 실시간 서비스 업데이트 소식을 확인하세요."
       }
     ]
   },
   "cta": {
-    "title": "Ready to Start Star Savior?",
-    "description": "Jump into the official community for announcements and support, or download Star Savior on Google Play to begin your first run.",
-    "joinCommunity": "Join Official Discord",
-    "joinGame": "Play Star Savior on Google Play"
+    "title": "스타세이비어를 시작할 준비가 되셨나요?",
+    "description": "스타세이비어 공식 커뮤니티에 가입하여 공지사항과 지원을 확인하거나, Google Play를 열어 첫 로스터 구축을 시작하세요.",
+    "joinCommunity": "공식 Discord 가입",
+    "joinGame": "Google Play에서 스타세이비어 플레이"
   },
   "footer": {
-    "title": "Star Savior",
-    "description": "Your launch-window hub for Star Savior codes, reroll advice, team planning, character guides, and official links.",
-    "resources": "Quick Links",
-    "activeCodes": "Codes Hub",
-    "trainingGuides": "Beginner Progression",
-    "breathingStyles": "Build Planner",
-    "clanGuides": "Reroll & Teams",
-    "moreTools": "Community",
-    "discord": "Official Discord",
-    "trello": "Official X",
-    "playNow": "Official YouTube",
-    "copyright": "© 2026 Star Savior Wiki. Unofficial fan site and not affiliated with the official publishers or developers of Star Savior.",
-    "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service",
-    "reddit": "Reddit Community"
+    "title": "스타세이비어",
+    "description": "스타세이비어 코드, 티어 선택, 리세마라 루트, 아르카나, 팀, Journey 계획 및 공식 채널을 위한 출시 기념 홈페이지입니다.",
+    "officialLinksTitle": "공식 링크",
+    "communityLinksTitle": "커뮤니티 링크",
+    "website": "공식 웹사이트",
+    "news": "공식 뉴스",
+    "googlePlay": "Google Play",
+    "discord": "공식 Discord",
+    "youtube": "공식 YouTube",
+    "x": "공식 X",
+    "reddit": "Reddit 커뮤니티",
+    "copyright": "© 2026 스타세이비어 위키. 비공식 팬 사이트이며 스타세이비어의 공식 퍼블리셔 또는 개발사와 관련이 없습니다."
   },
   "homepage": {
-    "codes": {
-      "title": "코드",
-      "titleHighlight": "진행 상황을 높이기 위해 무료 스핀, 엔 및 리셋 받기",
-      "subtitle": "모든 코드 및 사용 가이드 보기",
-      "cta": "코드",
-      "table": {
-        "headers": {
-          "code": "보상",
-          "reward": "상태",
-          "status": "morespins"
-        },
-        "items": [
-          {
-            "code": "20 스핀",
-            "reward": "활성",
-            "status": "100KVISITS"
-          },
-          {
-            "code": "15 스핀",
-            "reward": "활성",
-            "status": "1KLIKES"
-          },
-          {
-            "code": "호흡/혈귀술 초기화",
-            "reward": "활성",
-            "status": "guizerayt"
-          },
-          {
-            "code": "10 스핀",
-            "reward": "활성",
-            "status": "RELEASE"
-          },
-          {
-            "code": "10 스핀",
-            "reward": "활성",
-            "status": "슬레이어바운드"
-          }
-        ]
-      }
+    "navigation": {
+      "title": "스타세이비어",
+      "titleHighlight": "모듈 네비게이터",
+      "description": "출시 보상부터 후반 리소스 계획까지, 스타세이비어에서 다음에 확인하고 싶은 부분으로 바로 이동하세요."
     },
-    "redeemGuide": {
-      "title": "코드 사용 가이드",
-      "titleHighlight": "코드를 성공적으로 사용하려면 다음 단계를 따르세요.",
-      "subtitle": "게임 실행",
-      "steps": [
+    "officialLinks": {
+      "title": "스타세이비어 공식",
+      "titleHighlight": "채널",
+      "description": "다운로드, 패치 노트, 영상 공개 및 커뮤니티 접점을 한 곳에서 깔끔하게 확인하세요.",
+      "items": [
         {
-          "step": 1,
-          "title": "Roblox에서 슬레이어바운드 열기",
-          "detail": "코드 열기"
+          "title": "공식 웹사이트",
+          "description": "브랜드, 플랫폼 및 이벤트 확인을 위해 메인 스타세이비어 랜딩 페이지에서 시작하세요.",
+          "href": "https://www.starsavior.com/"
         },
         {
-          "step": 2,
-          "title": "메인 메뉴에서 코드 버튼 클릭",
-          "detail": "코드 붙여넣기"
+          "title": "공식 뉴스",
+          "description": "공식 뉴스 피드에서 글로벌 출시 공지, 알림 및 릴리스 업데이트를 확인하세요.",
+          "href": "https://www.starsavior.com/en/news"
         },
         {
-          "step": 3,
-          "title": "코드 필드에 작동하는 코드 입력",
-          "detail": "보상 받기"
+          "title": "Google Play",
+          "description": "설치 수, 평점 및 현재 마켓 정보가 포함된 실시간 모바일 스토어 페이지를 엽니다.",
+          "href": "https://play.google.com/store/apps/details?id=com.studiobside.starMain"
         },
         {
-          "step": 4,
-          "title": "사용/입력을 누르고 보상 획득",
-          "detail": "슬레이어바운드"
+          "title": "공식 Discord",
+          "description": "실시간 공지 및 지원 채널을 위해 메인 스타세이비어 커뮤니티 허브에 가입하세요.",
+          "href": "https://discord.com/invite/UHNYfe9C77"
+        },
+        {
+          "title": "공식 YouTube",
+          "description": "PV, 미리보기 방송 및 공식 스타세이비어 영상을 한 곳에서 시청하세요.",
+          "href": "https://www.youtube.com/@StarSavior_EN"
+        },
+        {
+          "title": "Reddit 커뮤니티",
+          "description": "스타세이비어에 관한 커뮤니티 토론, 플레이어 소감 및 팬 대화를 살펴보세요.",
+          "href": "https://www.reddit.com/r/StarSavior/"
         }
       ]
     },
-    "trainingPaths": {
-      "title": "훈련 경로",
-      "titleHighlight": "훈련 경로 선택: 불꽃, 바람 또는 물",
-      "subtitle": "불꽃",
-      "paths": [
-        {
-          "name": "스폰 근처 경로",
-          "location": "오니 뿔 40개 + 강력한 오니 처치",
-          "requirements": "높음",
-          "difficulty": "0 엔",
-          "cost": "바람"
-        },
-        {
-          "name": "바다 마을",
-          "location": "기가 혼 보스 처치 + 뿔 획득",
-          "requirements": "높음",
-          "difficulty": "0 엔",
-          "cost": "물"
-        },
-        {
-          "name": "밀밭 폭포",
-          "location": "파쿠르 완료 + 바위 깨기",
-          "requirements": "중간",
-          "difficulty": "시도당 2,000 엔",
-          "cost": "슬레이어바운드"
-        }
-      ]
+    "labels": {
+      "lastChecked": "마지막 확인",
+      "copy": "복사",
+      "copied": "복사됨",
+      "openSource": "외부 가이드 열기",
+      "pillPrefix": "바로가기",
+      "frontLine": "전열",
+      "backLine": "후열",
+      "bestAgainst": "상성 유리",
+      "roleFocus": "역할 집중",
+      "activeBuild": "활성 빌드",
+      "buildSource": "캐릭터 빌드 열기",
+      "mainStat": "주능력치",
+      "upgradePriority": "강화 우선순위",
+      "whyItMatters": "중요한 이유",
+      "farmOrder": "파밍 순서",
+      "commonMistakes": "흔한 초반 실수"
     },
-    "breathingTier": {
-      "title": "호흡 티어 목록",
-      "titleHighlight": "PvE/PvP 성능 및 난이도별로 호흡 스타일 비교",
-      "subtitle": "커뮤니티 테스트 데이터 - 순위는 정기적으로 업데이트됩니다.",
-      "dataNote": "호흡",
-      "table": {
-        "headers": {
-          "breathing": "PvE",
-          "pveScore": "PvP",
-          "pvpScore": "난이도",
-          "difficulty": "획득 비용",
-          "cost": "불꽃"
-        },
-        "items": [
-          {
-            "breathing": "A 티어",
-            "pveScore": "A 티어",
-            "pvpScore": "중간",
-            "difficulty": "오니 뿔 40개 + 강력한 오니 전투",
-            "cost": "바람"
-          },
-          {
-            "breathing": "S 티어",
-            "pveScore": "S 티어",
-            "pvpScore": "어려움",
-            "difficulty": "기가 혼 보스 드랍 (RNG)",
-            "cost": "물"
-          },
-          {
-            "breathing": "A 티어",
-            "pveScore": "B 티어",
-            "pvpScore": "중간",
-            "difficulty": "파쿠르 + 시도당 2,000 엔",
-            "cost": "번개"
-          },
-          {
-            "breathing": "S 티어",
-            "pveScore": "A 티어",
-            "pvpScore": "어려움",
-            "difficulty": "특별 잠금 해제 방법",
-            "cost": "슬레이어바운드"
-          }
-        ]
-      }
-    },
-    "demonArtTier": {
-      "title": "혈귀술 티어 목록",
-      "titleHighlight": "혈귀술 파워 순위 및 난이도 매트릭스",
-      "subtitle": "Coming Soon",
-      "statusBadge": "자세한 혈귀술 순위는 포괄적인 테스트 데이터와 함께 곧 제공될 예정입니다.",
-      "emptyStateText": "혈귀술 시스템은 게임에서 사용할 수 있습니다.",
-      "knownFacts": [
-        "코드 사용을 통해 호흡/혈귀술 초기화 가능",
-        "커뮤니티에는 전용 오니 + 혈귀술 가이드가 있습니다.",
-        "혈귀술의 전체 목록이 컴파일 중입니다."
-      ],
-      "dataGaps": [
-        "PvE/PvP 성능 테스트 진행 중",
-        "콤보 시너지 효과 문서화 중",
-        "Trello/Discord에서 업데이트 추적"
-      ],
-      "ctaText": "슬레이어바운드"
-    },
-    "oniRoute": {
-      "title": "오니 루트",
-      "titleHighlight": "오니로 변신하여 혈귀술 잠금 해제",
-      "subtitle": "가이드 이용 가능",
-      "statusBadge": "변신 단계를 따라 오니가 되어 강력한 혈귀술에 액세스하세요.",
-      "warningText": "인간으로 시작",
-      "flowNodes": [
-        {
-          "id": 1,
-          "title": "시작",
-          "type": "오니로 변신",
-          "known": true
-        },
-        {
-          "id": 2,
-          "title": "분기",
-          "type": "혈귀술 획득/스핀",
-          "known": true
-        },
-        {
-          "id": 3,
-          "title": "진행",
-          "type": "빌드 전문화",
-          "known": true
-        },
-        {
-          "id": 4,
-          "title": "최적화",
-          "type": "변신 NPC 위치",
-          "known": true
-        }
-      ],
-      "unknowns": [
-        "필요한 아이템 및 레벨",
-        "변신 비용",
-        "최고의 혈귀술 조합",
-        "슬레이어바운드"
-      ]
-    },
-    "controls": {
-      "title": "조작법",
-      "titleHighlight": "전투를 위한 키보드 조작법 마스터하기",
-      "subtitle": "LMB",
-      "keys": [
-        {
-          "key": "공격",
-          "action": "RMB"
-        },
-        {
-          "key": "강공격",
-          "action": "F"
-        },
-        {
-          "key": "막기",
-          "action": "W + W"
-        },
-        {
-          "key": "달리기",
-          "action": "M"
-        },
-        {
-          "key": "메뉴",
-          "action": "G"
-        },
-        {
-          "key": "호흡",
-          "action": "1-9"
-        },
-        {
-          "key": "스킬",
-          "action": "슬레이어바운드"
-        }
-      ]
-    },
-    "questMap": {
-      "title": "퀘스트 맵",
-      "titleHighlight": "퀘스트 NPC 및 훈련 위치 찾기",
-      "subtitle": "권장 순서: 불꽃 → 물 → 바람",
-      "recommendedSequence": "스폰 경로 (불꽃 시작)",
-      "pins": [
-        {
-          "id": 1,
-          "name": "스폰 근처",
-          "region": "불꽃 훈련 시작",
-          "objective": "오니 뿔 40개",
-          "requirements": [
-            "여러 강력한 오니 처치",
-            "불꽃 경로 진행"
-          ],
-          "rewards": [
-            "데몬 캠프 (바람 단계)"
-          ]
-        },
-        {
-          "id": 2,
-          "name": "바다 마을",
-          "region": "기가 혼 처치 및 뿔 획득",
-          "objective": "보스 클리어",
-          "requirements": [
-            "드랍 운 (RNG)",
-            "바람 경로 진행"
-          ],
-          "rewards": [
-            "폭포 시험"
-          ]
-        },
-        {
-          "id": 3,
-          "name": "넓은 밀밭",
-          "region": "파쿠르 챌린지 + 바위 깨기",
-          "objective": "마지막 단계 시도당 2,000 엔",
-          "requirements": [
-            "물 경로 진행"
-          ],
-          "rewards": [
-            "슬레이어바운드"
-          ]
-        }
-      ]
-    },
-    "bossDrops": {
-      "title": "보스 드랍",
-      "titleHighlight": "보스 전리품 및 드랍 요구 사항",
-      "subtitle": "보스 드랍은 RNG를 기반으로 합니다. 필요한 아이템을 얻을 때까지 계속 파밍하세요!",
-      "riskNotice": "드랍",
-      "table": {
-        "headers": {
-          "drop": "출처",
-          "source": "획득 방법",
-          "howToObtain": "주요 용도",
-          "primaryUse": "기가 혼"
-        },
-        "items": [
-          {
-            "drop": "기가 혼 보스 (데몬 캠프)",
-            "source": "뿔이 떨어질 때까지 기가 혼 보스 처치",
-            "howToObtain": "바람 훈련 진행에 필요",
-            "primaryUse": "오니 뿔 x40"
-          },
-          {
-            "drop": "오니 적",
-            "source": "오니를 파밍하고 뿔 40개 수집",
-            "howToObtain": "불꽃 훈련 진행에 필요",
-            "primaryUse": "보스 재료"
-          },
-          {
-            "drop": "다양한 보스",
-            "source": "최신 보스 드랍은 Trello/Discord 확인",
-            "howToObtain": "제작 및 진행",
-            "primaryUse": "슬레이어바운드"
-          }
-        ]
-      }
-    },
-    "currencyFarm": {
-      "title": "화폐 파밍",
-      "titleHighlight": "엔을 효율적으로 얻는 가장 좋은 방법",
-      "subtitle": "슬레이어바운드에서 엔 획득을 극대화하기 위해 입증된 방법을 사용하세요.",
-      "disclaimer": "코드 사용",
-      "methods": [
-        {
-          "rank": 1,
-          "method": "스핀 + 엔 (코드에 따라 다름)",
-          "expectedReturn": "1-3 분",
-          "timeToValue": "낮음",
-          "riskLevel": "먼저 게임 메뉴를 열고 활성 코드를 사용하세요.",
-          "howTo": [
-            "긴 반복 작업에 들어가기 전에 스핀을 사용하세요.",
-            "스마트 리소스 관리"
-          ]
-        },
-        {
-          "rank": 2,
-          "method": "실패한 시도를 피하여 엔을 절약하세요.",
-          "expectedReturn": "즉시",
-          "timeToValue": "낮음",
-          "riskLevel": "비용이 많이 드는 훈련 시도 전에 요구 사항을 준비하세요.",
-          "howTo": [
-            "물 경로 마지막 시도는 시도당 2,000 엔이 소요됩니다.",
-            "전투 진행 루프"
-          ]
-        },
-        {
-          "rank": 3,
-          "method": "퀘스트에서 엔 및 EXP",
-          "expectedReturn": "중간",
-          "timeToValue": "중간",
-          "riskLevel": "초보자 진행 가이드를 따르세요.",
-          "howTo": [
-            "최적의 파밍 경로는 Discord 확인",
-            "슬레이어바운드"
-          ]
-        }
-      ]
-    },
-    "resetPlanner": {
-      "title": "리셋 플래너",
-      "titleHighlight": "전략적으로 리셋을 계획하세요 - 절대 맹목적으로 리셋하지 마세요.",
-      "subtitle": "현재 병목 현상은 무엇인가요?",
-      "startQuestion": "핵심 능력치가 잘못 할당된 느낌이 드나요?",
-      "decisions": [
-        {
-          "question": "사용 가능한 능력치 초기화 코드가 있는지 확인하세요.",
-          "yesAction": "목표에 비해 호흡/혈귀술이 오프 메타인지 확인하세요.",
-          "noAction": "사용 가능한 능력치 초기화 코드가 있나요?"
-        },
-        {
-          "question": "지금 능력치 초기화 사용 - 초기화 적용 후 목표 모드(PvE/PvP/하이브리드)를 중심으로 재구축하세요.",
-          "yesAction": "리셋 지연 및 리소스 파밍 - 먼저 활성 스핀/엔 코드를 사용하고 진행 경로를 따르세요.",
-          "noAction": "호흡/혈귀술이 목표에 비해 오프 메타인가요?"
-        },
-        {
-          "question": "지금 호흡/혈귀술 초기화 코드를 사용할 수 있나요?",
-          "yesAction": "빌드 유지, 실행 최적화 - 롤링하기 전에 컨트롤 마스터리에 집중하세요.",
-          "noAction": "지금 호흡/혈귀술 초기화 코드를 사용할 수 있나요?"
-        },
-        {
-          "question": "호흡/혈귀술 초기화 사용 - 종족에도 영향을 줄 수 있는 초기화가 포함된 것으로 알려진 초기화 예시",
-          "yesAction": "패닉 리셋 금지 - 다음 이정표/업데이트 코드 드랍을 기다리세요. Discord 공지 추적",
-          "noAction": "슬레이어바운드"
-        }
-      ]
-    },
-    "buildPlanner": {
-      "title": "빌드 플래너",
-      "titleHighlight": "목표 기반 계획으로 캐릭터 빌드 최적화",
-      "subtitle": "플레이 스타일과 목표에 따라 빌드를 계획하세요.",
-      "dataNote": "goalMode",
-      "inputFields": [
-        {
-          "key": "목표 모드",
-          "label": "선택",
-          "type": "PvE 진행",
-          "options": [
-            "보스 집중",
-            "PvP 결투",
-            "하이브리드",
-            "route"
-          ]
-        },
-        {
-          "key": "경로",
-          "label": "선택",
-          "type": "슬레이어",
-          "options": [
-            "오니",
-            "currentBreathing"
-          ]
-        },
-        {
-          "key": "현재 호흡",
-          "label": "텍스트",
-          "type": "currentDemonArt"
-        },
-        {
-          "key": "현재 혈귀술",
-          "label": "텍스트",
-          "type": "yenBudget"
-        },
-        {
-          "key": "현재 엔",
-          "label": "숫자",
-          "type": "spinsAvailable"
-        },
-        {
-          "key": "사용 가능한 스핀",
-          "label": "숫자",
-          "type": "스타터 슬레이어 (저예산)"
-        }
-      ],
-      "presetExamples": [
-        {
-          "name": "PvE 진행",
-          "goalMode": "슬레이어",
-          "route": "활성 코드를 사용하고 안정적인 진행 경로를 선택하세요.",
-          "yenBudget": 2000,
-          "spinsAvailable": 10,
-          "output": {
-            "now": "엔 낭비를 피하기 위해 훈련 전에 요구 사항을 준비하세요.",
-            "next": "방향을 바꿔야 하는 경우 전략적으로 리셋을 사용하세요.",
-            "after": "경로 전환 후보"
-          }
-        },
-        {
-          "name": "하이브리드",
-          "goalMode": "오니",
-          "route": "경로 목표와 리셋 전략을 확인하세요.",
-          "yenBudget": 5000,
-          "spinsAvailable": 20,
-          "output": {
-            "now": "전체 재구축보다는 선택적 리셋을 적용하세요.",
-            "next": "다음 리셋 전에 보스/진행 루프에서 테스트하세요.",
-            "after": "슬레이어바운드"
-          }
-        }
-      ]
-    },
-    "thunderBreathing": {
-      "title": "번개의 호흡",
-      "titleHighlight": "번개의 호흡 스타일 잠금 해제를 위한 완벽한 가이드",
-      "subtitle": "번개 훈련사 찾기",
-      "steps": [
-        {
-          "step": 1,
-          "title": "눈 마을 근처 산으로 이동하세요.",
-          "detail": "퀘스트 수락"
-        },
-        {
-          "step": 2,
-          "title": "훈련사와 대화하고 사탕 퀘스트를 수락하세요.",
-          "detail": "재료 수집"
-        },
-        {
-          "step": 3,
-          "title": "농사 지역에서 밀 6개와 계란 3개를 수집하세요.",
-          "detail": "훈련 완료"
-        },
-        {
-          "step": 4,
-          "title": "훈련사에게 돌아가 번개의 호흡 잠금 해제를 완료하세요.",
-          "detail": "요구 사항"
-        }
-      ],
-      "requirements": {
-        "title": "밀 6개",
-        "items": [
-          "계란 3개",
-          "사탕 퀘스트 완료",
-          "중간"
-        ]
+    "codesTable": {
+      "headers": {
+        "code": "코드",
+        "reward": "보상",
+        "status": "상태",
+        "action": "동작"
       },
-      "difficulty": "눈 마을 근처 산",
-      "location": "슬레이어바운드"
-    },
-    "fastLeveling": {
-      "title": "빠른 레벨업",
-      "titleHighlight": "슬레이어바운드에서 빠르게 레벨 업하는 효율적인 방법",
-      "subtitle": "퀘스트 유형",
-      "methods": [
+      "items": [
         {
-          "title": "지도",
-          "icon": "최대 XP를 위해 올바른 퀘스트에 집중하세요.",
-          "description": "녹색 퀘스트 = 배달 (빠른 완료)",
-          "tips": [
-            "노란색 퀘스트 = 전투 (높은 XP 보상)",
-            "파란색 퀘스트 = 수집 (중간 XP)",
-            "음식 시스템"
-          ]
+          "code": "STARSAVIOR251120",
+          "reward": "전용 보상",
+          "status": "활성화됨"
         },
         {
-          "title": "식기류",
-          "icon": "음식을 사용하여 HP를 유지하고 효율적으로 파밍하세요.",
-          "description": "HP 재생을 위해 음식을 인벤토리에 보관하세요.",
-          "tips": [
-            "전투 간의 가동 중지 시간을 줄입니다.",
-            "지속적인 퀘스트 그라인딩에 필수적입니다.",
-            "진행 경로"
-          ]
+          "code": "HELLOSTARSAVIOR",
+          "reward": "전용 보상",
+          "status": "활성화됨"
         },
         {
-          "title": "경로",
-          "icon": "최적의 레벨링 경로를 따르세요.",
-          "description": "먼저 스타터 지역 퀘스트를 완료하세요.",
-          "tips": [
-            "점진적으로 더 높은 레벨 영역으로 이동하세요.",
-            "보너스 XP 및 스핀을 위해 코드를 사용하세요.",
-            "슬레이어바운드"
-          ]
+          "code": "251127STARSAVIOR",
+          "reward": "전용 보상",
+          "status": "활성화됨"
+        },
+        {
+          "code": "STARSAVIORHAPPY100DAYS",
+          "reward": "전용 보상",
+          "status": "활성화됨"
+        },
+        {
+          "code": "MONASTIRVALENTINEDAY",
+          "reward": "전용 보상",
+          "status": "활성화됨"
         }
       ]
     },
-    "finalSelection": {
-      "title": "최종 선별",
-      "titleHighlight": "최종 선별을 완료하여 공식 슬레이어가 되세요.",
-      "subtitle": "최종 선별은 악마 슬레이어로서의 가치를 증명하는 중요한 이정표입니다. 이 파쿠르 챌린지를 완료하여 슬레이어 유니폼과 공식 지위를 획득하세요.",
-      "overview": "숲 지역 파쿠르 챌린지",
-      "details": {
-        "location": "매시간 (실시간)",
-        "timing": "세션당 최대 12명",
-        "maxPlayers": "중간에서 어려움",
-        "difficulty": "보상"
-      },
-      "rewards": {
-        "title": "공식 슬레이어 유니폼",
-        "items": [
-          "슬레이어 군단 멤버십",
-          "슬레이어 군단 저택 액세스",
-          "조롱박 훈련 시스템 잠금 해제",
-          "팁"
-        ]
-      },
-      "tips": {
-        "title": "시도하기 전에 파쿠르 연습",
-        "items": [
-          "매시간 이벤트가 시작될 때까지 기다리세요.",
-          "지원을 위해 다른 플레이어와 팀을 이루세요.",
-          "포기하지 마세요 - 매시간 후에 다시 시도할 수 있습니다.",
-          "슬레이어바운드"
-        ]
-      }
-    },
-    "clanSystem": {
-      "title": "클랜 시스템",
-      "titleHighlight": "클랜 티어, 버프 및 클랜을 다시 롤하는 방법",
-      "subtitle": "클랜은 캐릭터를 향상시키는 고유한 버프와 능력을 제공합니다. 각 클랜에는 다른 희귀도와 특별한 혜택이 있습니다.",
-      "overview": "일반",
-      "tiers": [
-        {
-          "tier": "회색",
-          "color": "높음",
-          "dropRate": "표준 버프가 있는 기본 클랜",
-          "description": "희귀"
-        },
-        {
-          "tier": "파란색",
-          "color": "중간",
-          "dropRate": "향상된 버프 및 능력",
-          "description": "에픽"
-        },
-        {
-          "tier": "보라색",
-          "color": "낮음",
-          "dropRate": "강력한 클랜 능력",
-          "description": "전설"
-        },
-        {
-          "tier": "금색",
-          "color": "매우 낮음",
-          "dropRate": "뛰어난 버프가 있는 최고 티어 클랜",
-          "description": "주목할만한 클랜"
-        }
-      ],
-      "notableClans": {
-        "title": "츠기쿠니",
-        "clans": [
+    "modules": [
+      {
+        "id": "star-savior-codes",
+        "title": "스타세이비어",
+        "titleHighlight": "코드",
+        "summary": "최신 사용 가능한 쿠폰 코드를 입력하여 무료 보상을 받고 우편함에서 수령하세요.",
+        "badge": "실시간 보상 현황",
+        "lastChecked": "2026-03-20",
+        "cards": [
           {
-            "name": "전설",
-            "tier": "뛰어난 전투 버프",
-            "benefit": "카마도"
+            "title": "사용 방법",
+            "items": [
+              "화면 왼쪽의 계정 관리를 엽니다",
+              "쿠폰 입력을 탭합니다",
+              "사용 가능한 코드를 붙여넣고 확인을 탭합니다",
+              "게임 내 우편함에서 보상을 수령합니다"
+            ]
           },
           {
-            "name": "전설",
-            "tier": "향상된 호흡 기술",
-            "benefit": "아가츠마"
+            "title": "이 모듈에서 다루는 내용",
+            "items": [
+              "최신 활성 코드 우선",
+              "보상 이름과 상태를 하나의 표에 표시",
+              "확인 후 우편함 수령 절차"
+            ]
           },
           {
-            "name": "에픽",
-            "tier": "번개의 호흡 보너스",
-            "benefit": "스핀/다시 롤하는 방법"
+            "title": "빠른 규칙",
+            "items": [
+              "가능한 한 빨리 코드를 사용하세요",
+              "목록에 있는 그대로 코드를 붙여넣으세요",
+              "쿠폰 입력에 성공할 때마다 우편함을 확인하세요"
+            ]
           }
-        ]
+        ],
+        "tags": [
+          "5개의 활성 코드 추적됨",
+          "우편함 수령 절차",
+          "보상 중심 복사 표"
+        ],
+        "ctaLabel": "코드 참조 열기",
+        "ctaHref": "https://www.gamerbraves.com/guide-star-savior-codes-how-to-redeem-them/"
       },
-      "howToSpin": {
-        "title": "코드 또는 게임 플레이에서 얻은 스핀 사용",
+      {
+        "id": "star-savior-tier-list",
+        "title": "스타세이비어",
+        "titleHighlight": "티어표",
+        "summary": "스토리 진행, 파밍 및 초기 팀 구성을 위한 가장 빠른 지름길로 현재 메타 캐릭터들을 활용하세요.",
+        "badge": "메타 우선순위 게시판",
+        "lastChecked": "2026-03-20",
+        "cards": [
+          {
+            "title": "최상위 선택",
+            "items": [
+              "바니걸 샬롯",
+              "에밀리",
+              "레이시",
+              "벨 리스"
+            ]
+          },
+          {
+            "title": "강력한 차선책",
+            "items": [
+              "아셰라: 별빛의 왈츠",
+              "샬롯",
+              "바니걸 클레어",
+              "키라"
+            ]
+          },
+          {
+            "title": "추천 필터",
+            "items": [
+              "PvE",
+              "PvP",
+              "속성",
+              "역할"
+            ]
+          }
+        ],
+        "tags": [
+          "스토리 진행 가치",
+          "보스 파밍 관련성",
+          "역할 및 속성 필터링"
+        ],
+        "ctaLabel": "티어표 참조 열기",
+        "ctaHref": "https://www.gamezebo.com/walkthroughs/star-savior-tier-list/"
+      },
+      {
+        "id": "star-savior-beginner-guide",
+        "title": "스타세이비어",
+        "titleHighlight": "초보자 가이드",
+        "summary": "메인 스토리를 먼저 밀고, 소수 정예 팀을 확정하며, 초기 리소스 낭비를 피하기 위해 진형과 Starlink를 올바르게 사용하세요.",
+        "badge": "빠른 시작 루트",
+        "lastChecked": "2026-03-20",
+        "cards": [
+          {
+            "title": "첫날 계획",
+            "items": [
+              "Mainstream Operation을 우선 진행",
+              "미션 보상을 지속적으로 수령",
+              "초반에는 자동 전투를 사용하며 속성 상성을 활용",
+              "4~5명의 핵심 유닛에 집중"
+            ]
+          },
+          {
+            "title": "진형 기초",
+            "items": [
+              "전열은 탱커 및 딜탱 배치",
+              "후열은 메인 딜러 및 디버퍼 배치",
+              "디펜더는 자연스럽게 더 많은 압박을 받음"
+            ]
+          },
+          {
+            "title": "일일 체크리스트",
+            "items": [
+              "우편함 보상 수령",
+              "최대치에 도달하기 전에 방치형 리소스 수집",
+              "일일 미션 완료",
+              "진행 가치가 있는 곳에 스태미나 소모"
+            ]
+          }
+        ],
+        "tags": [
+          "Mainstream Operation 우선",
+          "정예 로스터 구축",
+          "Starlink 효율성"
+        ],
+        "ctaLabel": "초보자 루트 열기",
+        "ctaHref": "https://tychara.com/StarSavior/guides/beginner-guide"
+      },
+      {
+        "id": "star-savior-reroll-guide",
+        "title": "스타세이비어",
+        "titleHighlight": "리세마라 가이드",
+        "summary": "리세마라는 선택 사항이지만, 프리미엄 출시 유닛이나 Journey 및 일반 진행에서 계속 보답받는 범용 아르카나로 시작하는 것이 더 강력합니다.",
+        "badge": "출시 리세마라 지도",
+        "lastChecked": "2026-03-20",
+        "cards": [
+          {
+            "title": "리세마라 수치",
+            "items": [
+              "사이클당 약 10분 소요",
+              "SSR 확률 4%",
+              "픽업 확률 2%",
+              "시작 시 10,000 젬 및 몇 번의 멀티 뽑기 제공"
+            ]
+          },
+          {
+            "title": "목표 캐릭터",
+            "items": [
+              "아셰라: 별빛의 왈츠",
+              "레이시",
+              "에밀리",
+              "바니걸 샬롯"
+            ]
+          },
+          {
+            "title": "목표 아르카나",
+            "items": [
+              "레이시",
+              "샬롯",
+              "바니걸 클레어",
+              "페트라"
+            ]
+          }
+        ],
+        "tags": [
+          "선택 사항이지만 영향력 큼",
+          "프리미엄 출시 목표",
+          "범용 아르카나 가치"
+        ],
+        "ctaLabel": "리세마라 가이드 열기",
+        "ctaHref": "https://tychara.com/StarSavior/guides/reroll-guide"
+      },
+      {
+        "id": "star-savior-arcana-tier-list",
+        "title": "스타세이비어",
+        "titleHighlight": "아르카나 티어표",
+        "summary": "교차 검증된 공개 아르카나 순위에 따르면 Elastic Acceleration, Solid Destruction, Sharp Assault, Construct Bomb이 최상위권에 있으며, 역할별 우선순위는 딜러, 탱커, 힐러 구성으로 명확하게 나뉩니다.",
+        "badge": "아르카나 역할 매트릭스",
+        "lastChecked": "2026-03-20",
+        "displayType": "tierRowsWithRoleTabs",
+        "tierGroups": [
+          {
+            "title": "최상위 핵심 SSR 아르카나",
+            "items": [
+              "Elastic Acceleration",
+              "Solid Destruction",
+              "Sharp Assault",
+              "Construct Bomb"
+            ]
+          },
+          {
+            "title": "강력한 차선책 SSR 아르카나",
+            "items": [
+              "Shadow Erosion",
+              "Resolute Determination",
+              "Life Stigma",
+              "Double Tap",
+              "Leisurely Counter",
+              "Insight Stigma"
+            ]
+          }
+        ],
+        "roleTabs": [
+          {
+            "id": "dps",
+            "label": "딜러",
+            "priority": "위력 > 체력 > 집중",
+            "notes": [
+              "폭발력과 클리어 속도를 높게 유지하기 위해 위력 중심의 SSR 조각부터 시작하세요.",
+              "Sharp Assault와 Elastic Acceleration은 피해량 중심의 캐리 계획에 잘 맞습니다.",
+              "최상위 핵심이 확보되면 차선책 아르카나를 사용하여 피해 구간을 보강하세요."
+            ]
+          },
+          {
+            "id": "tank",
+            "label": "탱커",
+            "priority": "위력 > 체력 > 인내",
+            "notes": [
+              "탱커 아르카나도 위협 수준을 유지하고 딜탱의 가치를 가지려면 충분한 위력이 필요합니다.",
+              "전열이 구축되면 체력과 인내가 안정성을 뒷받침합니다.",
+              "Solid Destruction과 Construct Bomb은 팀에 단단한 템포가 필요할 때 유용한 가치를 유지합니다."
+            ]
+          },
+          {
+            "id": "healer",
+            "label": "힐러",
+            "priority": "체력 > 인내",
+            "notes": [
+              "힐러는 장기전과 보스 루프에서 살아남는 것을 가장 중요하게 여깁니다.",
+              "Life Stigma 및 기타 유지력에 유리한 차선책들은 다회차 턴의 일관성을 지원합니다.",
+              "SR 대체재에 과도하게 투자하는 대신 SSR 아르카나를 장기적인 치유의 근간으로 사용하세요."
+            ]
+          }
+        ],
+        "spotlight": {
+          "title": "장기 아르카나 규칙",
+          "items": [
+            "SSR 아르카나가 계정의 장기적인 핵심이 되어야 합니다.",
+            "SR 아르카나는 주로 초반에 임시 능력치 슬롯을 채우는 용도입니다.",
+            "역할별 분류는 강화 재료 낭비를 줄이는 가장 빠른 방법입니다."
+          ]
+        },
+        "tags": [
+          "최상위 SSR 핵심",
+          "역할별 능력치 우선순위",
+          "임시 SR보다 SSR 우선"
+        ],
+        "ctaLabel": "아르카나 순위 비교",
+        "ctaHref": "https://www.gamezebo.com/walkthroughs/star-savior-arcana-tier-list/"
+      },
+      {
+        "id": "star-savior-best-teams",
+        "title": "스타세이비어",
+        "titleHighlight": "추천 팀",
+        "summary": "현재 공개된 팀 가이드는 4인 구원자 편성, 전열 탱커 또는 유지력 유닛, 후열 캐리 또는 디버퍼를 중심으로 하며, 대부분의 PvE 진행은 단일 속성 및 유리한 속성 상성에 의해 결정됩니다.",
+        "badge": "4인 구원자 편성",
+        "lastChecked": "2026-03-20",
+        "displayType": "formationCardsGrid",
+        "teamCards": [
+          {
+            "title": "태양 파티",
+            "bestAgainst": "별 보스",
+            "frontLine": [
+              "뮤리엘",
+              "에밀리"
+            ],
+            "backLine": [
+              "서팡",
+              "페트라"
+            ],
+            "notes": [
+              "별 속성 적에게 유리한 속성 압박을 가합니다.",
+              "전열 딜탱과 서포터의 균형을 유지합니다."
+            ]
+          },
+          {
+            "title": "달 파티",
+            "bestAgainst": "태양 보스",
+            "frontLine": [
+              "루",
+              "에밀리"
+            ],
+            "backLine": [
+              "엘리사",
+              "아셰라: 별빛의 왈츠"
+            ],
+            "notes": [
+              "튼튼한 전열과 프리미엄 유지력을 조합하여 장기전에 대비합니다.",
+              "후열이 태양 타겟 압박을 견대낼 수 있을 때 가장 효과적입니다."
+            ]
+          },
+          {
+            "title": "별 파티",
+            "bestAgainst": "달 보스",
+            "frontLine": [
+              "다나",
+              "에밀리"
+            ],
+            "backLine": [
+              "프레이",
+              "타냐"
+            ],
+            "notes": [
+              "안정적인 전열 앵커 뒤에서 원거리 압박에 의존합니다.",
+              "직관적인 PvE 진행 범위가 필요할 때 가장 좋습니다."
+            ]
+          },
+          {
+            "title": "혼돈 파티",
+            "bestAgainst": "질서 보스",
+            "frontLine": [
+              "뮤리엘",
+              "레이시"
+            ],
+            "backLine": [
+              "엘리사",
+              "리디아"
+            ],
+            "notes": [
+              "캐리 압박과 유틸리티 및 유지력 지원을 혼합합니다.",
+              "로스터가 넓어지면 유리한 속성 교체를 위한 강력한 템플릿이 됩니다."
+            ]
+          }
+        ],
+        "tags": [
+          "4인 구원자 팀 구조",
+          "속성 상성 교체",
+          "전열 및 후열 균형"
+        ],
+        "ctaLabel": "팀 편성 비교",
+        "ctaHref": "https://tychara.com/StarSavior/team-builder"
+      },
+      {
+        "id": "star-savior-character-builds",
+        "title": "스타세이비어",
+        "titleHighlight": "캐릭터 빌드",
+        "summary": "주요 캐리 및 서포터를 위한 실시간 빌드 페이지가 이미 존재하며, 일반적인 조언 대신 실제 스킬 브레이크포인트, 아르카나 패키지, 장비 세트 및 주능력치 목표를 확인할 수 있습니다.",
+        "badge": "실시간 빌드 서랍",
+        "lastChecked": "2026-03-20",
+        "displayType": "buildCardsWithDrawer",
+        "buildEntries": [
+          {
+            "id": "lacy",
+            "name": "레이시",
+            "identity": "혼돈 / 레인저 / SSR",
+            "summary": "가능한 한 빨리 속도와 공격력 핵심을 활성화해야 하는 고압력 레인저 캐리입니다.",
+            "sourceHref": "https://www.hideoutgacha.com/games/star-savior/characters/chaos/lacy",
+            "detailGroups": [
+              {
+                "title": "스킬 목표",
+                "items": [
+                  "초반 목표: 3/6/6",
+                  "최종 목표: 7/8/8"
+                ]
+              },
+              {
+                "title": "장비 핵심",
+                "items": [
+                  "Motivator 세트",
+                  "속도 목걸이",
+                  "공격력% 반지"
+                ]
+              },
+              {
+                "title": "아르카나 패키지",
+                "items": [
+                  "Elastic Acceleration",
+                  "Solid Destruction",
+                  "Shadow Erosion",
+                  "Sharp Assault",
+                  "Construct Bomb"
+                ]
+              },
+              {
+                "title": "핵심 집중",
+                "items": [
+                  "턴을 더 빨리 시작하기 위해 속도를 우선시하세요.",
+                  "부차적인 업그레이드보다 공격력% 스케일링을 우선하세요.",
+                  "사치스러운 벤치 프로젝트 전에 캐리 핵심을 완성하세요."
+                ]
+              }
+            ]
+          },
+          {
+            "id": "bell-rhys",
+            "name": "벨 리스",
+            "identity": "별 / 레인저 / SSR",
+            "summary": "속도와 치명타 효율이 정렬될 때 빌드 경로가 가장 강력해지는 원거리 피해 캐리입니다.",
+            "sourceHref": "https://www.hideoutgacha.com/games/star-savior/characters/star/bell-rhys",
+            "detailGroups": [
+              {
+                "title": "스킬 목표",
+                "items": [
+                  "초반 목표: 3/6/6",
+                  "최종 목표: 7/8/8"
+                ]
+              },
+              {
+                "title": "장비 핵심",
+                "items": [
+                  "Motivator 세트",
+                  "속도 목걸이",
+                  "공격력% 반지"
+                ]
+              },
+              {
+                "title": "아르카나 패키지",
+                "items": [
+                  "Elastic Acceleration",
+                  "Solid Destruction",
+                  "Sharp Assault",
+                  "Construct Bomb"
+                ]
+              },
+              {
+                "title": "핵심 집중",
+                "items": [
+                  "선호 부옵션: 속도",
+                  "선호 부옵션: 치명타 확률, 공격력%, 치명타 피해",
+                  "선호 부옵션: 효과 명중"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "asherah-waltz",
+            "name": "아셰라: 별빛의 왈츠",
+            "identity": "질서 / 서포터 / SSR",
+            "summary": "순수 피해량을 팀 안정성, 가동률 및 장기전 제어력과 맞바꾼 프리미엄 서포터 빌드입니다.",
+            "sourceHref": "https://www.hideoutgacha.com/games/star-savior/characters/order/asherah-waltz-of-starlight",
+            "detailGroups": [
+              {
+                "title": "스킬 목표",
+                "items": [
+                  "초반 목표: 3/6/6",
+                  "최종 목표: 7/7/7"
+                ]
+              },
+              {
+                "title": "장비 핵심",
+                "items": [
+                  "Preses 세트",
+                  "속도 목걸이",
+                  "체력% 반지"
+                ]
+              },
+              {
+                "title": "아르카나 패키지",
+                "items": [
+                  "Sharp Assault",
+                  "Life Stigma",
+                  "Starlight Grace+",
+                  "Double Tap",
+                  "Iron Will"
+                ]
+              },
+              {
+                "title": "핵심 집중",
+                "items": [
+                  "욕심내기 전에 가동률을 위해 빌드하세요.",
+                  "긴 보스 사이클 동안 팀의 핵심을 보호하세요.",
+                  "메인 캐리를 보조하는 안정제로 사용하세요."
+                ]
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "정확한 스킬 브레이크포인트",
+          "역할별 장비 주능력치",
+          "아르카나 패키지 경로"
+        ],
+        "ctaLabel": "빌드 라이브러리 열기",
+        "ctaHref": "https://www.hideoutgacha.com/games/star-savior/character-tier-list"
+      },
+      {
+        "id": "star-savior-gear-guide",
+        "title": "스타세이비어",
+        "titleHighlight": "장비 가이드",
+        "summary": "스타세이비어는 Relics 대신 Equipment를 사용하며, 실제 성장 곡선은 T1 대체품에 대한 과도한 투자를 멈추고 T2 조각으로 전환하며 적절한 슬롯에 속도 주능력치를 우선시할 때 시작됩니다.",
+        "badge": "장비 우선순위 그리드",
+        "lastChecked": "2026-03-20",
+        "displayType": "priorityTableWithTags",
+        "priorityRows": [
+          {
+            "slot": "신발",
+            "mainStat": "속도",
+            "priority": "우선 강화",
+            "reason": "신발은 캐리와 서포터의 턴 순서를 개선하는 가장 빠른 방법 중 하나입니다."
+          },
+          {
+            "slot": "목걸이",
+            "mainStat": "속도",
+            "priority": "우선 강화",
+            "reason": "속도 목걸이는 사치스러운 부옵션을 쫓기 전에 로테이션을 안정적으로 유지해 줍니다."
+          },
+          {
+            "slot": "반지",
+            "mainStat": "딜러는 공격력% / 탱커·서포터는 체력%",
+            "priority": "조기 강화",
+            "reason": "반지의 주능력치는 실제 클리어 속도나 생존을 주도하는 역할에 맞춰야 합니다."
+          },
+          {
+            "slot": "무기",
+            "mainStat": "고정 슬롯 능력치",
+            "priority": "T2 전까지 보류",
+            "reason": "T2 핵심이 준비되기 전에 대체용 무기 조각에 과도하게 투자하지 마세요."
+          },
+          {
+            "slot": "방어구",
+            "mainStat": "고정 슬롯 능력치",
+            "priority": "T2 전까지 보류",
+            "reason": "방어구 업그레이드는 장기적인 T2 방향성이 정해진 후에 더 큰 효과를 발휘합니다."
+          },
+          {
+            "slot": "장갑",
+            "mainStat": "고정 슬롯 능력치",
+            "priority": "T2 전까지 보류",
+            "reason": "장갑은 초반 성장 곡선에서 속도 슬롯보다 우선순위가 낮습니다."
+          }
+        ],
+        "spotlight": {
+          "title": "T1에서 T2로의 성장 규칙",
+          "items": [
+            "게임은 2단계 장비 구조를 사용합니다: 초반 성장을 위한 T1, 장기 투자를 위한 T2.",
+            "T2는 Mainstream 14 스테이지 이후 실제 목표가 되며, 일부 가이드는 15 스테이지에서 제작 해금을 배치합니다.",
+            "사치스러운 업그레이드에 큰 비용을 쓰기 전에 T2 핵심 4인을 완성하세요."
+          ]
+        },
+        "farmTags": [
+          "Motivator 우선",
+          "Wendigo 차선",
+          "Perseus 세 번째",
+          "속도 조각 우선"
+        ],
+        "mistakeTags": [
+          "T1 무기 과잉 강화",
+          "T1 방어구 과잉 강화",
+          "T1 장갑 과잉 강화",
+          "속도 슬롯 우선순위 무시"
+        ],
+        "tags": [
+          "T1 대체품보다 T2 핵심",
+          "속도 슬롯 우선순위",
+          "파밍 순서 규율"
+        ],
+        "ctaLabel": "장비 최적화 가이드 열기",
+        "ctaHref": "https://ultimategacha.com/star-savior-relic-gear-guide-how-to-farm-enhance-optimize/"
+      },
+      {
+        "id": "star-savior-7-day-progression",
+        "title": "스타세이비어",
+        "titleHighlight": "7일 성장 가이드",
+        "summary": "첫 주를 시스템 해금, 방치 수익 증대, 그리고 전체 로스터에 업그레이드를 분산하는 대신 하나의 실제 팀 핵심을 안정화하는 데 사용하세요.",
+        "badge": "1주 차 일정",
+        "lastChecked": "2026-03-20",
+        "displayType": "timeline_cards",
+        "timeline": [
+          {
+            "range": "1일 차",
+            "focus": "계정 기반 확립",
+            "items": [
+              "튜토리얼을 완료하고 메인 출시 보상을 먼저 수령하세요.",
+              "즉시 전념할 계획인 경우에만 리세마라를 하세요.",
+              "첫 업그레이드가 집중될 수 있도록 초반 스타터 팀을 조기에 선택하세요."
+            ]
+          },
+          {
+            "range": "2-3일 차",
+            "focus": "스토리 진행 및 방치 보상 증대",
+            "items": [
+              "계정 전투력이 허용하는 한 스토리를 최대한 미세요.",
+              "클리어를 통해 더 많은 시스템과 더 강력한 방치 보상을 해금하세요.",
+              "최선의 유닛들에게만 장비 및 핵심 스킬 연마를 시작하세요."
+            ]
+          },
+          {
+            "range": "4-5일 차",
+            "focus": "약점 보완 및 정예 로스터 유지",
+            "items": [
+              "팀에 탱커, 힐러 또는 서포터, 그리고 두 명의 딜러가 있는지 확인하세요.",
+              "벤치 프로젝트를 키우기 전에 메인 팀의 가장 약한 역할을 보강하세요.",
+              "실제 병목 구간을 파밍하면서 일일 및 주간 미션 루틴을 활성화하세요."
+            ]
+          },
+          {
+            "range": "6-7일 차",
+            "focus": "다음 콘텐츠 루프 준비",
+            "items": [
+              "일주일 내내 한 모드만 강제하는 대신 파밍 세션과 새로운 스토리 진행을 병행하세요.",
+              "실제로 콘텐츠를 클리어해 주는 팀을 중심으로 장비와 아르카나를 조정하세요.",
+              "다음 픽업이 오기 전에 미래의 배너 재화를 어떻게 사용할지 계획하세요."
+            ]
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "핵심 로스터 규칙",
+            "items": [
+              "대부분의 1주 차 계정은 전체 로스터가 아닌 4~5명의 유닛을 중심으로 구축해야 합니다.",
+              "가장 깔끔한 스타터 구성은 탱커 1명, 힐러 또는 서포터 1명, 딜러 2명입니다.",
+              "이 구성이 안정되면 추가 업그레이드에 대한 타당성을 확보하기가 훨씬 쉬워집니다."
+            ]
+          },
+          {
+            "title": "1주 차 리소스 규율",
+            "items": [
+              "접근성과 방치 수익을 모두 개선하는 스토리 해금을 우선시하세요.",
+              "장비 및 스킬 재료를 너무 많은 실험적 유닛에 분산하지 마세요.",
+              "배너 재화는 목표 뽑기 계획을 염두에 두고 저축할 때 더 가치 있습니다."
+            ]
+          }
+        ],
+        "tags": [
+          "7일간의 조절",
+          "신규 유저 리소스 관리",
+          "고난도 콘텐츠 준비"
+        ],
+        "ctaLabel": "성장 가이드 열기",
+        "ctaHref": "https://ultimategacha.com/star-savior-beginner-guide-progression-plan/"
+      },
+      {
+        "id": "star-savior-gacha-guide",
+        "title": "스타세이비어",
+        "titleHighlight": "가챠 가이드",
+        "summary": "스타세이비어는 캐릭터와 아르카나를 별도의 배너로 나누고, 높은 기본 SSR 확률을 사용하며, 확정 획득 시스템 대신 마일리지 교환에 의존합니다.",
+        "badge": "배너 계획",
+        "lastChecked": "2026-03-20",
+        "displayType": "accordion_compare_table",
+        "compareCards": [
+          {
+            "title": "캐릭터 배너",
+            "badge": "메인 유닛 뽑기",
+            "headline": "더 깔끔한 진행을 위해 로스터에 캐리, 탱커 또는 프리미엄 서포터가 여전히 필요할 때 캐릭터 배너를 사용하세요.",
+            "items": [
+              "기본 SSR 확률은 4%입니다.",
+              "픽업 캐릭터 확률은 2%입니다.",
+              "빛과 어둠 픽업 유닛은 1%로 표시됩니다."
+            ]
+          },
+          {
+            "title": "아르카나 배너",
+            "badge": "서포트 카드 성장",
+            "headline": "아르카나 배너는 핵심 로스터가 갖춰지고 능력치, 버스트 구간 또는 장기적인 스케일링을 강화하고 싶을 때 더 중요해집니다.",
+            "items": [
+              "기본 SSR 아르카나 확률도 4%입니다.",
+              "픽업 아르카나 확률은 2%입니다.",
+              "마일리지는 서두르는 대신 미래의 아르카나 목표를 위해 저축할 수 있습니다."
+            ]
+          }
+        ],
+        "tableTitle": "배너 확률 및 마일리지",
+        "tableColumns": [
+          "시스템 규칙",
+          "현재 수치",
+          "중요한 이유"
+        ],
+        "factRows": [
+          {
+            "label": "기본 SSR 확률",
+            "value": "캐릭터 4% / 아르카나 4%",
+            "note": "두 주요 배너 유형 모두 동일한 SSR 기본 확률에서 시작합니다."
+          },
+          {
+            "label": "픽업 확률",
+            "value": "일반 픽업 2% / 빛·어둠 픽업 1%",
+            "note": "희귀 픽업 유닛은 50/50 규칙으로 보장되지 않으므로 프리미엄 배너는 여전히 계획이 필요합니다."
+          },
+          {
+            "label": "픽업 보장",
+            "value": "50/50 없음 및 직접적인 천장 보장 없음",
+            "note": "천장 진행도가 픽업 유닛을 자동으로 제공하지 않습니다."
+          },
+          {
+            "label": "마일리지 획득",
+            "value": "1회 뽑기당 1 마일리지",
+            "note": "모든 소환은 동일한 장기 교환 경로를 진행시킵니다."
+          },
+          {
+            "label": "마일리지 교환",
+            "value": "픽업 유닛 또는 아르카나에 200 마일리지",
+            "note": "마일리지는 만료되지 않으므로 미래의 배너를 위해 저축하는 것이 유효합니다."
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "초반 뽑기 계획",
+            "items": [
+              "모든 새로운 배너가 아닌, 가장 중요한 누락된 역할을 중심으로 뽑으세요.",
+              "더 강력한 첫 캐리나 서포터가 분산된 소환보다 보통 더 중요합니다.",
+              "로스터가 충분하다면 평범한 픽업 가치를 강제하는 것보다 저축하는 것이 더 나을 수 있습니다."
+            ]
+          },
+          {
+            "title": "마일리지 규율",
+            "items": [
+              "마일리지를 이 시스템의 진정한 장기적 안전장치로 취급하세요.",
+              "사용 가능하다고 해서 저장된 마일리지를 그냥 써버리지 마세요.",
+              "최선의 교환 대상은 보통 실제 로스터의 공백을 메워주는 픽업 요소입니다."
+            ]
+          }
+        ],
+        "tags": [
+          "천장 인지",
+          "배너 비교",
+          "소환 규율"
+        ],
+        "ctaLabel": "가챠 가이드 열기",
+        "ctaHref": "https://tychara.com/StarSavior/guides/gacha-system"
+      },
+      {
+        "id": "star-savior-character-list",
+        "title": "스타세이비어",
+        "titleHighlight": "캐릭터 목록",
+        "summary": "리세마라 가치, 팀 슬롯 또는 미래의 빌드 경로를 비교하기 전에 공개 로스터 데이터베이스를 사용하여 등급, 역할 및 속성별로 유닛을 분류하세요.",
+        "badge": "로스터 디렉토리",
+        "lastChecked": "2026-03-20",
+        "displayType": "database_grid_filters",
+        "filterGroups": [
+          {
+            "title": "등급 필터",
+            "items": [
+              "SR",
+              "SSR"
+            ]
+          },
+          {
+            "title": "역할 필터",
+            "items": [
+              "디펜더",
+              "스트라이커",
+              "레인저",
+              "캐스터",
+              "서포터",
+              "어쌔신"
+            ]
+          },
+          {
+            "title": "속성 필터",
+            "items": [
+              "태양",
+              "달",
+              "별",
+              "질서",
+              "혼돈"
+            ]
+          }
+        ],
+        "rosterTitle": "실시간 샘플 로스터",
+        "rosterDescription": "공개 데이터베이스는 현재 출시된 한국 및 일본 로스터를 중심으로 구성되어 있어, 조회수가 높은 홈페이지 트래픽에 실용적인 시작점을 제공합니다.",
+        "sampleRoster": [
+          {
+            "name": "안나",
+            "identity": "로스터 샘플",
+            "focus": "역할 및 등급 필터링을 위한 빠른 조회 대상."
+          },
+          {
+            "name": "아셰라",
+            "identity": "로스터 샘플",
+            "focus": "서포터 중심의 팀 경로를 확인할 때 유용합니다."
+          },
+          {
+            "name": "벨 리스",
+            "identity": "로스터 샘플",
+            "focus": "원거리 캐리 비교를 위한 일반적인 참조 지점입니다."
+          },
+          {
+            "name": "엘리사",
+            "identity": "로스터 샘플",
+            "focus": "대체 후열 옵션을 확인하는 데 도움이 됩니다."
+          },
+          {
+            "name": "프레이",
+            "identity": "로스터 샘플",
+            "focus": "더 넓은 로스터 및 빌드 계획을 위한 가시적인 항목입니다."
+          },
+          {
+            "name": "레이시",
+            "identity": "로스터 샘플",
+            "focus": "프리미엄 캐리 루트를 비교할 때 자주 찾는 대상입니다."
+          },
+          {
+            "name": "루나",
+            "identity": "로스터 샘플",
+            "focus": "로스터 범위 확인 및 교체 계획에 유용합니다."
+          },
+          {
+            "name": "뮤리엘",
+            "identity": "로스터 샘플",
+            "focus": "팀 구성 비교 시 일반적인 전열 참조 대상입니다."
+          },
+          {
+            "name": "서팡",
+            "identity": "로스터 샘플",
+            "focus": "속성 중심 팀을 위한 또 다른 유용한 조회 지점입니다."
+          },
+          {
+            "name": "타냐",
+            "identity": "로스터 샘플",
+            "focus": "원거리 또는 유틸리티 슬롯 옵션을 확인하는 데 도움이 됩니다."
+          },
+          {
+            "name": "트리쉬",
+            "identity": "로스터 샘플",
+            "focus": "초기 우선순위를 넘어 더 넓은 로스터 탐색에 유용합니다."
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "필터 범위",
+            "items": [
+              "주요 공개 필터는 등급, 역할 및 속성입니다.",
+              "이는 추측 없이 리세마라 확인, 팀 교체 검색 및 빌드 준비를 지원하기에 충분합니다.",
+              "표시된 로스터는 현재 출시된 한국 및 일본 항목에 고정되어 있습니다."
+            ]
+          },
+          {
+            "title": "이 데이터베이스가 중요한 이유",
+            "items": [
+              "리소스를 투자하기 전에 후보를 비교하는 가장 빠른 방법입니다.",
+              "유닛 페이지를 팀 구성 및 가이드 결정과 연결하는 데 도움이 됩니다.",
+              "사용자가 빠른 로스터 조회만을 원할 때 홈페이지의 불편함을 줄여줍니다."
+            ]
+          }
+        ],
+        "tags": [
+          "역할별 분류",
+          "속성별 분류",
+          "로스터 개요"
+        ],
+        "ctaLabel": "캐릭터 목록 열기",
+        "ctaHref": "https://tychara.com/StarSavior/characterlist"
+      },
+      {
+        "id": "star-savior-journey-training-guide",
+        "title": "스타세이비어",
+        "titleHighlight": "Journey 훈련 가이드",
+        "summary": "Journey는 스타세이비어의 전용 육성 모드이며, 각 회차는 훈련 선택, 상태 제어 및 Stella Archive 결과물을 통해 장기적인 전투력에 기여합니다.",
+        "badge": "핵심 시스템 가이드",
+        "lastChecked": "2026-03-20",
+        "displayType": "step_diagram_checklist",
         "steps": [
-          "게임 내 클랜 메뉴 액세스",
-          "더 나은 클랜을 위해 다시 롤하는 데 스핀을 소비하세요.",
-          "티어가 높은 클랜은 드랍률이 낮습니다.",
-          "Higher tier clans have lower drop rates"
-        ]
+          {
+            "title": "진행 목표 설정",
+            "description": "이 모드를 무작위 사이드 콘텐츠처럼 취급하는 대신 명확한 능력치 목표를 가지고 Journey에 입장하세요.",
+            "items": [
+              "해당 회차가 딜러, 탱커 또는 서포터 구성을 위한 것인지 선택하세요.",
+              "턴을 소모하기 전에 해당 구원자에게 중요한 능력치를 중심으로 계획하세요.",
+              "일치하는 아르카나 중첩은 진행 방향을 한곳으로 유지하는 가장 깔끔한 방법입니다."
+            ]
+          },
+          {
+            "title": "훈련 및 요청 순환",
+            "description": "강력한 Journey 회차는 훈련 선택, 요청 이벤트 및 그 사이의 적절한 속도 조절을 통해 한 턴 한 턴 구축됩니다.",
+            "items": [
+              "빌드 중인 역할의 주능력치 라인을 올리기 위해 훈련을 사용하세요.",
+              "의도한 능력치나 상태 곡선을 강화하는 요청을 수락하세요.",
+              "최종 아카이브에 도움이 되지 않으면서 약한 능력치만 보충하는 우회로는 피하세요."
+            ]
+          },
+          {
+            "title": "상태 및 템포 제어",
+            "description": "휴식 결정은 경로의 일부입니다. 상태가 떨어지면 회차의 가치가 급격히 하락하기 때문입니다.",
+            "items": [
+              "진지한 진행 중에는 가능하면 항상 상태를 BEST로 유지하세요.",
+              "휴식을 턴을 낭비한 뒤의 비상 버튼이 아닌 계획된 초기화로 사용하세요.",
+              "하드 난이도에서는 근력, 체력, 인내가 분산된 부가 능력치보다 보통 더 큰 가치를 가집니다."
+            ]
+          },
+          {
+            "title": "Stella Archive 확정",
+            "description": "완료된 모든 회차는 해당 구원자의 장기적인 빌드 기록인 Stella Archive가 됩니다.",
+            "items": [
+              "아카이브는 미래의 빌드를 위해 해당 회차의 가치를 보존합니다.",
+              "더 나은 Journey 숙련도는 시간이 지남에 따라 더 나은 아카이브 품질을 의미합니다.",
+              "이것이 Journey가 단순한 미니 게임이 아닌 핵심 성장 시스템인 이유입니다."
+            ]
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "하드 입장 시점",
+            "items": [
+              "공명 8단계는 Journey 하드 난이도의 일반적인 최소 입장 목표입니다.",
+              "더 안정적인 진행을 원한다면 공명 9단계가 더 편안한 시점입니다.",
+              "너무 일찍 입장하면 보통 이 모드가 성장 도구가 아닌 리소스 소모처가 됩니다."
+            ]
+          },
+          {
+            "title": "진행 체크리스트",
+            "items": [
+              "3개 이상의 일치하는 아르카나는 집중적인 능력치 중첩을 지원할 수 있습니다.",
+              "딜러는 근력 1250을 목표로 할 수 있으며, 탱커와 서포터는 체력 1250을 목표로 할 수 있습니다.",
+              "하드 모드에서는 근력, 체력, 인내 및 안정적인 상태 관리에 집중하여 진행하세요."
+            ]
+          }
+        ],
+        "tags": [
+          "Journey 루프 명확성",
+          "공명 계획",
+          "장기적 성장"
+        ],
+        "ctaLabel": "Journey 가이드 열기",
+        "ctaHref": "https://www.hideoutgacha.com/games/star-savior/training-guide"
+      },
+      {
+        "id": "star-savior-boss-guide",
+        "title": "스타세이비어",
+        "titleHighlight": "보스 가이드",
+        "summary": "초반 레이드 및 월드 보스 클리어는 반복 가능한 루프를 따릅니다: 강력한 공격에서 생존하고, 방어력을 깎고, 게이지를 브레이크한 다음, 브레이크 구간 동안 Nova Burst를 폭발시키세요.",
+        "badge": "브레이크 구간 플래너",
+        "lastChecked": "2026-03-20",
+        "displayType": "bossCardsWithMechanicTags",
+        "mechanicCards": [
+          {
+            "title": "추천 팀 구성",
+            "cue": "4슬롯 기준",
+            "items": [
+              "초반 보스전의 일관성을 위해 탱커 1명, 힐러 또는 서포터 1명, 광역 딜러 1명, 단일 타겟 딜러 1명을 사용하세요.",
+              "이 구성은 진행을 안정적으로 유지하면서도 브레이크 구간을 위한 충분한 압박을 생성합니다.",
+              "일반적으로 추천되는 초반 선택지는 탱킹을 위한 에데와 유지력을 위한 서펀트, 프레이 또는 엘리사가 있습니다."
+            ]
+          },
+          {
+            "title": "브레이크 구간 실행",
+            "cue": "약 2턴",
+            "items": [
+              "보스는 브레이크 게이지가 0이 된 후 약 2턴 동안 브레이크 상태에 진입합니다.",
+              "궁극기와 Nova Burst를 보호막 단계에서 소모하지 말고 이 상태를 위해 아껴두세요.",
+              "버스트 사이클이 시작되기 전에 디버프와 준비 스킬이 적중해야 하므로 턴 순서는 여전히 중요합니다."
+            ]
+          },
+          {
+            "title": "흔한 실패 지점",
+            "cue": "이것부터 해결하세요",
+            "items": [
+              "대부분의 전멸은 브레이크 전에 궁극기를 소모하거나 Nova Burst를 너무 일찍 발동시키는 데서 발생합니다.",
+              "힐러를 제외하는 것은 초반 레이드 시도에서 피할 수 있는 붕괴를 자주 초래합니다.",
+              "보스의 액션 바 타이밍을 놓치면 깔끔한 준비 과정이 저가치 피해 턴으로 변합니다."
+            ]
+          }
+        ],
+        "tagPanels": [
+          {
+            "title": "추천 초반 선택",
+            "tags": [
+              "탱커: 에데",
+              "유지력: 서펀트 또는 프레이 또는 엘리사",
+              "광역: 루나 또는 카르멘 또는 아셀라 또는 다나",
+              "버스트: 스마일 또는 키라 또는 찰스 또는 레이시 또는 타냐 또는 에핀델"
+            ]
+          },
+          {
+            "title": "전투 유형별 조정",
+            "tags": [
+              "강력한 쫄 소환: 광역 슬롯을 먼저 강화",
+              "지속 피해 중심 전투: 엘리사 또는 프레이 우선",
+              "보호막 또는 반사 단계: 스마일 또는 다른 방어력 감소 유닛 편성",
+              "버스트 전 보스 액션 바 추적"
+            ]
+          }
+        ],
+        "tags": [
+          "브레이크 구간 계획",
+          "역할 구성 일관성",
+          "버스트 타이밍 규율"
+        ],
+        "ctaLabel": "보스 기믹, 역할 선택 및 브레이크 구간 버스트 팁 열기",
+        "ctaHref": "https://ultimategacha.com/star-savior-boss-guide-how-to-beat-early-game-raid-world-bosses/"
+      },
+      {
+        "id": "star-savior-hard-mode-guide",
+        "title": "스타세이비어",
+        "titleHighlight": "하드 모드 가이드",
+        "summary": "하드 모드는 Journey 및 Mainstream 콘텐츠의 성장 체크포인트이며, 더 엄격한 능력치 체크, 역할별 참(Charm), 그리고 더 높은 실질 능력치 상한선을 가집니다.",
+        "badge": "성장 관문 준비",
+        "lastChecked": "2026-03-20",
+        "displayType": "checklistWithTeamCards",
+        "checklistTitle": "하드 전 체크리스트",
+        "prepChecklist": [
+          "하드 모드 입장 전 공명 8단계에 도달하세요. 9단계가 더 안정적인 시점입니다.",
+          "T2 장비 성장을 위한 실질적인 경로를 해금하기 위해 Mainstream 14 스테이지를 먼저 클리어하세요.",
+          "부차적인 프로젝트를 확장하기 전에 집중적인 아르카나 선택을 중심으로 캐리 구성을 구축하세요.",
+          "미완성 유닛을 교체하는 대신 첫 하드 라인업을 정예화하고 풀 강화 상태로 유지하세요."
+        ],
+        "teamCards": [
+          {
+            "title": "보스 킬 템플릿",
+            "composition": "에데 + 프레이 + 스마일 + 키라 또는 찰스",
+            "items": [
+              "안정적인 전열 제어와 집중된 버스트 턴을 위해 구축되었습니다.",
+              "생존력이 주요 장애물일 때 이 구성을 사용하세요.",
+              "캐리 슬롯이 이미 브레이크 구간 피해량에 맞춰 조정되었을 때 가장 효과적입니다."
+            ]
+          },
+          {
+            "title": "스피드 클리어 템플릿",
+            "composition": "세일라 + 서펀트 + 스마일 + 루나 또는 아셀라",
+            "items": [
+              "빠른 스테이지 사이클을 위해 템포와 액션 게이지 압박을 우선시합니다.",
+              "로스터가 이미 기본적으로 들어오는 피해를 견딜 수 있을 때 사용하는 것이 가장 좋습니다.",
+              "속도 중심 장비 및 깔끔한 턴 순서 설정과 잘 어울립니다."
+            ]
+          }
+        ],
+        "charmCards": [
+          {
+            "title": "딜러 참 방향",
+            "role": "딜러",
+            "items": [
+              "공격력 계수 참이 일반적인 고효율 선택입니다.",
+              "메인 피해 프로필을 강화하는 참을 선택하세요.",
+              "너무 많은 보조 캐리에게 참 업그레이드를 분산하지 마세요."
+            ]
+          },
+          {
+            "title": "탱커 참 방향",
+            "role": "전열",
+            "items": [
+              "탱커에게는 보통 체력 계수 참이 선호됩니다.",
+              "여기서는 욕심을 낸 피해량 라인보다 안정성 참이 더 가치 있습니다.",
+              "버스트 유닛이 사이클을 유지할 수 있도록 탱커를 먼저 설정하세요."
+            ]
+          },
+          {
+            "title": "서포터 참 방향",
+            "role": "힐러 / 유틸리티",
+            "items": [
+              "서포터에게도 체력 계수 참이 선호됩니다.",
+              "긴 하드 조우전에서는 일관성이 변수보다 중요합니다.",
+              "사치스러운 피해 옵션보다 가동률과 생존을 우선시하세요."
+            ]
+          }
+        ],
+        "tags": [
+          "공명 준비 상태",
+          "T2 성장 관문",
+          "역할별 참 계획"
+        ],
+        "ctaLabel": "하드 전 체크리스트, 능력치 목표 및 팀 템플릿 보기",
+        "ctaHref": "https://ultimategacha.com/star-savior-hard-mode-guide-how-to-prepare-teams-to-use/"
+      },
+      {
+        "id": "star-savior-pvp-guide",
+        "title": "스타세이비어",
+        "titleHighlight": "PvP 가이드",
+        "summary": "스타세이비어 PvP는 템포 중심입니다: 속도, 액션 게이지 제어, 브레이크 타이밍 및 Nova Burst 구간이 대부분의 승부를 결정합니다.",
+        "badge": "템포 및 제어 지도",
+        "lastChecked": "2026-03-20",
+        "displayType": "dualColumnLineups",
+        "lineupColumns": [
+          {
+            "id": "offense",
+            "title": "공격 라인업",
+            "description": "첫 번째 유의미한 버스트 턴을 확보하기 위해 속도 압박과 게이지 제어로 시작하세요.",
+            "entries": [
+              {
+                "name": "태양 블리츠",
+                "core": "세일라 + 스마일 + 루나 + 하이디",
+                "notes": [
+                  "취약한 방어 구성을 압박하기 위해 구축된 빠른 오프너입니다.",
+                  "첫 번째 브레이크 구간을 깔끔하게 강제할 수 있을 때 가장 좋습니다."
+                ]
+              },
+              {
+                "name": "질서 코어",
+                "core": "베스타 + 서펀트 + 스마일 + 루",
+                "notes": [
+                  "압박과 안정화 턴 사이를 전환할 수 있는 균형 잡힌 제어 구성입니다.",
+                  "속도 라인이 불균일한 혼합 방어 팀을 상대로 유용합니다."
+                ]
+              },
+              {
+                "name": "왈츠 캐리",
+                "core": "아셰라: 별빛의 왈츠 + 스마일 + 키라 + 에데",
+                "notes": [
+                  "보호받는 하나의 캐리 피해 사이클을 중심으로 경기를 운영하세요.",
+                  "유틸리티 설정이 버스트 타이밍을 확보할 수 있을 때 가장 효과적입니다."
+                ]
+              }
+            ]
+          },
+          {
+            "id": "defense",
+            "title": "방어 라인업",
+            "description": "공격 측의 쉬운 스노우볼 턴을 저지하기 위해 회복력 있는 전열 구조와 응징 구간을 활용하세요.",
+            "entries": [
+              {
+                "name": "루나 하이디 벽",
+                "core": "루나 + 하이디 + 에데 + 서펀트",
+                "notes": [
+                  "템포가 빠른 공격자를 늦추기 위한 내구성 중심 구성입니다.",
+                  "첫 버스트에서 살아남고 더 긴 교전을 강제하여 승리합니다."
+                ]
+              },
+              {
+                "name": "하이디 BC 로베르타",
+                "core": "하이디 + 바니걸 클레어 + 로베르타 + 스마일",
+                "notes": [
+                  "공격 팀의 부실한 타겟 집중을 응징하는 방해 설정입니다.",
+                  "방어 턴 순서가 조정되었을 때 가장 효과적입니다."
+                ]
+              },
+              {
+                "name": "벨 세이라 루나",
+                "core": "벨 리스 + 세이라 + 루나 + 베스타",
+                "notes": [
+                  "버스트 위협과 겹겹이 쌓인 유틸리티를 혼합한 하이브리드 방어입니다.",
+                  "단일 계획의 공격 로테이션에 도전하기 위해 흔히 사용됩니다."
+                ]
+              }
+            ]
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "핵심 PvP 규칙",
+            "items": [
+              "현재 모드 범위는 실시간 RTA 및 클래식 래더 방어 매전에 집중되어 있습니다.",
+              "안정적인 구성은 여전히 딜러 2명, 탱커 또는 전열 1명, 서포터 또는 유동 슬롯 1명입니다.",
+              "세일라, 스마일, 루, 에데, 베스타, 서펀트가 템포 앵커로 자주 강조됩니다."
+            ]
+          },
+          {
+            "title": "시즌 보상",
+            "items": [
+              "시즌 기반 프리미엄 재화",
+              "성장 루프를 지원하는 강화 재료",
+              "칭호 또는 프로필 테두리와 같은 꾸미기 보상"
+            ]
+          }
+        ],
+        "tags": [
+          "공격 및 방어 템플릿",
+          "게이지 제어 타이밍",
+          "시즌 보상 인지"
+        ],
+        "ctaLabel": "현재 PvP 메타의 공격 및 방어 라인업 비교",
+        "ctaHref": "https://ultimategacha.com/star-savior-pvp-guide-team-building-strategy-rewards/"
+      },
+      {
+        "id": "star-savior-resource-management",
+        "title": "스타세이비어",
+        "titleHighlight": "리소스 관리",
+        "summary": "성장은 리소스를 하나의 메인 스쿼드에 집중하고, 가장 높은 클리어 스테이지를 밀며, 장기적인 계정 가치가 가장 높은 곳에 프리미엄 재화를 소비함으로써 쟁취할 수 있습니다.",
+        "badge": "소비 순서 게시판",
+        "lastChecked": "2026-03-20",
+        "displayType": "priorityTableWithDoDontCards",
+        "tableTitle": "리소스 소비 우선순위",
+        "tableColumns": [
+          "리소스 경로",
+          "우선순위",
+          "실행 규칙"
+        ],
+        "priorityRows": [
+          {
+            "lane": "스태미나",
+            "priority": "우선 소비",
+            "rule": "방치 수익을 높이기 위해 메인 스토리를 먼저 밀고, 그 다음 고가치 이벤트 재화 스테이지를 파밍하세요."
+          },
+          {
+            "lane": "방치 및 Journey",
+            "priority": "매일 확인",
+            "rule": "방치 보상은 최고 클리어 스테이지에 따라 달라지며, Journey와 훈련은 함께 계획해야 하는 별도의 경로를 사용합니다."
+          },
+          {
+            "lane": "핵심 재료",
+            "priority": "엄격히 관리",
+            "rule": "공명 재료, 한계 돌파 재료, 잠재력 포인트, 경험치, 골드, Star Essence 및 Operation 경험치는 실제 병목 구간에 맞춰 유지해야 합니다."
+          },
+          {
+            "lane": "메인 스쿼드",
+            "priority": "우선 강화",
+            "rule": "부차적인 프로젝트에 업그레이드를 분산하는 대신 최고의 리소스를 메인 4~6명의 구원자에게 사용하세요."
+          },
+          {
+            "lane": "프리미엄 재화",
+            "priority": "목표 소비",
+            "rule": "스태미나 충전이나 무작위 새로고침 대신 영향력이 큰 배너에 Starlight Ore와 소환 티켓을 사용하세요."
+          },
+          {
+            "lane": "이벤트 상점",
+            "priority": "가치별 분류",
+            "rule": "일반 재료보다 소환 티켓, 희귀 강화석, 고급 장비를 우선시하세요."
+          }
+        ],
+        "doList": [
+          "업그레이드 경로를 하나의 기본 스쿼드에 집중하세요.",
+          "클리어 스테이지 성장과 활성화된 병목 구간을 중심으로 스태미나를 소비하세요.",
+          "구체적인 로스터 공백을 메워주는 배너를 중심으로 프리미엄 뽑기를 계획하세요.",
+          "이벤트 상점에서는 고가치 계정 성장 아이템을 먼저 구매하세요."
+        ],
+        "dontList": [
+          "미완성된 보조 유닛에 프리미엄 업그레이드를 분산하지 마세요.",
+          "계획 없이 영향력이 낮은 새로고침에 프리미엄 재화를 쓰지 마세요.",
+          "매일 수집이 가능할 때 방치 보상이 최대치에 도달하게 두지 마세요.",
+          "희귀 성장 아이템이 남아 있는 동안 일반 재료를 과도하게 구매하지 마세요."
+        ],
+        "shopPriorities": [
+          "소환 티켓",
+          "희귀 강화석",
+          "고급 장비 조각",
+          "그 다음 일반 재료"
+        ],
+        "shopTitle": "이벤트 상점 구매 순서",
+        "tags": [
+          "메인 스쿼드 집중",
+          "스태미나 및 방치 계획",
+          "프리미엄 재화 규율"
+        ],
+        "ctaLabel": "소비 순서, 저축 목록 및 일일 파밍 우선순위 확인",
+        "ctaHref": "https://ultimategacha.com/star-savior-resource-management-guide-materials/"
       }
-    }
+    ]
   }
 }

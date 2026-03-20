@@ -1,837 +1,1429 @@
 {
   "seo": {
     "home": {
-      "title": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
-      "description": "Star Savior Wiki for codes, tier list, reroll, beginner guide, characters, teams, builds, gear, news, and update tracking for the global launch.",
-      "keywords": "Star Savior, StarSavior, codes, tier list, reroll, beginner guide, characters, teams, builds, gear",
-      "ogTitle": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
-      "ogDescription": "Star Savior Wiki for codes, tier list, reroll, beginner guide, characters, teams, builds, gear, news, and update tracking for the global launch.",
-      "twitterTitle": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
-      "twitterDescription": "Track Star Savior codes, reroll priorities, beginner guides, characters, builds, and launch updates."
+      "title": "---",
+      "description": "スターセイヴァー Wiki - シリアルコード、最強キャラランキング＆初心者ガイド",
+      "keywords": "スターセイヴァーのシリアルコード、最強キャラランキング、リセマラ、初心者ガイド、アルカナ、チーム編成、ビルド、装備、Journeyトレーニング、最新情報のWiki。",
+      "ogTitle": "スターセイヴァー, StarSavior, シリアルコード, 最強キャラランキング, リセマラ, 初心者ガイド, アルカナ最強ランキング, おすすめチーム編成, Journeyガイド, 装備ガイド",
+      "ogDescription": "スターセイヴァー Wiki - シリアルコード、最強キャラランキング＆初心者ガイド",
+      "twitterTitle": "スターセイヴァーのコード、最強キャラ、リセマラ目標、チーム、アルカナ、Journeyトレーニング、リリース情報を一つのホームページで確認。",
+      "twitterDescription": "スターセイヴァー Wiki - シリアルコード、最強キャラランキング＆初心者ガイド"
     }
   },
   "nav": {},
   "common": {
-    "home": "ホーム",
-    "more": "もっと見る",
-    "playNow": "今すぐプレイ",
-    "switchLanguage": "言語切り替え",
-    "switchTheme": "テーマ切り替え",
-    "lightMode": "ライトモード",
-    "darkMode": "ダークモード",
-    "notFound": "ページが見つかりません",
-    "notFoundDescription": "お探しのページは見つかりませんでした。",
-    "backToHome": "ホームに戻る",
-    "relatedArticles": "関連記事",
-    "readMore": "続きを読む"
+    "home": "スターセイヴァーのコード、最強キャラ、リセマラ目標、チーム、アルカナ、Journeyトレーニング、リリース情報をチェック。",
+    "more": "ホーム",
+    "playNow": "もっと見る",
+    "switchLanguage": "今すぐプレイ",
+    "switchTheme": "言語切り替え",
+    "lightMode": "テーマ切り替え",
+    "darkMode": "ライトモード",
+    "notFound": "ダークモード",
+    "notFoundDescription": "ページが見つかりません",
+    "backToHome": "お探しのページは存在しません。",
+    "relatedArticles": "ホームに戻る",
+    "readMore": "関連記事"
   },
   "hero": {
-    "badge": "Anime Training Turn-Based RPG",
-    "title": "Star Savior Wiki",
-    "description": "Guide your Star-kissed Saviors through a character-training RPG built around the Journey system, turn-based battles, team building, gear, reroll planning, and launch updates.",
-    "getFreeCodesCTA": "Visit Official Website",
-    "playOnRobloxCTA": "Play on Google Play",
+    "badge": "続きを読む",
+    "title": "アニメ風育成ターン制RPG",
+    "description": "スターセイヴァー Wiki",
+    "getFreeCodesCTA": "Journeyトレーニング、ターン制バトル、チーム編成、装備強化、リセマラ目標、最新のリリース情報を通じて、星に愛されし救世主たちを導こう。",
+    "playOnGooglePlayCTA": "Google Playでプレイ",
     "stats": {
       "stat1": {
-        "value": "100K+",
-        "label": "Google Play Downloads"
+        "value": "Google Playでプレイ",
+        "label": "10万以上"
       },
       "stat2": {
-        "value": "3.9",
-        "label": "Google Play Rating"
+        "value": "Google Play ダウンロード数",
+        "label": "3.9"
       },
       "stat3": {
-        "value": "5.89K",
-        "label": "Google Play Reviews"
+        "value": "Google Play 評価",
+        "label": "5.89K"
       },
       "stat4": {
-        "value": "Mar 19",
-        "label": "Global Launch"
+        "value": "Google Play レビュー数",
+        "label": "3月19日"
       }
     }
   },
   "gameFeature": {
-    "title": "Star Savior Official Animation PV",
-    "description": "Watch the official animation PV for a quick look at the world, cast, and launch presentation behind Star Savior."
-  },
-  "tools": {
-    "title": "Star Savior",
-    "titleHighlight": "Resources",
-    "subtitle": "Jump to any section below",
-    "codes": {
-      "title": "コード",
-      "description": "無料報酬を入手"
-    },
-    "redeemGuide": {
-      "title": "コードの使い方",
-      "description": "コードの使い方を学ぶ"
-    },
-    "trainingPaths": {
-      "title": "訓練の道",
-      "description": "自分の道を選ぶ"
-    },
-    "breathingTier": {
-      "title": "呼吸ティアリスト",
-      "description": "最高の呼吸法"
-    },
-    "demonArtTier": {
-      "title": "血鬼術ティアリスト",
-      "description": "トップ血鬼術"
-    },
-    "oniRoute": {
-      "title": "鬼ルート",
-      "description": "鬼に変身"
-    },
-    "controls": {
-      "title": "操作方法",
-      "description": "キー操作をマスター"
-    },
-    "questMap": {
-      "title": "クエストマップ",
-      "description": "NPCとクエストを見つける"
-    },
-    "bossDrops": {
-      "title": "ボスドロップ",
-      "description": "ボスドロップガイド"
-    },
-    "currencyFarm": {
-      "title": "通貨稼ぎ",
-      "description": "高速で円を稼ぐ"
-    },
-    "resetPlanner": {
-      "title": "リセットプランナー",
-      "description": "リセットを計画する"
-    },
-    "buildPlanner": {
-      "title": "ビルドプランナー",
-      "description": "ビルドを最適化する"
-    },
-    "thunderBreathing": {
-      "title": "雷の呼吸",
-      "description": "雷の型をアンロック"
-    },
-    "fastLeveling": {
-      "title": "高速レベル上げ",
-      "description": "素早くレベルアップ"
-    },
-    "finalSelection": {
-      "title": "最終選別",
-      "description": "鬼殺隊士になる"
-    },
-    "clanSystem": {
-      "title": "血鬼術システム",
-      "description": "血鬼術のティアとバフ"
-    }
-  },
-  "whatIs": {
-    "title": "What is",
-    "titleHighlight": "Star Savior?",
-    "description": "Star Savior is a character-training turn-based RPG centered on squad building, Journey progression, gear planning, and launch-era resource management.",
-    "features": [
-      {
-        "title": "Journey Progression",
-        "description": "Advance through the Journey system while unlocking upgrades, rewards, and account-wide progress goals."
-      },
-      {
-        "title": "Turn-Based Team Building",
-        "description": "Build around character roles, skill timing, elemental coverage, and long-term roster synergy."
-      },
-      {
-        "title": "Launch Tracking",
-        "description": "Follow official updates, reroll priorities, community links, and beginner planning from one place."
-      }
-    ]
+    "title": "グローバルリリース",
+    "description": "スターセイヴァー 公式アニメーションPV"
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Star Savior",
+    "title": "公式アニメーションPVで、スターセイヴァーの世界観、キャスト、戦闘の雰囲気、リリース情報を素早くチェック。",
+    "titleHighlight": "スターセイヴァー",
+    "subtitle": "FAQ",
     "questions": [
       {
-        "question": "Where can I download Star Savior?",
-        "answer": "The primary live platform referenced on this site is Google Play. Always use official store or publisher links when available."
+        "question": "新規・復帰プレイヤーが抱くスターセイヴァーへの疑問に素早く回答",
+        "answer": "スターセイヴァーとは何ですか？"
       },
       {
-        "question": "What kind of game is Star Savior?",
-        "answer": "Star Savior is a character-training turn-based RPG with squad building, Journey progression, and gear management."
+        "question": "スターセイヴァーは、部隊の成長、Journeyシステム、属性の相性、装備の育成、長期的な編成計画を軸としたキャラクター育成ターン制RPGです。",
+        "answer": "スターセイヴァーはどこでダウンロードできますか？"
       },
       {
-        "question": "What should beginners check first in Star Savior?",
-        "answer": "Start with download links, reroll priorities, beginner progression, team-building basics, and any launch rewards or announcements."
+        "question": "スターセイヴァーは現在、当サイトの公式サイトリンクやGoogle Playを通じて紹介されており、公式チャンネルからもニュース、動画、コミュニティの最新情報へアクセスできます。",
+        "answer": "スターセイヴァーでコードを入力する方法は？"
       },
       {
-        "question": "Is Star Savior globally launched?",
-        "answer": "Yes. The current reference point in the project brief is the March 19 global launch milestone."
+        "question": "スターセイヴァーで「アカウント管理」を開き、「クーポン入力」をタップして有効なコードを入力。「確認」をタップした後、メールボックスから報酬を受け取ってください。",
+        "answer": "スターセイヴァーでリセマラは必要ですか？"
       },
       {
-        "question": "What numbers are players tracking most for Star Savior right now?",
-        "answer": "The current headline metrics used on this site are 100K+ Google Play downloads, 3.9 rating, 5.89K reviews, and the March 19 launch date."
+        "question": "スターセイヴァーのリセマラは任意ですが、序盤に強力な編成を整えたい場合は行う価値があります。多くのリセマラでは、限定ユニットや、Journeyおよび全般的な進行において長く活躍できる汎用性の高い「アルカナ」を狙います。",
+        "answer": "初心者はまず何をすべきですか？"
       },
       {
-        "question": "Does Star Savior have an official Discord?",
-        "answer": "Yes. Use the official Discord invite linked in the homepage CTA and footer."
+        "question": "多くの初心者ルートでは、まず「メインストリーム・オペレーション」を進め、ミッション報酬を常に回収し、少数のコアメンバーを育成しつつ、「スターリンク」を活用してリソースの分散を避けることが推奨されます。",
+        "answer": "スターセイヴァーのJourneyシステムが重要な理由は？"
       },
       {
-        "question": "Where should I follow official Star Savior updates?",
-        "answer": "Track the official website news page, official X account, official YouTube channel, and official Discord announcements."
+        "question": "スターセイヴァーはJourneyトレーニングを主要な育成システムの一つとして採用しているため、トレーニングループ、共鳴、要素、アカウント全体の引き継ぎを理解することが、効率的な長期成長のカギとなります。",
+        "answer": "スターセイヴァー Wikiではどのようなトピックを扱っていますか？"
       },
       {
-        "question": "What does Star Savior Wiki focus on?",
-        "answer": "This site focuses on codes, tier lists, reroll guidance, beginner planning, builds, teams, gear, and launch tracking."
-      },
-      {
-        "question": "Should I reroll in Star Savior?",
-        "answer": "That depends on your goals, early rewards, and time budget. Most players should compare reroll cost against early progression value before committing."
-      },
-      {
-        "question": "Is the Reddit link on this site official?",
-        "answer": "No. The Reddit link is a community subreddit reference, not an official publisher or developer channel."
+        "question": "スターセイヴァー Wikiでは、シリアルコード、最強ランキング、リセマラ計画、初心者ルート、アルカナ、おすすめチーム、ビルド、装備、Journeyトレーニング、ボス対策、PvP、リソース管理に焦点を当てています。",
+        "answer": "スターセイヴァーの公式アップデートはどこで確認できますか？"
       }
     ]
   },
   "cta": {
-    "title": "Ready to Start Star Savior?",
-    "description": "Jump into the official community for announcements and support, or download Star Savior on Google Play to begin your first run.",
-    "joinCommunity": "Join Official Discord",
-    "joinGame": "Play Star Savior on Google Play"
+    "title": "公式サイト、公式ニュース、公式X、公式YouTube、公式Discord、Google Playで最新のアップデート情報を確認してください。",
+    "description": "スターセイヴァーを始める準備はできましたか？",
+    "joinCommunity": "公式コミュニティに参加して告知やサポートを受けるか、Google Playを開いて最初のチーム作りを始めましょう。",
+    "joinGame": "公式Discordに参加"
   },
   "footer": {
-    "title": "Star Savior",
-    "description": "Your launch-window hub for Star Savior codes, reroll advice, team planning, character guides, and official links.",
-    "resources": "Quick Links",
-    "activeCodes": "Codes Hub",
-    "trainingGuides": "Beginner Progression",
-    "breathingStyles": "Build Planner",
-    "clanGuides": "Reroll & Teams",
-    "moreTools": "Community",
-    "discord": "Official Discord",
-    "trello": "Official X",
-    "playNow": "Official YouTube",
-    "copyright": "© 2026 Star Savior Wiki. Unofficial fan site and not affiliated with the official publishers or developers of Star Savior.",
-    "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service",
-    "reddit": "Reddit Community"
+    "title": "Google Playでスターセイヴァーをプレイ",
+    "description": "スターセイヴァー",
+    "officialLinksTitle": "コード、最強キャラ、リセマラ、アルカナ、チーム、Journey計画、公式チャンネルをまとめたスターセイヴァーのリリース記念ホームページ。",
+    "communityLinksTitle": "公式リンク",
+    "website": "コミュニティーリンク",
+    "news": "公式サイト",
+    "googlePlay": "公式ニュース",
+    "discord": "Google Play",
+    "youtube": "公式Discord",
+    "x": "公式YouTube",
+    "reddit": "公式X",
+    "copyright": "Redditコミュニティ"
   },
   "homepage": {
-    "codes": {
-      "title": "無料のスピン、円、リセットを入手して進行を促進する",
-      "titleHighlight": "すべてのコードと引き換えガイドを表示",
-      "subtitle": "コード",
-      "cta": "報酬",
-      "table": {
-        "headers": {
-          "code": "ステータス",
-          "reward": "morespins",
-          "status": "20 スピン"
-        },
-        "items": [
-          {
-            "code": "有効",
-            "reward": "100KVISITS",
-            "status": "15 スピン"
-          },
-          {
-            "code": "有効",
-            "reward": "1KLIKES",
-            "status": "呼吸/血鬼術リセット"
-          },
-          {
-            "code": "有効",
-            "reward": "guizerayt",
-            "status": "10 スピン"
-          },
-          {
-            "code": "有効",
-            "reward": "RELEASE",
-            "status": "10 スピン"
-          },
-          {
-            "code": "有効",
-            "reward": "スレイヤーバウンド",
-            "status": "コードの使い方"
-          }
-        ]
-      }
+    "navigation": {
+      "title": "© 2026 Star Savior Wiki. 非公式ファンサイトであり、スターセイヴァーの公式パブリッシャーまたは開発者とは関係ありません。",
+      "titleHighlight": "スターセイヴァー",
+      "description": "モジュールナビゲーター"
     },
-    "redeemGuide": {
-      "title": "コードを正常に引き換えるには、次の手順に従ってください",
-      "titleHighlight": "ゲームを起動",
-      "subtitle": "Robloxでスレイヤーバウンドを開く",
-      "steps": [
+    "officialLinks": {
+      "title": "リリース報酬から終盤のリソース計画まで、チェックしたいスターセイヴァーの各項目へ直接ジャンプ。",
+      "titleHighlight": "スターセイヴァー公式",
+      "description": "チャンネル",
+      "items": [
         {
-          "step": 1,
-          "title": "コードを開く",
-          "detail": "メインメニューから、コードボタンをクリックします"
+          "title": "ダウンロード、パッチノート、動画、コミュニティへのリンクを一つに集約。",
+          "description": "公式サイト",
+          "href": "ブランド、プラットフォーム、イベント情報を確認できるスターセイヴァーのメインページ。"
         },
         {
-          "step": 2,
-          "title": "コードを貼り付け",
-          "detail": "コードフィールドに有効なコードを入力します"
+          "title": "https://www.starsavior.com/",
+          "description": "公式ニュース",
+          "href": "公式ニュースフィードでグローバルリリースの告知やアップデート情報をチェック。"
         },
         {
-          "step": 3,
-          "title": "報酬を受け取る",
-          "detail": "引き換え/入力を押して報酬を受け取ります"
+          "title": "https://www.starsavior.com/en/news",
+          "description": "Google Play",
+          "href": "インストール数、評価、最新情報を含むモバイル版のストアページを開く。"
         },
         {
-          "step": 4,
-          "title": "スレイヤーバウンド",
-          "detail": "訓練の道"
+          "title": "https://play.google.com/store/apps/details?id=com.studiobside.starMain",
+          "description": "公式Discord",
+          "href": "公式アナウンスやサポートチャンネルがあるスターセイヴァーのメインコミュニティに参加。"
+        },
+        {
+          "title": "https://discord.com/invite/UHNYfe9C77",
+          "description": "公式YouTube",
+          "href": "PV、プレビュー放送、スターセイヴァー公式動画をまとめて視聴。"
+        },
+        {
+          "title": "https://www.youtube.com/@StarSavior_EN",
+          "description": "Redditコミュニティ",
+          "href": "スターセイヴァーに関するコミュニティの議論やファンの会話を閲覧。"
         }
       ]
     },
-    "trainingPaths": {
-      "title": "訓練の道を選んでください：炎、風、または水",
-      "titleHighlight": "炎",
-      "subtitle": "スポーン近くの道",
-      "paths": [
-        {
-          "name": "鬼の角40個 + 強力な鬼を倒す",
-          "location": "高い",
-          "requirements": "0 円",
-          "difficulty": "風",
-          "cost": "海の村"
-        },
-        {
-          "name": "ギガホーンのボスを倒す + 角をドロップする",
-          "location": "高い",
-          "requirements": "0 円",
-          "difficulty": "水",
-          "cost": "小麦畑の滝"
-        },
-        {
-          "name": "パルクールを完了 + 岩を壊す",
-          "location": "中",
-          "requirements": "1回あたり2,000円",
-          "difficulty": "スレイヤーバウンド",
-          "cost": "呼吸ティアリスト"
-        }
-      ]
+    "labels": {
+      "lastChecked": "https://www.reddit.com/r/StarSavior/",
+      "copy": "最終確認",
+      "copied": "コピー",
+      "openSource": "コピー済み",
+      "pillPrefix": "外部ガイドを開く",
+      "frontLine": "ジャンプ",
+      "backLine": "前衛",
+      "bestAgainst": "後衛",
+      "roleFocus": "有利な相手",
+      "activeBuild": "役割",
+      "buildSource": "アクティブビルド",
+      "mainStat": "キャラクタービルドを開く",
+      "upgradePriority": "メインステータス",
+      "whyItMatters": "強化優先度",
+      "farmOrder": "重要な理由",
+      "commonMistakes": "周回順序"
     },
-    "breathingTier": {
-      "title": "PvE/PvPのパフォーマンスと難易度で呼吸法を比較する",
-      "titleHighlight": "コミュニティテストデータ - ランキングは定期的に更新されます",
-      "subtitle": "呼吸",
-      "dataNote": "PvE",
-      "table": {
-        "headers": {
-          "breathing": "PvP",
-          "pveScore": "難易度",
-          "pvpScore": "取得コスト",
-          "difficulty": "炎",
-          "cost": "Aティア"
-        },
-        "items": [
-          {
-            "breathing": "Aティア",
-            "pveScore": "中",
-            "pvpScore": "鬼の角40個 + 強力な鬼との戦い",
-            "difficulty": "風",
-            "cost": "Sティア"
-          },
-          {
-            "breathing": "Sティア",
-            "pveScore": "難しい",
-            "pvpScore": "ギガホーンのボスドロップ（RNG）",
-            "difficulty": "水",
-            "cost": "Aティア"
-          },
-          {
-            "breathing": "Bティア",
-            "pveScore": "中",
-            "pvpScore": "パルクール + 1回あたり2,000円",
-            "difficulty": "雷",
-            "cost": "Sティア"
-          },
-          {
-            "breathing": "Aティア",
-            "pveScore": "難しい",
-            "pvpScore": "特別なアンロック方法",
-            "difficulty": "スレイヤーバウンド",
-            "cost": "血鬼術ティアリスト"
-          }
-        ]
-      }
-    },
-    "demonArtTier": {
-      "title": "血鬼術のパワーランキングと難易度マトリックス",
-      "titleHighlight": "近日公開",
-      "subtitle": "詳細な血鬼術ランキングは、包括的なテストデータとともに近日公開されます。",
-      "statusBadge": "血鬼術システムはゲーム内で利用可能です",
-      "emptyStateText": "コードを介して呼吸/血鬼術のリセットが利用可能",
-      "knownFacts": [
-        "コミュニティは専用の鬼+血鬼術ガイドを持っています",
-        "血鬼術の完全なリストがコンパイルされています",
-        "PvE/PvPのパフォーマンスのテストが進行中"
-      ],
-      "dataGaps": [
-        "コンボの相乗効果が文書化されています",
-        "Trello/Discordで更新を追跡する",
-        "スレイヤーバウンド"
-      ],
-      "ctaText": "鬼ルート"
-    },
-    "oniRoute": {
-      "title": "鬼に変身して血鬼術をアンロックする",
-      "titleHighlight": "ガイドが利用可能",
-      "subtitle": "変身手順に従って鬼になり、強力な血鬼術にアクセスします。",
-      "statusBadge": "人間として開始",
-      "warningText": "スタート",
-      "flowNodes": [
-        {
-          "id": 1,
-          "title": "鬼に変身",
-          "type": "分岐",
-          "known": true
-        },
-        {
-          "id": 2,
-          "title": "血鬼術を入手/スピン",
-          "type": "進行",
-          "known": true
-        },
-        {
-          "id": 3,
-          "title": "ビルドの専門化",
-          "type": "最適化",
-          "known": true
-        },
-        {
-          "id": 4,
-          "title": "変身NPCの場所",
-          "type": "必要なアイテムとレベル",
-          "known": true
-        }
-      ],
-      "unknowns": [
-        "変身コスト",
-        "最高の血鬼術の組み合わせ",
-        "スレイヤーバウンド",
-        "操作方法"
-      ]
-    },
-    "controls": {
-      "title": "戦闘のためのキーボード操作をマスターする",
-      "titleHighlight": "LMB",
-      "subtitle": "攻撃",
-      "keys": [
-        {
-          "key": "RMB",
-          "action": "強攻撃"
-        },
-        {
-          "key": "F",
-          "action": "ブロック"
-        },
-        {
-          "key": "W + W",
-          "action": "走る"
-        },
-        {
-          "key": "M",
-          "action": "メニュー"
-        },
-        {
-          "key": "G",
-          "action": "呼吸"
-        },
-        {
-          "key": "1-9",
-          "action": "スキル"
-        },
-        {
-          "key": "スレイヤーバウンド",
-          "action": "クエストマップ"
-        }
-      ]
-    },
-    "questMap": {
-      "title": "クエストNPCと訓練場所を見つける",
-      "titleHighlight": "推奨される順序：炎 → 水 → 風",
-      "subtitle": "スポーンパス（炎スタート）",
-      "recommendedSequence": "スポーンの近く",
-      "pins": [
-        {
-          "id": 1,
-          "name": "炎の訓練を開始",
-          "region": "鬼の角40個",
-          "objective": "いくつかのタフな鬼を倒す",
-          "requirements": [
-            "炎の道の進行",
-            "鬼キャンプ（風のステップ）"
-          ],
-          "rewards": [
-            "海の村"
-          ]
-        },
-        {
-          "id": 2,
-          "name": "ギガホーンを倒し、角をドロップさせる",
-          "region": "ボスをクリア",
-          "objective": "ドロップ運（RNG）",
-          "requirements": [
-            "風の道の進行",
-            "滝の試練"
-          ],
-          "rewards": [
-            "大きな小麦畑"
-          ]
-        },
-        {
-          "id": 3,
-          "name": "パルクールチャレンジ+岩を壊す",
-          "region": "最終ステップの試行ごとに2,000円",
-          "objective": "水の道の進行",
-          "requirements": [
-            "スレイヤーバウンド"
-          ],
-          "rewards": [
-            "ボスドロップ"
-          ]
-        }
-      ]
-    },
-    "bossDrops": {
-      "title": "ボスドロップとドロップ要件",
-      "titleHighlight": "ボスドロップはRNGに基づいています。必要なアイテムを入手するまで農業を続けてください！",
-      "subtitle": "ドロップ",
-      "riskNotice": "ソース",
-      "table": {
-        "headers": {
-          "drop": "入手方法",
-          "source": "主な用途",
-          "howToObtain": "ギガホーン",
-          "primaryUse": "ギガホーンボス（鬼キャンプ）"
-        },
-        "items": [
-          {
-            "drop": "ギガホーンボスを倒して角をドロップするまで倒す",
-            "source": "風の訓練の進行に必要",
-            "howToObtain": "鬼の角x40",
-            "primaryUse": "鬼の敵"
-          },
-          {
-            "drop": "鬼をファームして40個の角を集める",
-            "source": "炎の訓練の進行に必要",
-            "howToObtain": "ボスの材料",
-            "primaryUse": "さまざまなボス"
-          },
-          {
-            "drop": "最新のボスのドロップについては、Trello/Discordを確認してください",
-            "source": "クラフトと進行",
-            "howToObtain": "スレイヤーバウンド",
-            "primaryUse": "通貨稼ぎ"
-          }
-        ]
-      }
-    },
-    "currencyFarm": {
-      "title": "円を効率的に稼ぐための最良の方法",
-      "titleHighlight": "スレイヤーバウンドで円の収入を最大化するために、これらの実績のある方法を使用してください。",
-      "subtitle": "コード引き換え",
-      "disclaimer": "スピン+円（コードによって異なります）",
-      "methods": [
-        {
-          "rank": 1,
-          "method": "1〜3分",
-          "expectedReturn": "低い",
-          "timeToValue": "ゲームメニューを開き、最初にアクティブなコードを引き換えます",
-          "riskLevel": "長いグラインドループにコミットする前にスピンを使用する",
-          "howTo": [
-            "スマートリソース管理",
-            "失敗した試みを避けて円を節約する"
-          ]
-        },
-        {
-          "rank": 2,
-          "method": "即時",
-          "expectedReturn": "低い",
-          "timeToValue": "高コストのトレーニングを試みる前に要件を準備する",
-          "riskLevel": "水の道の最終試行には1回あたり2,000円かかります",
-          "howTo": [
-            "戦闘進行ループ",
-            "クエストからの円とEXP"
-          ]
-        },
-        {
-          "rank": 3,
-          "method": "中",
-          "expectedReturn": "中",
-          "timeToValue": "初心者向け進行ガイドに従う",
-          "riskLevel": "最適な農業ルートについては、Discordを確認してください",
-          "howTo": [
-            "スレイヤーバウンド",
-            "リセットプランナー"
-          ]
-        }
-      ]
-    },
-    "resetPlanner": {
-      "title": "リセットを戦略的に計画する - 決して盲目的にリセットしない",
-      "titleHighlight": "現在のボトルネックは何ですか？",
-      "subtitle": "コア統計の割り当てが間違っていると感じますか？",
-      "startQuestion": "統計リセットコードが利用可能かどうかを確認してください",
-      "decisions": [
-        {
-          "question": "呼吸/血鬼術が目標に対してオフメタかどうかを確認してください",
-          "yesAction": "統計リセットコードが利用可能ですか？",
-          "noAction": "今すぐ統計リセットを使用する - リセットを適用してから、ターゲットモード（PvE/PvP/ハイブリッド）を中心に再構築します"
-        },
-        {
-          "question": "リセットを遅らせてリソースをファームする - 最初はアクティブなスピン/円コードと進行ルートを使用します",
-          "yesAction": "呼吸/血鬼術が目標に対してオフメタですか？",
-          "noAction": "呼吸/血鬼術リセットコードを今すぐ使用できますか？"
-        },
-        {
-          "question": "ビルドを維持し、実行を最適化する - 再ロールする前にコントロールのマスタリーに焦点を当てます",
-          "yesAction": "呼吸/血鬼術リセットコードを今すぐ使用できますか？",
-          "noAction": "呼吸/血鬼術リセットを使用する - 既知のリセットの例には、種族にも影響を与える可能性のあるリセットが含まれます"
-        },
-        {
-          "question": "パニックリセットをしない - 次のマイルストーン/アップデートコードのドロップを待ちます。Discordの発表を追跡します",
-          "yesAction": "スレイヤーバウンド",
-          "noAction": "ビルドプランナー"
-        }
-      ]
-    },
-    "buildPlanner": {
-      "title": "目標ベースの計画でキャラクタービルドを最適化する",
-      "titleHighlight": "プレイスタイルと目標に基づいてビルドを計画する",
-      "subtitle": "goalMode",
-      "dataNote": "目標モード",
-      "inputFields": [
-        {
-          "key": "選択",
-          "label": "PvE進行",
-          "type": "ボスフォーカス",
-          "options": [
-            "PvPデュエル",
-            "ハイブリッド",
-            "route",
-            "ルート"
-          ]
-        },
-        {
-          "key": "選択",
-          "label": "鬼殺隊士",
-          "type": "鬼",
-          "options": [
-            "currentBreathing",
-            "現在の呼吸"
-          ]
-        },
-        {
-          "key": "テキスト",
-          "label": "currentDemonArt",
-          "type": "現在の血鬼術"
-        },
-        {
-          "key": "テキスト",
-          "label": "yenBudget",
-          "type": "現在の円"
-        },
-        {
-          "key": "数",
-          "label": "spinsAvailable",
-          "type": "利用可能なスピン"
-        },
-        {
-          "key": "数",
-          "label": "スターター鬼殺隊士（低予算）",
-          "type": "PvE進行"
-        }
-      ],
-      "presetExamples": [
-        {
-          "name": "鬼殺隊士",
-          "goalMode": "アクティブなコードを引き換えて、安定した進行ルートを選択します",
-          "route": "円の無駄を避けるために、トレーニングの前に要件を準備します",
-          "yenBudget": 2000,
-          "spinsAvailable": 10,
-          "output": {
-            "now": "方向を変更する必要がある場合は、戦略的にリセットを使用します",
-            "next": "ルートスイッチ候補",
-            "after": "ハイブリッド"
-          }
-        },
-        {
-          "name": "鬼",
-          "goalMode": "ルートのターゲットとリセット戦略を確認します",
-          "route": "フルリビルドではなく、選択的なリセットを適用します",
-          "yenBudget": 5000,
-          "spinsAvailable": 20,
-          "output": {
-            "now": "次のリセットの前にボス/進行ループでテストします",
-            "next": "スレイヤーバウンド",
-            "after": "雷の呼吸"
-          }
-        }
-      ]
-    },
-    "thunderBreathing": {
-      "title": "雷の呼吸の型をアンロックするための完全なガイド",
-      "titleHighlight": "雷のトレーナーを見つける",
-      "subtitle": "雪の村の近くの山に移動します",
-      "steps": [
-        {
-          "step": 1,
-          "title": "クエストを受け入れる",
-          "detail": "トレーナーに話しかけて、キャンディクエストを受け入れます"
-        },
-        {
-          "step": 2,
-          "title": "材料を集める",
-          "detail": "農業地域から6つの小麦と3つの卵を集めます"
-        },
-        {
-          "step": 3,
-          "title": "トレーニングを完了する",
-          "detail": "トレーナーに戻り、雷の呼吸のロック解除を完了します"
-        },
-        {
-          "step": 4,
-          "title": "要件",
-          "detail": "小麦6個"
-        }
-      ],
-      "requirements": {
-        "title": "卵3個",
-        "items": [
-          "キャンディクエストを完了する",
-          "中",
-          "雪の村の近くの山"
-        ]
+    "codesTable": {
+      "headers": {
+        "code": "初心者が陥りやすいミス",
+        "reward": "コード",
+        "status": "報酬",
+        "action": "ステータス"
       },
-      "difficulty": "スレイヤーバウンド",
-      "location": "高速レベル上げ"
-    },
-    "fastLeveling": {
-      "title": "スレイヤーバウンドで素早くレベルアップするための効率的な方法",
-      "titleHighlight": "クエストの種類",
-      "subtitle": "マップ",
-      "methods": [
+      "items": [
         {
-          "title": "最大のXPを得るために正しいクエストに焦点を当てます",
-          "icon": "緑のクエスト=配達（素早い完了）",
-          "description": "黄色のクエスト=戦闘（高いXP報酬）",
-          "tips": [
-            "青色のクエスト=収集（中程度のXP）",
-            "フードシステム",
-            "食器"
-          ]
+          "code": "アクション",
+          "reward": "STARSAVIOR251120",
+          "status": "限定報酬"
         },
         {
-          "title": "HPを維持し、効率的に農業を行うために食品を使用する",
-          "icon": "HP再生のために食品をインベントリに保管する",
-          "description": "戦闘エンカウンター間のダウンタイムを短縮する",
-          "tips": [
-            "継続的なクエストグラインドに不可欠",
-            "進行ルート",
-            "ルート"
-          ]
+          "code": "有効",
+          "reward": "HELLOSTARSAVIOR",
+          "status": "限定報酬"
         },
         {
-          "title": "最適なレベル上げパスに従う",
-          "icon": "最初にスターターエリアのクエストを完了する",
-          "description": "より高いレベルのゾーンに段階的に移動する",
-          "tips": [
-            "ボーナスXPとスピンのためにコードを使用する",
-            "スレイヤーバウンド",
-            "最終選別"
-          ]
+          "code": "有効",
+          "reward": "251127STARSAVIOR",
+          "status": "限定報酬"
+        },
+        {
+          "code": "有効",
+          "reward": "STARSAVIORHAPPY100DAYS",
+          "status": "限定報酬"
+        },
+        {
+          "code": "有効",
+          "reward": "MONASTIRVALENTINEDAY",
+          "status": "限定報酬"
         }
       ]
     },
-    "finalSelection": {
-      "title": "最終選別を完了して、公式の鬼殺隊士になる",
-      "titleHighlight": "最終選別は、鬼殺隊士としての価値を証明する重要なマイルストーンです。このパルクールチャレンジを完了して、鬼殺隊士の制服と公式ステータスを獲得してください。",
-      "subtitle": "森林地域のパルクールチャレンジ",
-      "overview": "1時間ごと（リアルタイム）",
-      "details": {
-        "location": "セッションあたり最大12人のプレイヤー",
-        "timing": "中から難しい",
-        "maxPlayers": "報酬",
-        "difficulty": "公式の鬼殺隊士の制服"
-      },
-      "rewards": {
-        "title": "鬼殺隊士メンバーシップ",
-        "items": [
-          "鬼殺隊士の屋敷へのアクセス",
-          "瓢箪訓練システムをアンロックする",
-          "ヒント",
-          "試みる前にパルクールを練習する"
-        ]
-      },
-      "tips": {
-        "title": "時間ごとのイベントが開始されるのを待つ",
-        "items": [
-          "サポートのために他のプレイヤーとチームを組む",
-          "あきらめないでください - 1時間ごとに再試行できます",
-          "スレイヤーバウンド",
-          "血鬼術システム"
-        ]
-      }
-    },
-    "clanSystem": {
-      "title": "血鬼術のティア、バフ、血鬼術を再ロールする方法",
-      "titleHighlight": "血鬼術は、キャラクターを強化するユニークなバフと能力を提供します。各血鬼術には、異なるレアリティと特別な利点があります。",
-      "subtitle": "一般的",
-      "overview": "灰色",
-      "tiers": [
-        {
-          "tier": "高い",
-          "color": "標準的なバフを持つ基本的な血鬼術",
-          "dropRate": "珍しい",
-          "description": "青"
-        },
-        {
-          "tier": "中",
-          "color": "強化されたバフと能力",
-          "dropRate": "エピック",
-          "description": "紫"
-        },
-        {
-          "tier": "低い",
-          "color": "強力な血鬼術能力",
-          "dropRate": "伝説的",
-          "description": "金"
-        },
-        {
-          "tier": "非常に低い",
-          "color": "並外れたバフを持つトップティアの血鬼術",
-          "dropRate": "注目すべき血鬼術",
-          "description": "継国"
-        }
-      ],
-      "notableClans": {
-        "title": "伝説的",
-        "clans": [
+    "modules": [
+      {
+        "id": "有効",
+        "title": "star-savior-codes",
+        "titleHighlight": "スターセイヴァー",
+        "summary": "シリアルコード",
+        "badge": "最新の有効なクーポンコードを使用して無料報酬を受け取り、メールボックスから回収しましょう。",
+        "lastChecked": "最新の報酬状況",
+        "cards": [
           {
-            "name": "並外れた戦闘バフ",
-            "tier": "竈門",
-            "benefit": "伝説的"
+            "title": "2026-03-20",
+            "items": [
+              "入力手順",
+              "画面左側の「アカウント管理」を開く",
+              "「クーポン入力」をタップ",
+              "有効なコードを貼り付けて「確認」をタップ"
+            ]
           },
           {
-            "name": "強化された呼吸法",
-            "tier": "我妻",
-            "benefit": "エピック"
+            "title": "ゲーム内のメールボックスから報酬を受け取る",
+            "items": [
+              "---",
+              "最新のアクティブコードを優先",
+              "報酬ラベルとステータスを1つの表に"
+            ]
           },
           {
-            "name": "雷の呼吸ボーナス",
-            "tier": "スピン/再ロールする方法",
-            "benefit": "コードまたはゲームプレイから得られたスピンを使用する"
+            "title": "検証後のメールボックス受け取りフロー",
+            "items": [
+              "クイックルール",
+              "コードは早めに引き換えてください",
+              "コードは一覧の通りに正確に貼り付けてください"
+            ]
           }
-        ]
+        ],
+        "tags": [
+          "クーポン入力に成功するたびにメールボックスを確認してください",
+          "5つのアクティブコードを確認済み",
+          "メールボックス受け取りフロー"
+        ],
+        "ctaLabel": "報酬優先のコピー用テーブル",
+        "ctaHref": "コードのリファレンスを開く"
       },
-      "howToSpin": {
-        "title": "ゲーム内の血鬼術メニューにアクセスする",
+      {
+        "id": "https://www.gamerbraves.com/guide-star-savior-codes-how-to-redeem-them/",
+        "title": "star-savior-tier-list",
+        "titleHighlight": "Star Savior",
+        "summary": "最強キャラランキング",
+        "badge": "現在のメタキャラを使用することが、ストーリー進行、周回、序盤のチーム編成における最短の近道です。",
+        "lastChecked": "メタ優先度ボード",
+        "cards": [
+          {
+            "title": "2026-03-20",
+            "items": [
+              "最上位の選択肢",
+              "バニーガール・シャーロット",
+              "エミリー",
+              "レイシー"
+            ]
+          },
+          {
+            "title": "ベル・リース",
+            "items": [
+              "強力な次点の選択肢",
+              "アシェラ：星光のワルツ",
+              "シャーロット",
+              "バニーガール・クレア"
+            ]
+          },
+          {
+            "title": "カイラ",
+            "items": [
+              "推奨フィルター",
+              "PvE",
+              "PvP",
+              "属性"
+            ]
+          }
+        ],
+        "tags": [
+          "役割",
+          "ストーリー攻略の評価",
+          "ボス周回の適性"
+        ],
+        "ctaLabel": "役割と属性のフィルタリング",
+        "ctaHref": "ティアリストのリファレンスを開く"
+      },
+      {
+        "id": "https://www.gamezebo.com/walkthroughs/star-savior-tier-list/",
+        "title": "star-savior-beginner-guide",
+        "titleHighlight": "Star Savior",
+        "summary": "初心者ガイド",
+        "badge": "まずはメインストーリーを進め、少数のコアチームを固定し、陣形とスターリンクを正しく活用して序盤のリソース浪費を避けましょう。",
+        "lastChecked": "高速スタートルート",
+        "cards": [
+          {
+            "title": "2026-03-20",
+            "items": [
+              "初日の計画",
+              "まずはメイン作戦を進める",
+              "ミッション報酬をこまめに受け取る",
+              "早めにオート機能を使い、属性相性を意識してプレイする"
+            ]
+          },
+          {
+            "title": "4〜5体のコアユニットに集中する",
+            "items": [
+              "陣形の基本",
+              "前列：タンクおよびダメージタンク",
+              "後列：メインアタッカーおよびデバッファー"
+            ]
+          },
+          {
+            "title": "ディフェンダーは自然と攻撃を引きつける",
+            "items": [
+              "デイリーチェックリスト",
+              "メールボックスの報酬を受け取る",
+              "上限に達する前に放置報酬を回収する",
+              "デイリーミッションを完了する"
+            ]
+          }
+        ],
+        "tags": [
+          "スタミナを進行に役立つ要素に使う",
+          "メイン作戦を優先",
+          "少数精鋭の編成"
+        ],
+        "ctaLabel": "スターリンクの効率化",
+        "ctaHref": "初心者ルートを開く"
+      },
+      {
+        "id": "https://tychara.com/StarSavior/guides/beginner-guide",
+        "title": "star-savior-reroll-guide",
+        "titleHighlight": "Star Savior",
+        "summary": "リセマラガイド",
+        "badge": "リセマラは任意ですが、リリースの目玉ユニットや、冒険や一般的な進行で役立ち続ける汎用性の高いアルカナを確保することで、より有利にスタートできます。",
+        "lastChecked": "リリース時リセマラマップ",
+        "cards": [
+          {
+            "title": "2026-03-20",
+            "items": [
+              "リセマラの統計",
+              "1サイクル約10分",
+              "SSR確率 4%",
+              "ピックアップ確率 2%"
+            ]
+          },
+          {
+            "title": "開始時に10,000ジェムと数回分の10連ガチャ",
+            "items": [
+              "狙うべきキャラクター",
+              "アシェラ：星光のワルツ",
+              "レイシー",
+              "エミリー"
+            ]
+          },
+          {
+            "title": "バニーガール・シャーロット",
+            "items": [
+              "狙うべきアルカナ",
+              "レイシー",
+              "シャーロット",
+              "バニーガール・クレア"
+            ]
+          }
+        ],
+        "tags": [
+          "ペトラ",
+          "任意だが影響大",
+          "リリース時の主要ターゲット"
+        ],
+        "ctaLabel": "汎用アルカナの価値",
+        "ctaHref": "リセマラガイドを開く"
+      },
+      {
+        "id": "https://tychara.com/StarSavior/guides/reroll-guide",
+        "title": "star-savior-arcana-tier-list",
+        "titleHighlight": "Star Savior",
+        "summary": "アルカナ最強ランキング",
+        "badge": "公開されているアルカナランキングを照合した結果、エラスティック・アクセラレーション、ソリッド・デストラクション、シャープ・アサルト、コンストラクト・ボムが一貫してトップ層に位置しており、役割ごとの優先順位はDPS、タンク、ヒーラーの構成に明確に分かれています。",
+        "lastChecked": "アルカナ役割マトリックス",
+        "displayType": "2026-03-20",
+        "tierGroups": [
+          {
+            "title": "tierRowsWithRoleTabs",
+            "items": [
+              "最上位コアSSRアルカナ",
+              "エラスティック・アクセラレーション",
+              "ソリッド・デストラクション",
+              "シャープ・アサルト"
+            ]
+          },
+          {
+            "title": "コンストラクト・ボム",
+            "items": [
+              "強力な次点のSSRアルカナ",
+              "シャドウ・エロージョン",
+              "レゾリュート・ディターミネーション",
+              "ライフ・スティグマ",
+              "ダブルタップ",
+              "レジャリー・カウンター"
+            ]
+          }
+        ],
+        "roleTabs": [
+          {
+            "id": "インサイト・スティグマ",
+            "label": "dps",
+            "priority": "DPS",
+            "notes": [
+              "攻撃力 > HP > 集中力",
+              "バーストとクリア速度を高く保つため、攻撃力優先のSSRから始めましょう。",
+              "シャープ・アサルトとエラスティック・アクセラレーションは、ダメージ優先のキャリープランによく合います。"
+            ]
+          },
+          {
+            "id": "最上位のコアを確保した後、次点のアルカナを使用してダメージ機会を強化しましょう。",
+            "label": "tank",
+            "priority": "タンク",
+            "notes": [
+              "攻撃力 > HP > 耐久力",
+              "タンク用アルカナであっても、ヘイトを維持しダメージを稼ぐために十分な攻撃力が必要です。",
+              "前線が整ったら、HPと耐久力が安定の鍵となります。"
+            ]
+          },
+          {
+            "id": "ソリッド・デストラクションとコンストラクト・ボムは、チームに耐久力が求められる場面で価値を発揮します。",
+            "label": "healer",
+            "priority": "ヒーラー",
+            "notes": [
+              "HP > 耐久力",
+              "ヒーラーにとって最も重要なのは、長期戦やボスのループを生き抜くことです。",
+              "ライフ・スティグマなどの維持に適した次点のアルカナは、複数ターンにわたる安定性をサポートします。"
+            ]
+          }
+        ],
+        "spotlight": {
+          "title": "SRの繋ぎに過剰投資するのではなく、SSRアルカナを長期的な回復の要として使用しましょう。",
+          "items": [
+            "長期的なアルカナの法則",
+            "SSRアルカナは、アカウントの長期的なコアにするべきです。",
+            "SRアルカナは、主に序盤のステータス補完用です。"
+          ]
+        },
+        "tags": [
+          "役割に基づいた整理が、強化素材の浪費を防ぐ最短の方法です。",
+          "最上位のSSRコア",
+          "役割別のステータス優先度"
+        ],
+        "ctaLabel": "一時的なSRよりもSSRを優先",
+        "ctaHref": "アルカナランキングを比較"
+      },
+      {
+        "id": "https://www.gamezebo.com/walkthroughs/star-savior-arcana-tier-list/",
+        "title": "star-savior-best-teams",
+        "titleHighlight": "Star Savior",
+        "summary": "最強パーティ",
+        "badge": "現在公開されているチームガイドは、4人のセイヴァー編成、前列のタンクまたは維持ユニット、後列のアタッカーまたはデバッファーを中心としており、単一属性や有利属性の組み合わせがPvE進行の鍵となっています。",
+        "lastChecked": "---",
+        "displayType": "2026-03-20",
+        "teamCards": [
+          {
+            "title": "formationCardsGrid",
+            "bestAgainst": "ソーラーパーティ",
+            "frontLine": [
+              "スターボス",
+              "Muriel"
+            ],
+            "backLine": [
+              "Emilly",
+              "Serpang"
+            ],
+            "notes": [
+              "Petra",
+              "スター属性の敵に対して有利属性のプレッシャーを与えます。"
+            ]
+          },
+          {
+            "title": "前線のダメージタンクとサポートのバランスを維持します。",
+            "bestAgainst": "ムーンパーティ",
+            "frontLine": [
+              "サンボス",
+              "Lugh"
+            ],
+            "backLine": [
+              "Emilly",
+              "Elisa"
+            ],
+            "notes": [
+              "Asherah: Waltz of Starlight",
+              "頑丈な前衛と優れた持続回復を組み合わせ、長期戦に対応します。"
+            ]
+          },
+          {
+            "title": "後衛がサン属性の攻撃を耐えられる場合に最も効果を発揮します。",
+            "bestAgainst": "スターパーティ",
+            "frontLine": [
+              "ムーンボス",
+              "Dana"
+            ],
+            "backLine": [
+              "Emilly",
+              "Frey"
+            ],
+            "notes": [
+              "Tanya",
+              "安定した前衛の背後から遠距離攻撃でプレッシャーをかけます。"
+            ]
+          },
+          {
+            "title": "シンプルなPvE攻略を進めたい場合に最適です。",
+            "bestAgainst": "カオスパーティ",
+            "frontLine": [
+              "オーダーボス",
+              "Muriel"
+            ],
+            "backLine": [
+              "Lacy",
+              "Elisa"
+            ],
+            "notes": [
+              "Lydia",
+              "キャリーの火力とユーティリティ、持続サポートを兼ね備えています。"
+            ]
+          }
+        ],
+        "tags": [
+          "キャラクターが揃った後の有利属性への切り替えに最適なテンプレートです。",
+          "4セイバー編成",
+          "属性有利の入れ替え"
+        ],
+        "ctaLabel": "前衛と後衛のバランス",
+        "ctaHref": "編成の比較"
+      },
+      {
+        "id": "https://tychara.com/StarSavior/team-builder",
+        "title": "star-savior-character-builds",
+        "titleHighlight": "スターセイヴァー",
+        "summary": "キャラクタービルド",
+        "badge": "主要なキャリーやサポート向けの実装済みビルドページでは、一般的なアドバイスではなく、実際のスキルブレイクポイント、アルカナパッケージ、装備セット、メインステータスの目標値を確認できます。",
+        "lastChecked": "実装済みビルドドロワー",
+        "displayType": "2026-03-20",
+        "buildEntries": [
+          {
+            "id": "buildCardsWithDrawer",
+            "name": "lacy",
+            "identity": "Lacy",
+            "summary": "Chaos / Ranger / SSR",
+            "sourceHref": "スピードと攻撃力のコアを早期に完成させることで真価を発揮する、高火力のレンジャーキャリー。",
+            "detailGroups": [
+              {
+                "title": "https://www.hideoutgacha.com/games/star-savior/characters/chaos/lacy",
+                "items": [
+                  "スキル目標",
+                  "序盤の目標: 3/6/6"
+                ]
+              },
+              {
+                "title": "終盤の目標: 7/8/8",
+                "items": [
+                  "装備コア",
+                  "Motivator Set",
+                  "Speed Necklace"
+                ]
+              },
+              {
+                "title": "ATK% Ring",
+                "items": [
+                  "アルカナパッケージ",
+                  "Elastic Acceleration",
+                  "Solid Destruction",
+                  "Shadow Erosion",
+                  "Sharp Assault"
+                ]
+              },
+              {
+                "title": "Construct Bomb",
+                "items": [
+                  "重点ポイント",
+                  "ターンを早く回すためにスピードを最優先します。",
+                  "他の強化よりも攻撃力%のスケールを優先します。"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "趣味の育成よりも先にキャリーのコアを完成させましょう。",
+            "name": "bell-rhys",
+            "identity": "Bell Rhys",
+            "summary": "Star / Ranger / SSR",
+            "sourceHref": "スピードと会心効率のバランスが取れた時に最強となる遠距離ダメージキャリー。",
+            "detailGroups": [
+              {
+                "title": "https://www.hideoutgacha.com/games/star-savior/characters/star/bell-rhys",
+                "items": [
+                  "スキル目標",
+                  "序盤の目標: 3/6/6"
+                ]
+              },
+              {
+                "title": "終盤の目標: 7/8/8",
+                "items": [
+                  "装備コア",
+                  "Motivator Set",
+                  "Speed Necklace"
+                ]
+              },
+              {
+                "title": "ATK% Ring",
+                "items": [
+                  "アルカナパッケージ",
+                  "Elastic Acceleration",
+                  "Solid Destruction",
+                  "Sharp Assault"
+                ]
+              },
+              {
+                "title": "Construct Bomb",
+                "items": [
+                  "重点ポイント",
+                  "推奨サブステータス: Speed",
+                  "推奨サブステータス: Crit Rate, ATK%, Crit Damage"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "推奨サブステータス: Effect Accuracy",
+            "name": "asherah-waltz",
+            "identity": "Asherah: Waltz of Starlight",
+            "summary": "Order / Supporter / SSR",
+            "sourceHref": "火力を犠牲にする代わりに、チームの安定性、稼働率、長期戦のコントロール能力を高めるプレミアムサポートビルド。",
+            "detailGroups": [
+              {
+                "title": "https://www.hideoutgacha.com/games/star-savior/characters/order/asherah-waltz-of-starlight",
+                "items": [
+                  "スキル目標",
+                  "序盤の目標: 3/6/6"
+                ]
+              },
+              {
+                "title": "終盤の目標: 7/7/7",
+                "items": [
+                  "装備コア",
+                  "Preses Set",
+                  "Speed Necklace"
+                ]
+              },
+              {
+                "title": "HP% Ring",
+                "items": [
+                  "アルカナパッケージ",
+                  "Sharp Assault",
+                  "Life Stigma",
+                  "Starlight Grace+",
+                  "Double Tap"
+                ]
+              },
+              {
+                "title": "Iron Will",
+                "items": [
+                  "重点ポイント",
+                  "欲張る前に稼働率を重視したビルドを。",
+                  "長いボスサイクルを通じてチームの核を守ります。"
+                ]
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "メインキャリーを支えるスタビライザーとして運用します。",
+          "正確なスキルブレイクポイント",
+          "ロール別の装備メインステータス"
+        ],
+        "ctaLabel": "アルカナパッケージのコピーパス",
+        "ctaHref": "ビルドライブラリを開く"
+      },
+      {
+        "id": "https://www.hideoutgacha.com/games/star-savior/character-tier-list",
+        "title": "star-savior-gear-guide",
+        "titleHighlight": "スターセイヴァー",
+        "summary": "装備ガイド",
+        "badge": "『スターセイヴァー』では遺物ではなく装備を使用します。真の成長曲線は、T1の繋ぎ装備への過剰投資をやめ、T2装備に移行し、適切なスロットでスピードのメインステータスを優先した時から始まります。",
+        "lastChecked": "装備優先度グリッド",
+        "displayType": "2026-03-20",
+        "priorityRows": [
+          {
+            "slot": "priorityTableWithTags",
+            "mainStat": "靴",
+            "priority": "スピード",
+            "reason": "最優先で強化"
+          },
+          {
+            "slot": "靴はキャリーやサポートの行動順を改善するための最も手っ取り早い方法の一つです。",
+            "mainStat": "ネックレス",
+            "priority": "スピード",
+            "reason": "最優先で強化"
+          },
+          {
+            "slot": "高級なサブステータスを厳選する前に、スピードネックレスでローテーションを安定させましょう。",
+            "mainStat": "リング",
+            "priority": "DPSは攻撃力% / タンク・サポートはHP%",
+            "reason": "早めに強化"
+          },
+          {
+            "slot": "リングのメインステータスは、クリア速度や生存率に直結する役割に合わせるべきです。",
+            "mainStat": "武器",
+            "priority": "固定スロットステータス",
+            "reason": "T2まで温存"
+          },
+          {
+            "slot": "T2のコア装備が整う前に、繋ぎの武器に過剰な投資をしないでください。",
+            "mainStat": "---",
+            "priority": "固定スロットステータス",
+            "reason": "T2以外は温存"
+          },
+          {
+            "slot": "長期的なT2の方向性が定まってからの方が、防具強化の効率が上がります。",
+            "mainStat": "グローブ",
+            "priority": "固定スロットステータス",
+            "reason": "T2以外は温存"
+          }
+        ],
+        "spotlight": {
+          "title": "序盤の進行においては、グローブはスピードスロットよりも優先度が低くなります。",
+          "items": [
+            "T1からT2への進行ルール",
+            "このゲームは2ティアの装備構造を採用しています。T1は序盤の進行用、T2は長期的な投資用です。",
+            "メインストリームのステージ14以降が実質的なT2の目標となり、ガイドによってはステージ15で製作が解放されるとしています。"
+          ]
+        },
+        "farmTags": [
+          "贅沢なアップグレードに多額の費用をかける前に、T2のコア4種を完成させましょう。",
+          "1番目にMotivator",
+          "2番目にWendigo",
+          "3番目にPerseus"
+        ],
+        "mistakeTags": [
+          "スピード部位を優先",
+          "T1武器の過剰強化",
+          "T1防具の過剰強化",
+          "T1グローブの過剰強化"
+        ],
+        "tags": [
+          "スピードスロットの軽視",
+          "T1の穴埋めよりT2コアを優先",
+          "スピードスロット優先"
+        ],
+        "ctaLabel": "周回順序の規律",
+        "ctaHref": "装備最適化ガイドを開く"
+      },
+      {
+        "id": "https://ultimategacha.com/star-savior-relic-gear-guide-how-to-farm-enhance-optimize/",
+        "title": "star-savior-7-day-progression",
+        "titleHighlight": "Star Savior",
+        "summary": "7日間の進行",
+        "badge": "",
+        "lastChecked": "最初の1週間は、全キャラに強化を分散させるのではなく、システムの解放、放置収益の向上、そして1つの強固なチームコアの安定化に充てましょう。",
+        "displayType": "1週目のスケジュール",
+        "timeline": [
+          {
+            "range": "2026-03-20",
+            "focus": "timeline_cards",
+            "items": [
+              "1日目",
+              "アカウントの基盤を固める",
+              "まずはチュートリアルを完了し、メインのリリース報酬を受け取りましょう。"
+            ]
+          },
+          {
+            "range": "リセマラは、すぐにゲームをやり込む予定がある場合にのみ行いましょう。",
+            "focus": "最初の強化を集中させるため、早めにスターターチームを決めましょう。",
+            "items": [
+              "2-3日目",
+              "ストーリーを進めて放置収益を上げる",
+              "アカウントの戦力が許す限り、ストーリーを進めましょう。"
+            ]
+          },
+          {
+            "range": "クリア報酬を利用して、より多くのシステムを解放し、より強力な放置報酬を獲得しましょう。",
+            "focus": "主力ユニットのみ、装備の精錬と重要スキルの強化を開始しましょう。",
+            "items": [
+              "4-5日目",
+              "弱点を補強し、育成対象を絞る",
+              "チームにタンク、ヒーラーまたはサポート、そして2人のアタッカーが揃っているか確認してください。"
+            ]
+          },
+          {
+            "range": "サブキャラを育てる前に、メインチームの最も弱い役割を補いましょう。",
+            "focus": "深刻なボトルネックを解消するための周回を行いつつ、デイリー・ウィークリーミッションを継続しましょう。",
+            "items": [
+              "6-7日目",
+              "次のコンテンツループに備える",
+              "1週間ずっと1つのモードに固執するのではなく、周回とストーリー攻略を交互に行いましょう。"
+            ]
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "実際にコンテンツをクリアしているチームを中心に、装備とArcanaを調整しましょう。",
+            "items": [
+              "次のピックアップが来る前に、今後のガチャ石の使い道を計画しておきましょう。",
+              "コアメンバーのルール",
+              "1週目のアカウントの多くは、全キャラではなく4〜5ユニットを中心に育成すべきです。"
+            ]
+          },
+          {
+            "title": "最も効率的なスターター構成は、タンク1、ヒーラーまたはサポート1、アタッカー2です。",
+            "items": [
+              "その構成が安定すれば、追加のアップグレードも容易になります。",
+              "1週目のリソース管理",
+              "ストーリーの解放は、アクセス権と放置収益の両方を改善するため、最優先してください。"
+            ]
+          }
+        ],
+        "tags": [
+          "装備やスキル素材を、あまり多くの試作ユニットに分散させないでください。",
+          "ガチャ石は、目標とする引き時を決めて貯めておく方が価値が高まります。",
+          "7日間のペース配分"
+        ],
+        "ctaLabel": "初心者のリソース管理",
+        "ctaHref": "高難易度コンテンツの準備"
+      },
+      {
+        "id": "進行ガイドを開く",
+        "title": "https://ultimategacha.com/star-savior-beginner-guide-progression-plan/",
+        "titleHighlight": "star-savior-gacha-guide",
+        "summary": "Star Savior",
+        "badge": "ガチャガイド",
+        "lastChecked": "Star SaviorはキャラクターとArcanaでガチャが分かれており、ベースSSR排出率は高いですが、ピックアップ確定システムの代わりにマイレージ交換を採用しています。",
+        "displayType": "ガチャ計画",
+        "compareCards": [
+          {
+            "title": "2026-03-20",
+            "badge": "accordion_compare_table",
+            "headline": "キャラクターガチャ",
+            "items": [
+              "メインユニットの入手",
+              "進行をスムーズにするためにアタッカー、タンク、または優秀なサポートが必要な場合は、キャラクターガチャを利用しましょう。",
+              "ベースSSR排出率は4%です。"
+            ]
+          },
+          {
+            "title": "ピックアップキャラクターの排出率は2%です。",
+            "badge": "光・闇属性のピックアップユニットは1%に設定されています。",
+            "headline": "Arcanaガチャ",
+            "items": [
+              "サポートカードの進行",
+              "Arcanaガチャは、コアメンバーが揃い、ステータス、バーストタイミング、または長期的なスケーリングを強化したくなった時に重要になります。",
+              "ベースSSR Arcanaの排出率も4%です。"
+            ]
+          }
+        ],
+        "tableTitle": "ピックアップArcanaの排出率は2%です。",
+        "tableColumns": [
+          "マイレージは急いで使わず、将来のArcana目標のために貯めておくことができます。",
+          "ガチャ排出率とマイレージ",
+          "システムルール"
+        ],
+        "factRows": [
+          {
+            "label": "現在の値",
+            "value": "重要性",
+            "note": "ベースSSR排出率"
+          },
+          {
+            "label": "キャラクター4% / Arcana 4%",
+            "value": "どちらの主要ガチャタイプも、同じSSRベース排出率から始まります。",
+            "note": "ピックアップ率"
+          },
+          {
+            "label": "通常ピックアップ2% / 光闇ピックアップ1%",
+            "value": "50/50（すり抜け）ルールによる確定がないため、限定ガチャには計画性が必要です。",
+            "note": "ピックアップ確定"
+          },
+          {
+            "label": "50/50なし、直接的な天井確定なし",
+            "value": "天井（Pity）の進行によって、ピックアップユニットが自動的に手に入るわけではありません。",
+            "note": "マイレージ獲得"
+          },
+          {
+            "label": "1回につき1マイレージ",
+            "value": "すべての召喚が、同じ長期的な交換パスを進めます。",
+            "note": "マイレージ交換"
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "ピックアップユニットまたはArcanaと交換するには200マイレージ",
+            "items": [
+              "マイレージに期限はないため、将来のガチャのために貯めておくことが可能です。",
+              "初心者のガチャ計画",
+              "すべての新ガチャを引くのではなく、最も不足している重要な役割を中心に引きましょう。"
+            ]
+          },
+          {
+            "title": "分散して召喚するよりも、まずは強力なアタッカーやサポートを1人確保する方が重要です。",
+            "items": [
+              "メンバーが揃っているなら、微妙なピックアップを無理に引くより貯めておく方が賢明です。",
+              "マイレージの規律",
+              "マイレージを、このシステムにおける真の長期的な救済措置として扱いましょう。"
+            ]
+          }
+        ],
+        "tags": [
+          "貯まったマイレージを、ただ使えるからといって浪費しないでください。",
+          "最良の交換対象は、通常、実際の戦力の穴を埋めるピックアップアイテムです。",
+          "天井の意識"
+        ],
+        "ctaLabel": "ガチャ比較",
+        "ctaHref": "召喚の規律"
+      },
+      {
+        "id": "ガチャガイドを開く",
+        "title": "https://tychara.com/StarSavior/guides/gacha-system",
+        "titleHighlight": "star-savior-character-list",
+        "summary": "Star Savior",
+        "badge": "キャラクターリスト",
+        "lastChecked": "リセマラの価値、チーム編成、または将来のビルドを比較する前に、公開データベースを使用してレアリティ、役割、属性ごとにユニットをソートしましょう。",
+        "displayType": "名簿ディレクトリ",
+        "filterGroups": [
+          {
+            "title": "2026-03-20",
+            "items": [
+              "database_grid_filters",
+              "レアリティフィルター"
+            ]
+          },
+          {
+            "title": "SR",
+            "items": [
+              "SSR",
+              "役割フィルター",
+              "Defender",
+              "Striker",
+              "Ranger",
+              "Caster"
+            ]
+          },
+          {
+            "title": "Supporter",
+            "items": [
+              "Assassin",
+              "属性フィルター",
+              "Sun",
+              "Moon",
+              "Star"
+            ]
+          }
+        ],
+        "rosterTitle": "Order",
+        "rosterDescription": "Chaos",
+        "sampleRoster": [
+          {
+            "name": "アンナ",
+            "identity": "名簿サンプル",
+            "focus": "ロールとレアリティの絞り込みに便利なクイック検索候補。"
+          },
+          {
+            "name": "アシェラ",
+            "identity": "名簿サンプル",
+            "focus": "サポート重視のチーム編成を確認する際に有用。"
+          },
+          {
+            "name": "ベル・リース",
+            "identity": "名簿サンプル",
+            "focus": "遠距離キャリーの比較における一般的な基準点。"
+          },
+          {
+            "name": "エリザ",
+            "identity": "名簿サンプル",
+            "focus": "代替の後衛オプションを確認するのに役立つ。"
+          },
+          {
+            "name": "フレイ",
+            "identity": "名簿サンプル",
+            "focus": "幅広い名簿やビルド計画のための可視化されたエントリ。"
+          },
+          {
+            "name": "レイシー",
+            "identity": "名簿サンプル",
+            "focus": "プレミアムなキャリー構成を比較する際によく選ばれる対象。"
+          },
+          {
+            "name": "ルナ",
+            "identity": "名簿サンプル",
+            "focus": "名簿の幅の確認や入れ替え計画に有用。"
+          },
+          {
+            "name": "ミュリエル",
+            "identity": "名簿サンプル",
+            "focus": "チーム構成を比較する際の標準的な前衛のリファレンス。"
+          },
+          {
+            "name": "セルパング",
+            "identity": "名簿サンプル",
+            "focus": "属性重視のチームにおけるもう一つの有用な検索ポイント。"
+          },
+          {
+            "name": "ターニャ",
+            "identity": "名簿サンプル",
+            "focus": "遠距離やユーティリティ枠のオプションを確認するのに役立つ。"
+          },
+          {
+            "name": "トリッシュ",
+            "identity": "名簿サンプル",
+            "focus": "初動の優先順位を超えた、より広範な名簿の探索に有用。"
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "フィルターの適用範囲",
+            "items": [
+              "主な公開フィルターはレアリティ、ロール、属性です。",
+              "これにより、推測に頼ることなく、リセマラの確認、チームの入れ替え検索、ビルドの準備をサポートするのに十分です。",
+              "表示されている名簿は、現在リリースされている韓国版および日本版のエントリに基づいています。"
+            ]
+          },
+          {
+            "title": "このデータベースが重要な理由",
+            "items": [
+              "リソースを投入する前に候補を比較する最速の方法です。",
+              "ユニットページをチーム編成やガイドの決定に結びつけるのに役立ちます。",
+              "ユーザーが素早く名簿を確認したいだけの時の、ホームページでのストレスを軽減します。"
+            ]
+          }
+        ],
+        "tags": [
+          "ロール順ソート",
+          "属性順ソート",
+          "名簿概要"
+        ],
+        "ctaLabel": "キャラクターリストを開く",
+        "ctaHref": "https://tychara.com/StarSavior/characterlist"
+      },
+      {
+        "id": "star-savior-journey-training-guide",
+        "title": "スターセイヴァー",
+        "titleHighlight": "ジャーニー育成ガイド",
+        "summary": "ジャーニーはスターセイヴァー専用の育成モードであり、各ランはトレーニングの選択、コンディション管理、ステラアーカイブの出力によって長期的な戦力に繋がります。",
+        "badge": "コアシステムガイド",
+        "lastChecked": "2026-03-20",
+        "displayType": "step_diagram_checklist",
         "steps": [
-          "スピンを使ってより良い血鬼術のために再ロールする",
-          "上位ティアの血鬼術はドロップ率が低い",
-          "Spend spins to reroll for better clans",
-          "Higher tier clans have lower drop rates"
-        ]
+          {
+            "title": "ランの目標を設定する",
+            "description": "ジャーニーをランダムなサイドコンテンツとして扱うのではなく、明確なステータス目標を持って臨んでください。",
+            "items": [
+              "そのランがダメージディーラー、タンク、またはサポート構成のいずれを目的としているかを選択します。",
+              "ターンを消費する前に、そのセイヴァーにとって重要なステータスを中心に計画を立ててください。",
+              "一致するアルカナのスタックは、ランの方向性を一定に保つための最も明快な方法です。"
+            ]
+          },
+          {
+            "title": "トレーニングとリクエストのサイクル",
+            "description": "強力なジャーニーのランは、トレーニングの選択、リクエストイベント、そしてそれらの間の適切なペース配分によって、1ターンずつ構築されます。",
+            "items": [
+              "構築しているロールのメインステータスを伸ばすためにトレーニングを使用してください。",
+              "意図したステータスやコンディションの曲線を強化するリクエストを受けましょう。",
+              "最終的なアーカイブに役立たない、弱いステータスを補うだけの寄り道は避けてください。"
+            ]
+          },
+          {
+            "title": "コンディションとテンポの管理",
+            "description": "コンディションが低下するとランの価値が急速に失われるため、休息の判断もルートの一部です。",
+            "items": [
+              "本気のランの最中は、可能な限りコンディションを「最高（BEST）」に保ってください。",
+              "休息は、ターンを無駄にした後のパニックボタンとしてではなく、計画的なリセットとして利用してください。",
+              "ハードのランでは、通常、STR、HP、耐久力（Endurance）が、分散したサブステータスよりも価値を持ちます。"
+            ]
+          },
+          {
+            "title": "ステラアーカイブを確定させる",
+            "description": "完了したすべてのランはステラアーカイブとなり、そのセイヴァーの長期的なビルド記録として機能します。",
+            "items": [
+              "アーカイブは、将来のビルドのためにランの価値を保存します。",
+              "ジャーニーでの規律が向上すれば、時間の経過とともにアーカイブの質も向上します。",
+              "だからこそ、ジャーニーはサイドミニゲームではなく、中核となる進行システムなのです。"
+            ]
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "ハードの入場ポイント",
+            "items": [
+              "共鳴ステージ8が、ジャーニー・ハードへの一般的な最低入場目標です。",
+              "より安定したランを望むなら、共鳴ステージ9がより快適なポイントです。",
+              "早すぎる段階での挑戦は、通常、育成ツールではなくリソースの浪費になってしまいます。"
+            ]
+          },
+          {
+            "title": "ランのチェックリスト",
+            "items": [
+              "3つ以上の一致するアルカナは、集中したステータススタックをサポートできます。",
+              "ダメージディーラーはSTR 1250を目指し、タンクやサポートはHP 1250を目指すことができます。",
+              "ハードモードでは、STR、HP、耐久力、および安定したコンディション管理を中心にランを進めてください。"
+            ]
+          }
+        ],
+        "tags": [
+          "ジャーニーループの明確化",
+          "共鳴の計画",
+          "長期的な成長"
+        ],
+        "ctaLabel": "ジャーニーガイドを開く",
+        "ctaHref": "https://www.hideoutgacha.com/games/star-savior/training-guide"
+      },
+      {
+        "id": "star-savior-boss-guide",
+        "title": "スターセイヴァー",
+        "titleHighlight": "ボスガイド",
+        "summary": "序盤のレイドやワールドボスの攻略は、繰り返しのループに従います：大ダメージを耐え、防御を削り、ゲージをブレイクし、ブレイク時間中にノヴァバーストを爆発させます。",
+        "badge": "ブレイクウィンドウ・プランナー",
+        "lastChecked": "2026-03-20",
+        "displayType": "bossCardsWithMechanicTags",
+        "mechanicCards": [
+          {
+            "title": "推奨チーム構成",
+            "cue": "4スロットの基本構成",
+            "items": [
+              "序盤のボスの安定性のために、タンク1、ヒーラーまたはサポート1、範囲DPS 1、単体DPS 1を使用してください。",
+              "この構成は、ブレイクウィンドウに向けた十分なプレッシャーを与えつつ、ランを安定させます。",
+              "一般的に推奨される序盤のピックには、タンク役のエデ、維持役のサーペント、フレイ、またはエリザが含まれます。"
+            ]
+          },
+          {
+            "title": "ブレイクウィンドウの発動",
+            "cue": "約2ターン",
+            "items": [
+              "ブレイクゲージがゼロになると、ボスは約2ターンの間ブレイク状態になります。",
+              "アルティメットやノヴァバーストは、シールド段階で消費せず、その状態のために温存してください。",
+              "バーストサイクルを開始する前にデバフやセットアップスキルを当てる必要があるため、ターン順序は依然として重要です。"
+            ]
+          },
+          {
+            "title": "よくある失敗の原因",
+            "cue": "まずこれらを修正してください",
+            "items": [
+              "ほとんどの全滅は、ブレイク前にアルティメットを使い、ノヴァバーストを早く発動しすぎることから起こります。",
+              "ヒーラーを外すと、序盤のレイド挑戦で避けられるはずの崩壊を招くことがよくあります。",
+              "ボスのアクションバーのタイミングを逃すと、完璧なセットアップが低価値なダメージターンに変わってしまいます。"
+            ]
+          }
+        ],
+        "tagPanels": [
+          {
+            "title": "推奨される序盤のピック",
+            "tags": [
+              "タンク：エデ",
+              "維持：サーペント、フレイ、またはエリザ",
+              "範囲：ルナ、カルメン、アセラ、またはダナ",
+              "バースト：スマイル、キラ、チャールズ、レイシー、ターニャ、またはエピンデル"
+            ]
+          },
+          {
+            "title": "戦闘タイプ別の調整",
+            "tags": [
+              "大量の雑魚敵：まず範囲枠を強化する",
+              "持続ダメージ（DoT）重視の戦闘：エリザまたはフレイを優先する",
+              "シールドまたは反射段階：スマイルまたは別の防御ダウンユニットを連れて行く",
+              "バーストを放つ前にボスの行動バーを確認してください"
+            ]
+          }
+        ],
+        "tags": [
+          "ブレイクウィンドウの計画",
+          "ロール構成の一貫性",
+          "バーストタイミングの規律"
+        ],
+        "ctaLabel": "ボスのギミック、ロールの選択、ブレイクウィンドウのバーストのコツを開く",
+        "ctaHref": "https://ultimategacha.com/star-savior-boss-guide-how-to-beat-early-game-raid-world-bosses/"
+      },
+      {
+        "id": "star-savior-hard-mode-guide",
+        "title": "スターセイヴァー",
+        "titleHighlight": "ハードモードガイド",
+        "summary": "ハードモードは、ジャーニーおよびメインストリームコンテンツの進行上のチェックポイントであり、より厳しいステータスチェック、ロール固有のチャーム、および実質的なステータス上限の高さが特徴です。",
+        "badge": "進行ゲートの準備",
+        "lastChecked": "2026-03-20",
+        "displayType": "checklistWithTeamCards",
+        "checklistTitle": "ハード前のチェックリスト",
+        "prepChecklist": [
+          "ハードモードに入る前に共鳴ステージ8に到達してください。ステージ9であればより安定します。",
+          "T2装備の進行に向けた実用的な道を解放するために、まずメインストリームのステージ14をクリアしてください。",
+          "サイドプロジェクトを広げる前に、集中したアルカナの選択を中心にキャリーのセットアップを構築してください。",
+          "最初のハード用ラインナップは、未完成のユニットを使い回すのではなく、少数精鋭で完全に強化された状態に保ってください。"
+        ],
+        "teamCards": [
+          {
+            "title": "ボス撃破テンプレート",
+            "composition": "エデ ＋ フレイ ＋ スマイル ＋ キラ または チャールズ",
+            "items": [
+              "安定した前衛のコントロールと集中したバーストターンのために構築されています。",
+              "生存能力が主な障害となっている場合に、この構成を使用してください。",
+              "キャリー枠がすでにブレイクウィンドウのダメージに合わせて調整されている場合に、最も効果的です。"
+            ]
+          },
+          {
+            "title": "スピードクリア・テンプレート",
+            "composition": "Sayla + Serpent + Smile + Luna または Asela",
+            "items": [
+              "テンポとアクションゲージのプレッシャーを優先し、高速なステージ周回を実現します。",
+              "編成メンバーが敵の基本ダメージを耐えられる場合に最適です。",
+              "速度重視の装備や、整った行動順のセットアップと相性が良いです。"
+            ]
+          }
+        ],
+        "charmCards": [
+          {
+            "title": "DPSチャームの方向性",
+            "role": "アタッカー",
+            "items": [
+              "攻撃力（ATK）スケーリングのチャームが一般的で強力な選択肢です。",
+              "メインアタッカーの特性を強化するチャームを選びましょう。",
+              "サブアタッカーにチャームの強化を分散させすぎないようにしましょう。"
+            ]
+          },
+          {
+            "title": "タンクチャームの方向性",
+            "role": "フロントライン",
+            "items": [
+              "タンクには通常、HPスケーリングのチャームが好まれます。",
+              "ここではダメージを欲張るよりも、安定性を高めるチャームの方が価値があります。",
+              "バースト役がサイクルを維持できるよう、まずはタンクを配置しましょう。"
+            ]
+          },
+          {
+            "title": "サポートチャームの方向性",
+            "role": "ヒーラー / ユーティリティ",
+            "items": [
+              "サポートも同様に、HPスケーリングのチャームが好まれます。",
+              "長期戦となるハードモードでは、振れ幅よりも一貫性が重要です。",
+              "ダメージ系のオプションよりも、稼働率と生存を優先してください。"
+            ]
+          }
+        ],
+        "tags": [
+          "レゾナンスの準備状況",
+          "T2進行の関門",
+          "ロール別のチャーム計画"
+        ],
+        "ctaLabel": "ハードモード前のチェックリスト、ステータス目標、チームテンプレートを確認する",
+        "ctaHref": "https://ultimategacha.com/star-savior-hard-mode-guide-how-to-prepare-teams-to-use/"
+      },
+      {
+        "id": "star-savior-pvp-guide",
+        "title": "Star Savior",
+        "titleHighlight": "PvPガイド",
+        "summary": "Star SaviorのPvPはテンポ重視です。速度、アクションゲージ管理、ブレイクのタイミング、そしてNova Burstのタイミングが勝敗を分けます。",
+        "badge": "テンポとコントロールのマップ",
+        "lastChecked": "2026-03-20",
+        "displayType": "dualColumnLineups",
+        "lineupColumns": [
+          {
+            "id": "攻撃",
+            "title": "攻撃編成",
+            "description": "速度のプレッシャーとゲージ管理で先行し、最初の有効なバーストターンを確保します。",
+            "entries": [
+              {
+                "name": "Sun Blitz",
+                "core": "Sayla + Smile + Luna + Haydee",
+                "notes": [
+                  "耐久力の低い防衛を崩すために構築された高速の先制編成。",
+                  "最初のブレイクチャンスを確実に作れる場合に最適です。"
+                ]
+              },
+              {
+                "name": "Order Core",
+                "core": "Vesta + Serpent + Smile + Lou",
+                "notes": [
+                  "攻勢と立て直しのターンを切り替えられる、バランスの取れたコントロール編成。",
+                  "速度の異なる混成防衛チームに対して有効です。"
+                ]
+              },
+              {
+                "name": "Waltz Carry",
+                "core": "Asherah: Waltz of Starlight + Smile + Kira + Ede",
+                "notes": [
+                  "保護された1人のキャリーによるダメージサイクルを中心に試合を組み立てます。",
+                  "ユーティリティ役がバーストのタイミングを確保できる場合に最も効果的です。"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "防衛",
+            "title": "防衛編成",
+            "description": "強固なフロントラインとカウンターの機会を利用し、攻撃側のスノーボール化を阻止します。",
+            "entries": [
+              {
+                "name": "Luna Haydee Wall",
+                "core": "Luna + Haydee + Ede + Serpent",
+                "notes": [
+                  "高テンポな攻撃側の勢いを削ぐための、耐久性重視の編成。",
+                  "最初のバーストを耐え抜き、長期戦に持ち込むことで勝利します。"
+                ]
+              },
+              {
+                "name": "Haydee BC Roberta",
+                "core": "Haydee + Bunnygirl Claire + Roberta + Smile",
+                "notes": [
+                  "攻撃側のターゲット選定ミスを誘発し、隙を突く妨害編成。",
+                  "防衛側の行動順が調整されている場合に最も効果的です。"
+                ]
+              },
+              {
+                "name": "Bell Seira Luna",
+                "core": "Bell Rhys + Seira + Luna + Vesta",
+                "notes": [
+                  "バーストの脅威と多層的なユーティリティを組み合わせたハイブリッド防衛。",
+                  "単一パターンの攻撃ローテーションに対抗するためによく使われます。"
+                ]
+              }
+            ]
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "PvPの基本ルール",
+            "items": [
+              "現在の対象モードは、リアルタイムRTAとクラシックなラダー防衛戦が中心です。",
+              "安定した編成は、DPS 2枠、タンクまたはフロントライン 1枠、サポートまたは自由枠 1枠です。",
+              "Sayla、Smile、Lou、Ede、Vesta、Serpentは、テンポの要として頻繁に注目されます。"
+            ]
+          },
+          {
+            "title": "シーズン報酬",
+            "items": [
+              "シーズンごとのプレミアム通貨",
+              "育成サイクルを支える強化素材",
+              "称号やプロフィールフレームなどの外観報酬"
+            ]
+          }
+        ],
+        "tags": [
+          "攻撃・防衛テンプレート",
+          "ゲージ管理のタイミング",
+          "シーズン報酬の確認"
+        ],
+        "ctaLabel": "現在のPvPメタにおける攻撃・防衛編成を比較する",
+        "ctaHref": "https://ultimategacha.com/star-savior-pvp-guide-team-building-strategy-rewards/"
+      },
+      {
+        "id": "star-savior-resource-management",
+        "title": "Star Savior",
+        "titleHighlight": "リソース管理",
+        "summary": "リソースをメインの1チームに集中させ、最高クリアステージを更新し、アカウントの長期的な価値が最も高まる場所にプレミアム通貨を使うことが攻略の鍵です。",
+        "badge": "消費優先順位ボード",
+        "lastChecked": "2026-03-20",
+        "displayType": "priorityTableWithDoDontCards",
+        "tableTitle": "リソース消費の優先順位",
+        "tableColumns": [
+          "リソースの種類",
+          "優先度",
+          "運用のルール"
+        ],
+        "priorityRows": [
+          {
+            "lane": "スタミナ",
+            "priority": "最優先で消費",
+            "rule": "まずメインストーリーを進めて放置報酬を増やし、その後イベント通貨の効率が良いステージを周回します。"
+          },
+          {
+            "lane": "放置報酬とJourney",
+            "priority": "毎日チェック",
+            "rule": "放置報酬は最高クリアステージに応じて増加します。JourneyとTrainingは別枠ですが、並行して計画を立てるべきです。"
+          },
+          {
+            "lane": "重要素材",
+            "priority": "厳重に管理",
+            "rule": "レゾナンス素材、限界突破素材、ポテンシャルポイント、経験値、ゴールド、Star Essence、Operation EXPは、真のボトルネックに合わせて使うべきです。"
+          },
+          {
+            "lane": "メイン編成",
+            "priority": "優先的に強化",
+            "rule": "育成を分散させず、最高の素材をメインの4〜6人のSaviorに投入しましょう。"
+          },
+          {
+            "lane": "プレミアム通貨",
+            "priority": "目的を持って使用",
+            "rule": "Starlight Oreや召喚チケットは、スタミナ回復やランダムな更新ではなく、影響力の大きいバナーに使用してください。"
+          },
+          {
+            "lane": "イベントショップ",
+            "priority": "価値順に選択",
+            "rule": "汎用素材よりも、召喚チケット、希少な強化石、上位装備を優先しましょう。"
+          }
+        ],
+        "doList": [
+          "強化方針をメインの1チームに集中させること。",
+          "クリアステージの進行と、不足している素材に合わせてスタミナを消費すること。",
+          "編成の欠点を確実に埋められるバナーに合わせてプレミアムガチャを計画すること。",
+          "イベントショップでは、アカウントの進行に役立つ価値の高いアイテムを優先すること。"
+        ],
+        "dontList": [
+          "育成途中のサブユニットに貴重な強化リソースを分散させない。",
+          "計画なしに、効果の薄い更新にプレミアム通貨を消費しない。",
+          "毎日回収可能な放置報酬を上限まで放置しない。",
+          "希少な進行アイテムが残っている間に、汎用素材を買いすぎない。"
+        ],
+        "shopPriorities": [
+          "召喚チケット",
+          "希少な強化石",
+          "上位装備",
+          "その後に汎用素材"
+        ],
+        "shopTitle": "イベントショップ購入順序",
+        "tags": [
+          "メイン編成への集中",
+          "スタミナと放置報酬の計画",
+          "プレミアム通貨の規律"
+        ],
+        "ctaLabel": "消費順序、節約リスト、日課の周回優先順位を確認する",
+        "ctaHref": "https://ultimategacha.com/star-savior-resource-management-guide-materials/"
       }
-    }
+    ]
   }
 }

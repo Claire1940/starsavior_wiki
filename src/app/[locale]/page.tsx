@@ -1759,7 +1759,7 @@ export default function HomePage() {
                   className="inline-flex items-center justify-center gap-2 rounded-full border border-[hsl(var(--nav-theme)/0.22)] bg-white/[0.04] px-7 py-4 text-base font-semibold transition-colors hover:bg-white/[0.08]"
                 >
                   <ArrowUpRight className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
-                  {t.hero.playOnRobloxCTA}
+                  {t.hero.playOnGooglePlayCTA}
                 </a>
               </div>
             </div>

@@ -1,837 +1,1429 @@
 {
   "seo": {
     "home": {
-      "title": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
-      "description": "Star Savior Wiki for codes, tier list, reroll, beginner guide, characters, teams, builds, gear, news, and update tracking for the global launch.",
-      "keywords": "Star Savior, StarSavior, codes, tier list, reroll, beginner guide, characters, teams, builds, gear",
-      "ogTitle": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
-      "ogDescription": "Star Savior Wiki for codes, tier list, reroll, beginner guide, characters, teams, builds, gear, news, and update tracking for the global launch.",
-      "twitterTitle": "Star Savior Wiki - Codes, Tier List & Beginner Guide",
-      "twitterDescription": "Track Star Savior codes, reroll priorities, beginner guides, characters, builds, and launch updates."
+      "title": "Wiki de Star Savior - Códigos, Tier List y Guía para Principiantes",
+      "description": "Wiki de Star Savior para códigos, tier list, reroll, guía para principiantes, arcana, equipos, builds, equipo, entrenamiento de Journey y actualizaciones de lanzamiento.",
+      "keywords": "Star Savior, StarSavior, códigos, tier list, reroll, guía para principiantes, tier list de arcana, mejores equipos, guía de Journey, guía de equipo",
+      "ogTitle": "Wiki de Star Savior - Códigos, Tier List y Guía para Principiantes",
+      "ogDescription": "Sigue los códigos de Star Savior, selecciones de tier, objetivos de reroll, equipos, arcana, entrenamiento de Journey y actualizaciones de lanzamiento desde una sola página.",
+      "twitterTitle": "Wiki de Star Savior - Códigos, Tier List y Guía para Principiantes",
+      "twitterDescription": "Sigue los códigos de Star Savior, selecciones de tier, objetivos de reroll, equipos, arcana, entrenamiento de Journey y actualizaciones de lanzamiento."
     }
   },
   "nav": {},
   "common": {
     "home": "Inicio",
     "more": "Más",
-    "playNow": "Jugar Ahora",
-    "switchLanguage": "Cambiar Idioma",
-    "switchTheme": "Cambiar Tema",
-    "lightMode": "Modo Claro",
-    "darkMode": "Modo Oscuro",
-    "notFound": "Página No Encontrada",
-    "notFoundDescription": "La página que estás buscando no existe.",
-    "backToHome": "Volver al Inicio",
-    "relatedArticles": "Artículos Relacionados",
-    "readMore": "Leer Más"
+    "playNow": "Jugar ahora",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más"
   },
   "hero": {
-    "badge": "Anime Training Turn-Based RPG",
-    "title": "Star Savior Wiki",
-    "description": "Guide your Star-kissed Saviors through a character-training RPG built around the Journey system, turn-based battles, team building, gear, reroll planning, and launch updates.",
-    "getFreeCodesCTA": "Visit Official Website",
-    "playOnRobloxCTA": "Play on Google Play",
+    "badge": "RPG por turnos de entrenamiento anime",
+    "title": "Wiki de Star Savior",
+    "description": "Guía a tus Saviors bendecidos por las estrellas a través del entrenamiento de Journey, batallas por turnos, planificación de equipos, mejoras de equipo, objetivos de reroll y recursos de la era de lanzamiento.",
+    "getFreeCodesCTA": "Visitar sitio web oficial",
+    "playOnGooglePlayCTA": "Jugar en Google Play",
     "stats": {
       "stat1": {
         "value": "100K+",
-        "label": "Google Play Downloads"
+        "label": "Descargas en Google Play"
       },
       "stat2": {
         "value": "3.9",
-        "label": "Google Play Rating"
+        "label": "Calificación en Google Play"
       },
       "stat3": {
         "value": "5.89K",
-        "label": "Google Play Reviews"
+        "label": "Reseñas en Google Play"
       },
       "stat4": {
-        "value": "Mar 19",
-        "label": "Global Launch"
+        "value": "19 de mar.",
+        "label": "Lanzamiento global"
       }
     }
   },
   "gameFeature": {
-    "title": "Star Savior Official Animation PV",
-    "description": "Watch the official animation PV for a quick look at the world, cast, and launch presentation behind Star Savior."
-  },
-  "tools": {
-    "title": "Star Savior",
-    "titleHighlight": "Resources",
-    "subtitle": "Jump to any section below",
-    "codes": {
-      "title": "Códigos",
-      "description": "Obtén recompensas gratis"
-    },
-    "redeemGuide": {
-      "title": "Guía de Canje",
-      "description": "Aprende cómo canjear códigos"
-    },
-    "trainingPaths": {
-      "title": "Caminos de Entrenamiento",
-      "description": "Elige tu camino"
-    },
-    "breathingTier": {
-      "title": "Lista de Niveles de Respiración",
-      "description": "Los mejores estilos de respiración"
-    },
-    "demonArtTier": {
-      "title": "Lista de Niveles de Arte Demoníaco",
-      "description": "Los mejores artes demoníacos"
-    },
-    "oniRoute": {
-      "title": "Ruta Oni",
-      "description": "Transfórmate en Oni"
-    },
-    "controls": {
-      "title": "Controles",
-      "description": "Domina las teclas"
-    },
-    "questMap": {
-      "title": "Mapa de Misiones",
-      "description": "Encuentra PNJs y misiones"
-    },
-    "bossDrops": {
-      "title": "Botines de Jefes",
-      "description": "Guía de botín de jefes"
-    },
-    "currencyFarm": {
-      "title": "Granja de Moneda",
-      "description": "Gana Yen rápido"
-    },
-    "resetPlanner": {
-      "title": "Planificador de Reinicio",
-      "description": "Planifica tus reinicios"
-    },
-    "buildPlanner": {
-      "title": "Planificador de Construcción",
-      "description": "Optimiza tu construcción"
-    },
-    "thunderBreathing": {
-      "title": "Respiración del Trueno",
-      "description": "Desbloquea el estilo Trueno"
-    },
-    "fastLeveling": {
-      "title": "Subida de Nivel Rápida",
-      "description": "Sube de nivel rápidamente"
-    },
-    "finalSelection": {
-      "title": "Selección Final",
-      "description": "Conviértete en un Cazador"
-    },
-    "clanSystem": {
-      "title": "Sistema de Clanes",
-      "description": "Niveles y mejoras de clanes"
-    }
-  },
-  "whatIs": {
-    "title": "What is",
-    "titleHighlight": "Star Savior?",
-    "description": "Star Savior is a character-training turn-based RPG centered on squad building, Journey progression, gear planning, and launch-era resource management.",
-    "features": [
-      {
-        "title": "Journey Progression",
-        "description": "Advance through the Journey system while unlocking upgrades, rewards, and account-wide progress goals."
-      },
-      {
-        "title": "Turn-Based Team Building",
-        "description": "Build around character roles, skill timing, elemental coverage, and long-term roster synergy."
-      },
-      {
-        "title": "Launch Tracking",
-        "description": "Follow official updates, reroll priorities, community links, and beginner planning from one place."
-      }
-    ]
+    "title": "PV de animación oficial de Star Savior",
+    "description": "Mira el PV de animación oficial para conocer rápidamente el mundo, el elenco, el estilo de combate y la presentación del lanzamiento de Star Savior."
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Star Savior",
+    "title": "Star Savior",
+    "titleHighlight": "Preguntas frecuentes",
+    "subtitle": "Las respuestas más rápidas a las dudas de jugadores nuevos y recurrentes sobre Star Savior",
     "questions": [
       {
-        "question": "Where can I download Star Savior?",
-        "answer": "The primary live platform referenced on this site is Google Play. Always use official store or publisher links when available."
+        "question": "¿Qué es Star Savior?",
+        "answer": "Star Savior es un RPG por turnos de entrenamiento de personajes centrado en la progresión de escuadrones, el sistema Journey, ventajas elementales, crecimiento de equipo y planificación de plantilla a largo plazo."
       },
       {
-        "question": "What kind of game is Star Savior?",
-        "answer": "Star Savior is a character-training turn-based RPG with squad building, Journey progression, and gear management."
+        "question": "¿Dónde puedo descargar Star Savior?",
+        "answer": "Star Savior se destaca actualmente en este sitio a través del sitio web oficial y la ficha de Google Play, con canales oficiales que también vinculan a los jugadores con noticias, videos y actualizaciones de la comunidad."
       },
       {
-        "question": "What should beginners check first in Star Savior?",
-        "answer": "Start with download links, reroll priorities, beginner progression, team-building basics, and any launch rewards or announcements."
+        "question": "¿Cómo canjeo códigos en Star Savior?",
+        "answer": "En Star Savior, abre Gestión de cuenta, toca Ingresar cupón, envía un código válido, toca Verificar y luego recoge las recompensas de tu Buzón."
       },
       {
-        "question": "Is Star Savior globally launched?",
-        "answer": "Yes. The current reference point in the project brief is the March 19 global launch milestone."
+        "question": "¿Debería hacer reroll en Star Savior?",
+        "answer": "El reroll en Star Savior es opcional, pero vale la pena si quieres una plantilla inicial más fuerte. La mayoría de los planes de reroll se enfocan en unidades premium de lanzamiento o Arcana universales que sigan siendo útiles en Journey y la progresión general."
       },
       {
-        "question": "What numbers are players tracking most for Star Savior right now?",
-        "answer": "The current headline metrics used on this site are 100K+ Google Play downloads, 3.9 rating, 5.89K reviews, and the March 19 launch date."
+        "question": "¿Qué deben hacer los principiantes primero en Star Savior?",
+        "answer": "La mayoría de las rutas para principiantes en Star Savior comienzan avanzando en la Operación Mainstream, reclamando recompensas de misión constantemente, construyendo una plantilla central compacta y usando Starlink para evitar invertir de más en demasiadas unidades."
       },
       {
-        "question": "Does Star Savior have an official Discord?",
-        "answer": "Yes. Use the official Discord invite linked in the homepage CTA and footer."
+        "question": "¿Por qué es importante el sistema Journey de Star Savior?",
+        "answer": "Star Savior utiliza el entrenamiento de Journey como uno de sus sistemas de progresión definitorios, por lo que comprender los ciclos de entrenamiento, la resonancia, los factores y la transferencia a toda la cuenta es fundamental para un crecimiento eficiente a largo plazo."
       },
       {
-        "question": "Where should I follow official Star Savior updates?",
-        "answer": "Track the official website news page, official X account, official YouTube channel, and official Discord announcements."
+        "question": "¿En qué temas se enfoca la Wiki de Star Savior?",
+        "answer": "La Wiki de Star Savior se enfoca en códigos, tier lists, planificación de reroll, rutas para principiantes, Arcana, mejores equipos, builds, equipo, entrenamiento de Journey, preparación para jefes, PvP y gestión de recursos."
       },
       {
-        "question": "What does Star Savior Wiki focus on?",
-        "answer": "This site focuses on codes, tier lists, reroll guidance, beginner planning, builds, teams, gear, and launch tracking."
-      },
-      {
-        "question": "Should I reroll in Star Savior?",
-        "answer": "That depends on your goals, early rewards, and time budget. Most players should compare reroll cost against early progression value before committing."
-      },
-      {
-        "question": "Is the Reddit link on this site official?",
-        "answer": "No. The Reddit link is a community subreddit reference, not an official publisher or developer channel."
+        "question": "¿Dónde debo seguir las actualizaciones oficiales de Star Savior?",
+        "answer": "Usa el sitio web oficial de Star Savior, la página oficial de noticias, la cuenta oficial de X, el canal oficial de YouTube, el Discord oficial y la ficha de Google Play para seguir las actualizaciones del servicio en vivo."
       }
     ]
   },
   "cta": {
-    "title": "Ready to Start Star Savior?",
-    "description": "Jump into the official community for announcements and support, or download Star Savior on Google Play to begin your first run.",
-    "joinCommunity": "Join Official Discord",
-    "joinGame": "Play Star Savior on Google Play"
+    "title": "¿Listo para empezar en Star Savior?",
+    "description": "Únete a la comunidad oficial de Star Savior para anuncios y soporte, o abre Google Play para comenzar a construir tu primera plantilla.",
+    "joinCommunity": "Unirse al Discord oficial",
+    "joinGame": "Jugar Star Savior en Google Play"
   },
   "footer": {
     "title": "Star Savior",
-    "description": "Your launch-window hub for Star Savior codes, reroll advice, team planning, character guides, and official links.",
-    "resources": "Quick Links",
-    "activeCodes": "Codes Hub",
-    "trainingGuides": "Beginner Progression",
-    "breathingStyles": "Build Planner",
-    "clanGuides": "Reroll & Teams",
-    "moreTools": "Community",
-    "discord": "Official Discord",
-    "trello": "Official X",
-    "playNow": "Official YouTube",
-    "copyright": "© 2026 Star Savior Wiki. Unofficial fan site and not affiliated with the official publishers or developers of Star Savior.",
-    "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service",
-    "reddit": "Reddit Community"
+    "description": "Una página de inicio para el lanzamiento de Star Savior con códigos, selecciones de tier, rutas de reroll, Arcana, equipos, planificación de Journey y canales oficiales.",
+    "officialLinksTitle": "Enlaces oficiales",
+    "communityLinksTitle": "Enlaces de la comunidad",
+    "website": "Sitio web oficial",
+    "news": "Noticias oficiales",
+    "googlePlay": "Google Play",
+    "discord": "Discord oficial",
+    "youtube": "YouTube oficial",
+    "x": "X oficial",
+    "reddit": "Comunidad de Reddit",
+    "copyright": "© 2026 Star Savior Wiki. Sitio de fans no oficial y no afiliado con los editores o desarrolladores oficiales de Star Savior."
   },
   "homepage": {
-    "codes": {
+    "navigation": {
       "title": "Star Savior",
-      "titleHighlight": "Códigos",
-      "subtitle": "Obtén giros, yen y reinicios gratis para impulsar tu progreso",
-      "cta": "Ver Todos los Códigos y la Guía de Canje",
-      "table": {
-        "headers": {
-          "code": "Código",
-          "reward": "Recompensa",
-          "status": "Estado"
-        },
-        "items": [
-          {
-            "code": "morespins",
-            "reward": "20 Giros",
-            "status": "activo"
-          },
-          {
-            "code": "100KVISITS",
-            "reward": "15 Giros",
-            "status": "activo"
-          },
-          {
-            "code": "1KLIKES",
-            "reward": "Reinicio de Respiración/Arte Demoníaco",
-            "status": "activo"
-          },
-          {
-            "code": "guizerayt",
-            "reward": "10 Giros",
-            "status": "activo"
-          },
-          {
-            "code": "RELEASE",
-            "reward": "10 Giros",
-            "status": "activo"
-          }
-        ]
-      }
+      "titleHighlight": "Navegador de módulos",
+      "description": "Salta directamente a la parte de Star Savior que quieras seguir, desde recompensas de lanzamiento hasta planificación de recursos para el juego avanzado."
     },
-    "redeemGuide": {
-      "title": "Star Savior",
-      "titleHighlight": "Guía de Canje",
-      "subtitle": "Sigue estos pasos para canjear códigos con éxito",
-      "steps": [
+    "officialLinks": {
+      "title": "Star Savior Oficial",
+      "titleHighlight": "Canales",
+      "description": "Mantén las descargas, notas del parche, lanzamientos de videos y puntos de contacto de la comunidad en una sola sección.",
+      "items": [
         {
-          "step": 1,
-          "title": "Iniciar Juego",
-          "detail": "Abre Star Savior en Roblox"
+          "title": "Sitio web oficial",
+          "description": "Comienza desde la página de aterrizaje principal de Star Savior para ver la marca, plataformas y visibilidad de eventos.",
+          "href": "https://www.starsavior.com/"
         },
         {
-          "step": 2,
-          "title": "Abrir Códigos",
-          "detail": "Desde el Menú Principal, haz clic en el botón Códigos"
+          "title": "Noticias oficiales",
+          "description": "Sigue los avisos de lanzamiento global, anuncios y actualizaciones de estreno desde el feed de noticias oficial.",
+          "href": "https://www.starsavior.com/en/news"
         },
         {
-          "step": 3,
-          "title": "Pegar Código",
-          "detail": "Ingresa un código funcional en el campo de código"
+          "title": "Google Play",
+          "description": "Abre la ficha móvil en vivo con instalaciones, calificación e información actual del mercado.",
+          "href": "https://play.google.com/store/apps/details?id=com.studiobside.starMain"
         },
         {
-          "step": 4,
-          "title": "Reclamar Recompensas",
-          "detail": "Presiona Canjear / Enter y recoge las recompensas"
+          "title": "Discord oficial",
+          "description": "Únete al centro de la comunidad principal de Star Savior para anuncios en vivo y canales de soporte.",
+          "href": "https://discord.com/invite/UHNYfe9C77"
+        },
+        {
+          "title": "YouTube oficial",
+          "description": "Mira los PV, transmisiones de preestreno y videos oficiales de Star Savior en un solo lugar.",
+          "href": "https://www.youtube.com/@StarSavior_EN"
+        },
+        {
+          "title": "Comunidad de Reddit",
+          "description": "Explora discusiones de la comunidad, impresiones de jugadores y conversaciones de fans sobre Star Savior.",
+          "href": "https://www.reddit.com/r/StarSavior/"
         }
       ]
     },
-    "trainingPaths": {
-      "title": "Star Savior",
-      "titleHighlight": "Caminos de Entrenamiento",
-      "subtitle": "Elige tu camino de entrenamiento: Llama, Viento o Agua",
-      "paths": [
-        {
-          "name": "Llama",
-          "location": "Camino cerca del Spawn",
-          "requirements": "40 Cuernos de Oni + Derrota a Onis fuertes",
-          "difficulty": "Alto",
-          "cost": "0 Yen"
-        },
-        {
-          "name": "Viento",
-          "location": "Aldea Marina",
-          "requirements": "Derrota al jefe Giga Horn + Obtén la caída del cuerno",
-          "difficulty": "Alto",
-          "cost": "0 Yen"
-        },
-        {
-          "name": "Agua",
-          "location": "Cascada de Campos de Trigo",
-          "requirements": "Completa el parkour + Rompe la roca",
-          "difficulty": "Medio",
-          "cost": "2,000 Yen por intento"
-        }
-      ]
+    "labels": {
+      "lastChecked": "Última comprobación",
+      "copy": "Copiar",
+      "copied": "Copiado",
+      "openSource": "Abrir guía externa",
+      "pillPrefix": "Ir a",
+      "frontLine": "Línea frontal",
+      "backLine": "Línea trasera",
+      "bestAgainst": "Mejor contra",
+      "roleFocus": "Enfoque de rol",
+      "activeBuild": "Build activa",
+      "buildSource": "Abrir build de personaje",
+      "mainStat": "Atributo principal",
+      "upgradePriority": "Prioridad de mejora",
+      "whyItMatters": "Por qué es importante",
+      "farmOrder": "Orden de farmeo",
+      "commonMistakes": "Errores comunes de principiante"
     },
-    "breathingTier": {
-      "title": "Star Savior",
-      "titleHighlight": "Lista de Niveles de Respiración",
-      "subtitle": "Compara los estilos de respiración por rendimiento PvE/PvP y dificultad",
-      "dataNote": "Datos de pruebas de la comunidad: clasificaciones actualizadas regularmente",
-      "table": {
-        "headers": {
-          "breathing": "Respiración",
-          "pveScore": "PvE",
-          "pvpScore": "PvP",
-          "difficulty": "Dificultad",
-          "cost": "Costo de Adquisición"
-        },
-        "items": [
-          {
-            "breathing": "Llama",
-            "pveScore": "Nivel A",
-            "pvpScore": "Nivel A",
-            "difficulty": "Medio",
-            "cost": "40 Cuernos de Oni + peleas de Oni fuertes"
-          },
-          {
-            "breathing": "Viento",
-            "pveScore": "Nivel S",
-            "pvpScore": "Nivel S",
-            "difficulty": "Difícil",
-            "cost": "Caída del jefe Giga Horn (RNG)"
-          },
-          {
-            "breathing": "Agua",
-            "pveScore": "Nivel A",
-            "pvpScore": "Nivel B",
-            "difficulty": "Medio",
-            "cost": "Parkour + 2,000 yen por intento"
-          },
-          {
-            "breathing": "Trueno",
-            "pveScore": "Nivel S",
-            "pvpScore": "Nivel A",
-            "difficulty": "Difícil",
-            "cost": "Método de desbloqueo especial"
-          }
-        ]
-      }
-    },
-    "demonArtTier": {
-      "title": "Star Savior",
-      "titleHighlight": "Lista de Niveles de Arte Demoníaco",
-      "subtitle": "Clasificaciones de poder y matriz de dificultad de Arte Demoníaco",
-      "statusBadge": "Próximamente",
-      "emptyStateText": "Las clasificaciones detalladas de Arte Demoníaco estarán disponibles pronto con datos de pruebas exhaustivos.",
-      "knownFacts": [
-        "El sistema de Arte Demoníaco está disponible en el juego",
-        "Reinicio de Respiración/Arte Demoníaco disponible a través de códigos",
-        "La comunidad tiene guías dedicadas de Oni + Arte Demoníaco"
-      ],
-      "dataGaps": [
-        "Se está compilando la lista completa de Artes Demoníacas",
-        "Pruebas de rendimiento PvE/PvP en curso",
-        "Se están documentando las sinergias de combo"
-      ],
-      "ctaText": "Rastrea las actualizaciones en Trello/Discord"
-    },
-    "oniRoute": {
-      "title": "Star Savior",
-      "titleHighlight": "Ruta Oni",
-      "subtitle": "Transfórmate en Oni y desbloquea Artes Demoníacas",
-      "statusBadge": "Guía Disponible",
-      "warningText": "Sigue los pasos de transformación para convertirte en un Oni y acceder a poderosas Artes Demoníacas.",
-      "flowNodes": [
-        {
-          "id": 1,
-          "title": "Comenzar como Humano",
-          "type": "comienzo",
-          "known": true
-        },
-        {
-          "id": 2,
-          "title": "Transformarse en Oni",
-          "type": "rama",
-          "known": true
-        },
-        {
-          "id": 3,
-          "title": "Obtener / Girar Arte Demoníaco",
-          "type": "progresión",
-          "known": true
-        },
-        {
-          "id": 4,
-          "title": "Especialización de Construcción",
-          "type": "optimización",
-          "known": true
-        }
-      ],
-      "unknowns": [
-        "Ubicación del PNJ de Transformación",
-        "Artículos y nivel requeridos",
-        "Costo de transformación",
-        "Las mejores combinaciones de Arte Demoníaco"
-      ]
-    },
-    "controls": {
-      "title": "Star Savior",
-      "titleHighlight": "Controles",
-      "subtitle": "Domina los controles del teclado para el combate",
-      "keys": [
-        {
-          "key": "LMB",
-          "action": "Atacar"
-        },
-        {
-          "key": "RMB",
-          "action": "Ataque Pesado"
-        },
-        {
-          "key": "F",
-          "action": "Bloquear"
-        },
-        {
-          "key": "W + W",
-          "action": "Correr"
-        },
-        {
-          "key": "M",
-          "action": "Menú"
-        },
-        {
-          "key": "G",
-          "action": "Respiración"
-        },
-        {
-          "key": "1-9",
-          "action": "Habilidades"
-        }
-      ]
-    },
-    "questMap": {
-      "title": "Star Savior",
-      "titleHighlight": "Mapa de Misiones",
-      "subtitle": "Encuentra PNJs de misiones y ubicaciones de entrenamiento",
-      "recommendedSequence": "Orden recomendado: Llama → Agua → Viento",
-      "pins": [
-        {
-          "id": 1,
-          "name": "Camino de Spawn (Comienzo de Llama)",
-          "region": "Cerca del Spawn",
-          "objective": "Comenzar el entrenamiento de Llama",
-          "requirements": [
-            "40 Cuernos de Oni",
-            "Derrota a varios Onis duros"
-          ],
-          "rewards": [
-            "Progresión del camino de Llama"
-          ]
-        },
-        {
-          "id": 2,
-          "name": "Campamento de Demonios (Paso de Viento)",
-          "region": "Aldea Marina",
-          "objective": "Derrota a Giga Horn y obtén la caída del cuerno",
-          "requirements": [
-            "Jefe despejado",
-            "Suerte de caída (RNG)"
-          ],
-          "rewards": [
-            "Progresión del camino de Viento"
-          ]
-        },
-        {
-          "id": 3,
-          "name": "Prueba de la Cascada",
-          "region": "Grandes Campos de Trigo",
-          "objective": "Desafío de parkour + romper la roca",
-          "requirements": [
-            "2,000 yen por intento de paso final"
-          ],
-          "rewards": [
-            "Progresión del camino de Agua"
-          ]
-        }
-      ]
-    },
-    "bossDrops": {
-      "title": "Star Savior",
-      "titleHighlight": "Botines de Jefes",
-      "subtitle": "Botín de jefes y requisitos de caída",
-      "riskNotice": "Las caídas de los jefes se basan en RNG. ¡Sigue cultivando hasta que obtengas los artículos que necesitas!",
-      "table": {
-        "headers": {
-          "drop": "Caída",
-          "source": "Fuente",
-          "howToObtain": "Cómo Obtener",
-          "primaryUse": "Uso Primario"
-        },
-        "items": [
-          {
-            "drop": "Cuerno de Giga",
-            "source": "Jefe Giga Horn (Campamento de Demonios)",
-            "howToObtain": "Derrota al jefe Giga Horn hasta que caiga el cuerno",
-            "primaryUse": "Requerido para la progresión del entrenamiento de Viento"
-          },
-          {
-            "drop": "Cuerno de Oni x40",
-            "source": "Enemigos Oni",
-            "howToObtain": "Cultiva Oni y recoge 40 cuernos",
-            "primaryUse": "Requerido para la progresión del entrenamiento de Llama"
-          },
-          {
-            "drop": "Materiales de Jefes",
-            "source": "Varios jefes",
-            "howToObtain": "Consulta Trello/Discord para las últimas caídas de jefes",
-            "primaryUse": "Elaboración y progresión"
-          }
-        ]
-      }
-    },
-    "currencyFarm": {
-      "title": "Star Savior",
-      "titleHighlight": "Granja de Moneda",
-      "subtitle": "Los mejores métodos para ganar Yen de manera eficiente",
-      "disclaimer": "Usa estos métodos comprobados para maximizar tus ganancias de Yen en Star Savior.",
-      "methods": [
-        {
-          "rank": 1,
-          "method": "Canje de Código",
-          "expectedReturn": "Giros + Yen (varía según el código)",
-          "timeToValue": "1-3 min",
-          "riskLevel": "Bajo",
-          "howTo": [
-            "Abre el menú del juego y canjea primero los códigos activos",
-            "Usa giros antes de comprometerte con bucles de molienda largos"
-          ]
-        },
-        {
-          "rank": 2,
-          "method": "Gestión Inteligente de Recursos",
-          "expectedReturn": "Ahorra Yen evitando intentos fallidos",
-          "timeToValue": "Inmediato",
-          "riskLevel": "Bajo",
-          "howTo": [
-            "Prepara los requisitos antes de los intentos de entrenamiento de alto costo",
-            "El intento final del camino del Agua cuesta 2,000 Yen por intento"
-          ]
-        },
-        {
-          "rank": 3,
-          "method": "Bucle de Progresión de Combate",
-          "expectedReturn": "Yen y EXP de las misiones",
-          "timeToValue": "Medio",
-          "riskLevel": "Medio",
-          "howTo": [
-            "Sigue las guías de progresión para principiantes",
-            "Consulta Discord para conocer las rutas de cultivo óptimas"
-          ]
-        }
-      ]
-    },
-    "resetPlanner": {
-      "title": "Star Savior",
-      "titleHighlight": "Planificador de Reinicio",
-      "subtitle": "Planifica tus reinicios estratégicamente, nunca reinicies a ciegas",
-      "startQuestion": "¿Cuál es tu cuello de botella actual?",
-      "decisions": [
-        {
-          "question": "¿Sientes que las estadísticas centrales están mal asignadas?",
-          "yesAction": "Comprueba si tienes un código de restablecimiento de estadísticas disponible",
-          "noAction": "Comprueba si la Respiración/Arte Demoníaco está fuera de meta para tu objetivo"
-        },
-        {
-          "question": "¿Tienes un código de restablecimiento de estadísticas disponible?",
-          "yesAction": "Usa el Restablecimiento de Estadísticas Ahora - Aplica el restablecimiento, luego reconstruye alrededor de tu modo objetivo (PvE/PvP/Híbrido)",
-          "noAction": "Retrasa el Restablecimiento y Cultiva Recursos - Usa primero los códigos activos de giros/yen y la ruta de progresión"
-        },
-        {
-          "question": "¿La Respiración/Arte Demoníaco está fuera de meta para tu objetivo?",
-          "yesAction": "¿Puedes usar un código de restablecimiento de respiración/arte demoníaco ahora?",
-          "noAction": "Mantén la Construcción, Optimiza la Ejecución - Concéntrate en el dominio de los controles antes de volver a tirar"
-        },
-        {
-          "question": "¿Puedes usar un código de restablecimiento de respiración/arte demoníaco ahora?",
-          "yesAction": "Usa el Restablecimiento de Respiración/Arte Demoníaco - Los ejemplos de restablecimiento conocidos incluyen restablecimientos que también pueden afectar la raza",
-          "noAction": "No Reinicies por Pánico - Espera la próxima caída de código de hito/actualización; rastrea los anuncios de Discord"
-        }
-      ]
-    },
-    "buildPlanner": {
-      "title": "Star Savior",
-      "titleHighlight": "Planificador de Construcción",
-      "subtitle": "Optimiza la construcción de tu personaje con una planificación basada en objetivos",
-      "dataNote": "Planifica tu construcción según tu estilo de juego y tus objetivos",
-      "inputFields": [
-        {
-          "key": "goalMode",
-          "label": "Modo Objetivo",
-          "type": "seleccionar",
-          "options": [
-            "Progresión PvE",
-            "Enfoque en Jefes",
-            "Duelo PvP",
-            "Híbrido"
-          ]
-        },
-        {
-          "key": "route",
-          "label": "Ruta",
-          "type": "seleccionar",
-          "options": [
-            "Cazador",
-            "Oni"
-          ]
-        },
-        {
-          "key": "currentBreathing",
-          "label": "Respiración Actual",
-          "type": "texto"
-        },
-        {
-          "key": "currentDemonArt",
-          "label": "Arte Demoníaco Actual",
-          "type": "texto"
-        },
-        {
-          "key": "yenBudget",
-          "label": "Yen Actual",
-          "type": "número"
-        },
-        {
-          "key": "spinsAvailable",
-          "label": "Giros Disponibles",
-          "type": "número"
-        }
-      ],
-      "presetExamples": [
-        {
-          "name": "Cazador Principiante (Bajo Presupuesto)",
-          "goalMode": "Progresión PvE",
-          "route": "Cazador",
-          "yenBudget": 2000,
-          "spinsAvailable": 10,
-          "output": {
-            "now": "Canjea los códigos activos y elige una ruta de progresión estable",
-            "next": "Prepara los requisitos antes de entrenar para evitar desperdiciar Yen",
-            "after": "Usa el reinicio estratégicamente si necesitas cambiar de dirección"
-          }
-        },
-        {
-          "name": "Candidato a Cambio de Ruta",
-          "goalMode": "Híbrido",
-          "route": "Oni",
-          "yenBudget": 5000,
-          "spinsAvailable": 20,
-          "output": {
-            "now": "Confirma tu objetivo de ruta y estrategia de reinicio",
-            "next": "Aplica un reinicio selectivo en lugar de una reconstrucción completa",
-            "after": "Prueba en el bucle de jefe/progresión antes del próximo reinicio"
-          }
-        }
-      ]
-    },
-    "thunderBreathing": {
-      "title": "Star Savior",
-      "titleHighlight": "Respiración del Trueno",
-      "subtitle": "Guía completa para desbloquear el estilo de Respiración del Trueno",
-      "steps": [
-        {
-          "step": 1,
-          "title": "Encuentra al Entrenador del Trueno",
-          "detail": "Viaja a la montaña cerca de la Aldea Nevada"
-        },
-        {
-          "step": 2,
-          "title": "Acepta la Misión",
-          "detail": "Habla con el entrenador y acepta la misión de los dulces"
-        },
-        {
-          "step": 3,
-          "title": "Reúne Materiales",
-          "detail": "Recoge 6 trigos y 3 huevos de las áreas de cultivo"
-        },
-        {
-          "step": 4,
-          "title": "Completa el Entrenamiento",
-          "detail": "Regresa con el entrenador y completa el desbloqueo de la Respiración del Trueno"
-        }
-      ],
-      "requirements": {
-        "title": "Requisitos",
-        "items": [
-          "6 Trigos",
-          "3 Huevos",
-          "Completa la misión de los dulces"
-        ]
+    "codesTable": {
+      "headers": {
+        "code": "Código",
+        "reward": "Recompensa",
+        "status": "Estado",
+        "action": "Acción"
       },
-      "difficulty": "Medio",
-      "location": "Montaña cerca de la Aldea Nevada"
-    },
-    "fastLeveling": {
-      "title": "Star Savior",
-      "titleHighlight": "Subida de Nivel Rápida",
-      "subtitle": "Métodos eficientes para subir de nivel rápidamente en Star Savior",
-      "methods": [
+      "items": [
         {
-          "title": "Tipos de Misiones",
-          "icon": "mapa",
-          "description": "Concéntrate en las misiones correctas para obtener la máxima XP",
-          "tips": [
-            "Misiones verdes = Entrega (finalización rápida)",
-            "Misiones amarillas = Combate (altas recompensas de XP)",
-            "Misiones azules = Recolección (XP moderada)"
-          ]
+          "code": "STARSAVIOR251120",
+          "reward": "Recompensas exclusivas",
+          "status": "Activo"
         },
         {
-          "title": "Sistema de Comida",
-          "icon": "utensilios",
-          "description": "Usa comida para mantener HP y cultivar de manera eficiente",
-          "tips": [
-            "Mantén comida en el inventario para la regeneración de HP",
-            "Reduce el tiempo de inactividad entre encuentros de combate",
-            "Esencial para la molienda continua de misiones"
-          ]
+          "code": "HELLOSTARSAVIOR",
+          "reward": "Recompensas exclusivas",
+          "status": "Activo"
         },
         {
-          "title": "Ruta de Progresión",
-          "icon": "route",
-          "description": "Sigue los caminos de nivelación óptimos",
-          "tips": [
-            "Completa primero las misiones del área de inicio",
-            "Avanza a zonas de nivel superior progresivamente",
-            "Usa códigos para bonificaciones de XP y giros"
-          ]
+          "code": "251127STARSAVIOR",
+          "reward": "Recompensas exclusivas",
+          "status": "Activo"
+        },
+        {
+          "code": "STARSAVIORHAPPY100DAYS",
+          "reward": "Recompensas exclusivas",
+          "status": "Activo"
+        },
+        {
+          "code": "MONASTIRVALENTINEDAY",
+          "reward": "Recompensas exclusivas",
+          "status": "Activo"
         }
       ]
     },
-    "finalSelection": {
-      "title": "Star Savior",
-      "titleHighlight": "Selección Final",
-      "subtitle": "Completa la Selección Final para convertirte en un Cazador oficial",
-      "overview": "La Selección Final es un hito crucial donde demuestras tu valía como cazador de demonios. Completa este desafío de parkour para ganar tu uniforme de Cazador y tu estatus oficial.",
-      "details": {
-        "location": "Desafío de parkour en el área del bosque",
-        "timing": "Cada 1 hora (tiempo real)",
-        "maxPlayers": "Hasta 12 jugadores por sesión",
-        "difficulty": "De Medio a Difícil"
-      },
-      "rewards": {
-        "title": "Recompensas",
-        "items": [
-          "Uniforme oficial de Cazador",
-          "Membresía del Cuerpo de Cazadores",
-          "Acceso a la mansión del Cuerpo de Cazadores",
-          "Desbloquea el sistema de entrenamiento de calabaza"
-        ]
-      },
-      "tips": {
-        "title": "Consejos",
-        "items": [
-          "Practica parkour antes de intentar",
-          "Espera a que comience el evento por hora",
-          "Forma equipo con otros jugadores para obtener apoyo",
-          "No te rindas, puedes volver a intentarlo después de cada hora"
-        ]
-      }
-    },
-    "clanSystem": {
-      "title": "Star Savior",
-      "titleHighlight": "Sistema de Clanes",
-      "subtitle": "Niveles de clanes, mejoras y cómo volver a tirar tu clan",
-      "overview": "Los clanes proporcionan mejoras y habilidades únicas que mejoran tu personaje. Cada clan tiene diferentes rarezas y beneficios especiales.",
-      "tiers": [
-        {
-          "tier": "Común",
-          "color": "gris",
-          "dropRate": "Alto",
-          "description": "Clanes básicos con mejoras estándar"
-        },
-        {
-          "tier": "Raro",
-          "color": "azul",
-          "dropRate": "Medio",
-          "description": "Mejoras y habilidades mejoradas"
-        },
-        {
-          "tier": "Épico",
-          "color": "morado",
-          "dropRate": "Bajo",
-          "description": "Poderosas habilidades de clan"
-        },
-        {
-          "tier": "Legendario",
-          "color": "dorado",
-          "dropRate": "Muy Bajo",
-          "description": "Clanes de primer nivel con mejoras excepcionales"
-        }
-      ],
-      "notableClans": {
-        "title": "Clanes Notables",
-        "clans": [
+    "modules": [
+      {
+        "id": "star-savior-codes",
+        "title": "Star Savior",
+        "titleHighlight": "Códigos",
+        "summary": "Canjea los últimos códigos de cupón activos para obtener recompensas gratuitas y reclámalas en tu buzón.",
+        "badge": "Resumen de recompensas en vivo",
+        "lastChecked": "20-03-2026",
+        "cards": [
           {
-            "name": "Tsugikuni",
-            "tier": "Legendario",
-            "benefit": "Excepcionales mejoras de combate"
+            "title": "Ruta de canje",
+            "items": [
+              "Abre Gestión de cuenta en el lado izquierdo de la pantalla",
+              "Toca Ingresar cupón",
+              "Pega un código válido y toca Verificar",
+              "Recoge las recompensas del Buzón del juego"
+            ]
           },
           {
-            "name": "Kamado",
-            "tier": "Legendario",
-            "benefit": "Técnicas de respiración mejoradas"
+            "title": "Qué rastrea este módulo",
+            "items": [
+              "Primero los códigos activos más nuevos",
+              "Etiqueta de recompensa y estado en una tabla",
+              "Flujo de reclamo en el buzón tras la verificación"
+            ]
           },
           {
-            "name": "Agatsuma",
-            "tier": "Épico",
-            "benefit": "Bonificaciones de respiración de Trueno"
+            "title": "Reglas rápidas",
+            "items": [
+              "Canjea los códigos lo antes posible",
+              "Pega los códigos exactamente como aparecen",
+              "Revisa el Buzón después de cada cupón exitoso"
+            ]
           }
-        ]
+        ],
+        "tags": [
+          "5 códigos activos rastreados",
+          "Flujo de reclamo en buzón",
+          "Tabla de recompensas primero"
+        ],
+        "ctaLabel": "Abrir referencia de códigos",
+        "ctaHref": "https://www.gamerbraves.com/guide-star-savior-codes-how-to-redeem-them/"
       },
-      "howToSpin": {
-        "title": "Cómo Girar/Volver a Tirar",
+      {
+        "id": "star-savior-tier-list",
+        "title": "Star Savior",
+        "titleHighlight": "Tier List",
+        "summary": "Usa las selecciones actuales del meta como el atajo más rápido para la progresión de la historia, farmeo y creación de equipos iniciales.",
+        "badge": "Tablero de prioridad del meta",
+        "lastChecked": "20-03-2026",
+        "cards": [
+          {
+            "title": "Selecciones de alto nivel",
+            "items": [
+              "Bunnygirl Charlotte",
+              "Emilly",
+              "Lacy",
+              "Bell Rhys"
+            ]
+          },
+          {
+            "title": "Opciones sólidas de seguimiento",
+            "items": [
+              "Asherah: Waltz of Starlight",
+              "Charlotte",
+              "Bunnygirl Claire",
+              "Kyra"
+            ]
+          },
+          {
+            "title": "Mejores filtros para usar",
+            "items": [
+              "PvE",
+              "PvP",
+              "Elemento",
+              "Rol"
+            ]
+          }
+        ],
+        "tags": [
+          "Valor de avance en historia",
+          "Relevancia en farmeo de jefes",
+          "Filtrado por rol y elemento"
+        ],
+        "ctaLabel": "Abrir referencia de tier",
+        "ctaHref": "https://www.gamezebo.com/walkthroughs/star-savior-tier-list/"
+      },
+      {
+        "id": "star-savior-beginner-guide",
+        "title": "Star Savior",
+        "titleHighlight": "Guía para principiantes",
+        "summary": "Comienza avanzando en la historia principal, asegura un equipo central pequeño y usa la formación más Starlink correctamente para no desperdiciar recursos iniciales.",
+        "badge": "Ruta de inicio rápido",
+        "lastChecked": "20-03-2026",
+        "cards": [
+          {
+            "title": "Plan del primer día",
+            "items": [
+              "Avanza primero en la Operación Mainstream",
+              "Reclama recompensas de misión constantemente",
+              "Usa el Auto al principio y juega con la ventaja elemental",
+              "Enfócate en 4 o 5 unidades centrales"
+            ]
+          },
+          {
+            "title": "Conceptos básicos de formación",
+            "items": [
+              "Filas frontales para tanques y tanques de daño",
+              "Filas traseras para DPS principales y debuffers",
+              "Los defensores atraen naturalmente más presión"
+            ]
+          },
+          {
+            "title": "Lista de tareas diarias",
+            "items": [
+              "Reclama las recompensas del Buzón",
+              "Recoge recursos AFK antes de que lleguen al límite",
+              "Termina las misiones diarias",
+              "Gasta estamina en valores de progresión"
+            ]
+          }
+        ],
+        "tags": [
+          "Operación Mainstream primero",
+          "Construcción de plantilla compacta",
+          "Eficiencia de Starlink"
+        ],
+        "ctaLabel": "Abrir ruta para principiantes",
+        "ctaHref": "https://tychara.com/StarSavior/guides/beginner-guide"
+      },
+      {
+        "id": "star-savior-reroll-guide",
+        "title": "Star Savior",
+        "titleHighlight": "Guía de Reroll",
+        "summary": "El reroll es opcional, pero un inicio más fuerte comienza con unidades premium de lanzamiento o Arcana universales que rinden frutos en Journey y la progresión general.",
+        "badge": "Mapa de reroll de lanzamiento",
+        "lastChecked": "20-03-2026",
+        "cards": [
+          {
+            "title": "Cálculos de reroll",
+            "items": [
+              "Aproximadamente 10 minutos por ciclo de reroll",
+              "Tasa de SSR del 4%",
+              "Tasa de rate-up del 2%",
+              "10,000 Gemas más algunas multis al inicio"
+            ]
+          },
+          {
+            "title": "Objetivos de personajes",
+            "items": [
+              "Asherah: Waltz of Starlight",
+              "Lacy",
+              "Emilly",
+              "Bunnygirl Charlotte"
+            ]
+          },
+          {
+            "title": "Objetivos de Arcana",
+            "items": [
+              "Lacy",
+              "Charlotte",
+              "Bunnygirl Claire",
+              "Petra"
+            ]
+          }
+        ],
+        "tags": [
+          "Opcional pero de alto impacto",
+          "Objetivos premium de lanzamiento",
+          "Valor de Arcana universal"
+        ],
+        "ctaLabel": "Abrir guía de reroll",
+        "ctaHref": "https://tychara.com/StarSavior/guides/reroll-guide"
+      },
+      {
+        "id": "star-savior-arcana-tier-list",
+        "title": "Star Savior",
+        "titleHighlight": "Tier List de Arcana",
+        "summary": "Las clasificaciones públicas de Arcana sitúan consistentemente a Elastic Acceleration, Solid Destruction, Sharp Assault y Construct Bomb en el nivel superior, mientras que las prioridades de rol se dividen claramente entre DPS, tanque y healer.",
+        "badge": "Matriz de roles de Arcana",
+        "lastChecked": "20-03-2026",
+        "displayType": "tierRowsWithRoleTabs",
+        "tierGroups": [
+          {
+            "title": "Arcana SSR centrales de nivel superior",
+            "items": [
+              "Elastic Acceleration",
+              "Solid Destruction",
+              "Sharp Assault",
+              "Construct Bomb"
+            ]
+          },
+          {
+            "title": "Arcana SSR sólidas de seguimiento",
+            "items": [
+              "Shadow Erosion",
+              "Resolute Determination",
+              "Life Stigma",
+              "Double Tap",
+              "Leisurely Counter",
+              "Insight Stigma"
+            ]
+          }
+        ],
+        "roleTabs": [
+          {
+            "id": "dps",
+            "label": "DPS",
+            "priority": "Poder > Salud > Enfoque",
+            "notes": [
+              "Comienza con piezas SSR de Poder primero para mantener alta la velocidad de ráfaga y limpieza.",
+              "Sharp Assault y Elastic Acceleration se adaptan bien a planes de carry de daño primero.",
+              "Usa Arcana de seguimiento para reforzar las ventanas de daño tras asegurar el núcleo de nivel superior."
+            ]
+          },
+          {
+            "id": "tank",
+            "label": "Tanque",
+            "priority": "Poder > Salud > Resistencia",
+            "notes": [
+              "Las Arcana de tanque aún requieren suficiente Poder para mantener la amenaza y el valor de tanque de daño.",
+              "Salud y Resistencia se convierten en la capa de estabilidad una vez establecida la línea frontal.",
+              "Solid Destruction y Construct Bomb mantienen su valor cuando el equipo necesita un ritmo duradero."
+            ]
+          },
+          {
+            "id": "healer",
+            "label": "Healer",
+            "priority": "Salud > Resistencia",
+            "notes": [
+              "Los healers se preocupan más por mantenerse vivos en peleas largas y ciclos de jefes.",
+              "Life Stigma y otros seguimientos de sustento apoyan la consistencia en múltiples turnos.",
+              "Usa Arcana SSR como la base de curación a largo plazo en lugar de comprometerte de más con rellenos SR."
+            ]
+          }
+        ],
+        "spotlight": {
+          "title": "Regla de Arcana a largo plazo",
+          "items": [
+            "Las Arcana SSR deben ser el núcleo a largo plazo de tu cuenta.",
+            "Las Arcana SR sirven principalmente para llenar espacios de atributos temporales al inicio.",
+            "La clasificación por roles es la forma más rápida de dejar de desperdiciar materiales de mejora."
+          ]
+        },
+        "tags": [
+          "Núcleo SSR de nivel superior",
+          "Prioridades de atributos por rol",
+          "SSR sobre rellenos temporales SR"
+        ],
+        "ctaLabel": "Comparar rankings de Arcana",
+        "ctaHref": "https://www.gamezebo.com/walkthroughs/star-savior-arcana-tier-list/"
+      },
+      {
+        "id": "star-savior-best-teams",
+        "title": "Star Savior",
+        "titleHighlight": "Mejores equipos",
+        "summary": "Las guías de equipos actuales se centran en formaciones de 4 Saviors, tanques de línea frontal o unidades de sustento, y carries o debuffers de línea trasera, con ventajas elementales impulsando el progreso en PvE.",
+        "badge": "Formaciones de 4 Saviors",
+        "lastChecked": "20-03-2026",
+        "displayType": "formationCardsGrid",
+        "teamCards": [
+          {
+            "title": "Equipo Solar",
+            "bestAgainst": "Jefe Star",
+            "frontLine": [
+              "Muriel",
+              "Emilly"
+            ],
+            "backLine": [
+              "Serpang",
+              "Petra"
+            ],
+            "notes": [
+              "Usa presión de elemento favorable contra enemigos Star.",
+              "Mantiene un equilibrio entre tanque de daño frontal y soporte."
+            ]
+          },
+          {
+            "title": "Equipo Lunar",
+            "bestAgainst": "Jefe Sun",
+            "frontLine": [
+              "Lugh",
+              "Emilly"
+            ],
+            "backLine": [
+              "Elisa",
+              "Asherah: Waltz of Starlight"
+            ],
+            "notes": [
+              "Combina un frente robusto con sustento premium para peleas largas.",
+              "Funciona mejor cuando la línea trasera puede resistir la presión de objetivos Sun."
+            ]
+          },
+          {
+            "title": "Equipo Star",
+            "bestAgainst": "Jefe Moon",
+            "frontLine": [
+              "Dana",
+              "Emilly"
+            ],
+            "backLine": [
+              "Frey",
+              "Tanya"
+            ],
+            "notes": [
+              "Se apoya en la presión a distancia detrás de un ancla frontal estable.",
+              "Ideal para una cobertura de progresión PvE sencilla."
+            ]
+          },
+          {
+            "title": "Equipo Chaos",
+            "bestAgainst": "Jefe Order",
+            "frontLine": [
+              "Muriel",
+              "Lacy"
+            ],
+            "backLine": [
+              "Elisa",
+              "Lydia"
+            ],
+            "notes": [
+              "Mezcla presión de carry con utilidad y soporte de sustento.",
+              "Fuerte plantilla para intercambio de elementos favorables cuando tu plantilla crezca."
+            ]
+          }
+        ],
+        "tags": [
+          "Estructura de equipo de 4 Saviors",
+          "Intercambio por ventaja elemental",
+          "Equilibrio entre línea frontal y trasera"
+        ],
+        "ctaLabel": "Comparar formaciones de equipo",
+        "ctaHref": "https://tychara.com/StarSavior/team-builder"
+      },
+      {
+        "id": "star-savior-character-builds",
+        "title": "Star Savior",
+        "titleHighlight": "Builds de personajes",
+        "summary": "Ya existen páginas de builds en vivo para los principales carries y soportes, mostrando puntos de ruptura de habilidades, paquetes de Arcana, sets de equipo y objetivos de atributos principales.",
+        "badge": "Panel de builds en vivo",
+        "lastChecked": "20-03-2026",
+        "displayType": "buildCardsWithDrawer",
+        "buildEntries": [
+          {
+            "id": "lacy",
+            "name": "Lacy",
+            "identity": "Chaos / Ranger / SSR",
+            "summary": "Una carry ranger de alta presión que necesita su núcleo de velocidad y ATK activo lo antes posible.",
+            "sourceHref": "https://www.hideoutgacha.com/games/star-savior/characters/chaos/lacy",
+            "detailGroups": [
+              {
+                "title": "Objetivos de habilidad",
+                "items": [
+                  "Objetivo inicial: 3/6/6",
+                  "Objetivo final: 7/8/8"
+                ]
+              },
+              {
+                "title": "Equipo base",
+                "items": [
+                  "Set Motivator",
+                  "Collar de Velocidad",
+                  "Anillo de ATK%"
+                ]
+              },
+              {
+                "title": "Paquete de Arcana",
+                "items": [
+                  "Elastic Acceleration",
+                  "Solid Destruction",
+                  "Shadow Erosion",
+                  "Sharp Assault",
+                  "Construct Bomb"
+                ]
+              },
+              {
+                "title": "Enfoque clave",
+                "items": [
+                  "Prioriza la velocidad para iniciar turnos antes.",
+                  "Mantén el escalado de ATK% por delante de las mejoras secundarias.",
+                  "Termina el núcleo del carry antes de proyectos de reserva de lujo."
+                ]
+              }
+            ]
+          },
+          {
+            "id": "bell-rhys",
+            "name": "Bell Rhys",
+            "identity": "Star / Ranger / SSR",
+            "summary": "Un carry de daño a distancia cuya ruta de build es más fuerte cuando la velocidad y la eficiencia de crítico están alineadas.",
+            "sourceHref": "https://www.hideoutgacha.com/games/star-savior/characters/star/bell-rhys",
+            "detailGroups": [
+              {
+                "title": "Objetivos de habilidad",
+                "items": [
+                  "Objetivo inicial: 3/6/6",
+                  "Objetivo final: 7/8/8"
+                ]
+              },
+              {
+                "title": "Equipo base",
+                "items": [
+                  "Set Motivator",
+                  "Collar de Velocidad",
+                  "Anillo de ATK%"
+                ]
+              },
+              {
+                "title": "Paquete de Arcana",
+                "items": [
+                  "Elastic Acceleration",
+                  "Solid Destruction",
+                  "Sharp Assault",
+                  "Construct Bomb"
+                ]
+              },
+              {
+                "title": "Enfoque clave",
+                "items": [
+                  "Sub-atributos preferidos: Velocidad",
+                  "Sub-atributos preferidos: Tasa Crítica, ATK%, Daño Crítico",
+                  "Sub-atributos preferidos: Precisión de Efecto"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "asherah-waltz",
+            "name": "Asherah: Waltz of Starlight",
+            "identity": "Order / Supporter / SSR",
+            "summary": "Una build de soporte premium que sacrifica daño bruto por estabilidad de equipo, tiempo de actividad y control en peleas largas.",
+            "sourceHref": "https://www.hideoutgacha.com/games/star-savior/characters/order/asherah-waltz-of-starlight",
+            "detailGroups": [
+              {
+                "title": "Objetivos de habilidad",
+                "items": [
+                  "Objetivo inicial: 3/6/6",
+                  "Objetivo final: 7/7/7"
+                ]
+              },
+              {
+                "title": "Equipo base",
+                "items": [
+                  "Set Preses",
+                  "Collar de Velocidad",
+                  "Anillo de HP%"
+                ]
+              },
+              {
+                "title": "Paquete de Arcana",
+                "items": [
+                  "Sharp Assault",
+                  "Life Stigma",
+                  "Starlight Grace+",
+                  "Double Tap",
+                  "Iron Will"
+                ]
+              },
+              {
+                "title": "Enfoque clave",
+                "items": [
+                  "Build enfocada en tiempo de actividad antes que en codicia.",
+                  "Protege el núcleo del equipo a través de ciclos largos de jefes.",
+                  "Úsala como la estabilizadora alrededor de tu carry principal."
+                ]
+              }
+            ]
+          }
+        ],
+        "tags": [
+          "Puntos de ruptura exactos de habilidades",
+          "Atributos principales de equipo por rol",
+          "Ruta de copia de paquete de Arcana"
+        ],
+        "ctaLabel": "Abrir biblioteca de builds",
+        "ctaHref": "https://www.hideoutgacha.com/games/star-savior/character-tier-list"
+      },
+      {
+        "id": "star-savior-gear-guide",
+        "title": "Star Savior",
+        "titleHighlight": "Guía de equipo",
+        "summary": "Star Savior utiliza Equipamiento en lugar de Reliquias, y la verdadera curva de progresión comienza cuando dejas de invertir de más en rellenos T1 y pasas a piezas T2, priorizando la Velocidad.",
+        "badge": "Cuadrícula de prioridad de equipamiento",
+        "lastChecked": "20-03-2026",
+        "displayType": "priorityTableWithTags",
+        "priorityRows": [
+          {
+            "slot": "Zapatos",
+            "mainStat": "Velocidad",
+            "priority": "Mejorar primero",
+            "reason": "Los zapatos son una de las formas más rápidas de mejorar el orden de turnos para carries y soportes."
+          },
+          {
+            "slot": "Collar",
+            "mainStat": "Velocidad",
+            "priority": "Mejorar primero",
+            "reason": "El Collar de Velocidad mantiene las rotaciones estables antes de buscar sub-atributos de lujo."
+          },
+          {
+            "slot": "Anillo",
+            "mainStat": "ATK% para DPS / HP% para tanque-soporte",
+            "priority": "Mejorar pronto",
+            "reason": "Los atributos principales del anillo deben coincidir con el rol que impulsa tu velocidad de limpieza o supervivencia."
+          },
+          {
+            "slot": "Arma",
+            "mainStat": "Atributo de espacio fijo",
+            "priority": "Mantener salvo T2",
+            "reason": "No inviertas de más en piezas de armas de relleno antes de que tu núcleo T2 esté listo."
+          },
+          {
+            "slot": "Armadura",
+            "mainStat": "Atributo de espacio fijo",
+            "priority": "Mantener salvo T2",
+            "reason": "Las mejoras de armadura rinden mejor una vez que tu dirección T2 a largo plazo esté activa."
+          },
+          {
+            "slot": "Guantes",
+            "mainStat": "Atributo de espacio fijo",
+            "priority": "Mantener salvo T2",
+            "reason": "Los guantes tienen menor prioridad que los espacios de Velocidad durante la curva de progresión inicial."
+          }
+        ],
+        "spotlight": {
+          "title": "Regla de progresión T1 a T2",
+          "items": [
+            "El juego usa una estructura de equipo de 2 niveles: T1 para progresión inicial, T2 para inversión a largo plazo.",
+            "T2 se convierte en el objetivo real tras la Etapa 14 de Mainstream, algunas guías sitúan el desbloqueo de artesanía en la Etapa 15.",
+            "Termina tu núcleo de cuatro T2 antes de gastar mucho en mejoras de lujo."
+          ]
+        },
+        "farmTags": [
+          "Motivator primero",
+          "Wendigo segundo",
+          "Perseus tercero",
+          "Piezas de Velocidad primero"
+        ],
+        "mistakeTags": [
+          "Mejorar en exceso Arma T1",
+          "Mejorar en exceso Armadura T1",
+          "Mejorar en exceso Guantes T1",
+          "Ignorar los espacios de Velocidad primero"
+        ],
+        "tags": [
+          "Núcleo T2 sobre relleno T1",
+          "Prioridad de espacio de Velocidad",
+          "Disciplina de orden de farmeo"
+        ],
+        "ctaLabel": "Abrir guía de optimización de equipo",
+        "ctaHref": "https://ultimategacha.com/star-savior-relic-gear-guide-how-to-farm-enhance-optimize/"
+      },
+      {
+        "id": "star-savior-7-day-progression",
+        "title": "Star Savior",
+        "titleHighlight": "Progresión de 7 días",
+        "summary": "Usa la primera semana para desbloquear sistemas, aumentar los ingresos pasivos y estabilizar un núcleo de equipo real en lugar de dispersar mejoras en toda la plantilla.",
+        "badge": "Horario de la primera semana",
+        "lastChecked": "20-03-2026",
+        "displayType": "timeline_cards",
+        "timeline": [
+          {
+            "range": "Día 1",
+            "focus": "Asegura la base de la cuenta",
+            "items": [
+              "Termina el tutorial y reclama las principales recompensas de lanzamiento primero.",
+              "Haz reroll solo si planeas comprometerte con él de inmediato.",
+              "Elige tu equipo inicial pronto para que tus primeras mejoras se mantengan enfocadas."
+            ]
+          },
+          {
+            "range": "Día 2-3",
+            "focus": "Avanza en la historia y aumenta la producción pasiva",
+            "items": [
+              "Avanza en la historia tanto como el poder de tu cuenta lo permita.",
+              "Usa esos avances para desbloquear más sistemas y recompensas pasivas más fuertes.",
+              "Comienza a refinar el equipo y las habilidades clave solo en tus mejores unidades."
+            ]
+          },
+          {
+            "range": "Día 4-5",
+            "focus": "Corrige eslabones débiles y mantén la plantilla compacta",
+            "items": [
+              "Comprueba si tu equipo ya tiene un tanque, un healer o soporte y dos atacantes.",
+              "Cubre el rol más débil en tu equipo principal antes de iniciar proyectos de reserva.",
+              "Mantén activas las rutinas de misiones diarias y semanales mientras farmeas cuellos de botella reales."
+            ]
+          },
+          {
+            "range": "Día 6-7",
+            "focus": "Prepárate para el siguiente ciclo de contenido",
+            "items": [
+              "Alterna sesiones de farmeo con nuevos avances en la historia en lugar de forzar un solo modo.",
+              "Ajusta el equipo y las Arcana alrededor del equipo que realmente completa el contenido por ti.",
+              "Planifica cómo quieres gastar la moneda de futuros banners antes de que llegue el próximo rate-up."
+            ]
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "Regla de plantilla central",
+            "items": [
+              "La mayoría de las cuentas en su primera semana deben construirse alrededor de 4 a 5 unidades, no de toda la plantilla.",
+              "La estructura inicial más limpia es 1 tanque, 1 healer o soporte y 2 atacantes.",
+              "Una vez que esa estructura es estable, las mejoras adicionales son mucho más fáciles de justificar."
+            ]
+          },
+          {
+            "title": "Disciplina de recursos de la primera semana",
+            "items": [
+              "Prioriza los desbloqueos de historia porque mejoran tanto el acceso como los ingresos pasivos.",
+              "No dividas los materiales de equipo y habilidades entre demasiadas unidades experimentales.",
+              "La moneda de banner es más valiosa cuando se ahorra con un plan de invocación específico en mente."
+            ]
+          }
+        ],
+        "tags": [
+          "Ritmo de siete días",
+          "Control de recursos de novato",
+          "Preparación para contenido difícil"
+        ],
+        "ctaLabel": "Abrir guía de progresión",
+        "ctaHref": "https://ultimategacha.com/star-savior-beginner-guide-progression-plan/"
+      },
+      {
+        "id": "star-savior-gacha-guide",
+        "title": "Star Savior",
+        "titleHighlight": "Guía de Gacha",
+        "summary": "Star Savior divide personajes y Arcana en banners separados, usa tasas base de SSR sólidas y depende del intercambio por millaje en lugar de un sistema de garantía de unidad destacada.",
+        "badge": "Planificación de banners",
+        "lastChecked": "20-03-2026",
+        "displayType": "accordion_compare_table",
+        "compareCards": [
+          {
+            "title": "Banner de personaje",
+            "badge": "Invocaciones de unidades principales",
+            "headline": "Usa banners de personajes cuando tu plantilla aún necesite un carry, tanque o soporte premium para desbloquear una progresión más fluida.",
+            "items": [
+              "La tasa base de SSR es del 4%.",
+              "La tasa del personaje destacado es del 2%.",
+              "Las unidades destacadas de Luz y Oscuridad figuran al 1%."
+            ]
+          },
+          {
+            "title": "Banner de Arcana",
+            "badge": "Progresión de cartas de soporte",
+            "headline": "Los banners de Arcana importan más una vez que tu plantilla central es jugable y quieres pulir atributos, ventanas de ráfaga o escalado a largo plazo.",
+            "items": [
+              "La tasa base de Arcana SSR también es del 4%.",
+              "La tasa de Arcana destacada es del 2%.",
+              "El millaje puede guardarse para un objetivo futuro de Arcana en lugar de apresurarse."
+            ]
+          }
+        ],
+        "tableTitle": "Tasas de banner y millaje",
+        "tableColumns": [
+          "Regla del sistema",
+          "Valor actual",
+          "Por qué es importante"
+        ],
+        "factRows": [
+          {
+            "label": "Tasa base de SSR",
+            "value": "4% personajes / 4% Arcana",
+            "note": "Ambos tipos de banners principales parten de la misma tasa base de SSR."
+          },
+          {
+            "label": "Tasa destacada",
+            "value": "2% destacado estándar / 1% Luz-Oscuridad",
+            "note": "Los banners premium aún necesitan planificación porque las unidades raras no están garantizadas por una regla de 50/50."
+          },
+          {
+            "label": "Garantía destacada",
+            "value": "Sin 50/50 ni garantía directa de pity",
+            "note": "El progreso del pity no te entrega automáticamente la unidad destacada del rate-up."
+          },
+          {
+            "label": "Ganancia de millaje",
+            "value": "1 de millaje por invocación",
+            "note": "Cada invocación avanza en la misma ruta de intercambio a largo plazo."
+          },
+          {
+            "label": "Intercambio de millaje",
+            "value": "200 de millaje por el personaje o Arcana destacados",
+            "note": "El millaje no caduca, por lo que ahorrar para un banner futuro es válido."
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "Planificación de invocaciones iniciales",
+            "items": [
+              "Invoca según el rol más importante que te falte, no en cada banner nuevo.",
+              "Un primer carry o soporte fuerte suele importar más que invocaciones dispersas.",
+              "Si tu plantilla es jugable, ahorrar puede ser mejor que forzar un valor de rate-up mediocre."
+            ]
+          },
+          {
+            "title": "Disciplina de millaje",
+            "items": [
+              "Trata el millaje como la verdadera red de seguridad a largo plazo en este sistema.",
+              "No gastes el millaje acumulado solo porque esté disponible.",
+              "El mejor objetivo de intercambio suele ser la pieza destacada que cierra una brecha real en la plantilla."
+            ]
+          }
+        ],
+        "tags": [
+          "Conciencia del pity",
+          "Comparación de banners",
+          "Disciplina de invocación"
+        ],
+        "ctaLabel": "Abrir guía de gacha",
+        "ctaHref": "https://tychara.com/StarSavior/guides/gacha-system"
+      },
+      {
+        "id": "star-savior-character-list",
+        "title": "Star Savior",
+        "titleHighlight": "Lista de personajes",
+        "summary": "Usa la base de datos pública de la plantilla para ordenar unidades por rareza, rol y elemento antes de comparar el valor de reroll, espacios en el equipo o futuras builds.",
+        "badge": "Directorio de plantilla",
+        "lastChecked": "20-03-2026",
+        "displayType": "database_grid_filters",
+        "filterGroups": [
+          {
+            "title": "Filtros de rareza",
+            "items": [
+              "SR",
+              "SSR"
+            ]
+          },
+          {
+            "title": "Filtros de rol",
+            "items": [
+              "Defender",
+              "Striker",
+              "Ranger",
+              "Caster",
+              "Supporter",
+              "Assassin"
+            ]
+          },
+          {
+            "title": "Filtros de elemento",
+            "items": [
+              "Sun",
+              "Moon",
+              "Star",
+              "Order",
+              "Chaos"
+            ]
+          }
+        ],
+        "rosterTitle": "Muestra de plantilla en vivo",
+        "rosterDescription": "La base de datos pública está organizada en torno a la plantilla lanzada actualmente en KR y JP, siendo un punto de partida práctico para el tráfico de la página.",
+        "sampleRoster": [
+          {
+            "name": "Annah",
+            "identity": "Muestra de plantilla",
+            "focus": "Candidata de búsqueda rápida para filtrado por rol y rareza."
+          },
+          {
+            "name": "Asherah",
+            "identity": "Muestra de plantilla",
+            "focus": "Útil al comprobar rutas de equipo orientadas al soporte."
+          },
+          {
+            "name": "Bell Rhys",
+            "identity": "Muestra de plantilla",
+            "focus": "Punto de referencia común para comparaciones de carries a distancia."
+          },
+          {
+            "name": "Elisa",
+            "identity": "Muestra de plantilla",
+            "focus": "Útil para revisar opciones alternativas de línea trasera."
+          },
+          {
+            "name": "Frey",
+            "identity": "Muestra de plantilla",
+            "focus": "Una entrada visible para la planificación general de plantillas y builds."
+          },
+          {
+            "name": "Lacy",
+            "identity": "Muestra de plantilla",
+            "focus": "Objetivo frecuente al comparar rutas de carries premium."
+          },
+          {
+            "name": "Luna",
+            "identity": "Muestra de plantilla",
+            "focus": "Útil para comprobaciones de amplitud de plantilla y planificación de reemplazos."
+          },
+          {
+            "name": "Muriel",
+            "identity": "Muestra de plantilla",
+            "focus": "Referencia regular de línea frontal cuando se comparan estructuras de equipo."
+          },
+          {
+            "name": "Serpang",
+            "identity": "Muestra de plantilla",
+            "focus": "Otro punto de búsqueda útil para equipos basados en elementos."
+          },
+          {
+            "name": "Tanya",
+            "identity": "Muestra de plantilla",
+            "focus": "Útil para revisar opciones de espacios a distancia o de utilidad."
+          },
+          {
+            "name": "Trish",
+            "identity": "Muestra de plantilla",
+            "focus": "Útil para el descubrimiento de una plantilla más amplia más allá de las prioridades iniciales."
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "Cobertura de filtros",
+            "items": [
+              "Los principales filtros públicos son rareza, rol y elemento.",
+              "Eso es suficiente para apoyar comprobaciones de reroll, búsquedas de reemplazo de equipo y preparación de builds sin adivinanzas.",
+              "La plantilla visible se basa en las entradas lanzadas actualmente en KR y JP."
+            ]
+          },
+          {
+            "title": "Por qué importa esta base de datos",
+            "items": [
+              "Es la forma más rápida de comparar candidatos antes de invertir recursos.",
+              "Ayuda a conectar las páginas de unidades con las decisiones de creación de equipos y guías.",
+              "Reduce la fricción en la página de inicio cuando los usuarios solo quieren una búsqueda rápida de personajes."
+            ]
+          }
+        ],
+        "tags": [
+          "Clasificación por rol",
+          "Clasificación por elemento",
+          "Resumen de plantilla"
+        ],
+        "ctaLabel": "Abrir lista de personajes",
+        "ctaHref": "https://tychara.com/StarSavior/characterlist"
+      },
+      {
+        "id": "star-savior-journey-training-guide",
+        "title": "Star Savior",
+        "titleHighlight": "Guía de entrenamiento de Journey",
+        "summary": "Journey es el modo de crianza dedicado en Star Savior, y cada intento alimenta el poder a largo plazo mediante elecciones de entrenamiento, control de condición y producción del Archivo Stella.",
+        "badge": "Guía del sistema central",
+        "lastChecked": "20-03-2026",
+        "displayType": "step_diagram_checklist",
         "steps": [
-          "Usa los giros obtenidos de códigos o del juego",
-          "Accede al menú del clan en el juego",
-          "Gasta giros para volver a tirar para obtener mejores clanes",
-          "Los clanes de nivel superior tienen tasas de caída más bajas"
-        ]
+          {
+            "title": "Establece el objetivo del intento",
+            "description": "Entra en Journey con un objetivo de atributos claro en lugar de tratar el modo como contenido secundario aleatorio.",
+            "items": [
+              "Elige si el intento es para un atacante, un tanque o una estructura de soporte.",
+              "Planifica en torno a los atributos que importan para ese Savior antes de gastar turnos.",
+              "Las acumulaciones de Arcana coincidentes son la forma más limpia de mantener el intento bien encaminado."
+            ]
+          },
+          {
+            "title": "Ciclo de entrenamiento y peticiones",
+            "description": "Un intento fuerte en Journey se construye turno a turno mediante elecciones de entrenamiento, eventos de petición y el ritmo adecuado entre ellos.",
+            "items": [
+              "Usa el entrenamiento para impulsar la línea de atributos principal del rol que estás construyendo.",
+              "Acepta peticiones que refuercen tu atributo previsto o curva de condición.",
+              "Evita desvíos que aumenten atributos débiles sin ayudar al archivo final."
+            ]
+          },
+          {
+            "title": "Control de condición y ritmo",
+            "description": "Las decisiones de descanso son parte de la ruta, ya que el intento pierde valor rápidamente si la condición cae.",
+            "items": [
+              "Mantén la Condición en EXCELENTE siempre que sea posible durante intentos serios.",
+              "Usa el descanso como un reinicio planificado, no como un botón de pánico tras turnos desperdiciados.",
+              "Para intentos en Difícil, STR, HP y Resistencia suelen tener más valor que atributos secundarios dispersos."
+            ]
+          },
+          {
+            "title": "Asegura el Archivo Stella",
+            "description": "Cada intento completado se convierte en un Archivo Stella, que funciona como un registro de build a largo plazo para ese Savior.",
+            "items": [
+              "El archivo preserva el valor del intento para futuras builds.",
+              "Una mejor disciplina en Journey significa una mejor calidad de archivo con el tiempo.",
+              "Es por eso que Journey es un sistema de progresión central, no un minijuego secundario."
+            ]
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "Punto de entrada a Difícil",
+            "items": [
+              "La Etapa de Resonancia 8 es el objetivo mínimo de entrada habitual para Journey en Difícil.",
+              "La Etapa de Resonancia 9 es el punto más cómodo si quieres intentos más estables.",
+              "Entrar demasiado pronto suele convertir el modo en un sumidero de recursos en lugar de una herramienta de crecimiento."
+            ]
+          },
+          {
+            "title": "Lista de verificación del intento",
+            "items": [
+              "Tres o más Arcana coincidentes pueden apoyar la acumulación de atributos enfocada.",
+              "Los atacantes pueden apuntar a STR 1250, mientras que los tanques y soportes pueden apuntar a HP 1250.",
+              "Para el modo Difícil, mantén el intento centrado en STR, HP, Resistencia y una gestión de condición estable."
+            ]
+          }
+        ],
+        "tags": [
+          "Claridad del ciclo de Journey",
+          "Planificación de resonancia",
+          "Crecimiento a largo plazo"
+        ],
+        "ctaLabel": "Abrir guía de Journey",
+        "ctaHref": "https://www.hideoutgacha.com/games/star-savior/training-guide"
+      },
+      {
+        "id": "star-savior-boss-guide",
+        "title": "Star Savior",
+        "titleHighlight": "Guía de jefes",
+        "summary": "Las limpiezas iniciales de raids y jefes de mundo siguen un ciclo repetible: sobrevivir al golpe fuerte, reducir defensa, romper el medidor y luego detonar Nova Burst durante la ventana de Break.",
+        "badge": "Planificador de ventana de Break",
+        "lastChecked": "20-03-2026",
+        "displayType": "bossCardsWithMechanicTags",
+        "mechanicCards": [
+          {
+            "title": "Estructura de equipo recomendada",
+            "cue": "Base de 4 espacios",
+            "items": [
+              "Usa 1 tanque, 1 healer o soporte, 1 DPS de área y 1 DPS de un solo objetivo para consistencia inicial.",
+              "Esta estructura mantiene el intento estable mientras crea suficiente presión para las ventanas de Break.",
+              "Las selecciones iniciales recomendadas incluyen a Ede para tanquear y Serpent, Frey o Elisa para sustento."
+            ]
+          },
+          {
+            "title": "Ejecución de la ventana de Break",
+            "cue": "Aproximadamente dos turnos",
+            "items": [
+              "Los jefes entran en un estado de ruptura durante unos dos turnos después de que el medidor de Break llega a cero.",
+              "Guarda las definitivas y el Nova Burst para ese estado en lugar de gastarlos en fases con escudo.",
+              "El orden de turnos sigue importando porque los debuffs y habilidades de preparación deben aplicarse antes de que comience tu ciclo de ráfaga."
+            ]
+          },
+          {
+            "title": "Puntos de falla comunes",
+            "cue": "Corrige estos primero",
+            "items": [
+              "La mayoría de las derrotas vienen de gastar definitivas antes del Break y activar el Nova Burst demasiado pronto.",
+              "Omitir un healer a menudo causa colapsos evitables en los intentos iniciales de raid.",
+              "Perder el tiempo de la barra de acción del jefe convierte las preparaciones limpias en turnos de daño de bajo valor."
+            ]
+          }
+        ],
+        "tagPanels": [
+          {
+            "title": "Selecciones iniciales recomendadas",
+            "tags": [
+              "Tanque: Ede",
+              "Sustento: Serpent o Frey o Elisa",
+              "Área: Luna o Carmen o Asela o Dana",
+              "Ráfaga: Smile o Kira o Charles o Lacy o Tanya o Epindel"
+            ]
+          },
+          {
+            "title": "Ajustes según el tipo de combate",
+            "tags": [
+              "Oleadas pesadas de enemigos: refuerza el espacio de daño de área primero",
+              "Combates con mucho Daño en el Tiempo (DoT): prioriza a Elisa o Frey",
+              "Fases de escudo o reflejo: trae a Smile u otra unidad de ruptura de defensa",
+              "Rastrea las barras de acción de los jefes antes de comprometer la ráfaga"
+            ]
+          }
+        ],
+        "tags": [
+          "Planificación de ventana de Break",
+          "Consistencia de estructura de roles",
+          "Disciplina de tiempo de ráfaga"
+        ],
+        "ctaLabel": "Abrir mecánicas de jefes, selecciones de roles y consejos de ráfaga en ventana de Break",
+        "ctaHref": "https://ultimategacha.com/star-savior-boss-guide-how-to-beat-early-game-raid-world-bosses/"
+      },
+      {
+        "id": "star-savior-hard-mode-guide",
+        "title": "Star Savior",
+        "titleHighlight": "Guía del modo Difícil",
+        "summary": "El modo Difícil es un punto de control de progresión para el contenido de Journey y Mainstream, con controles de atributos más estrictos, amuletos específicos de rol y un techo de atributos prácticos más alto.",
+        "badge": "Preparación de puerta de progresión",
+        "lastChecked": "20-03-2026",
+        "displayType": "checklistWithTeamCards",
+        "checklistTitle": "Lista previa al modo Difícil",
+        "prepChecklist": [
+          "Alcanza la Etapa de Resonancia 8 antes de entrar al modo Difícil, siendo la Etapa 9 el punto de comodidad ideal.",
+          "Completa primero la Etapa 14 de Mainstream para desbloquear la ruta hacia la progresión de equipo T2.",
+          "Construye tu configuración de carry en torno a elecciones de Arcana enfocadas antes de extenderte a proyectos secundarios.",
+          "Mantén tus primeras alineaciones de Difícil compactas y totalmente mejoradas en lugar de rotar unidades sin terminar."
+        ],
+        "teamCards": [
+          {
+            "title": "Plantilla para matar jefes",
+            "composition": "Ede + Frey + Smile + Kira o Charles",
+            "items": [
+              "Diseñada para un control estable de la línea frontal y turnos de ráfaga enfocados.",
+              "Usa esta estructura cuando la supervivencia sea el principal obstáculo.",
+              "Funciona mejor cuando tu espacio de carry ya está ajustado para el daño en ventana de Break."
+            ]
+          },
+          {
+            "title": "Plantilla de limpieza rápida",
+            "composition": "Sayla + Serpent + Smile + Luna o Asela",
+            "items": [
+              "Prioriza el ritmo y la presión de la barra de acción para ciclos rápidos de etapa.",
+              "Se usa mejor cuando tu plantilla ya puede sobrevivir al daño entrante base.",
+              "Combina bien con equipo enfocado en velocidad y una configuración limpia de orden de turnos."
+            ]
+          }
+        ],
+        "charmCards": [
+          {
+            "title": "Dirección de amuletos de DPS",
+            "role": "Atacantes",
+            "items": [
+              "Los amuletos de escalado de ATK son la elección común de alto impacto.",
+              "Elige amuletos que refuercen tu perfil de daño principal.",
+              "Evita dividir las mejoras de amuletos entre demasiados carries secundarios."
+            ]
+          },
+          {
+            "title": "Dirección de amuletos de tanque",
+            "role": "Línea frontal",
+            "items": [
+              "Los amuletos de escalado de HP suelen ser los preferidos para los tanques.",
+              "Los amuletos de estabilidad son más valiosos que las líneas de daño codiciosas aquí.",
+              "Prepara al tanque primero para que tus unidades de ráfaga puedan mantener su ciclo."
+            ]
+          },
+          {
+            "title": "Dirección de amuletos de soporte",
+            "role": "Healer / Utilidad",
+            "items": [
+              "Los amuletos de escalado de HP también son preferidos para los soportes.",
+              "La consistencia vence a la varianza en encuentros largos de modo Difícil.",
+              "Prioriza el tiempo de actividad y la supervivencia antes que las opciones de daño de lujo."
+            ]
+          }
+        ],
+        "tags": [
+          "Preparación de resonancia",
+          "Puerta de progresión T2",
+          "Planificación de amuletos específicos de rol"
+        ],
+        "ctaLabel": "Ver lista previa al modo Difícil, objetivos de atributos y plantillas de equipo",
+        "ctaHref": "https://ultimategacha.com/star-savior-hard-mode-guide-how-to-prepare-teams-to-use/"
+      },
+      {
+        "id": "star-savior-pvp-guide",
+        "title": "Star Savior",
+        "titleHighlight": "Guía de PvP",
+        "summary": "El PvP de Star Savior se basa en el ritmo: la velocidad, el control de la barra de acción, el tiempo de Break y las ventanas de Nova Burst deciden la mayoría de las partidas.",
+        "badge": "Mapa de ritmo y control",
+        "lastChecked": "20-03-2026",
+        "displayType": "dualColumnLineups",
+        "lineupColumns": [
+          {
+            "id": "ofensa",
+            "title": "Alineaciones ofensivas",
+            "description": "Inicia con presión de velocidad y control de barra para asegurar el primer turno de ráfaga significativo.",
+            "entries": [
+              {
+                "name": "Sun Blitz",
+                "core": "Sayla + Smile + Luna + Haydee",
+                "notes": [
+                  "Apertura rápida diseñada para presionar estructuras defensivas frágiles.",
+                  "Ideal cuando puedes forzar la primera ventana de Break limpiamente."
+                ]
+              },
+              {
+                "name": "Núcleo de Order",
+                "core": "Vesta + Serpent + Smile + Lou",
+                "notes": [
+                  "Estructura de control equilibrada que puede alternar entre presión y turnos de estabilidad.",
+                  "Útil contra equipos de defensa mixtos con líneas de velocidad desiguales."
+                ]
+              },
+              {
+                "name": "Waltz Carry",
+                "core": "Asherah: Waltz of Starlight + Smile + Kira + Ede",
+                "notes": [
+                  "Centra la partida en torno a un ciclo de daño de carry protegido.",
+                  "Funciona mejor cuando tu configuración de utilidad puede asegurar el tiempo de ráfaga."
+                ]
+              }
+            ]
+          },
+          {
+            "id": "defensa",
+            "title": "Alineaciones defensivas",
+            "description": "Usa una estructura de línea frontal resistente y ventanas de castigo para negar los turnos de bola de nieve ofensivos.",
+            "entries": [
+              {
+                "name": "Muro de Luna Haydee",
+                "core": "Luna + Haydee + Ede + Serpent",
+                "notes": [
+                  "Estructura de durabilidad primero para ralentizar a los atacantes de alto ritmo.",
+                  "Gana al sobrevivir a la primera ráfaga y forzar intercambios más largos."
+                ]
+              },
+              {
+                "name": "Haydee BC Roberta",
+                "core": "Haydee + Bunnygirl Claire + Roberta + Smile",
+                "notes": [
+                  "Configuración disruptiva que castiga el mal enfoque de objetivos de los equipos ofensivos.",
+                  "Más efectiva cuando tu orden de turnos defensivo está ajustado."
+                ]
+              },
+              {
+                "name": "Bell Seira Luna",
+                "core": "Bell Rhys + Seira + Luna + Vesta",
+                "notes": [
+                  "Defensa híbrida que mezcla amenaza de ráfaga con utilidad por capas.",
+                  "Comúnmente utilizada para desafiar rotaciones ofensivas de un solo plan."
+                ]
+              }
+            ]
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "Reglas principales de PvP",
+            "items": [
+              "La cobertura del modo actual se centra en RTA en tiempo real y partidas de defensa de escalera clásicas.",
+              "Una estructura estable sigue siendo 2 DPS, 1 tanque o línea frontal y 1 espacio de soporte o flexible.",
+              "Sayla, Smile, Lou, Ede, Vesta y Serpent son destacados frecuentemente como anclas de ritmo."
+            ]
+          },
+          {
+            "title": "Recompensas de temporada",
+            "items": [
+              "Moneda premium basada en la temporada",
+              "Materiales de mejora que apoyan los ciclos de progresión",
+              "Recompensas cosméticas como títulos o marcos de perfil"
+            ]
+          }
+        ],
+        "tags": [
+          "Plantillas de ofensa y defensa",
+          "Tiempo de control de barra",
+          "Conciencia de recompensas de temporada"
+        ],
+        "ctaLabel": "Compara alineaciones de ofensa y defensa para el meta actual de PvP",
+        "ctaHref": "https://ultimategacha.com/star-savior-pvp-guide-team-building-strategy-rewards/"
+      },
+      {
+        "id": "star-savior-resource-management",
+        "title": "Star Savior",
+        "titleHighlight": "Gestión de recursos",
+        "summary": "La progresión se gana concentrando recursos en un escuadrón principal, avanzando en tu etapa de limpieza más alta y gastando moneda premium donde el valor de la cuenta a largo plazo sea mayor.",
+        "badge": "Tablero de orden de gasto",
+        "lastChecked": "20-03-2026",
+        "displayType": "priorityTableWithDoDontCards",
+        "tableTitle": "Prioridad de gasto de recursos",
+        "tableColumns": [
+          "Vía de recurso",
+          "Prioridad",
+          "Regla de ejecución"
+        ],
+        "priorityRows": [
+          {
+            "lane": "Estamina",
+            "priority": "Gastar primero",
+            "rule": "Avanza primero en la historia principal para aumentar la producción AFK, luego farmea etapas de moneda de evento de alto valor."
+          },
+          {
+            "lane": "AFK y Journey",
+            "priority": "Seguir a diario",
+            "rule": "Las recompensas AFK escalan según la etapa más alta completada, mientras que Journey y Entrenamiento usan vías separadas que deben planificarse juntas."
+          },
+          {
+            "lane": "Materiales centrales",
+            "priority": "Guardar celosamente",
+            "rule": "Los materiales de resonancia, de ruptura de límite, puntos de potencial, EXP, oro, Esencia Estelar y EXP de Operación deben alinearse con tu cuello de botella real."
+          },
+          {
+            "lane": "Escuadrón principal",
+            "priority": "Mejorar primero",
+            "rule": "Usa tus mejores recursos en los 4 a 6 Saviors principales en lugar de dispersar mejoras en proyectos secundarios."
+          },
+          {
+            "lane": "Moneda premium",
+            "priority": "Uso específico",
+            "rule": "Gasta Starlight Ore y tickets de invocación en banners de alto impacto en lugar de recargas de estamina o reinicios aleatorios."
+          },
+          {
+            "lane": "Tienda de evento",
+            "priority": "Ordenar por valor",
+            "rule": "Prioriza tickets de invocación, piedras de mejora raras y equipo de alto nivel antes que materiales genéricos."
+          }
+        ],
+        "doList": [
+          "Mantén tu ruta de mejora centrada en un escuadrón primario.",
+          "Gasta estamina en torno al crecimiento de etapas completadas y cuellos de botella activos.",
+          "Planifica las invocaciones premium en banners que cierren brechas concretas en la plantilla.",
+          "Usa las tiendas de eventos para artículos de progresión de cuenta de alto valor primero."
+        ],
+        "dontList": [
+          "No disperses mejoras premium en unidades secundarias sin terminar.",
+          "No gastes moneda premium en reinicios de bajo impacto sin un plan.",
+          "No dejes que las recompensas AFK lleguen al límite cuando la recolección diaria esté disponible.",
+          "No compres materiales genéricos en exceso mientras queden artículos de progresión raros."
+        ],
+        "shopPriorities": [
+          "Tickets de invocación",
+          "Piedras de mejora raras",
+          "Piezas de equipo de alto nivel",
+          "Luego materiales de relleno genéricos"
+        ],
+        "shopTitle": "Orden de compra de la tienda de evento",
+        "tags": [
+          "Concentración en escuadrón principal",
+          "Planificación de estamina y AFK",
+          "Disciplina de moneda premium"
+        ],
+        "ctaLabel": "Consulta el orden de gasto, lista de ahorro y prioridades de farmeo diario",
+        "ctaHref": "https://ultimategacha.com/star-savior-resource-management-guide-materials/"
       }
-    }
+    ]
   }
 }
