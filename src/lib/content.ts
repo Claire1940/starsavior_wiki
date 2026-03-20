@@ -1,5 +1,9 @@
 import fs from 'fs'
 import path from 'path'
+import matter from 'gray-matter'
+import { compileMDX } from 'next-mdx-remote/rsc'
+import remarkGfm from 'remark-gfm'
+import type { ReactNode } from 'react'
 import { CONTENT_TYPES as CONFIG_CONTENT_TYPES } from '@/config/navigation'
 import type { Locale } from '@/i18n/routing'
 
@@ -40,6 +44,14 @@ export interface ContentData {
   frontmatter: ContentFrontmatter
 }
 
+export interface ContentDetail {
+  content: ReactNode
+  frontmatter: ContentFrontmatter
+  resolvedLanguage: Language
+}
+
+const CONTENT_ROOT = path.join(process.cwd(), 'content')
+
 /**
  * 辅助函数：递归获取目录下所有 MDX 文件的 slug
  */
@@ -72,40 +84,45 @@ export async function getAllContent(
 ): Promise<ContentItem[]> {
   const items: ContentItem[] = []
 
+  if (!fs.existsSync(CONTENT_ROOT)) {
+    return items
+  }
+
   // 获取指定语言的所有 slugs
-  const contentDir = path.join(process.cwd(), 'content', language, contentType)
+  const contentDir = path.join(CONTENT_ROOT, language, contentType)
   let slugs = getSlugsFromDirectory(contentDir)
 
   // 如果不是英文，也获取英文目录的 slugs（用于 fallback）
   if (language !== 'en') {
-    const enContentDir = path.join(process.cwd(), 'content', 'en', contentType)
+    const enContentDir = path.join(CONTENT_ROOT, 'en', contentType)
     const enSlugs = getSlugsFromDirectory(enContentDir)
     // 合并，去重
     slugs = [...new Set([...slugs, ...enSlugs])]
   }
 
-  // 使用 import 获取每个文件的 metadata
+  // 读取 frontmatter，避免在 content 目录不存在时触发构建阶段路径解析警告
   for (const slug of slugs) {
+    const localizedFilePath = path.join(CONTENT_ROOT, language, contentType, `${slug}.mdx`)
+    const fallbackFilePath = path.join(CONTENT_ROOT, 'en', contentType, `${slug}.mdx`)
+    const filePath = fs.existsSync(localizedFilePath)
+      ? localizedFilePath
+      : language !== 'en' && fs.existsSync(fallbackFilePath)
+        ? fallbackFilePath
+        : null
+
+    if (!filePath) {
+      continue
+    }
+
     try {
-      // 先尝试当前语言
-      const mod = await import(`../../content/${language}/${contentType}/${slug}.mdx`)
+      const source = fs.readFileSync(filePath, 'utf8')
+      const { data } = matter(source)
       items.push({
         slug,
-        frontmatter: mod.metadata as ContentFrontmatter,
+        frontmatter: data as ContentFrontmatter,
       })
     } catch {
-      // Fallback 到英文
-      if (language !== 'en') {
-        try {
-          const mod = await import(`../../content/en/${contentType}/${slug}.mdx`)
-          items.push({
-            slug,
-            frontmatter: mod.metadata as ContentFrontmatter,
-          })
-        } catch {
-          // 跳过无法加载的文件
-        }
-      }
+      // 跳过无法读取的文件
     }
   }
 
@@ -128,8 +145,12 @@ export async function getAllContent(
 export async function getAllContentPaths(): Promise<string[][]> {
   const paths: string[][] = []
 
+  if (!fs.existsSync(CONTENT_ROOT)) {
+    return paths
+  }
+
   for (const contentType of CONTENT_TYPES) {
-    const contentDir = path.join(process.cwd(), 'content', 'en', contentType)
+    const contentDir = path.join(CONTENT_ROOT, 'en', contentType)
 
     const scanDirectory = (dir: string, basePath: string[] = []) => {
       if (!fs.existsSync(dir)) return
@@ -163,6 +184,48 @@ export async function getAllContentSlugs(
 ): Promise<string[]> {
   const items = await getAllContent(contentType, language)
   return items.map(item => item.slug)
+}
+
+export async function getContentDetail(
+  contentType: ContentType,
+  language: Language,
+  slug: string
+): Promise<ContentDetail | null> {
+  if (!fs.existsSync(CONTENT_ROOT)) {
+    return null
+  }
+
+  const localizedFilePath = path.join(CONTENT_ROOT, language, contentType, `${slug}.mdx`)
+  const fallbackFilePath = path.join(CONTENT_ROOT, 'en', contentType, `${slug}.mdx`)
+
+  const filePath = fs.existsSync(localizedFilePath)
+    ? localizedFilePath
+    : language !== 'en' && fs.existsSync(fallbackFilePath)
+      ? fallbackFilePath
+      : null
+
+  if (!filePath) {
+    return null
+  }
+
+  const source = fs.readFileSync(filePath, 'utf8')
+  const { content, data } = matter(source)
+  const compiled = await compileMDX({
+    source: content,
+    options: {
+      parseFrontmatter: false,
+      mdxOptions: {
+        remarkPlugins: [remarkGfm],
+        rehypePlugins: [],
+      },
+    },
+  })
+
+  return {
+    content: compiled.content,
+    frontmatter: data as ContentFrontmatter,
+    resolvedLanguage: filePath === localizedFilePath ? language : 'en',
+  }
 }
 
 /**

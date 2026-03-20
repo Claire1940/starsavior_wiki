@@ -1,4 +1,3 @@
-import { Gift, BarChart3, Users, Sprout, BookOpen, Gamepad2, Package, MessageCircle } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
 export interface NavigationItem {

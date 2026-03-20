@@ -1,3 +1,9 @@
+import fs from 'fs'
+import path from 'path'
+import matter from 'gray-matter'
+import { compileMDX } from 'next-mdx-remote/rsc'
+import remarkGfm from 'remark-gfm'
+
 export async function MDXWrapper({
   language,
   slug,
@@ -8,10 +14,26 @@ export async function MDXWrapper({
   contentType?: string
 }) {
   try {
-    // 动态导入 MDX 文件
-    const MDXContent = await import(`@/../../content/${language}/${contentType}/${slug}.mdx`)
+    const filePath = path.join(process.cwd(), 'content', language, contentType, `${slug}.mdx`)
 
-    return <MDXContent.default />
+    if (!fs.existsSync(filePath)) {
+      throw new Error(`Content not found: ${filePath}`)
+    }
+
+    const source = fs.readFileSync(filePath, 'utf8')
+    const { content } = matter(source)
+    const mdxContent = await compileMDX({
+      source: content,
+      options: {
+        parseFrontmatter: false,
+        mdxOptions: {
+          remarkPlugins: [remarkGfm],
+          rehypePlugins: [],
+        },
+      },
+    })
+
+    return mdxContent.content
   } catch (error) {
     console.error(`Failed to load MDX: ${language}/${contentType}/${slug}`, error)
     return (
