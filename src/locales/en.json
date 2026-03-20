@@ -764,32 +764,63 @@
         "id": "star-savior-7-day-progression",
         "title": "Star Savior",
         "titleHighlight": "7-Day Progression",
-        "summary": "The first week sets your account pace, so this module compresses the strongest early priorities into a seven-day route.",
+        "summary": "Use the first week to unlock systems, raise idle income, and stabilize one real team core instead of scattering upgrades across the whole roster.",
         "badge": "Week-one schedule",
         "lastChecked": "2026-03-20",
-        "cards": [
+        "displayType": "timeline_cards",
+        "timeline": [
           {
-            "title": "Day 1 to Day 2",
+            "range": "Day 1",
+            "focus": "Lock the account foundation",
             "items": [
-              "Push the main story",
-              "Claim beginner rewards and freebies",
-              "Limit upgrades to your first core team"
+              "Finish the tutorial and claim the main launch rewards first.",
+              "Reroll only if you plan to commit to it immediately.",
+              "Choose your starter team early so your first upgrades stay focused."
             ]
           },
           {
-            "title": "Day 3 to Day 5",
+            "range": "Day 2-3",
+            "focus": "Push story and raise idle output",
             "items": [
-              "Refine your team roles",
-              "Raise the highest-value carry and tank pieces",
-              "Stabilize AFK and daily mission routines"
+              "Push story as far as your account power allows.",
+              "Use those clears to unlock more systems and stronger idle rewards.",
+              "Start refining equipment and key skills on your best units only."
             ]
           },
           {
-            "title": "Day 6 to Day 7",
+            "range": "Day 4-5",
+            "focus": "Fix weak links and keep the roster compact",
             "items": [
-              "Prepare for harder content loops",
-              "Tune gear and Arcana around your real roster",
-              "Stop wasting materials on weak side projects"
+              "Check whether your team already has a tank, a healer or support, and two damage dealers.",
+              "Patch the weakest role in your main team before raising bench projects.",
+              "Keep daily and weekly mission routines active while farming around real bottlenecks."
+            ]
+          },
+          {
+            "range": "Day 6-7",
+            "focus": "Prepare for the next content loop",
+            "items": [
+              "Alternate farming sessions with fresh story pushes instead of forcing one mode all week.",
+              "Tune gear and Arcana around the team that actually clears content for you.",
+              "Plan how you want to spend future banner currency before the next rate-up arrives."
+            ]
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "Core Roster Rule",
+            "items": [
+              "Most week-one accounts should build around 4 to 5 units, not the full roster.",
+              "The cleanest starter shell is 1 tank, 1 healer or support, and 2 damage dealers.",
+              "Once that shell is stable, extra upgrades become much easier to justify."
+            ]
+          },
+          {
+            "title": "Week-One Resource Discipline",
+            "items": [
+              "Prioritize story unlocks because they improve both access and idle income.",
+              "Do not split gear and skill materials across too many experimental units.",
+              "Banner currency is more valuable when saved with a target pull plan in mind."
             ]
           }
         ],
@@ -805,32 +836,80 @@
         "id": "star-savior-gacha-guide",
         "title": "Star Savior",
         "titleHighlight": "Gacha Guide",
-        "summary": "Use this module to keep banner types, rates, pity logic, and spending priorities understandable before you commit premium currency.",
+        "summary": "Star Savior splits characters and Arcana into separate banners, uses strong base SSR rates, and relies on mileage exchange instead of a featured-unit guarantee system.",
         "badge": "Banner planning",
         "lastChecked": "2026-03-20",
-        "cards": [
+        "displayType": "accordion_compare_table",
+        "compareCards": [
           {
-            "title": "Core Banner Questions",
+            "title": "Character Banner",
+            "badge": "Main unit pulls",
+            "headline": "Use character banners when your roster still needs a carry, tank, or premium support to unlock cleaner progression.",
             "items": [
-              "Character pool or Arcana pool",
-              "Rate-up value for your account stage",
-              "How much pity progress matters to you"
+              "Base SSR rate is 4%.",
+              "Featured character rate is 2%.",
+              "Light and Dark featured units are listed at 1%."
             ]
           },
           {
-            "title": "Starter Strategy",
+            "title": "Arcana Banner",
+            "badge": "Support-card progression",
+            "headline": "Arcana banners matter more once your core roster is playable and you want to sharpen stat lines, burst windows, or long-term scaling.",
             "items": [
-              "Summon around your strongest early carry plan",
-              "Do not chase every banner",
-              "Compare roster holes before spending"
+              "Base SSR Arcana rate is also 4%.",
+              "Featured Arcana rate is 2%.",
+              "Mileage can be saved for a future Arcana target instead of rushed."
+            ]
+          }
+        ],
+        "tableTitle": "Banner Rates and Mileage",
+        "tableColumns": [
+          "System Rule",
+          "Current Value",
+          "Why It Matters"
+        ],
+        "factRows": [
+          {
+            "label": "Base SSR Rate",
+            "value": "4% characters / 4% Arcana",
+            "note": "Both major banner types start from the same SSR base rate."
+          },
+          {
+            "label": "Featured Rate",
+            "value": "2% standard featured / 1% Light-Dark featured",
+            "note": "Premium banners still need planning because rare featured units are not guaranteed through a split 50/50 rule."
+          },
+          {
+            "label": "Featured Guarantee",
+            "value": "No 50/50 and no direct pity guarantee",
+            "note": "Pity progress does not automatically hand you the featured unit on rate-up."
+          },
+          {
+            "label": "Mileage Gain",
+            "value": "1 mileage per pull",
+            "note": "Every summon advances the same long-term exchange path."
+          },
+          {
+            "label": "Mileage Exchange",
+            "value": "200 mileage for the featured unit or Arcana",
+            "note": "Mileage does not expire, so saving for a future banner is valid."
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "Starter Pull Planning",
+            "items": [
+              "Pull around your most important missing role, not around every new banner.",
+              "A stronger first carry or support usually matters more than scattered summons.",
+              "If your roster is playable, saving can be better than forcing mediocre rate-up value."
             ]
           },
           {
-            "title": "What This Module Clarifies",
+            "title": "Mileage Discipline",
             "items": [
-              "Rates and mileage logic",
-              "Banner type differences",
-              "New-player spending discipline"
+              "Treat mileage as the real long-term safety valve in this system.",
+              "Do not burn stored mileage just because it is available.",
+              "The best exchange target is usually the featured piece that closes an actual roster gap."
             ]
           }
         ],
@@ -846,34 +925,114 @@
         "id": "star-savior-character-list",
         "title": "Star Savior",
         "titleHighlight": "Character List",
-        "summary": "The character list is the cleanest overview point for rarity, role, element, and future build planning across the whole roster.",
+        "summary": "Use the public roster database to sort units by rarity, role, and element before you compare reroll value, team slots, or future build paths.",
         "badge": "Roster directory",
         "lastChecked": "2026-03-20",
-        "cards": [
+        "displayType": "database_grid_filters",
+        "filterGroups": [
           {
-            "title": "Filter By Role",
+            "title": "Rarity Filters",
             "items": [
-              "Defender",
-              "Assassin",
-              "Ranger",
-              "Support"
+              "SR",
+              "SSR"
             ]
           },
           {
-            "title": "Filter By Element",
+            "title": "Role Filters",
+            "items": [
+              "Defender",
+              "Striker",
+              "Ranger",
+              "Caster",
+              "Supporter",
+              "Assassin"
+            ]
+          },
+          {
+            "title": "Element Filters",
             "items": [
               "Sun",
               "Moon",
-              "Chaos",
-              "Order"
+              "Star",
+              "Order",
+              "Chaos"
+            ]
+          }
+        ],
+        "rosterTitle": "Live Sample Roster",
+        "rosterDescription": "The public database is organized around the currently released KR and JP roster, making it a practical starting point for lookup-heavy homepage traffic.",
+        "sampleRoster": [
+          {
+            "name": "Annah",
+            "identity": "Roster sample",
+            "focus": "Quick lookup candidate for role and rarity filtering."
+          },
+          {
+            "name": "Asherah",
+            "identity": "Roster sample",
+            "focus": "Useful when checking support-oriented team paths."
+          },
+          {
+            "name": "Bell Rhys",
+            "identity": "Roster sample",
+            "focus": "Common reference point for ranged carry comparisons."
+          },
+          {
+            "name": "Elisa",
+            "identity": "Roster sample",
+            "focus": "Helpful for checking alternate back-line options."
+          },
+          {
+            "name": "Frey",
+            "identity": "Roster sample",
+            "focus": "A visible entry for broader roster and build planning."
+          },
+          {
+            "name": "Lacy",
+            "identity": "Roster sample",
+            "focus": "Frequent target when comparing premium carry routes."
+          },
+          {
+            "name": "Luna",
+            "identity": "Roster sample",
+            "focus": "Useful for roster breadth checks and replacement planning."
+          },
+          {
+            "name": "Muriel",
+            "identity": "Roster sample",
+            "focus": "Regular front-line reference when team shells are compared."
+          },
+          {
+            "name": "Serpang",
+            "identity": "Roster sample",
+            "focus": "Another useful lookup point for element-driven teams."
+          },
+          {
+            "name": "Tanya",
+            "identity": "Roster sample",
+            "focus": "Helpful for checking ranged or utility slot options."
+          },
+          {
+            "name": "Trish",
+            "identity": "Roster sample",
+            "focus": "Useful for broader roster discovery beyond starter priorities."
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "Filter Coverage",
+            "items": [
+              "The main public filters are rarity, role, and element.",
+              "That is enough to support reroll checks, team replacement searches, and build prep without guessing.",
+              "The visible roster is anchored in currently released KR and JP entries."
             ]
           },
           {
-            "title": "Use Cases",
+            "title": "Why This Database Matters",
             "items": [
-              "Build planning",
-              "Reroll comparison",
-              "Team replacement checks"
+              "It is the fastest way to compare candidates before you invest resources.",
+              "It helps connect unit pages to team-building and guide decisions.",
+              "It reduces homepage friction when users only want a quick roster lookup."
             ]
           }
         ],
@@ -889,32 +1048,63 @@
         "id": "star-savior-journey-training-guide",
         "title": "Star Savior",
         "titleHighlight": "Journey Training Guide",
-        "summary": "Journey training is one of the defining Star Savior systems, so this module keeps the loop, setup, and long-term value easy to scan.",
+        "summary": "Journey is the dedicated raising mode in Star Savior, and each run feeds long-term power through training choices, condition control, and Stella Archive output.",
         "badge": "Core system guide",
         "lastChecked": "2026-03-20",
-        "cards": [
+        "displayType": "step_diagram_checklist",
+        "steps": [
           {
-            "title": "Journey Loop",
+            "title": "Set the Run Goal",
+            "description": "Go into Journey with a clear stat target instead of treating the mode like random side content.",
             "items": [
-              "Enter Journey with a clear training goal",
-              "Build around factors and progression synergy",
-              "Carry the right improvements back to your roster"
+              "Choose whether the run is for a damage dealer, tank, or support shell.",
+              "Plan around the stats that matter for that Savior before you spend turns.",
+              "Matching Arcana stacks are the cleanest way to keep the run pointed in one direction."
             ]
           },
           {
-            "title": "Training Focus",
+            "title": "Cycle Training and Requests",
+            "description": "A strong Journey run is built turn by turn through training choices, request events, and the right pacing between them.",
             "items": [
-              "Understand resonance value early",
-              "Pick upgrades that reinforce your actual carry plan",
-              "Avoid random training detours"
+              "Use training to push the main stat line for the role you are building.",
+              "Take requests that reinforce your intended stat or condition curve.",
+              "Avoid detours that pad weak stats without helping the final archive."
             ]
           },
           {
-            "title": "Why It Matters",
+            "title": "Control Condition and Tempo",
+            "description": "Rest decisions are part of the route, because the run loses value quickly once condition falls behind.",
             "items": [
-              "Account-wide efficiency",
-              "Hard-content preparation",
-              "Smarter long-term character growth"
+              "Keep Condition at BEST whenever possible during serious runs.",
+              "Use rest as a planned reset, not as a panic button after wasted turns.",
+              "For Hard runs, STR, HP, and Endurance usually carry more value than scattered side stats."
+            ]
+          },
+          {
+            "title": "Lock the Stella Archive",
+            "description": "Every completed run becomes a Stella Archive, which works like a long-term build record for that Savior.",
+            "items": [
+              "The archive preserves the value of the run for future builds.",
+              "Better Journey discipline means better archive quality over time.",
+              "That is why Journey is a core progression system, not a side mini-game."
+            ]
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "Hard Entry Point",
+            "items": [
+              "Resonance Stage 8 is the usual minimum entry target for Journey Hard.",
+              "Resonance Stage 9 is the more comfortable point if you want steadier runs.",
+              "Going in too early usually turns the mode into a resource sink instead of a growth tool."
+            ]
+          },
+          {
+            "title": "Run Checklist",
+            "items": [
+              "Three or more matching Arcana can support focused stat stacking.",
+              "Damage dealers can aim toward STR 1250, while tanks and supports can aim toward HP 1250.",
+              "For Hard mode, keep the run centered on STR, HP, Endurance, and stable condition management."
             ]
           }
         ],
@@ -930,164 +1120,308 @@
         "id": "star-savior-boss-guide",
         "title": "Star Savior",
         "titleHighlight": "Boss Guide",
-        "summary": "Boss encounters are where team structure and real upgrade value get exposed, so this section keeps raid and world-boss prep concise.",
-        "badge": "Boss prep board",
+        "summary": "Early raid and world-boss clears follow a repeatable loop: survive the heavy hit, strip defense, break the gauge, then detonate Nova Burst during the break window.",
+        "badge": "Break-window planner",
         "lastChecked": "2026-03-20",
-        "cards": [
+        "displayType": "bossCardsWithMechanicTags",
+        "mechanicCards": [
           {
-            "title": "Before The Fight",
+            "title": "Recommended Team Shell",
+            "cue": "4-slot baseline",
             "items": [
-              "Bring one stable front line",
-              "Use your most reliable damage dealer",
-              "Check elemental and role coverage"
+              "Use 1 tank, 1 healer or support, 1 AoE DPS, and 1 single-target DPS for early boss consistency.",
+              "This shell keeps the run stable while still creating enough pressure for break windows.",
+              "Commonly recommended early picks include Ede for tanking and Serpent, Frey, or Elisa for sustain."
             ]
           },
           {
-            "title": "Mid-Fight Priorities",
+            "title": "Break Window Execution",
+            "cue": "About two turns",
             "items": [
-              "Keep your carry protected",
-              "Avoid spreading upgrades over weak side units",
-              "Use utility for control and damage windows"
+              "Bosses enter a broken state for about two turns after the break gauge reaches zero.",
+              "Save ultimates and Nova Burst for that state rather than spending them on shielded phases.",
+              "Turn order still matters because debuffs and setup skills must land before your burst cycle starts."
             ]
           },
           {
-            "title": "Common Fail Points",
+            "title": "Common Failure Points",
+            "cue": "Fix these first",
             "items": [
-              "Thin front lines",
-              "Poor utility timing",
-              "Entering with underbuilt gear"
+              "Most wipes come from spending ultimates before break and triggering Nova Burst too early.",
+              "Skipping a healer often causes avoidable collapses in early raid attempts.",
+              "Missing boss action-bar timing turns clean setups into low-value damage turns."
+            ]
+          }
+        ],
+        "tagPanels": [
+          {
+            "title": "Recommended Early Picks",
+            "tags": [
+              "Tank: Ede",
+              "Sustain: Serpent or Frey or Elisa",
+              "AoE: Luna or Carmen or Asela or Dana",
+              "Burst: Smile or Kira or Charles or Lacy or Tanya or Epindel"
+            ]
+          },
+          {
+            "title": "Fight-Type Adjustments",
+            "tags": [
+              "Heavy add waves: strengthen the AoE slot first",
+              "DoT-heavy fights: prioritize Elisa or Frey",
+              "Shield or reflect phases: bring Smile or another defense-break unit",
+              "Track boss action bars before committing burst"
             ]
           }
         ],
         "tags": [
-          "Raid stability",
-          "Damage windows",
-          "Preparation discipline"
+          "Break-window planning",
+          "Role shell consistency",
+          "Burst timing discipline"
         ],
-        "ctaLabel": "Open boss guide",
+        "ctaLabel": "Open boss mechanics, role picks, and break-window burst tips",
         "ctaHref": "https://ultimategacha.com/star-savior-boss-guide-how-to-beat-early-game-raid-world-bosses/"
       },
       {
         "id": "star-savior-hard-mode-guide",
         "title": "Star Savior",
         "titleHighlight": "Hard Mode Guide",
-        "summary": "Hard Mode asks for cleaner teams, better gear, and tighter preparation, so this module keeps the usual blockers visible before you queue in.",
-        "badge": "Hard mode checklist",
+        "summary": "Hard Mode is a progression checkpoint for Journey and Mainstream content, with sharper stat checks, role-specific charms, and a higher practical stat ceiling.",
+        "badge": "Progression gate prep",
         "lastChecked": "2026-03-20",
-        "cards": [
+        "displayType": "checklistWithTeamCards",
+        "checklistTitle": "Pre-Hard Checklist",
+        "prepChecklist": [
+          "Reach Resonance Stage 8 before entering Hard Mode, with Stage 9 as the cleaner comfort point.",
+          "Clear Mainstream Stage 14 first to unlock the practical path toward T2 gear progression.",
+          "Build your carry setup around focused Arcana choices before extending side projects.",
+          "Keep your first Hard lineups compact and fully upgraded instead of rotating unfinished units."
+        ],
+        "teamCards": [
           {
-            "title": "Before Entering",
+            "title": "Boss-Kill Template",
+            "composition": "Ede + Frey + Smile + Kira or Charles",
             "items": [
-              "Finish your core team upgrades",
-              "Tune Arcana around the real carry plan",
-              "Stop bringing half-built bench units"
+              "Built for stable front-line control and focused burst turns.",
+              "Use this shell when survivability is the main blocker.",
+              "Works best when your carry slot is already tuned for break-window damage."
             ]
           },
           {
-            "title": "Team Readiness",
+            "title": "Speed-Clear Template",
+            "composition": "Sayla + Serpent + Smile + Luna or Asela",
             "items": [
-              "Stable front line",
-              "Reliable damage profile",
-              "Enough utility to survive mechanics"
+              "Prioritizes tempo and action-gauge pressure for fast stage cycles.",
+              "Best used when your roster can already survive baseline incoming damage.",
+              "Pairs well with speed-focused gear and clean turn-order setup."
+            ]
+          }
+        ],
+        "charmCards": [
+          {
+            "title": "DPS Charm Direction",
+            "role": "Damage Dealers",
+            "items": [
+              "ATK-scaling charms are the common high-impact choice.",
+              "Pick charms that reinforce your main damage profile.",
+              "Avoid splitting charm upgrades across too many secondary carries."
             ]
           },
           {
-            "title": "What Usually Goes Wrong",
+            "title": "Tank Charm Direction",
+            "role": "Front Line",
             "items": [
-              "Weak preparation",
-              "Greedy damage-only setups",
-              "Loose resource allocation before the run"
+              "HP-scaling charms are usually preferred for tanks.",
+              "Stability charms are more valuable than greedy damage lines here.",
+              "Set the tank first so your burst units can keep their cycle."
+            ]
+          },
+          {
+            "title": "Support Charm Direction",
+            "role": "Healer / Utility",
+            "items": [
+              "HP-scaling charms are also preferred for supports.",
+              "Consistency beats variance in longer Hard encounters.",
+              "Prioritize uptime and survival before luxury damage options."
             ]
           }
         ],
         "tags": [
-          "Entry checklist",
-          "Team readiness",
-          "Failure prevention"
+          "Resonance readiness",
+          "T2 progression gate",
+          "Role-specific charm planning"
         ],
-        "ctaLabel": "Open Hard Mode guide",
+        "ctaLabel": "View the pre-Hard checklist, stat targets, and team templates",
         "ctaHref": "https://ultimategacha.com/star-savior-hard-mode-guide-how-to-prepare-teams-to-use/"
       },
       {
         "id": "star-savior-pvp-guide",
         "title": "Star Savior",
         "titleHighlight": "PvP Guide",
-        "summary": "PvP starts to matter once your core roster is stable, and this module keeps offense, defense, and reward-focused planning easy to compare.",
-        "badge": "Arena planning",
+        "summary": "Star Savior PvP is tempo-driven: speed, action-gauge control, break timing, and Nova Burst windows decide most matches.",
+        "badge": "Tempo and control map",
         "lastChecked": "2026-03-20",
-        "cards": [
+        "displayType": "dualColumnLineups",
+        "lineupColumns": [
           {
-            "title": "Offense Priorities",
-            "items": [
-              "Build around tempo and pressure",
-              "Use your cleanest damage window",
-              "Punish weak defensive lines"
+            "id": "offense",
+            "title": "Offense Lineups",
+            "description": "Open on speed pressure and gauge control to secure the first meaningful burst turn.",
+            "entries": [
+              {
+                "name": "Sun Blitz",
+                "core": "Sayla + Smile + Luna + Haydee",
+                "notes": [
+                  "Fast opener built to pressure fragile defense shells.",
+                  "Best when you can force the first break window cleanly."
+                ]
+              },
+              {
+                "name": "Order Core",
+                "core": "Vesta + Serpent + Smile + Lou",
+                "notes": [
+                  "Balanced control shell that can pivot between pressure and stabilizing turns.",
+                  "Useful against mixed defense teams with uneven speed lines."
+                ]
+              },
+              {
+                "name": "Waltz Carry",
+                "core": "Asherah: Waltz of Starlight + Smile + Kira + Ede",
+                "notes": [
+                  "Center the match around one protected carry damage cycle.",
+                  "Works best when your utility setup can secure burst timing."
+                ]
+              }
             ]
           },
           {
-            "title": "Defense Priorities",
+            "id": "defense",
+            "title": "Defense Lineups",
+            "description": "Use resilient front-line structure and punish windows to deny easy offense snowball turns.",
+            "entries": [
+              {
+                "name": "Luna Haydee Wall",
+                "core": "Luna + Haydee + Ede + Serpent",
+                "notes": [
+                  "Durability-first shell for slowing down high-tempo attackers.",
+                  "Wins by surviving the first burst and forcing longer exchanges."
+                ]
+              },
+              {
+                "name": "Haydee BC Roberta",
+                "core": "Haydee + Bunnygirl Claire + Roberta + Smile",
+                "notes": [
+                  "Disruptive setup that punishes poor target focus from offense teams.",
+                  "Most effective when your defensive turn order is tuned."
+                ]
+              },
+              {
+                "name": "Bell Seira Luna",
+                "core": "Bell Rhys + Seira + Luna + Vesta",
+                "notes": [
+                  "Hybrid defense that mixes burst threat with layered utility.",
+                  "Commonly used to challenge single-plan offense rotations."
+                ]
+              }
+            ]
+          }
+        ],
+        "sidePanels": [
+          {
+            "title": "Core PvP Rules",
             "items": [
-              "Anchor the front line",
-              "Make your carry hard to collapse",
-              "Use utility that slows enemy momentum"
+              "Current mode coverage centers on real-time RTA and classic ladder defense matches.",
+              "A stable shell is still 2 DPS, 1 tank or frontliner, and 1 support or flex slot.",
+              "Sayla, Smile, Lou, Ede, Vesta, and Serpent are frequently highlighted as tempo anchors."
             ]
           },
           {
-            "title": "Why Players Revisit PvP",
+            "title": "Season Rewards",
             "items": [
-              "Reward cycles",
-              "Roster testing",
-              "Team refinement under pressure"
+              "Season-based premium currency",
+              "Upgrade materials that support progression loops",
+              "Cosmetic rewards such as titles or profile frames"
             ]
           }
         ],
         "tags": [
-          "Offense versus defense",
-          "Tempo control",
-          "Reward value"
+          "Offense and defense templates",
+          "Gauge control timing",
+          "Season reward awareness"
         ],
-        "ctaLabel": "Open PvP guide",
+        "ctaLabel": "Compare offense and defense lineups for the current PvP meta",
         "ctaHref": "https://ultimategacha.com/star-savior-pvp-guide-team-building-strategy-rewards/"
       },
       {
         "id": "star-savior-resource-management",
         "title": "Star Savior",
         "titleHighlight": "Resource Management",
-        "summary": "Materials, stamina, and AFK income decide how smooth your midgame feels, so this module keeps spending priorities simple and actionable.",
-        "badge": "Economy priorities",
+        "summary": "Progression is won by concentrating resources on one main squad, pushing your highest clear stage, and spending premium currency where long-term account value is highest.",
+        "badge": "Spend-order board",
         "lastChecked": "2026-03-20",
-        "cards": [
+        "displayType": "priorityTableWithDoDontCards",
+        "tableTitle": "Resource Spend Priority",
+        "tableColumns": [
+          "Resource Lane",
+          "Priority",
+          "Execution Rule"
+        ],
+        "priorityRows": [
           {
-            "title": "Spend First",
-            "items": [
-              "Core team upgrades",
-              "Reliable progression pushes",
-              "Gear that solves real bottlenecks"
-            ]
+            "lane": "Stamina",
+            "priority": "Spend first",
+            "rule": "Push main story first to raise AFK output, then farm high-value event currency stages."
           },
           {
-            "title": "Save For Later",
-            "items": [
-              "Luxury side builds",
-              "Niche experimental units",
-              "Heavy investment into low-value gear"
-            ]
+            "lane": "AFK and Journey",
+            "priority": "Track daily",
+            "rule": "AFK rewards scale from highest cleared stage, while Journey and Training use separate lanes that should be planned together."
           },
           {
-            "title": "Daily Economy Rules",
-            "items": [
-              "Do not let AFK rewards cap",
-              "Use stamina with a clear target",
-              "Keep materials aligned with your top team"
-            ]
+            "lane": "Core Materials",
+            "priority": "Guard tightly",
+            "rule": "Resonance mats, limit-break mats, potential points, EXP, gold, Star Essence, and Operation EXP should stay aligned with your real bottleneck."
+          },
+          {
+            "lane": "Main Squad",
+            "priority": "Upgrade first",
+            "rule": "Use your best resources on the main 4 to 6 Saviors instead of spreading upgrades across side projects."
+          },
+          {
+            "lane": "Premium Currency",
+            "priority": "Targeted use",
+            "rule": "Spend Starlight Ore and summon tickets on high-impact banners rather than stamina refills or random refreshes."
+          },
+          {
+            "lane": "Event Shop",
+            "priority": "Sort by value",
+            "rule": "Prioritize summon tickets, rare upgrade stones, and high-end gear before generic materials."
           }
         ],
-        "tags": [
-          "AFK reward control",
-          "Stamina discipline",
-          "Material efficiency"
+        "doList": [
+          "Keep your upgrade path centered on one primary squad.",
+          "Spend stamina around clear-stage growth and active bottlenecks.",
+          "Plan premium pulls around banners that close concrete roster gaps.",
+          "Use event shops for high-value account progression items first."
         ],
-        "ctaLabel": "Open resource guide",
+        "dontList": [
+          "Do not spread premium upgrades across unfinished side units.",
+          "Do not spend premium currency on low-impact refreshes without a plan.",
+          "Do not let AFK rewards cap when daily collection is available.",
+          "Do not overbuy generic materials while rare progression items remain."
+        ],
+        "shopPriorities": [
+          "Summon tickets",
+          "Rare upgrade stones",
+          "High-end gear pieces",
+          "Then generic filler materials"
+        ],
+        "shopTitle": "Event Shop Buy Order",
+        "tags": [
+          "Main-squad concentration",
+          "Stamina and AFK planning",
+          "Premium currency discipline"
+        ],
+        "ctaLabel": "Check the spend order, save list, and daily farming priorities",
         "ctaHref": "https://ultimategacha.com/star-savior-resource-management-guide-materials/"
       }
     ]

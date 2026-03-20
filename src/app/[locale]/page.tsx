@@ -95,6 +95,33 @@ const teamCardIcons = [Shield, Target, Sword, Crown] as const;
 const buildEntryIcons = [Sword, Crosshair, Sparkles] as const;
 const buildDetailIcons = [Target, Boxes, Gem, ScrollText] as const;
 const gearPanelIcons = [Boxes, Coins, Archive] as const;
+const progressionTimelineIcons = [CalendarDays, Gift, Sword, Archive] as const;
+const sidePanelIcons = [Check, Crown, Orbit, Coins] as const;
+const gachaCompareIcons = [Coins, Gem] as const;
+const databaseFilterIcons = [Crown, Users, Orbit] as const;
+const rosterIcons = [
+  Shield,
+  Sword,
+  Crosshair,
+  Sparkles,
+  Target,
+  Gem,
+  Trophy,
+  ScrollText,
+  CalendarDays,
+  Coins,
+  Boxes,
+  Archive,
+] as const;
+const journeyStepIcons = [Target, ScrollText, RotateCcw, Archive] as const;
+const bossMechanicIcons = [Shield, Crosshair, Sword] as const;
+const bossTagPanelIcons = [Users, Trophy] as const;
+const hardModeTeamIcons = [Sword, Orbit] as const;
+const hardModeCharmIcons = [Crosshair, Shield, Sparkles] as const;
+const pvpColumnIcons = [Sword, Shield] as const;
+const pvpLineupIcons = [Target, Crown, Skull, Gem, Orbit, Crosshair] as const;
+const resourceDoDontIcons = [Check, RotateCcw] as const;
+const resourceShopIcons = [Gift, Coins, Boxes, Archive] as const;
 
 type AnyRecord = Record<string, any>;
 
@@ -709,6 +736,975 @@ export default function HomePage() {
                 );
               },
             )}
+          </div>
+        </div>
+      );
+    }
+
+    if (module.displayType === "timeline_cards") {
+      const timeline = Array.isArray(module.timeline) ? module.timeline : [];
+      const sidePanels = Array.isArray(module.sidePanels) ? module.sidePanels : [];
+
+      return (
+        <div className="mt-8 grid gap-4 xl:grid-cols-[1.08fr_0.92fr]">
+          <div className="space-y-4">
+            {timeline.map((entry: AnyRecord, entryIndex: number) => {
+              const EntryIcon =
+                progressionTimelineIcons[
+                  entryIndex % progressionTimelineIcons.length
+                ];
+
+              return (
+                <article
+                  key={`${module.id}-${entry.range}`}
+                  className="scroll-reveal relative overflow-hidden rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6"
+                >
+                  <div className="absolute inset-y-0 left-0 w-1 bg-[hsl(var(--nav-theme-light)/0.65)]" />
+
+                  <div className="flex flex-col gap-5 sm:flex-row sm:items-start">
+                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                      <EntryIcon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+
+                    <div className="min-w-0 flex-1">
+                      <div className="flex flex-wrap items-center gap-3">
+                        <span className="rounded-full border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.08)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                          {entry.range}
+                        </span>
+                        <p className="text-sm font-medium text-foreground/80">
+                          {entry.focus}
+                        </p>
+                      </div>
+
+                      <ul className="mt-5 space-y-3">
+                        {entry.items.map((item: string) => (
+                          <li
+                            key={item}
+                            className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                          >
+                            <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+
+          <div className="space-y-4">
+            {sidePanels.map((panel: AnyRecord, panelIndex: number) => {
+              const PanelIcon = sidePanelIcons[panelIndex % sidePanelIcons.length];
+
+              return (
+                <div
+                  key={`${module.id}-${panel.title}`}
+                  className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6"
+                >
+                  <div className="flex items-center gap-3">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                      <PanelIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <p className="text-sm uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                      {panel.title}
+                    </p>
+                  </div>
+
+                  <ul className="mt-5 space-y-3">
+                    {panel.items.map((item: string) => (
+                      <li
+                        key={item}
+                        className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                      >
+                        <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      );
+    }
+
+    if (module.displayType === "accordion_compare_table") {
+      const compareCards = Array.isArray(module.compareCards)
+        ? module.compareCards
+        : [];
+      const factRows = Array.isArray(module.factRows) ? module.factRows : [];
+      const sidePanels = Array.isArray(module.sidePanels) ? module.sidePanels : [];
+
+      return (
+        <div className="mt-8 grid gap-4 xl:grid-cols-[1.1fr_0.9fr]">
+          <div className="space-y-4">
+            <div className="grid gap-4 lg:grid-cols-2">
+              {compareCards.map((card: AnyRecord, cardIndex: number) => {
+                const CardIcon =
+                  gachaCompareIcons[cardIndex % gachaCompareIcons.length];
+
+                return (
+                  <article
+                    key={`${module.id}-${card.title}`}
+                    className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6"
+                  >
+                    <div className="flex items-start justify-between gap-4">
+                      <div className="flex items-center gap-3">
+                        <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                          <CardIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                        </div>
+                        <div>
+                          <h3 className="text-xl font-semibold">{card.title}</h3>
+                          <p className="mt-1 text-sm text-muted-foreground">
+                            {card.badge}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <p className="mt-5 text-base font-medium text-foreground">
+                      {card.headline}
+                    </p>
+
+                    <ul className="mt-5 space-y-3">
+                      {card.items.map((item: string) => (
+                        <li
+                          key={item}
+                          className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                        >
+                          <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </article>
+                );
+              })}
+            </div>
+
+            <div className="scroll-reveal overflow-hidden rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04]">
+              <div className="border-b border-[hsl(var(--nav-theme)/0.14)] bg-[hsl(var(--nav-theme)/0.08)] px-5 py-4">
+                <p className="text-sm uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                  {module.tableTitle}
+                </p>
+              </div>
+              <div className="overflow-x-auto">
+                <table className="w-full min-w-[700px]">
+                  <thead>
+                    <tr className="border-b border-[hsl(var(--nav-theme)/0.14)]">
+                      {module.tableColumns.map((column: string) => (
+                        <th
+                          key={column}
+                          className="px-5 py-4 text-left text-sm font-semibold"
+                        >
+                          {column}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {factRows.map((row: AnyRecord) => (
+                      <tr
+                        key={row.label}
+                        className="border-b border-[hsl(var(--nav-theme)/0.08)] last:border-b-0"
+                      >
+                        <td className="px-5 py-4 font-semibold">{row.label}</td>
+                        <td className="px-5 py-4 text-sm text-[hsl(var(--nav-theme-light))]">
+                          {row.value}
+                        </td>
+                        <td className="px-5 py-4 text-sm text-muted-foreground">
+                          {row.note}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            {sidePanels.map((panel: AnyRecord, panelIndex: number) => {
+              const PanelIcon = sidePanelIcons[(panelIndex + 1) % sidePanelIcons.length];
+
+              return (
+                <div
+                  key={`${module.id}-${panel.title}`}
+                  className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6"
+                >
+                  <div className="flex items-center gap-3">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                      <PanelIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <p className="text-sm uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                      {panel.title}
+                    </p>
+                  </div>
+
+                  <ul className="mt-5 space-y-3">
+                    {panel.items.map((item: string) => (
+                      <li
+                        key={item}
+                        className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                      >
+                        <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      );
+    }
+
+    if (module.displayType === "database_grid_filters") {
+      const filterGroups = Array.isArray(module.filterGroups)
+        ? module.filterGroups
+        : [];
+      const sampleRoster = Array.isArray(module.sampleRoster)
+        ? module.sampleRoster
+        : [];
+      const sidePanels = Array.isArray(module.sidePanels) ? module.sidePanels : [];
+
+      return (
+        <div className="mt-8 space-y-4">
+          <div className="grid gap-4 xl:grid-cols-3">
+            {filterGroups.map((group: AnyRecord, groupIndex: number) => {
+              const GroupIcon =
+                databaseFilterIcons[groupIndex % databaseFilterIcons.length];
+
+              return (
+                <div
+                  key={`${module.id}-${group.title}`}
+                  className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6"
+                >
+                  <div className="flex items-center gap-3">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                      <GroupIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <p className="text-sm uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                      {group.title}
+                    </p>
+                  </div>
+
+                  <div className="mt-5 flex flex-wrap gap-3">
+                    {group.items.map((item: string) => (
+                      <span
+                        key={item}
+                        className="rounded-full border border-[hsl(var(--nav-theme)/0.16)] bg-[hsl(var(--nav-theme)/0.08)] px-4 py-2 text-sm text-muted-foreground"
+                      >
+                        {item}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          <div className="grid gap-4 xl:grid-cols-[1.15fr_0.85fr]">
+            <div className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6">
+              <div className="flex items-center justify-between gap-4">
+                <div>
+                  <p className="text-sm uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                    {module.rosterTitle}
+                  </p>
+                  <p className="mt-2 text-sm text-muted-foreground">
+                    {module.rosterDescription}
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+                {sampleRoster.map((entry: AnyRecord, entryIndex: number) => {
+                  const EntryIcon = rosterIcons[entryIndex % rosterIcons.length];
+
+                  return (
+                    <div
+                      key={`${module.id}-${entry.name}`}
+                      className="rounded-[1.25rem] border border-[hsl(var(--nav-theme)/0.14)] bg-[hsl(var(--nav-theme)/0.08)] p-5"
+                    >
+                      <div className="flex items-start justify-between gap-4">
+                        <div className="flex h-10 w-10 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                          <EntryIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                        </div>
+                        <span className="rounded-full border border-[hsl(var(--nav-theme)/0.18)] bg-white/[0.04] px-3 py-1 text-xs font-semibold text-[hsl(var(--nav-theme-light))]">
+                          {entry.identity}
+                        </span>
+                      </div>
+
+                      <h3 className="mt-4 text-lg font-semibold">{entry.name}</h3>
+                      <p className="mt-2 text-sm leading-6 text-muted-foreground">
+                        {entry.focus}
+                      </p>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              {sidePanels.map((panel: AnyRecord, panelIndex: number) => {
+                const PanelIcon = sidePanelIcons[panelIndex % sidePanelIcons.length];
+
+                return (
+                  <div
+                    key={`${module.id}-${panel.title}`}
+                    className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6"
+                  >
+                    <div className="flex items-center gap-3">
+                      <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                        <PanelIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <p className="text-sm uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                        {panel.title}
+                      </p>
+                    </div>
+
+                    <ul className="mt-5 space-y-3">
+                      {panel.items.map((item: string) => (
+                        <li
+                          key={item}
+                          className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                        >
+                          <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    if (module.displayType === "step_diagram_checklist") {
+      const steps = Array.isArray(module.steps) ? module.steps : [];
+      const sidePanels = Array.isArray(module.sidePanels) ? module.sidePanels : [];
+
+      return (
+        <div className="mt-8 grid gap-4 xl:grid-cols-[1.08fr_0.92fr]">
+          <div className="space-y-4">
+            {steps.map((step: AnyRecord, stepIndex: number) => {
+              const StepIcon = journeyStepIcons[stepIndex % journeyStepIcons.length];
+
+              return (
+                <article
+                  key={`${module.id}-${step.title}`}
+                  className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6"
+                >
+                  <div className="flex flex-col gap-5 lg:flex-row lg:items-start">
+                    <div className="flex items-center gap-4 lg:min-w-56">
+                      <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                        <StepIcon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <div>
+                        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                          Step {stepIndex + 1}
+                        </p>
+                        <h3 className="mt-2 text-xl font-semibold">{step.title}</h3>
+                      </div>
+                    </div>
+
+                    <div className="flex-1">
+                      <p className="text-sm leading-6 text-muted-foreground">
+                        {step.description}
+                      </p>
+
+                      <ul className="mt-4 space-y-3">
+                        {step.items.map((item: string) => (
+                          <li
+                            key={item}
+                            className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                          >
+                            <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+
+          <div className="space-y-4">
+            {sidePanels.map((panel: AnyRecord, panelIndex: number) => {
+              const PanelIcon = sidePanelIcons[(panelIndex + 2) % sidePanelIcons.length];
+
+              return (
+                <div
+                  key={`${module.id}-${panel.title}`}
+                  className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6"
+                >
+                  <div className="flex items-center gap-3">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                      <PanelIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <p className="text-sm uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                      {panel.title}
+                    </p>
+                  </div>
+
+                  <ul className="mt-5 space-y-3">
+                    {panel.items.map((item: string) => (
+                      <li
+                        key={item}
+                        className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                      >
+                        <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      );
+    }
+
+    if (module.displayType === "boss_mechanics_cards") {
+      const mechanics = Array.isArray(module.mechanics) ? module.mechanics : [];
+      const sidePanels = Array.isArray(module.sidePanels) ? module.sidePanels : [];
+
+      return (
+        <div className="mt-8 grid gap-4 xl:grid-cols-[1.08fr_0.92fr]">
+          <div className="grid gap-4">
+            {mechanics.map((card: AnyRecord, cardIndex: number) => {
+              const CardIcon =
+                bossMechanicIcons[cardIndex % bossMechanicIcons.length];
+
+              return (
+                <article
+                  key={`${module.id}-${card.title}`}
+                  className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6"
+                >
+                  <div className="flex items-start gap-4">
+                    <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                      <CardIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+
+                    <div className="min-w-0 flex-1">
+                      <div className="flex flex-wrap items-center gap-3">
+                        <h3 className="text-xl font-semibold">{card.title}</h3>
+                        <span className="rounded-full border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.08)] px-3 py-1 text-xs font-semibold text-[hsl(var(--nav-theme-light))]">
+                          {card.cue}
+                        </span>
+                      </div>
+
+                      <ul className="mt-5 space-y-3">
+                        {card.items.map((item: string) => (
+                          <li
+                            key={item}
+                            className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                          >
+                            <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+
+          <div className="space-y-4">
+            {sidePanels.map((panel: AnyRecord, panelIndex: number) => {
+              const PanelIcon = sidePanelIcons[(panelIndex + 1) % sidePanelIcons.length];
+
+              return (
+                <div
+                  key={`${module.id}-${panel.title}`}
+                  className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6"
+                >
+                  <div className="flex items-center gap-3">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                      <PanelIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <p className="text-sm uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                      {panel.title}
+                    </p>
+                  </div>
+
+                  <ul className="mt-5 space-y-3">
+                    {panel.items.map((item: string) => (
+                      <li
+                        key={item}
+                        className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                      >
+                        <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      );
+    }
+
+    if (module.displayType === "bossCardsWithMechanicTags") {
+      const mechanicCards = Array.isArray(module.mechanicCards)
+        ? module.mechanicCards
+        : [];
+      const tagPanels = Array.isArray(module.tagPanels) ? module.tagPanels : [];
+
+      return (
+        <div className="mt-8 grid gap-4 xl:grid-cols-[1.08fr_0.92fr]">
+          <div className="grid gap-4">
+            {mechanicCards.map((card: AnyRecord, cardIndex: number) => {
+              const CardIcon =
+                bossMechanicIcons[cardIndex % bossMechanicIcons.length];
+
+              return (
+                <article
+                  key={`${module.id}-${card.title}`}
+                  className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6"
+                >
+                  <div className="flex items-start gap-4">
+                    <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                      <CardIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+
+                    <div className="min-w-0 flex-1">
+                      <div className="flex flex-wrap items-center gap-3">
+                        <h3 className="text-xl font-semibold">{card.title}</h3>
+                        <span className="rounded-full border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.08)] px-3 py-1 text-xs font-semibold text-[hsl(var(--nav-theme-light))]">
+                          {card.cue}
+                        </span>
+                      </div>
+
+                      <ul className="mt-5 space-y-3">
+                        {card.items.map((item: string) => (
+                          <li
+                            key={item}
+                            className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                          >
+                            <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+
+          <div className="space-y-4">
+            {tagPanels.map((panel: AnyRecord, panelIndex: number) => {
+              const PanelIcon =
+                bossTagPanelIcons[panelIndex % bossTagPanelIcons.length];
+
+              return (
+                <div
+                  key={`${module.id}-${panel.title}`}
+                  className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6"
+                >
+                  <div className="flex items-center gap-3">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                      <PanelIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <p className="text-sm uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                      {panel.title}
+                    </p>
+                  </div>
+
+                  <div className="mt-5 flex flex-wrap gap-3">
+                    {panel.tags.map((tag: string) => (
+                      <span
+                        key={tag}
+                        className="rounded-full border border-[hsl(var(--nav-theme)/0.16)] bg-[hsl(var(--nav-theme)/0.08)] px-4 py-2 text-sm text-muted-foreground"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      );
+    }
+
+    if (module.displayType === "checklistWithTeamCards") {
+      const prepChecklist = Array.isArray(module.prepChecklist)
+        ? module.prepChecklist
+        : [];
+      const teamCards = Array.isArray(module.teamCards) ? module.teamCards : [];
+      const charmCards = Array.isArray(module.charmCards) ? module.charmCards : [];
+
+      return (
+        <div className="mt-8 grid gap-4 xl:grid-cols-[1.08fr_0.92fr]">
+          <div className="space-y-4">
+            <article className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6">
+              <div className="flex items-center gap-3">
+                <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                  <Check className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                </div>
+                <p className="text-sm uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                  {module.checklistTitle}
+                </p>
+              </div>
+
+              <ul className="mt-5 space-y-3">
+                {prepChecklist.map((item: string) => (
+                  <li
+                    key={item}
+                    className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                  >
+                    <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </article>
+
+            <div className="grid gap-4 lg:grid-cols-2">
+              {teamCards.map((team: AnyRecord, teamIndex: number) => {
+                const TeamIcon =
+                  hardModeTeamIcons[teamIndex % hardModeTeamIcons.length];
+
+                return (
+                  <article
+                    key={`${module.id}-${team.title}`}
+                    className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6"
+                  >
+                    <div className="flex items-start gap-3">
+                      <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                        <TeamIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+
+                      <div className="min-w-0 flex-1">
+                        <h3 className="text-xl font-semibold">{team.title}</h3>
+                        <p className="mt-2 rounded-full border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.08)] px-3 py-1 text-xs font-semibold text-[hsl(var(--nav-theme-light))]">
+                          {team.composition}
+                        </p>
+                      </div>
+                    </div>
+
+                    <ul className="mt-5 space-y-3">
+                      {team.items.map((item: string) => (
+                        <li
+                          key={item}
+                          className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                        >
+                          <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </article>
+                );
+              })}
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            {charmCards.map((card: AnyRecord, cardIndex: number) => {
+              const CardIcon =
+                hardModeCharmIcons[cardIndex % hardModeCharmIcons.length];
+
+              return (
+                <article
+                  key={`${module.id}-${card.title}`}
+                  className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6"
+                >
+                  <div className="flex items-start gap-3">
+                    <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                      <CardIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div className="min-w-0 flex-1">
+                      <h3 className="text-xl font-semibold">{card.title}</h3>
+                      <p className="mt-2 text-sm font-medium text-foreground/80">
+                        {card.role}
+                      </p>
+                    </div>
+                  </div>
+
+                  <ul className="mt-5 space-y-3">
+                    {card.items.map((item: string) => (
+                      <li
+                        key={item}
+                        className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                      >
+                        <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </article>
+              );
+            })}
+          </div>
+        </div>
+      );
+    }
+
+    if (module.displayType === "dualColumnLineups") {
+      const lineupColumns = Array.isArray(module.lineupColumns)
+        ? module.lineupColumns
+        : [];
+      const sidePanels = Array.isArray(module.sidePanels) ? module.sidePanels : [];
+
+      return (
+        <div className="mt-8 space-y-4">
+          <div className="grid gap-4 xl:grid-cols-2">
+            {lineupColumns.map((column: AnyRecord, columnIndex: number) => {
+              const ColumnIcon =
+                pvpColumnIcons[columnIndex % pvpColumnIcons.length];
+
+              return (
+                <article
+                  key={`${module.id}-${column.id ?? column.title}`}
+                  className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6"
+                >
+                  <div className="flex items-center gap-3">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                      <ColumnIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-semibold">{column.title}</h3>
+                      <p className="mt-1 text-sm text-muted-foreground">
+                        {column.description}
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="mt-5 space-y-4">
+                    {column.entries.map((entry: AnyRecord, entryIndex: number) => {
+                      const EntryIcon =
+                        pvpLineupIcons[
+                          (columnIndex * 3 + entryIndex) % pvpLineupIcons.length
+                        ];
+
+                      return (
+                        <div
+                          key={`${module.id}-${entry.name}`}
+                          className="rounded-[1.25rem] border border-[hsl(var(--nav-theme)/0.14)] bg-[hsl(var(--nav-theme)/0.08)] p-5"
+                        >
+                          <div className="flex items-start gap-3">
+                            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                              <EntryIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                            </div>
+
+                            <div className="min-w-0 flex-1">
+                              <h4 className="text-lg font-semibold">{entry.name}</h4>
+                              <p className="mt-2 rounded-full border border-[hsl(var(--nav-theme)/0.18)] bg-white/[0.04] px-3 py-1 text-xs font-semibold text-[hsl(var(--nav-theme-light))]">
+                                {entry.core}
+                              </p>
+                            </div>
+                          </div>
+
+                          <ul className="mt-4 space-y-3">
+                            {entry.notes.map((item: string) => (
+                              <li
+                                key={item}
+                                className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                              >
+                                <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                                <span>{item}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+
+          {sidePanels.length > 0 ? (
+            <div className="grid gap-4 xl:grid-cols-2">
+              {sidePanels.map((panel: AnyRecord, panelIndex: number) => {
+                const PanelIcon =
+                  sidePanelIcons[(panelIndex + 1) % sidePanelIcons.length];
+
+                return (
+                  <div
+                    key={`${module.id}-${panel.title}`}
+                    className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6"
+                  >
+                    <div className="flex items-center gap-3">
+                      <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                        <PanelIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <p className="text-sm uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                        {panel.title}
+                      </p>
+                    </div>
+
+                    <ul className="mt-5 space-y-3">
+                      {panel.items.map((item: string) => (
+                        <li
+                          key={item}
+                          className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                        >
+                          <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                );
+              })}
+            </div>
+          ) : null}
+        </div>
+      );
+    }
+
+    if (module.displayType === "priorityTableWithDoDontCards") {
+      const tableColumns = Array.isArray(module.tableColumns)
+        ? module.tableColumns
+        : [];
+      const priorityRows = Array.isArray(module.priorityRows)
+        ? module.priorityRows
+        : [];
+      const doList = Array.isArray(module.doList) ? module.doList : [];
+      const dontList = Array.isArray(module.dontList) ? module.dontList : [];
+      const shopPriorities = Array.isArray(module.shopPriorities)
+        ? module.shopPriorities
+        : [];
+
+      const actionPanels = [
+        {
+          title: module.doTitle ?? "Do First",
+          items: doList,
+        },
+        {
+          title: module.dontTitle ?? "Avoid First",
+          items: dontList,
+        },
+      ];
+
+      return (
+        <div className="mt-8 grid gap-4 xl:grid-cols-[1.12fr_0.88fr]">
+          <div className="scroll-reveal overflow-hidden rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04]">
+            <div className="border-b border-[hsl(var(--nav-theme)/0.14)] bg-[hsl(var(--nav-theme)/0.08)] px-5 py-4">
+              <p className="text-sm uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                {module.tableTitle}
+              </p>
+            </div>
+            <div className="overflow-x-auto">
+              <table className="w-full min-w-[760px]">
+                <thead>
+                  <tr className="border-b border-[hsl(var(--nav-theme)/0.14)]">
+                    {tableColumns.map((column: string) => (
+                      <th
+                        key={column}
+                        className="px-5 py-4 text-left text-sm font-semibold"
+                      >
+                        {column}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {priorityRows.map((row: AnyRecord) => (
+                    <tr
+                      key={row.lane}
+                      className="border-b border-[hsl(var(--nav-theme)/0.08)] last:border-b-0"
+                    >
+                      <td className="px-5 py-4 font-semibold">{row.lane}</td>
+                      <td className="px-5 py-4">
+                        <span className="inline-flex rounded-full border border-[hsl(var(--nav-theme)/0.2)] bg-[hsl(var(--nav-theme)/0.12)] px-3 py-1 text-xs font-semibold text-[hsl(var(--nav-theme-light))]">
+                          {row.priority}
+                        </span>
+                      </td>
+                      <td className="px-5 py-4 text-sm text-muted-foreground">
+                        {row.rule}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            {actionPanels.map((panel, panelIndex) => {
+              const PanelIcon =
+                resourceDoDontIcons[panelIndex % resourceDoDontIcons.length];
+
+              return (
+                <div
+                  key={`${module.id}-${panel.title}`}
+                  className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6"
+                >
+                  <div className="flex items-center gap-3">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                      <PanelIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <p className="text-sm uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                      {panel.title}
+                    </p>
+                  </div>
+
+                  <ul className="mt-5 space-y-3">
+                    {panel.items.map((item: string) => (
+                      <li
+                        key={item}
+                        className="flex items-start gap-3 text-sm leading-6 text-muted-foreground"
+                      >
+                        <span className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              );
+            })}
+
+            {shopPriorities.length > 0 ? (
+              <div className="scroll-reveal rounded-[1.5rem] border border-[hsl(var(--nav-theme)/0.14)] bg-white/[0.04] p-6">
+                <div className="flex items-center gap-3">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-[hsl(var(--nav-theme)/0.12)]">
+                    <Gift className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <p className="text-sm uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                    {module.shopTitle}
+                  </p>
+                </div>
+
+                <div className="mt-5 flex flex-wrap gap-3">
+                  {shopPriorities.map((item: string, itemIndex: number) => {
+                    const ChipIcon =
+                      resourceShopIcons[itemIndex % resourceShopIcons.length];
+
+                    return (
+                      <span
+                        key={item}
+                        className="inline-flex items-center gap-2 rounded-full border border-[hsl(var(--nav-theme)/0.16)] bg-[hsl(var(--nav-theme)/0.08)] px-4 py-2 text-sm text-muted-foreground"
+                      >
+                        <ChipIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                        {item}
+                      </span>
+                    );
+                  })}
+                </div>
+              </div>
+            ) : null}
           </div>
         </div>
       );
