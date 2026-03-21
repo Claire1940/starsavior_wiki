@@ -37,7 +37,7 @@ import HeroStats from "@/components/home/HeroStats";
 import FAQSection from "@/components/home/FAQSection";
 import CTASection from "@/components/home/CTASection";
 import { VideoFeature } from "@/components/home/VideoFeature";
-import { AdBanner, NativeBannerAd } from "@/components/ads";
+import { AdBanner, NativeBannerAd, SidebarAd } from "@/components/ads";
 import fallbackMessages from "@/locales/en.json";
 import {
   OFFICIAL_LINKS,
@@ -1714,11 +1714,35 @@ export default function HomePage() {
   };
 
   return (
-    <div className="min-h-screen overflow-x-hidden bg-background text-foreground">
+    <div className="min-h-screen bg-background text-foreground">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
+
+      {/* 广告位 1: 顶部横幅（Sticky）- 全平台显示 */}
+      <div className="sticky top-20 z-20 py-2">
+        <AdBanner
+          type="banner-320x50"
+          adKey={process.env.NEXT_PUBLIC_AD_MOBILE_320X50}
+        />
+      </div>
+
+      {/* 左侧边栏 Sticky 广告 - 桌面端 */}
+      <div className="hidden lg:block fixed left-4 top-24 z-10">
+        <SidebarAd
+          type="sidebar-160x600"
+          adKey={process.env.NEXT_PUBLIC_AD_SIDEBAR_160X600}
+        />
+      </div>
+
+      {/* 右侧边栏 Sticky 广告 - 桌面端 */}
+      <div className="hidden lg:block fixed right-4 top-24 z-10">
+        <SidebarAd
+          type="sidebar-160x300"
+          adKey={process.env.NEXT_PUBLIC_AD_SIDEBAR_160X300}
+        />
+      </div>
 
       <section className="relative isolate overflow-hidden px-4 pb-20 pt-12 md:pb-24">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,hsl(var(--nav-theme-light)/0.2),transparent_38%),linear-gradient(180deg,hsl(var(--background)),hsl(var(--background)))]" />
@@ -1815,12 +1839,11 @@ export default function HomePage() {
         </div>
       </SectionShell>
 
-      <div className="py-6">
-        <AdBanner
-          type="banner-320x50"
-          adKey={process.env.NEXT_PUBLIC_AD_MOBILE_320X50}
-        />
-      </div>
+      {/* 广告位 5: 视频区域下方 728×90 横幅 */}
+      <AdBanner
+        type="banner-728x90"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90}
+      />
 
       <SectionShell muted>
         <div className="mb-10 text-center">
@@ -1880,6 +1903,12 @@ export default function HomePage() {
         </div>
       </SectionShell>
 
+      {/* 广告位 6: 导航卡片下方 300×250 方形广告 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+      />
+
       <SectionShell>
         <div className="mb-10 text-center">
           <h2 className="scroll-reveal text-4xl font-bold md:text-5xl">
@@ -1921,18 +1950,17 @@ export default function HomePage() {
         </div>
       </SectionShell>
 
-      <div className="py-6">
-        <AdBanner
-          type="banner-468x60"
-          adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
-        />
-      </div>
+      {/* 广告位 7: 官方链接下方 468×60 中型横幅 */}
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+      />
 
-      {modules.map((module, index) => {
+      {modules.flatMap((module, index) => {
         const Icon = moduleIcons[index];
         const isCodesModule = module.id === "star-savior-codes";
 
-        return (
+        const elements = [
           <SectionShell key={module.id} muted={index % 2 === 1}>
             <div
               id={module.id}
@@ -2052,16 +2080,45 @@ export default function HomePage() {
                 </div>
               ) : null}
             </div>
-          </SectionShell>
-        );
+          </SectionShell>,
+        ];
+
+        // 在模块之间插入广告，匹配 wwe2k26 的广告密度（每 1-2 个模块后插入）
+        if (index === 0) {
+          elements.push(
+            <AdBanner key="mid-ad-468x60" type="banner-468x60" adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60} className="my-8" />
+          );
+        }
+        if (index === 1) {
+          elements.push(
+            <AdBanner key="mid-ad-320x50" type="banner-320x50" adKey={process.env.NEXT_PUBLIC_AD_MOBILE_320X50} className="my-8" />
+          );
+        }
+        if (index === 3) {
+          elements.push(
+            <AdBanner key="mid-ad-300x250" type="banner-300x250" adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250} className="my-8" />
+          );
+        }
+        if (index === 5) {
+          elements.push(
+            <AdBanner key="mid-ad-728x90" type="banner-728x90" adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90} className="my-8" />
+          );
+        }
+        if (index === 7) {
+          elements.push(
+            <AdBanner key="mid-ad-468x60-2" type="banner-468x60" adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60} className="my-8" />
+          );
+        }
+
+        return elements;
       })}
 
-      <div className="py-6">
-        <AdBanner
-          type="banner-300x250"
-          adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
-        />
-      </div>
+      {/* 广告位 12: 所有模块后 300×250 方形广告 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="my-8"
+      />
 
       <FAQSection
         title={t.faq.title}
