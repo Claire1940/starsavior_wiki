@@ -1721,7 +1721,7 @@ export default function HomePage() {
       />
 
       {/* 广告位 1: 顶部横幅（Sticky）- 全平台显示 */}
-      <div className="sticky top-20 z-20 py-2">
+      <div className="sticky top-20 z-20 border-b border-border py-2 bg-background/95 backdrop-blur-sm">
         <AdBanner
           type="banner-320x50"
           adKey={process.env.NEXT_PUBLIC_AD_MOBILE_320X50}
@@ -1949,12 +1949,6 @@ export default function HomePage() {
           })}
         </div>
       </SectionShell>
-
-      {/* 广告位 7: 官方链接下方 468×60 中型横幅 */}
-      <AdBanner
-        type="banner-468x60"
-        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
-      />
 
       {modules.flatMap((module, index) => {
         const Icon = moduleIcons[index];
