@@ -1,0 +1,72 @@
+name: Deploy to Cloudflare Workers
+
+# 空壳站（0 文章，旧模板 runtime-fs content.ts）专用：与 deploy-workers.yml 相比
+# 去掉了 "Generate content manifest" 步骤——这些站没有 scripts/generate-content-manifest.mjs，
+# 也不读 manifest（content.ts 直接 fs 扫 content/，目录不存在时返回 []，Workers 上安全）。
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: workers-deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  CLOUDFLARE_ACCOUNT_ID: f6d724a5fbdfc8463c6edbc1948aebaa
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install OpenNext + Wrangler (no package.json change)
+        run: npm i -D @opennextjs/cloudflare@^1.19.11 wrangler@^4.103.0 --no-save
+
+      - name: Build (OpenNext for Cloudflare)
+        # NEXT_PUBLIC_* 构建期内联，复用与 docker 同一批 secrets，env 与原 docker 站零漂移。
+        env:
+          NODE_OPTIONS: --max-old-space-size=4096
+          NEXT_PUBLIC_SITE_URL: ${{ secrets.NEXT_PUBLIC_SITE_URL }}
+          NEXT_PUBLIC_GOOGLE_ANALYTICS_ID: ${{ secrets.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID }}
+          NEXT_PUBLIC_MICROSOFT_CLARITY_ID: ${{ secrets.NEXT_PUBLIC_MICROSOFT_CLARITY_ID }}
+          NEXT_PUBLIC_GOOGLE_ADSENSE_ID: ${{ secrets.NEXT_PUBLIC_GOOGLE_ADSENSE_ID }}
+          NEXT_PUBLIC_AD_NATIVE_BANNER: ${{ secrets.NEXT_PUBLIC_AD_NATIVE_BANNER }}
+          NEXT_PUBLIC_AD_BANNER_728X90: ${{ secrets.NEXT_PUBLIC_AD_BANNER_728X90 }}
+          NEXT_PUBLIC_AD_BANNER_300X250: ${{ secrets.NEXT_PUBLIC_AD_BANNER_300X250 }}
+          NEXT_PUBLIC_AD_BANNER_468X60: ${{ secrets.NEXT_PUBLIC_AD_BANNER_468X60 }}
+          NEXT_PUBLIC_AD_SIDEBAR_160X600: ${{ secrets.NEXT_PUBLIC_AD_SIDEBAR_160X600 }}
+          NEXT_PUBLIC_AD_SIDEBAR_160X300: ${{ secrets.NEXT_PUBLIC_AD_SIDEBAR_160X300 }}
+          NEXT_PUBLIC_AD_MOBILE_320X50: ${{ secrets.NEXT_PUBLIC_AD_MOBILE_320X50 }}
+          NEXT_PUBLIC_AD_POPUNDER: ${{ secrets.NEXT_PUBLIC_AD_POPUNDER }}
+          NEXT_PUBLIC_AD_SMARTLINK: ${{ secrets.NEXT_PUBLIC_AD_SMARTLINK }}
+          NEXT_PUBLIC_AD_SOCIAL_BAR: ${{ secrets.NEXT_PUBLIC_AD_SOCIAL_BAR }}
+          NEXT_PUBLIC_ADSTERRA_SOCIAL_BAR_KEY: ${{ secrets.NEXT_PUBLIC_ADSTERRA_SOCIAL_BAR_KEY }}
+          NEXT_PUBLIC_ADSTERRA_NATIVE_BANNER_KEY: ${{ secrets.NEXT_PUBLIC_ADSTERRA_NATIVE_BANNER_KEY }}
+          NEXT_PUBLIC_ADSTERRA_BANNER_728X90_KEY: ${{ secrets.NEXT_PUBLIC_ADSTERRA_BANNER_728X90_KEY }}
+          NEXT_PUBLIC_ADSTERRA_BANNER_468X60_KEY: ${{ secrets.NEXT_PUBLIC_ADSTERRA_BANNER_468X60_KEY }}
+          NEXT_PUBLIC_ADSTERRA_BANNER_320X50_KEY: ${{ secrets.NEXT_PUBLIC_ADSTERRA_BANNER_320X50_KEY }}
+          NEXT_PUBLIC_ADSTERRA_BANNER_300X250_KEY: ${{ secrets.NEXT_PUBLIC_ADSTERRA_BANNER_300X250_KEY }}
+          NEXT_PUBLIC_ADSTERRA_BANNER_160X600_KEY: ${{ secrets.NEXT_PUBLIC_ADSTERRA_BANNER_160X600_KEY }}
+          NEXT_PUBLIC_ADSTERRA_BANNER_160X300_KEY: ${{ secrets.NEXT_PUBLIC_ADSTERRA_BANNER_160X300_KEY }}
+          NEXT_PUBLIC_ADSENSE_ID: ${{ secrets.NEXT_PUBLIC_ADSENSE_ID }}
+          NEXT_PUBLIC_GA_ID: ${{ secrets.NEXT_PUBLIC_GA_ID }}
+          NEXT_PUBLIC_CLARITY_ID: ${{ secrets.NEXT_PUBLIC_CLARITY_ID }}
+          NEXT_PUBLIC_AHREFS_KEY: ${{ secrets.NEXT_PUBLIC_AHREFS_KEY }}
+          NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION: ${{ secrets.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }}
+        run: npx @opennextjs/cloudflare build
+
+      - name: Deploy to Cloudflare Workers
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npx wrangler deploy
