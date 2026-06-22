@@ -1,1 +1,10 @@
-{}
+{
+  "en": {
+    "guides": [
+      {
+        "slug": "welcome",
+        "file": "welcome"
+      }
+    ]
+  }
+}
