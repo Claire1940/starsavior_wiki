@@ -1,52 +1,48 @@
-import { notFound, redirect } from "next/navigation";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { notFound, redirect } from 'next/navigation'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import {
   getAllContentPaths,
   getAllContent,
-  getContentDetail,
   isValidContentType,
+  findFileBySlug,
   CONTENT_TYPES,
   type ContentType,
   type Language,
   type ContentFrontmatter,
-} from "@/lib/content";
-import { NavigationPage } from "@/components/content/NavigationPage";
-import { DetailPage } from "@/components/content/DetailPage";
-import { ArticleStructuredData } from "@/components/content/ArticleStructuredData";
-import { ListStructuredData } from "@/components/content/ListStructuredData";
-import { routing, type Locale } from "@/i18n/routing";
-import { buildLanguageAlternates } from "@/lib/i18n-utils";
-import type { Metadata } from "next";
-import {
-  SITE_BRAND_NAME,
-  SITE_HERO_IMAGE,
-  SITE_NAME,
-  SITE_URL,
-} from "@/lib/site";
+} from '@/lib/content'
+import path from 'path'
+import { NavigationPage } from '@/components/content/NavigationPage'
+import { DetailPage } from '@/components/content/DetailPage'
+import { ArticleStructuredData } from '@/components/content/ArticleStructuredData'
+import { ListStructuredData } from '@/components/content/ListStructuredData'
+import { routing, type Locale } from '@/i18n/routing'
+import { buildLanguageAlternates } from '@/lib/i18n-utils'
+import type { Metadata } from 'next'
 
 interface PageProps {
-  params: Promise<{ locale: string; slug: string[] }>;
+  params: Promise<{ locale: string; slug: string[] }>
 }
 
 export default async function UnifiedContentPage({ params }: PageProps) {
-  const { locale, slug } = await params;
+  const { locale, slug } = await params
+  // 启用静态渲染：先于任何 next-intl 服务端调用设置 locale
   setRequestLocale(locale)
 
   // 验证内容类型
-  const contentType = slug[0];
+  const contentType = slug[0]
   if (!isValidContentType(contentType)) {
-    notFound();
+    notFound()
   }
 
-  const isListPage = slug.length === 1;
+  const isListPage = slug.length === 1
 
   if (isListPage) {
     // 渲染列表页
-    return renderListPage(contentType, locale as Language);
+    return renderListPage(contentType, locale as Language)
   } else {
     // 渲染详情页
-    const slugPath = slug.slice(1);
-    return renderDetailPage(contentType, slugPath, locale as Language);
+    const slugPath = slug.slice(1)
+    return renderDetailPage(contentType, slugPath, locale as Language)
   }
 }
 
@@ -54,17 +50,21 @@ export default async function UnifiedContentPage({ params }: PageProps) {
  * 渲染列表页
  */
 async function renderListPage(contentType: ContentType, locale: Language) {
-  const items = await getAllContent(contentType, locale);
+  const items = await getAllContent(contentType, locale)
+
+  if (items.length === 0) {
+    notFound()
+  }
 
   // 如果只有一篇文章，直接跳转到详情页
   if (items.length === 1) {
-    const singleArticle = items[0];
-    const detailPath = `/${contentType}/${singleArticle.slug}`;
-    const fullPath = locale === "en" ? detailPath : `/${locale}${detailPath}`;
-    redirect(fullPath);
+    const singleArticle = items[0]
+    const detailPath = `/${contentType}/${singleArticle.slug}`
+    const fullPath = locale === 'en' ? detailPath : `/${locale}${detailPath}`
+    redirect(fullPath)
   }
 
-  const t = await getTranslations(`pages.${contentType}`);
+  const t = await getTranslations(`pages.${contentType}`)
 
   try {
     return (
@@ -75,18 +75,17 @@ async function renderListPage(contentType: ContentType, locale: Language) {
           items={items}
         />
         <NavigationPage
-          title={t("title")}
-          description={t("description")}
+          title={t('title')}
+          description={t('description')}
           items={items}
           contentType={contentType}
           language={locale}
         />
       </>
-    );
+    )
   } catch (error) {
     // 如果翻译不存在，使用默认值
-    const defaultTitle =
-      contentType.charAt(0).toUpperCase() + contentType.slice(1);
+    const defaultTitle = contentType.charAt(0).toUpperCase() + contentType.slice(1)
 
     return (
       <>
@@ -103,7 +102,7 @@ async function renderListPage(contentType: ContentType, locale: Language) {
           language={locale}
         />
       </>
-    );
+    )
   }
 }
 
@@ -113,105 +112,113 @@ async function renderListPage(contentType: ContentType, locale: Language) {
 async function renderDetailPage(
   contentType: ContentType,
   slugPath: string[],
-  locale: Language,
+  locale: Language
 ) {
-  const currentSlug = slugPath.join("/");
-  const contentDetail = await getContentDetail(contentType, locale, currentSlug);
+  const currentSlug = slugPath.join('/')
 
-  if (!contentDetail) {
-    notFound();
+  // 动态导入 MDX，同时获取 metadata 和内容组件
+  try {
+    // 反查真实文件名（处理含特殊字符的文件名，如冒号）
+    const contentDir = path.join(process.cwd(), 'content', locale, contentType)
+    const realSlug = findFileBySlug(contentDir, currentSlug) || currentSlug
+
+    const { default: MDXContent, metadata } = await import(
+      `../../../../content/${locale}/${contentType}/${realSlug}.mdx`
+    )
+
+    // 获取相关文章
+    const allContent = await getAllContent(contentType, locale)
+    const relatedArticles = allContent
+      .filter(item => item.slug !== currentSlug)
+      .slice(0, 3)
+
+    return (
+      <>
+        <ArticleStructuredData
+          frontmatter={metadata as ContentFrontmatter}
+          contentType={contentType}
+          locale={locale}
+          slug={currentSlug}
+        />
+        <DetailPage
+          frontmatter={metadata as ContentFrontmatter}
+          content={<MDXContent />}
+          contentType={contentType}
+          language={locale}
+          currentSlug={currentSlug}
+          relatedArticles={relatedArticles}
+        />
+      </>
+    )
+  } catch {
+    notFound()
   }
-
-  // 获取相关文章
-  const allContent = await getAllContent(contentType, locale);
-  const relatedArticles = allContent
-    .filter((item) => item.slug !== currentSlug)
-    .slice(0, 3);
-
-  return (
-    <>
-      <ArticleStructuredData
-        frontmatter={contentDetail.frontmatter as ContentFrontmatter}
-        contentType={contentType}
-        locale={locale}
-        slug={currentSlug}
-      />
-      <DetailPage
-        frontmatter={contentDetail.frontmatter as ContentFrontmatter}
-        content={contentDetail.content}
-        contentType={contentType}
-        language={locale}
-        currentSlug={currentSlug}
-        relatedArticles={relatedArticles}
-      />
-    </>
-  );
 }
 
 /**
  * 生成静态参数
  */
 export async function generateStaticParams() {
-  const allPaths = await getAllContentPaths();
-  const params: { locale: string; slug: string[] }[] = [];
+  const params: { locale: string; slug: string[] }[] = []
 
   for (const locale of routing.locales) {
-    // 添加列表页
     for (const type of CONTENT_TYPES) {
-      params.push({ locale, slug: [type] });
+      params.push({ locale, slug: [type] })
     }
 
-    // 添加详情页
+    const allPaths = await getAllContentPaths(locale as Language)
     for (const path of allPaths) {
-      params.push({ locale, slug: path });
+      params.push({ locale, slug: path })
     }
   }
 
-  return params;
+  return params
 }
 
 /**
  * 生成元数据
  */
-export async function generateMetadata({
-  params,
-}: PageProps): Promise<Metadata> {
-  const { locale, slug } = await params;
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale, slug } = await params
   setRequestLocale(locale)
-  const contentType = slug[0];
+  const contentType = slug[0]
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.starsavior.wiki'
 
   if (!isValidContentType(contentType)) {
-    return { title: "Not Found" };
+    return { title: 'Not Found' }
   }
 
-  const isListPage = slug.length === 1;
+  const isListPage = slug.length === 1
 
   if (isListPage) {
+    const items = await getAllContent(contentType, locale as Language)
+
+    if (items.length === 0) {
+      return {
+        title: 'Not Found',
+        robots: {
+          index: false,
+          follow: true,
+        },
+      }
+    }
+
     // 列表页元数据
-    const t = await getTranslations(`pages.${contentType}`);
+    const t = await getTranslations(`pages.${contentType}`)
 
     try {
-      const title = t("metaTitle");
-      const description = t("metaDescription");
-      const path = `/${contentType}`;
+      const title = t('metaTitle')
+      const description = t('metaDescription')
+      const path = `/${contentType}`
 
       return {
         title,
         description,
-        alternates: buildLanguageAlternates(path, locale as Locale, SITE_URL),
+        alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
         openGraph: {
-          type: "website",
           title,
           description,
-          url: `${SITE_URL}${locale === "en" ? path : `/${locale}${path}`}`,
-          siteName: SITE_NAME,
-          images: [SITE_HERO_IMAGE],
-        },
-        twitter: {
-          card: "summary_large_image",
-          title,
-          description,
-          images: [SITE_HERO_IMAGE],
+          url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
         },
         robots: {
           index: true,
@@ -219,34 +226,58 @@ export async function generateMetadata({
           googleBot: {
             index: true,
             follow: true,
-            "max-video-preview": -1,
-            "max-image-preview": "large",
-            "max-snippet": -1,
+            'max-video-preview': -1,
+            'max-image-preview': 'large',
+            'max-snippet': -1,
           },
         },
-      };
+      }
     } catch {
       // 如果翻译不存在，使用默认值
-      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - ${SITE_NAME}`;
-      const path = `/${contentType}`;
+      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Lucid Blocks Wiki`
+      const path = `/${contentType}`
 
       return {
         title: defaultTitle,
-        description: `Browse all ${contentType} content for ${SITE_NAME}`,
-        alternates: buildLanguageAlternates(path, locale as Locale, SITE_URL),
-        openGraph: {
-          type: "website",
-          title: defaultTitle,
-          description: `Browse all ${contentType} content for ${SITE_NAME}`,
-          url: `${SITE_URL}${locale === "en" ? path : `/${locale}${path}`}`,
-          siteName: SITE_NAME,
-          images: [SITE_HERO_IMAGE],
+        description: `Browse all ${contentType} content for Lucid Blocks Wiki`,
+        alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
+        robots: {
+          index: true,
+          follow: true,
+          googleBot: {
+            index: true,
+            follow: true,
+            'max-video-preview': -1,
+            'max-image-preview': 'large',
+            'max-snippet': -1,
+          },
         },
-        twitter: {
-          card: "summary_large_image",
-          title: defaultTitle,
-          description: `Browse all ${contentType} content for ${SITE_NAME}`,
-          images: [SITE_HERO_IMAGE],
+      }
+    }
+  } else {
+    // 详情页元数据（从 MDX import 获取）
+    const slugPath = slug.slice(1)
+    const currentSlug = slugPath.join('/')
+
+    try {
+      const contentDir = path.join(process.cwd(), 'content', locale, contentType)
+      const realSlug = findFileBySlug(contentDir, currentSlug) || currentSlug
+
+      const { metadata } = await import(
+        `../../../../content/${locale}/${contentType}/${realSlug}.mdx`
+      )
+
+      const fullPath = `/${slug.join('/')}`
+
+      return {
+        title: `${metadata.title} - Lucid Blocks Wiki`,
+        description: metadata.description,
+        alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
+        openGraph: {
+          title: metadata.title,
+          description: metadata.description,
+          images: metadata.image ? [metadata.image] : [],
+          url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
         },
         robots: {
           index: true,
@@ -254,64 +285,14 @@ export async function generateMetadata({
           googleBot: {
             index: true,
             follow: true,
-            "max-video-preview": -1,
-            "max-image-preview": "large",
-            "max-snippet": -1,
+            'max-video-preview': -1,
+            'max-image-preview': 'large',
+            'max-snippet': -1,
           },
         },
-      };
+      }
+    } catch {
+      return { title: 'Not Found' }
     }
-  } else {
-    // 详情页元数据
-    const slugPath = slug.slice(1);
-    const currentSlug = slugPath.join("/");
-
-    const contentDetail = await getContentDetail(
-      contentType,
-      locale as Language,
-      currentSlug,
-    );
-
-    if (!contentDetail) {
-      return { title: "Not Found" };
-    }
-
-    const { frontmatter } = contentDetail;
-    const fullPath = `/${slug.join("/")}`;
-
-    return {
-      title: `${frontmatter.title} - ${SITE_NAME}`,
-      description: frontmatter.description,
-      alternates: buildLanguageAlternates(
-        fullPath,
-        locale as Locale,
-        SITE_URL,
-      ),
-      openGraph: {
-        type: "article",
-        title: frontmatter.title,
-        description: frontmatter.description,
-        images: frontmatter.image ? [frontmatter.image] : [SITE_HERO_IMAGE],
-        url: `${SITE_URL}${locale === "en" ? fullPath : `/${locale}${fullPath}`}`,
-        siteName: SITE_NAME,
-      },
-      twitter: {
-        card: "summary_large_image",
-        title: `${frontmatter.title} - ${SITE_BRAND_NAME}`,
-        description: frontmatter.description,
-        images: frontmatter.image ? [frontmatter.image] : [SITE_HERO_IMAGE],
-      },
-      robots: {
-        index: true,
-        follow: true,
-        googleBot: {
-          index: true,
-          follow: true,
-          "max-video-preview": -1,
-          "max-image-preview": "large",
-          "max-snippet": -1,
-        },
-      },
-    };
   }
 }
