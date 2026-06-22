@@ -1,5 +1,6 @@
 "use client";
 
+import { setRequestLocale } from 'next-intl/server'
 import { MouseEvent, useEffect, useState } from "react";
 import {
   Archive,

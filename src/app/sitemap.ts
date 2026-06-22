@@ -3,6 +3,9 @@ import { getAllContent, CONTENT_TYPES, type ContentType } from "@/lib/content";
 import { routing, type Locale } from "@/i18n/routing";
 import { SITE_URL } from "@/lib/site";
 
+// output:'export' 要求路由处理器显式声明静态
+export const dynamic = 'force-static'
+
 const BASE_URL = SITE_URL;
 
 // 静态页面配置

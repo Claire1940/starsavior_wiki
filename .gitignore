@@ -43,3 +43,8 @@ next-env.d.ts
 # Cloudflare Workers / OpenNext 构建产物
 .open-next/
 .wrangler/
+
+# 静态导出 / Workers 构建产物
+out/
+.open-next/
+.wrangler/
